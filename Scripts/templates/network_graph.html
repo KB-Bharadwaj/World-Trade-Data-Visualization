@@ -1,0 +1,31 @@
+ <html>
+    <head>
+        <title>network graph</title>
+    </head>
+    <p>Network graph</p>
+    <p> select a country and a time frame below to view the network graph</p>
+    <form id="country_analysis" action="/display_network_graph" method="POST" style="position: sticky;">
+        <select name="country2"}>
+            {% for x in country_names%}
+            {%if x.cname==countryVal%}
+            <option value="{{ x.cname }}" selected>{{ x.cname }}</option>
+            {%else%}
+            <option value="{{ x.cname }}">{{ x.cname }}</option>
+            {%endif%}
+            {%endfor%}
+        </select>
+        <select name="timeFrame2">
+            {% for x in years%}
+            {%if x.year==timeVal%}
+            <option value="{{ x.year }}" selected>{{ x.year }}</option>
+            {%else%}
+            <option value="{{ x.year }}">{{ x.year }}</option>
+            {%endif%}
+            {%endfor%}
+        </select>
+        <input type="submit" value="View Plot"/>
+    </form>
+    {% if show_plot == True %}
+        <image src="static/networkgraph.png" style="object-fit: contain;"/>
+        {%endif%}
+</html>

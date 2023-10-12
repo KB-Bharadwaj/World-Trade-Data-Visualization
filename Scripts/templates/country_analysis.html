@@ -1,0 +1,37 @@
+<html>
+    <p> Country analysis </p>
+    <form id="country_analysis" action="/display_plot" method="POST">
+    <select name="country"}>
+        {% for x in country_names%}
+        {%if x.cname==countryVal%}
+        <option value="{{ x.cname }}" selected>{{ x.cname }}</option>
+        {%else%}
+        <option value="{{ x.cname }}">{{ x.cname }}</option>
+        {%endif%}
+        {%endfor%}
+    </select>
+    <select name="timeFrame">
+        {% for x in years%}
+        {%if x.year==timeVal%}
+        <option value="{{ x.year }}" selected>{{ x.year }}</option>
+        {%else%}
+        <option value="{{ x.year }}">{{ x.year }}</option>
+        {%endif%}
+        {%endfor%}
+    </select>
+    <select name="Export_Import" selected={{typeVal}}>
+        {% for x in indicator_types%}
+        {%if x.type_val==typeVal%}
+        <option value="{{ x.type_val }}" selected>{{ x.type_val }}</option>
+        {%else%}
+        <option value="{{ x.type_val }}">{{ x.type_val }}</option>
+        {%endif%}
+        {%endfor%}
+    </select>
+    <input type="submit" value="View Plot"/>
+    {% if show_plot == True %}
+    <image src="static/treemap2.png" style="object-fit: contain;"/>
+    {%endif%}
+</form>
+</html>
+
