@@ -234,4 +234,8 @@ def homePage():
 if __name__ == "__main__":
   app.run(debug=True)
 
+<<<<<<< HEAD
 #test commit
+=======
+#test commit
+>>>>>>> ea57d49 (testing commit from local)
