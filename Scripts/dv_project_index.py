@@ -1,7 +1,7 @@
 from flask import Flask,render_template,url_for,request
 import matplotlib
 import matplotlib.pyplot as plt
-import seaborn as sb
+
 import numpy as np
 import pandas as pd
 #import json
@@ -9,6 +9,8 @@ import pandas as pd
 #from anytree.importer import DictImporter
 #import ipywidgets as widgets
 #import plotly.graph_objs as go
+import numpy as np
+import pandas as pd
 import squarify
 import os
 import math
@@ -19,10 +21,6 @@ country_mapping=dict()
 country_mapping['United States']='USA'
 country_mapping['Australia']='AUS'
 matplotlib.use('agg')
-#with open('flare.json') as f:
-#    js_data = json.loads(f.read())
-#importer = DictImporter()
-#root = importer.import_(js_data)
 
 @app.route("/")
 def hello():
