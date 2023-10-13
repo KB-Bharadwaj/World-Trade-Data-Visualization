@@ -74,7 +74,8 @@ def display_plot():
 @app.route('/network_graph')
 def network_graph():
   return render_template("network_graph.html",country_names=[{'cname':'United States'},{'cname':'Australia'}],
-                         years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],timeVal='2021',countryVal='United States',show_plot=False)
+                         years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],timeVal='2021',countryVal='United States',show_plot=False,
+                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],impVal='Import')
 @app.route('/display_network_graph',methods=['GET','POST'])
 def display_network_graph():
   if request.method=='POST':
@@ -82,12 +83,13 @@ def display_network_graph():
     plt.cla()
     year_val=request.form['timeFrame2']
     country_val=request.form['country2']
+    impoorexp=request.form['ImportOrExport']
     df=pd.read_csv('en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary.csv')
     df=df.fillna(0)
-    g=nx.DiGraph()
-    g2=nx.DiGraph()
-    nodes=set()
-    nodes_import=set()
+    g=nx.DiGraph()#export graph
+    g2=nx.DiGraph()#import graph
+    nodes=set()#export nodes
+    nodes_import=set()#import nodes
     exports_values=dict()
     import_values=dict()
     import_annotations=dict()
@@ -112,17 +114,17 @@ def display_network_graph():
       print(f"node is {x}")
       g.add_node(x)
       if x==country_val:
-        colors.append('red')
+        colors.append('red')#target country
       else:
-        colors.append('blue')
+        colors.append('blue')#other countries
     colors2=[]
     for x in nodes_import:
       print(f"import node is {x}")
       g2.add_node(x)
       if x==country_val:
-        colors2.append('red')
+        colors2.append('red')#target country
       else:
-        colors2.append('blue')
+        colors2.append('blue')#other countries
     sizes_1=[]
     for x in nodes:
       if x in exports_values:
@@ -145,38 +147,56 @@ def display_network_graph():
     'font_weight': 'regular',
     } 
     plt.clf()
-    plt.figure(figsize=(9,10))
-    ax=plt.gca()
+    plt.figure(figsize=(8,8))
     plt.axis('off')
     #plt.subplot(121)
     pos_exp=nx.spring_layout(g)
+    pos_imp=nx.spring_layout(g2)
     print(f"nodes positions : {pos_exp}")
-    nx.draw(g,node_color=colors,pos=pos_exp,node_size=sizes_1,**options)
-    #nx.draw_networkx_labels(g,pos_exp)
-    for x in nodes:
-      if x in exports_values:
-        export_annotations[x]={'text':x+'\n'+'Total Export Value : '+'\n'+str(exports_values[x]),'pos':pos_exp[x]}
-    print(f"annotations : {export_annotations}")
-    for x in export_annotations:
-      ax.annotate(export_annotations[x]['text'],xy=export_annotations[x]['pos'],xytext=(0, 30), textcoords='offset points',
-        arrowprops=dict(facecolor='black', shrink=0.10),  
-        bbox=dict(boxstyle="round", fc="cyan"))
-    print(nx.spring_layout(g))
-    print(g)
-    '''plt.subplot(122)
-    nx.draw(g2,node_color=colors2,pos=nx.spring_layout(g2,iterations=50),node_size=sizes_2,**options)'''
+    if impoorexp=='Export':
+      plt.clf()
+      ax=plt.gca()
+      nx.draw(g,node_color=colors,pos=pos_exp,node_size=sizes_1,**options)
+      for x in nodes:
+        if x in exports_values:
+          export_annotations[x]={'text':x+'\n'+'Total Export Value : '+'\n'+str(exports_values[x]),'pos':pos_exp[x]}
+        else:
+          export_annotations[x]={'text':x,'pos':pos_exp[x]}
+      print(f"annotations : {export_annotations}")
+      for x in export_annotations:
+        ax.annotate(export_annotations[x]['text'],xy=export_annotations[x]['pos'],xytext=(0, 30), textcoords='offset points',
+          arrowprops=dict(facecolor='black', shrink=0.10),  
+          bbox=dict(boxstyle="round", fc="cyan"))
+      print(nx.spring_layout(g))
+      print(g)
+    else:
+      plt.clf()
+      ax=plt.gca()
+      nx.draw(g2,node_color=colors2,pos=pos_imp,node_size=sizes_2,**options)
+      for x in nodes_import:
+        if x in import_values:
+          import_annotations[x]={'text':x+'\n'+'Total Import Value: '+'\n'+str(import_values[x]),'pos':pos_imp[x]}
+        else:
+          import_annotations[x]={'text':x,'pos':pos_imp[x]}
+      for x in import_annotations:
+        ax.annotate(import_annotations[x]['text'],xy=import_annotations[x]['pos'],xytext=(0,30),textcoords='offset points',
+                     arrowprops=dict(facecolor='black', shrink=0.10),  
+          bbox=dict(boxstyle="round", fc="cyan"))
    
-    print(import_values)
+    print(f"*****{impoorexp} ******* {import_annotations}**** {import_values}")
     print(exports_values)
     plt.title('network graph')
     #plt.tight_layout(pad=3.0)
     plt.savefig(os.path.join('static','networkgraph.png'))
     return render_template("network_graph.html",country_names=[{'cname':'United States'},{'cname':'Australia'}],
-                         years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],timeVal=year_val,countryVal=country_val,show_plot=True)
+                         years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],timeVal=year_val,countryVal=country_val,show_plot=True,
+                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],impVal=impoorexp)
 
       
           
-
+@app.route('/homePage')
+def homePage():
+  return render_template("index.html")
 if __name__ == "__main__":
   app.run(debug=True)
 

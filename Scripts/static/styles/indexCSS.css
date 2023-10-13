@@ -6,10 +6,33 @@ ul{
 
 body{
     background-color: bisque;
-    left:10%;
+    left:1%;
+    position: relative;
+    overflow: hidden;
 }
 
 .heading1{
     position: relative;
     left:35%;
+}
+.redirectionLink{
+    right:1%;
+    left:90%;
+    position: relative;
+}
+
+select{
+    min-width: 160px;
+}
+
+.imageBlock{
+    position: absolute;
+    left:30%;
+    top:10%;
+    background-color: white;
+    resize: none;
+    object-fit: contain;
+    align-items: center;
+    max-width: max-content;
+    max-height: fit-content;
 }
