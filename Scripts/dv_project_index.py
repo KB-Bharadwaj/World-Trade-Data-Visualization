@@ -128,14 +128,16 @@ def display_network_graph():
     sizes_1=[]
     for x in nodes:
       if x in exports_values:
-        g.add_weighted_edges_from([(country_val,x,exports_values[x])])
+        g.add_edge(country_val,x,length=5)
+        #g.add_edges_from([(country_val,x)])
         sizes_1.append(exports_values[x]/1000)
       else:
         sizes_1.append(500)
     sizes_2=[]
     for x in nodes_import:
       if x in import_values:
-        g2.add_weighted_edges_from([(x,country_val,import_values[x])])
+        #g2.add_edges_from([(x,country_val)])
+        g2.add_edge(x,country_val,length=5)
         sizes_2.append(import_values[x]/1000)
       else:
         sizes_2.append(500)
@@ -147,14 +149,15 @@ def display_network_graph():
     'font_weight': 'regular',
     } 
     plt.clf()
-    plt.figure(figsize=(8,8))
+    plt.figure(figsize=(9,9))
     plt.axis('off')
     #plt.subplot(121)
-    pos_exp=nx.circular_layout(g)
+    pos_exp=nx.circular_layout(g,center=(0,0))
     pos_imp=nx.circular_layout(g2)
     print(f"nodes positions : {pos_exp}")
     if impoorexp=='Export':
       plt.clf()
+      plt.cla()
       ax=plt.gca()
       nx.draw(g,node_color=colors,pos=pos_exp,node_size=sizes_1,**options)
       for x in nodes:
@@ -168,8 +171,10 @@ def display_network_graph():
           arrowprops=dict(facecolor='black', shrink=0.10),  
           bbox=dict(boxstyle="round", fc="cyan"))
       print(g)
+      plt.title('Network graph of '+country_val+' \'s'+' exports in year '+year_val,y=-0.01)
     else:
       plt.clf()
+      plt.cla()
       ax=plt.gca()
       nx.draw(g2,node_color=colors2,pos=pos_imp,node_size=sizes_2,**options)
       for x in nodes_import:
@@ -181,10 +186,10 @@ def display_network_graph():
         ax.annotate(import_annotations[x]['text'],xy=import_annotations[x]['pos'],xytext=(0,30),textcoords='offset points',
                      arrowprops=dict(facecolor='black', shrink=0.10),  
           bbox=dict(boxstyle="round", fc="cyan"))
+      plt.title('Network graph of '+country_val+' \'s'+' imports in year '+year_val,y=-0.01)
    
     print(f"*****{impoorexp} ******* {import_annotations}**** {import_values}")
     print(exports_values)
-    plt.title('network graph')
     #plt.tight_layout(pad=3.0)
     plt.savefig(os.path.join('static','networkgraph.png'))
     return render_template("network_graph.html",country_names=[{'cname':'United States'},{'cname':'Australia'}],

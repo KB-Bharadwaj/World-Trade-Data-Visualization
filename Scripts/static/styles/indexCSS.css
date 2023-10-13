@@ -30,9 +30,14 @@ select{
     left:30%;
     top:10%;
     background-color: white;
-    resize: none;
-    object-fit: contain;
-    align-items: center;
-    max-width: max-content;
-    max-height: fit-content;
+    margin:auto;
+    width:1000px;
+    height:100%;
+}
+
+.imageBlock img{
+    width:800px;
+    height: 800px;
+    display: flex;
+    align-items:flex-start;
 }
