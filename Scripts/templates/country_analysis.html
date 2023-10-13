@@ -1,5 +1,9 @@
 <html>
-    <p> Country analysis </p>
+    <head>
+        <title>Country Analysis - Pie chart</title>
+        <link rel="stylesheet" href="static/styles/indexCSS.css">
+    </head>
+    <h1 class="heading1"> Country analysis </p>
     <form id="country_analysis" action="/display_plot" method="POST">
     <select name="country"}>
         {% for x in country_names%}

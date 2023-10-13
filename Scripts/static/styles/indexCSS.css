@@ -1,0 +1,15 @@
+
+ul{
+    display: grid;
+    gap: 10px;
+}
+
+body{
+    background-color: bisque;
+    left:10%;
+}
+
+.heading1{
+    position: relative;
+    left:35%;
+}
