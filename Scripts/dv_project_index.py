@@ -150,8 +150,8 @@ def display_network_graph():
     plt.figure(figsize=(8,8))
     plt.axis('off')
     #plt.subplot(121)
-    pos_exp=nx.spring_layout(g)
-    pos_imp=nx.spring_layout(g2)
+    pos_exp=nx.circular_layout(g)
+    pos_imp=nx.circular_layout(g2)
     print(f"nodes positions : {pos_exp}")
     if impoorexp=='Export':
       plt.clf()
@@ -167,7 +167,6 @@ def display_network_graph():
         ax.annotate(export_annotations[x]['text'],xy=export_annotations[x]['pos'],xytext=(0, 30), textcoords='offset points',
           arrowprops=dict(facecolor='black', shrink=0.10),  
           bbox=dict(boxstyle="round", fc="cyan"))
-      print(nx.spring_layout(g))
       print(g)
     else:
       plt.clf()
