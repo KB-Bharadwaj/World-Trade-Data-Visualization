@@ -1,0 +1,16 @@
+<html>
+<head>
+<title> Home page </title>
+<link rel="stylesheet" href="static/styles/indexCSS.css">
+</head>
+<body>
+    <h1 class="heading1">Trade data visualization</h1>
+    <p> This website visualizes global trade data</p>
+    <p>To view visualizations click on hyperlinks below</p>
+    <ul>
+        <li><a href="{{url_for('country_analysis')}}">Country Analysis Treemap - Click here to view the proportions of various product categories imported/exported by a specific country in a specific time frame</a></li>
+        <li><a href="{{url_for('network_graph')}}">Network graph - Click here to view network graph which shows the interactions of a target country with other countries in a given timeframe</a></li>
+    </ul>
+</body>
+</html>
+

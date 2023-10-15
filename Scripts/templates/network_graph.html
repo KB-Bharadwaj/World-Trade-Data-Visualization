@@ -1,0 +1,65 @@
+ <html>
+    <head>
+        <title>Network graph</title>
+        <link rel="stylesheet" href="static/styles/indexCSS.css">
+    </head>
+    <h1 class="heading1">Network graph</h1>
+    <a href="{{url_for('homePage')}}" class="redirectionLink">Back to home</a>
+    <p> Select a Country, Time Frame,<br>and Import/Export below<br> to view the Network graph.</p>
+    <form id="country_analysis" action="/display_network_graph" method="POST" style="position: sticky;">
+        <table>
+        <tr>
+        <td>
+        <select name="country2"}>
+            {% for x in country_names%}
+            {%if x.cname==countryVal%}
+            <option value="{{ x.cname }}" selected>{{ x.cname }}</option>
+            {%else%}
+            <option value="{{ x.cname }}">{{ x.cname }}</option>
+            {%endif%}
+            {%endfor%}
+        </select>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <select name="timeFrame2">
+            {% for x in years%}
+            {%if x.year==timeVal%}
+            <option value="{{ x.year }}" selected>{{ x.year }}</option>
+            {%else%}
+            <option value="{{ x.year }}">{{ x.year }}</option>
+            {%endif%}
+            {%endfor%}
+        </select>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <select name="ImportOrExport">
+                    {%for x in importExportType%}
+                    {%if x.imporexp==impVal%}
+                    <option value="{{x.imporexp}}" selected>{{x.imporexp}}</option>
+                    {%else%}
+                    <option value="{{x.imporexp}}">{{x.imporexp}}</option>
+                    {%endif%}
+                    {%endfor%}
+                </select>
+            </td>
+        </tr>
+    <tr>
+        <td>
+        <input type="submit" value="View Plot"/>
+    </td>
+    </tr>
+    </table>
+    </form>
+    <div class="imageBlock">
+    {% if show_plot == True %}
+        <image src="static/networkgraph.png"/>
+    {%endif%}
+    {% if show_plot==False%}
+    <p>Select the filters and click on the view plot</p>
+    {%endif%}
+    </div>
+</html>
