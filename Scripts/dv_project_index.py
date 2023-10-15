@@ -9,8 +9,6 @@ import pandas as pd
 #from anytree.importer import DictImporter
 #import ipywidgets as widgets
 #import plotly.graph_objs as go
-import numpy as np
-import pandas as pd
 import squarify
 import os
 import math
@@ -21,6 +19,10 @@ country_mapping=dict()
 country_mapping['United States']='USA'
 country_mapping['Australia']='AUS'
 matplotlib.use('agg')
+#with open('flare.json') as f:
+#    js_data = json.loads(f.read())
+#importer = DictImporter()
+#root = importer.import_(js_data)
 
 @app.route("/")
 def hello():
@@ -31,6 +33,22 @@ def country_analysis():
                          years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],
                         indicator_types=[{'type_val':'Export'},{'type_val':'Import'}],show_plot=False,timeVal='2021',typeVal='Export',countryVal='United States'
                          )
+#@app.route('/display_treemap', methods='GET', 'POST'])
+#def display_treemap():
+#    if request.method=='POST':
+#        year_val=request.form['timeFrame']
+#        country_val=request.form['country']
+#        type_val=request.form['Export_Import']
+#        print(f"year : {year_val} , country:{country_val}, type: {type_val}")
+#        df=pd.read_csv('en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary.csv')
+#        df=df.fillna('0')
+#        parent = []
+#        child = []
+#        for i in df.i:
+#            if (df['Indicator Type'][i]==type_val):
+#                if (df['Parent'][i] not in parent):
+#                    parent.append(df['Parent'][i])
+
 @app.route('/display_plot',methods=['GET','POST'])
 def display_plot():
   plt.clf()
@@ -62,19 +80,25 @@ def display_plot():
     plt.figure(figsize=(10, 10))
     plt.grid(False)
     plt.axis("off")
-    plt.title("Tree map for proportions of categories of "+country_val +":"+type_val)
-    plt.pie(sizes,labels=labels)
+    plt.title("Tree map for proportions of categories of "+country_val +" in the year " + year_val + ": "+type_val)
+    #plt.pie(sizes,labels=labels)
+    #squarify.plot(sizes=sizes, color=sb.color_palette("tab20", len(sizes)), pad=1, text_kwargs={'fontsize': 14})
+    squarify.plot(sizes=sizes, label=labels, color=sb.color_palette("tab20", len(sizes)), pad=1, text_kwargs={'fontsize': -1})
     #squarify.plot(sizes=sizes,label = labels,text_kwargs = {'fontsize': 7, 'color': 'white'},pad=0.2)
     #sankey(left=df['Reporter'],right=df['Partner'],rightWeight=df['2021'])
     print(f"{len(sizes)}")
     #plt.bar(labels,sizes)
     #plt.text(wrap=True)
-    #plt.legend(loc='upper right')
+    plt.legend(loc = 'center left', bbox_to_anchor = (1, .5), ncol = 2)
     if os.path.exists('static/treemap.png'):
         print("entered")
         print(os.remove('static/treemap.png'))
+    #if os.path.exists('static/treemap_legend.png'):
+     #   print("entered")
+      #  print(os.remove('static/treemap_legend.png'))
     #plt.colorbar()
-    plt.savefig(os.path.join('static','treemap2.png')) 
+    plt.savefig(os.path.join('static','treemap2.png'), bbox_inches='tight')
+    #legend.savefig(os.path.join('static', 'treemap_legend.png'))
     return render_template("country_analysis.html",country_names=[{'cname':'United States'},{'cname':'Australia'}],
                          timeVal=year_val,typeVal=type_val,years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],
                         indicator_types=[{'type_val':'Export'},{'type_val':'Import'}],show_plot=True,countryVal=country_val
