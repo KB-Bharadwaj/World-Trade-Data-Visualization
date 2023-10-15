@@ -8,38 +8,32 @@ body{
     background-color: bisque;
     left:1%;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .heading1{
     position: relative;
     left:35%;
-	#align: center
 }
 .redirectionLink{
     right:1%;
     left:90%;
-	bottom:5%;
-    position: relative;
-}
-
-select{
     min-width: 160px;
 }
 
 .imageBlock{
     position: absolute;
-    left:20%;
+    left:30%;
     top:10%;
-    background-color: transparent;
+    background-color: white;
     margin:auto;
     width:1000px;
-    height:1000px;
+    height:100%;
 }
 
 .imageBlock img{
     width:800px;
     height: 800px;
     display: flex;
-    align-items:display_flex;
+    align-items:flex-start;
 }
