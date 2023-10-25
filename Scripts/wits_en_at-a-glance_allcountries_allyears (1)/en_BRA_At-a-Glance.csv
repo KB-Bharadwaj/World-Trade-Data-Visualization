@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Brazil,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,87907.887856
+Brazil,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,31337.515819
+Brazil,2021,Argentina,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,11878.463042
+Brazil,2021,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,9316.0196
+Brazil,2021,Chile,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,7018.693189
+Brazil,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,53464.01677
+Brazil,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,41502.926649
+Brazil,2021,Argentina,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,12412.751643
+Brazil,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,11921.301837
+Brazil,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,7233.947615
+Brazil,2021,World,Chemicals,Export,Export(US$ Mil),11276.989986
+Brazil,2021,World,Mach and Elec,Export,Export(US$ Mil),14437.457361
+Brazil,2021,World,Food Products,Export,Export(US$ Mil),25346.016449
+Brazil,2021,World,Footwear,Export,Export(US$ Mil),1053.87542
+Brazil,2021,World,Consumer goods,Export,Export(US$ Mil),31178.2173499999
+Brazil,2021,World,Vegetable,Export,Export(US$ Mil),54892.229812
+Brazil,2021,World,Textiles and Clothing,Export,Export(US$ Mil),4483.28015
+Brazil,2021,World,Intermediate goods,Export,Export(US$ Mil),70175.0640479999
+Brazil,2021,World,Fuels,Export,Export(US$ Mil),38353.218741
+Brazil,2021,World,Metals,Export,Export(US$ Mil),19018.407297
+Brazil,2021,World,Hides and Skins,Export,Export(US$ Mil),1496.767215
+Brazil,2021,World,Miscellaneous,Export,Export(US$ Mil),2695.800282
+Brazil,2021,World,Plastic or Rubber,Export,Export(US$ Mil),5234.48443
+Brazil,2021,World,Transportation,Export,Export(US$ Mil),11670.945013
+Brazil,2021,World,Minerals,Export,Export(US$ Mil),49698.201563
+Brazil,2021,World,Stone and Glass,Export,Export(US$ Mil),8186.310061
+Brazil,2021,World,Capital goods,Export,Export(US$ Mil),22950.13962
+Brazil,2021,World,Animal,Export,Export(US$ Mil),19733.535708
+Brazil,2021,World,Wood,Export,Export(US$ Mil),13237.057972
+Brazil,2021,World,Raw materials,Export,Export(US$ Mil),156478.494967
+Brazil,2021,World,Capital goods,Import,Import(US$ Mil),76699.666201
+Brazil,2021,World,Intermediate goods,Import,Import(US$ Mil),86094.8027640001
+Brazil,2021,World,Consumer goods,Import,Import(US$ Mil),54528.527313
+Brazil,2021,World,Raw materials,Import,Import(US$ Mil),17289.704289
+Brazil,2021,World,All Products,Export,Exports (in US$ Mil),280814.57746
+Brazil,2021,World,All Products,Import,Imports (in US$ Mil),234690.442199
+Brazil,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),66459334.649
+Brazil,2021,...,...,Tariff,No. Of Tariff Agreement,64
+Brazil,2021,...,...,Import,No. Of Import partners,218
+Brazil,2021,...,...,Import,No. Of Import products,4244
+Brazil,2021,...,...,Export,No. Of Export partners,224
+Brazil,2021,...,...,Export,No. Of Export products,4183
+Brazil,2016,...,...,Others,LPI Score,3.087984
+Brazil,2019,...,...,Others,Trading Across Borders Rank,108
+Brazil,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.2169706
+Brazil,2019,...,...,Others,Ease of Doing Business Rank,124
+Brazil,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),4035
+Brazil,2014,...,...,Others,No Of NTM Measures,64
+Brazil,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.2338574
+Brazil,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,1.770239472
+Brazil,2018,...,...,Others,Population,209469333
+Brazil,,...,...,Others,Services Trade Restrictions Index - Over All,22.5
+Brazil,2016,...,...,Others,LPI Rank,55
+Brazil,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,1.956605911
+Brazil,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,31.3046
+Brazil,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,11.1595
+Brazil,2021,Argentina,All Products,Export,Partner share(%)-Top 5 Export Partner,4.23
+Brazil,2021,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,3.3175
+Brazil,2021,Chile,All Products,Export,Partner share(%)-Top 5 Export Partner,2.4994
+Brazil,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,22.7807
+Brazil,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,17.6841
+Brazil,2021,Argentina,All Products,Import,Partner share(%)-Top 5 Import Partner,5.289
+Brazil,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,5.0796
+Brazil,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,3.0823
+Brazil,2021,World,Vegetable,Export,Export Product share(%),19.5475
+Brazil,2021,World,Textiles and Clothing,Export,Export Product share(%),1.5965
+Brazil,2021,World,Intermediate goods,Export,Export Product share(%),24.9898
+Brazil,2021,World,Minerals,Export,Export Product share(%),17.6979
+Brazil,2021,World,Stone and Glass,Export,Export Product share(%),2.9152
+Brazil,2021,World,Capital goods,Export,Export Product share(%),8.1727
+Brazil,2021,World,Animal,Export,Export Product share(%),7.0272
+Brazil,2021,World,Wood,Export,Export Product share(%),4.7138
+Brazil,2021,World,Raw materials,Export,Export Product share(%),55.7231
+Brazil,2021,World,Fuels,Export,Export Product share(%),13.6578
+Brazil,2021,World,Metals,Export,Export Product share(%),6.7726
+Brazil,2021,World,Hides and Skins,Export,Export Product share(%),0.533
+Brazil,2021,World,Miscellaneous,Export,Export Product share(%),0.96
+Brazil,2021,World,Chemicals,Export,Export Product share(%),4.0158
+Brazil,2021,World,Mach and Elec,Export,Export Product share(%),5.1413
+Brazil,2021,World,Plastic or Rubber,Export,Export Product share(%),1.864
+Brazil,2021,World,Transportation,Export,Export Product share(%),4.1561
+Brazil,2021,World,Food Products,Export,Export Product share(%),9.0259
+Brazil,2021,World,Footwear,Export,Export Product share(%),0.3753
+Brazil,2021,World,Consumer goods,Export,Export Product share(%),11.1028
+Brazil,2021,World,Consumer goods,Import,Import Product share(%),23.2342
+Brazil,2021,World,Intermediate goods,Import,Import Product share(%),36.6844
+Brazil,2021,World,Capital goods,Import,Import Product share(%),32.6812
+Brazil,2021,World,Raw materials,Import,Import Product share(%),7.367
+Brazil,2021,World,Consumer goods,Tariff,Weighted Average (%),11.4431291825495
+Brazil,2021,World,Intermediate goods,Tariff,Weighted Average (%),5.77702504179145
+Brazil,2021,World,Capital goods,Tariff,Weighted Average (%),9.31022916738397
+Brazil,2021,World,Raw materials,Tariff,Weighted Average (%),1.06648822293491
+Brazil,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Brazil,2021,World,All Products,Trade Indicator,Country Growth (%),15.3316685363666
+Brazil,2021,World,All Products,Tariff,Simple Average (%),13.1970314260496
+Brazil,2021,World,All Products,Tariff,Weighted Average (%),7.76483858028327
+Brazil,2021,World,All Products,Tariff,Maximum Rate (%),55
+Brazil,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),17.0665373587452
+Brazil,2021,...,...,Trade Indicator,Index of export market penetration,14.2471207553439
+Brazil,2021,...,...,Trade Indicator,HH Market concentration index,0.136760623954012

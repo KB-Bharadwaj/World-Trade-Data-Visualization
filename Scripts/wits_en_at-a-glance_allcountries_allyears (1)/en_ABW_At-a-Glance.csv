@@ -1,0 +1,90 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Aruba,2021,Colombia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,43.6726608367295
+Aruba,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,20.3013315573266
+Aruba,2021,Curaçao,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,8.52031105304797
+Aruba,2021,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4.85243400979297
+Aruba,2021,Unspecified,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4.45806250697372
+Aruba,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,594.199130727936
+Aruba,2021,Netherlands,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,181.911924809344
+Aruba,2021,Unspecified,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,132.21969981168
+Aruba,2021,Panama,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,50.400818842421
+Aruba,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,39.2327307317347
+Aruba,2021,World,Vegetable,Export,Export(US$ Mil),0.19943631003711
+Aruba,2021,World,Textiles and Clothing,Export,Export(US$ Mil),0.69074635897556
+Aruba,2021,World,Intermediate goods,Export,Export(US$ Mil),1.30441059613295
+Aruba,2021,World,Food Products,Export,Export(US$ Mil),56.5857098166666
+Aruba,2021,World,Footwear,Export,Export(US$ Mil),0.16817932723761
+Aruba,2021,World,Consumer goods,Export,Export(US$ Mil),74.4695671064039
+Aruba,2021,World,Animal,Export,Export(US$ Mil),0.18976312581596
+Aruba,2021,World,Wood,Export,Export(US$ Mil),0.68401283951743
+Aruba,2021,World,Raw materials,Export,Export(US$ Mil),3.46134743722852
+Aruba,2021,World,Plastic or Rubber,Export,Export(US$ Mil),0.61677932091235
+Aruba,2021,World,Transportation,Export,Export(US$ Mil),1.63996254670893
+Aruba,2021,World,Chemicals,Export,Export(US$ Mil),5.11257422958868
+Aruba,2021,World,Mach and Elec,Export,Export(US$ Mil),2.94842900870648
+Aruba,2021,World,Fuels,Export,Export(US$ Mil),0.02523575383412
+Aruba,2021,World,Metals,Export,Export(US$ Mil),3.62259994892134
+Aruba,2021,World,Minerals,Export,Export(US$ Mil),0.00387988821345
+Aruba,2021,World,Stone and Glass,Export,Export(US$ Mil),6.75169990480103
+Aruba,2021,World,Capital goods,Export,Export(US$ Mil),5.43180830329977
+Aruba,2021,World,Hides and Skins,Export,Export(US$ Mil),1.14074914592661
+Aruba,2021,World,Miscellaneous,Export,Export(US$ Mil),7.96725016699138
+Aruba,2021,World,Consumer goods,Import,Import(US$ Mil),750.146415679918
+Aruba,2021,World,Intermediate goods,Import,Import(US$ Mil),107.851382278178
+Aruba,2021,World,Capital goods,Import,Import(US$ Mil),165.772402690542
+Aruba,2021,World,Raw materials,Import,Import(US$ Mil),129.695752919893
+Aruba,2021,World,All Products,Export,Exports (in US$ Mil),88.3470076928547
+Aruba,2021,World,All Products,Import,Imports (in US$ Mil),1169.77393434417
+Aruba,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),162509.203295212
+Aruba,2021,...,...,Tariff,No. Of Tariff Agreement,1
+Aruba,2021,...,...,Import,No. Of Import partners,13
+Aruba,2021,...,...,Import,No. Of Import products,3414
+Aruba,2021,...,...,Export,No. Of Export partners,10
+Aruba,2021,...,...,Export,No. Of Export products,895
+Aruba,2018,...,...,Others,Population,105845
+Aruba,2021,Colombia,All Products,Export,Partner share(%)-Top 5 Export Partner,49.4331
+Aruba,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,22.9791
+Aruba,2021,Curaçao,All Products,Export,Partner share(%)-Top 5 Export Partner,9.6441
+Aruba,2021,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,5.4925
+Aruba,2021,Unspecified,All Products,Export,Partner share(%)-Top 5 Export Partner,5.0461
+Aruba,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,50.7961
+Aruba,2021,Netherlands,All Products,Import,Partner share(%)-Top 5 Import Partner,15.551
+Aruba,2021,Unspecified,All Products,Import,Partner share(%)-Top 5 Import Partner,11.303
+Aruba,2021,Panama,All Products,Import,Partner share(%)-Top 5 Import Partner,4.3086
+Aruba,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,3.3539
+Aruba,2021,World,Vegetable,Export,Export Product share(%),0.2257
+Aruba,2021,World,Textiles and Clothing,Export,Export Product share(%),0.7819
+Aruba,2021,World,Intermediate goods,Export,Export Product share(%),1.4765
+Aruba,2021,World,Food Products,Export,Export Product share(%),64.0494
+Aruba,2021,World,Footwear,Export,Export Product share(%),0.1904
+Aruba,2021,World,Consumer goods,Export,Export Product share(%),84.2921
+Aruba,2021,World,Animal,Export,Export Product share(%),0.2148
+Aruba,2021,World,Wood,Export,Export Product share(%),0.7742
+Aruba,2021,World,Raw materials,Export,Export Product share(%),3.9179
+Aruba,2021,World,Fuels,Export,Export Product share(%),0.0286
+Aruba,2021,World,Metals,Export,Export Product share(%),4.1004
+Aruba,2021,World,Minerals,Export,Export Product share(%),0.0044
+Aruba,2021,World,Stone and Glass,Export,Export Product share(%),7.6423
+Aruba,2021,World,Capital goods,Export,Export Product share(%),6.1483
+Aruba,2021,World,Chemicals,Export,Export Product share(%),5.7869
+Aruba,2021,World,Mach and Elec,Export,Export Product share(%),3.3373
+Aruba,2021,World,Plastic or Rubber,Export,Export Product share(%),0.6981
+Aruba,2021,World,Transportation,Export,Export Product share(%),1.8563
+Aruba,2021,World,Hides and Skins,Export,Export Product share(%),1.2912
+Aruba,2021,World,Miscellaneous,Export,Export Product share(%),9.0181
+Aruba,2021,World,Consumer goods,Import,Import Product share(%),64.1275
+Aruba,2021,World,Intermediate goods,Import,Import Product share(%),9.2198
+Aruba,2021,World,Capital goods,Import,Import Product share(%),14.1713
+Aruba,2021,World,Raw materials,Import,Import Product share(%),11.0872
+Aruba,2021,World,Consumer goods,Tariff,Weighted Average (%),11.1051394092522
+Aruba,2021,World,Capital goods,Tariff,Weighted Average (%),12.5351451266064
+Aruba,2021,World,Intermediate goods,Tariff,Weighted Average (%),6.97618473674291
+Aruba,2021,World,Raw materials,Tariff,Weighted Average (%),0.990583712047437
+Aruba,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Aruba,2021,World,All Products,Trade Indicator,Country Growth (%),6.23049056974627
+Aruba,2021,World,All Products,Tariff,Simple Average (%),9.97952207776901
+Aruba,2021,World,All Products,Tariff,Weighted Average (%),9.66033244763076
+Aruba,2021,World,All Products,Tariff,Maximum Rate (%),245.433303833008
+Aruba,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),8.27041468230921
+Aruba,2021,...,...,Trade Indicator,Index of export market penetration,1.30409982174688
+Aruba,2021,...,...,Trade Indicator,HH Market concentration index,0.346326437136513

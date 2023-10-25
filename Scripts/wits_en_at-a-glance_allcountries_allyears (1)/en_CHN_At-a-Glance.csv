@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+China,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,577125.499929
+China,2021,"Hong Kong, China",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,349442.324674
+China,2021,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,165822.964565
+China,2021,"Korea, Rep.",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,148847.026749
+China,2021,Vietnam,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,137904.87037
+China,2021,"Other Asia, nes",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,249876.612397
+China,2021,"Korea, Rep.",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,213445.079935
+China,2021,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,205523.714539
+China,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,180971.932243
+China,2021,Australia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,163729.735808
+China,2021,World,Vegetable,Export,Export(US$ Mil),30462.547305
+China,2021,World,Textiles and Clothing,Export,Export(US$ Mil),304896.146009
+China,2021,World,Intermediate goods,Export,Export(US$ Mil),582656.568461999
+China,2021,World,Food Products,Export,Export(US$ Mil),37832.828799
+China,2021,World,Footwear,Export,Export(US$ Mil),73270.13104
+China,2021,World,Consumer goods,Export,Export(US$ Mil),1173092.048663
+China,2021,World,Fuels,Export,Export(US$ Mil),41679.081369
+China,2021,World,Metals,Export,Export(US$ Mil),264363.928557
+China,2021,World,Chemicals,Export,Export(US$ Mil),213399.147081
+China,2021,World,Mach and Elec,Export,Export(US$ Mil),1445623.424661
+China,2021,World,Plastic or Rubber,Export,Export(US$ Mil),162917.221357
+China,2021,World,Transportation,Export,Export(US$ Mil),173949.150669
+China,2021,World,Minerals,Export,Export(US$ Mil),8530.523667
+China,2021,World,Stone and Glass,Export,Export(US$ Mil),97792.341063
+China,2021,World,Capital goods,Export,Export(US$ Mil),1521909.665312
+China,2021,World,Hides and Skins,Export,Export(US$ Mil),34568.843128
+China,2021,World,Miscellaneous,Export,Export(US$ Mil),406738.391347
+China,2021,World,Animal,Export,Export(US$ Mil),14248.681208
+China,2021,World,Wood,Export,Export(US$ Mil),52029.226179
+China,2021,World,Raw materials,Export,Export(US$ Mil),47358.0233429999
+China,2021,World,Intermediate goods,Import,Import(US$ Mil),528547.119435001
+China,2021,World,Raw materials,Import,Import(US$ Mil),764219.405635001
+China,2021,World,Consumer goods,Import,Import(US$ Mil),354764.184804
+China,2021,World,Capital goods,Import,Import(US$ Mil),1022934.390511
+China,2021,World,All Products,Export,Exports (in US$ Mil),3362301.613439
+China,2021,World,All Products,Import,Imports (in US$ Mil),2684362.678517
+China,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),1304744310.093
+China,2021,...,...,Tariff,No. Of Tariff Agreement,25
+China,2021,...,...,Import,No. Of Import partners,215
+China,2021,...,...,Import,No. Of Import products,4391
+China,2021,...,...,Export,No. Of Export partners,214
+China,2021,...,...,Export,No. Of Export products,4398
+China,2016,...,...,Others,LPI Score,3.661104
+China,2019,...,...,Others,Ease of Doing Business Rank,31
+China,2013,...,...,Others,No Of NTM Affected Products (HS 6 Digit),81
+China,2013,...,...,Others,No Of NTM Measures,3
+China,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1021822
+China,,...,...,Others,Services Trade Restrictions Index - Over All,36.6
+China,2019,...,...,Others,Trading Across Borders Rank,56
+China,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0973663
+China,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,1.888844728
+China,2018,...,...,Others,Population,1392730000
+China,2016,...,...,Others,LPI Rank,27
+China,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,1.414180517
+China,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,17.1646
+China,2021,"Hong Kong, China",All Products,Export,Partner share(%)-Top 5 Export Partner,10.3929
+China,2021,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,4.9318
+China,2021,"Korea, Rep.",All Products,Export,Partner share(%)-Top 5 Export Partner,4.4269
+China,2021,Vietnam,All Products,Export,Partner share(%)-Top 5 Export Partner,4.1015
+China,2021,"Other Asia, nes",All Products,Import,Partner share(%)-Top 5 Import Partner,9.3086
+China,2021,"Korea, Rep.",All Products,Import,Partner share(%)-Top 5 Import Partner,7.9514
+China,2021,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,7.6563
+China,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,6.7417
+China,2021,Australia,All Products,Import,Partner share(%)-Top 5 Import Partner,6.0994
+China,2021,World,Animal,Export,Export Product share(%),0.4238
+China,2021,World,Wood,Export,Export Product share(%),1.5474
+China,2021,World,Raw materials,Export,Export Product share(%),1.4085
+China,2021,World,Vegetable,Export,Export Product share(%),0.906
+China,2021,World,Textiles and Clothing,Export,Export Product share(%),9.0681
+China,2021,World,Intermediate goods,Export,Export Product share(%),17.3291
+China,2021,World,Fuels,Export,Export Product share(%),1.2396
+China,2021,World,Metals,Export,Export Product share(%),7.8626
+China,2021,World,Minerals,Export,Export Product share(%),0.2537
+China,2021,World,Stone and Glass,Export,Export Product share(%),2.9085
+China,2021,World,Capital goods,Export,Export Product share(%),45.2639
+China,2021,World,Hides and Skins,Export,Export Product share(%),1.0281
+China,2021,World,Miscellaneous,Export,Export Product share(%),12.097
+China,2021,World,Plastic or Rubber,Export,Export Product share(%),4.8454
+China,2021,World,Transportation,Export,Export Product share(%),5.1735
+China,2021,World,Food Products,Export,Export Product share(%),1.1252
+China,2021,World,Footwear,Export,Export Product share(%),2.1792
+China,2021,World,Consumer goods,Export,Export Product share(%),34.8896
+China,2021,World,Chemicals,Export,Export Product share(%),6.3468
+China,2021,World,Mach and Elec,Export,Export Product share(%),42.9951
+China,2021,World,Intermediate goods,Import,Import Product share(%),19.6899
+China,2021,World,Raw materials,Import,Import Product share(%),28.4693
+China,2021,World,Capital goods,Import,Import Product share(%),38.1072
+China,2021,World,Consumer goods,Import,Import Product share(%),13.216
+China,2021,World,Intermediate goods,Tariff,Weighted Average (%),2.59084353742518
+China,2021,World,Consumer goods,Tariff,Weighted Average (%),5.48617967466006
+China,2021,World,Raw materials,Tariff,Weighted Average (%),1.50425097365832
+China,2021,World,Capital goods,Tariff,Weighted Average (%),1.42582181872599
+China,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+China,2021,World,All Products,Trade Indicator,Country Growth (%),12.1295318834833
+China,2021,World,All Products,Tariff,Simple Average (%),5.30780505473946
+China,2021,World,All Products,Tariff,Weighted Average (%),2.31040527719767
+China,2021,World,All Products,Tariff,Maximum Rate (%),337.156005859375
+China,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),30.8136023013391
+China,2021,...,...,Trade Indicator,Index of export market penetration,54.4874672210541
+China,2021,...,...,Trade Indicator,HH Market concentration index,0.0461669046937302

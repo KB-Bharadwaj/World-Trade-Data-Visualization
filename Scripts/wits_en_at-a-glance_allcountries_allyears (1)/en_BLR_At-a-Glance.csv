@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Belarus,2021,Unspecified,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,16086.9714
+Belarus,2021,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,13972.2163
+Belarus,2021,Poland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1584.4218
+Belarus,2021,Ukraine,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1214.6607
+Belarus,2021,Lithuania,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1185.4588
+Belarus,2021,Unspecified,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,15492.118
+Belarus,2021,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,11948.931
+Belarus,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3403.4212
+Belarus,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1504.4735
+Belarus,2021,Ukraine,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1439.0031
+Belarus,2021,World,Chemicals,Export,Export(US$ Mil),1097.4877
+Belarus,2021,World,Mach and Elec,Export,Export(US$ Mil),3257.1529
+Belarus,2021,World,Food Products,Export,Export(US$ Mil),1675.3084
+Belarus,2021,World,Footwear,Export,Export(US$ Mil),241.036
+Belarus,2021,World,Consumer goods,Export,Export(US$ Mil),9179.7207
+Belarus,2021,World,Animal,Export,Export(US$ Mil),3804.3106
+Belarus,2021,World,Wood,Export,Export(US$ Mil),2803.3442
+Belarus,2021,World,Raw materials,Export,Export(US$ Mil),2073.6482
+Belarus,2021,World,Minerals,Export,Export(US$ Mil),185.1181
+Belarus,2021,World,Stone and Glass,Export,Export(US$ Mil),547.7763
+Belarus,2021,World,Capital goods,Export,Export(US$ Mil),3728.0589
+Belarus,2021,World,Hides and Skins,Export,Export(US$ Mil),79.5608
+Belarus,2021,World,Miscellaneous,Export,Export(US$ Mil),17694.4397
+Belarus,2021,World,Metals,Export,Export(US$ Mil),3201.2455
+Belarus,2021,World,Vegetable,Export,Export(US$ Mil),1222.8616
+Belarus,2021,World,Textiles and Clothing,Export,Export(US$ Mil),1429.7369
+Belarus,2021,World,Intermediate goods,Export,Export(US$ Mil),8494.62009999999
+Belarus,2021,World,Plastic or Rubber,Export,Export(US$ Mil),1115.0157
+Belarus,2021,World,Transportation,Export,Export(US$ Mil),1534.6284
+Belarus,2021,World,Raw materials,Import,Import(US$ Mil),2867.2156
+Belarus,2021,World,Intermediate goods,Import,Import(US$ Mil),7896.23910000001
+Belarus,2021,World,Consumer goods,Import,Import(US$ Mil),8541.4459
+Belarus,2021,World,Capital goods,Import,Import(US$ Mil),6938.22579999999
+Belarus,2021,World,All Products,Export,Exports (in US$ Mil),39889.0228
+Belarus,2021,World,All Products,Import,Imports (in US$ Mil),41810.6904
+Belarus,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),16424948.6
+Belarus,2021,...,...,Tariff,No. Of Tariff Agreement,9
+Belarus,2021,...,...,Import,No. Of Import partners,185
+Belarus,2021,...,...,Import,No. Of Import products,3795
+Belarus,2021,...,...,Export,No. Of Export partners,163
+Belarus,2021,...,...,Export,No. Of Export products,3470
+Belarus,2018,...,...,Others,Population,9485386
+Belarus,2016,...,...,Others,LPI Score,2.399232
+Belarus,2019,...,...,Others,Ease of Doing Business Rank,49
+Belarus,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.111352
+Belarus,2016,...,...,Others,LPI Rank,120
+Belarus,2019,...,...,Others,Trading Across Borders Rank,24
+Belarus,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0801941
+Belarus,,...,...,Others,Services Trade Restrictions Index - Over All,35.1
+Belarus,2021,Unspecified,All Products,Export,Partner share(%)-Top 5 Export Partner,40.3293
+Belarus,2021,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,35.0277
+Belarus,2021,Poland,All Products,Export,Partner share(%)-Top 5 Export Partner,3.9721
+Belarus,2021,Ukraine,All Products,Export,Partner share(%)-Top 5 Export Partner,3.0451
+Belarus,2021,Lithuania,All Products,Export,Partner share(%)-Top 5 Export Partner,2.9719
+Belarus,2021,Unspecified,All Products,Import,Partner share(%)-Top 5 Import Partner,37.053
+Belarus,2021,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,28.5787
+Belarus,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,8.1401
+Belarus,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,3.5983
+Belarus,2021,Ukraine,All Products,Import,Partner share(%)-Top 5 Import Partner,3.4417
+Belarus,2021,World,Vegetable,Export,Export Product share(%),3.0657
+Belarus,2021,World,Textiles and Clothing,Export,Export Product share(%),3.5843
+Belarus,2021,World,Intermediate goods,Export,Export Product share(%),21.2956
+Belarus,2021,World,Food Products,Export,Export Product share(%),4.1999
+Belarus,2021,World,Footwear,Export,Export Product share(%),0.6043
+Belarus,2021,World,Consumer goods,Export,Export Product share(%),23.0132
+Belarus,2021,World,Minerals,Export,Export Product share(%),0.4641
+Belarus,2021,World,Stone and Glass,Export,Export Product share(%),1.3733
+Belarus,2021,World,Capital goods,Export,Export Product share(%),9.3461
+Belarus,2021,World,Metals,Export,Export Product share(%),8.0254
+Belarus,2021,World,Chemicals,Export,Export Product share(%),2.7514
+Belarus,2021,World,Mach and Elec,Export,Export Product share(%),8.1655
+Belarus,2021,World,Animal,Export,Export Product share(%),9.5372
+Belarus,2021,World,Wood,Export,Export Product share(%),7.0279
+Belarus,2021,World,Raw materials,Export,Export Product share(%),5.1985
+Belarus,2021,World,Plastic or Rubber,Export,Export Product share(%),2.7953
+Belarus,2021,World,Transportation,Export,Export Product share(%),3.8472
+Belarus,2021,World,Hides and Skins,Export,Export Product share(%),0.1995
+Belarus,2021,World,Miscellaneous,Export,Export Product share(%),44.3592
+Belarus,2021,World,Intermediate goods,Import,Import Product share(%),18.8857
+Belarus,2021,World,Consumer goods,Import,Import Product share(%),20.4289
+Belarus,2021,World,Capital goods,Import,Import Product share(%),16.5944
+Belarus,2021,World,Raw materials,Import,Import Product share(%),6.8576
+Belarus,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.61815192106368
+Belarus,2021,World,Consumer goods,Tariff,Weighted Average (%),3.55388839528589
+Belarus,2021,World,Capital goods,Tariff,Weighted Average (%),1.4685379651868
+Belarus,2021,World,Raw materials,Tariff,Weighted Average (%),1.89367440843112
+Belarus,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Belarus,2021,World,All Products,Trade Indicator,Country Growth (%),15.6435301911299
+Belarus,2021,World,All Products,Tariff,Simple Average (%),5.65191720691396
+Belarus,2021,World,All Products,Tariff,Weighted Average (%),2.26592298737977
+Belarus,2021,World,All Products,Tariff,Maximum Rate (%),351.393890380859
+Belarus,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),31.352631713359
+Belarus,2021,...,...,Trade Indicator,Index of export market penetration,4.9546982006891
+Belarus,2021,...,...,Trade Indicator,HH Market concentration index,0.239199174351812

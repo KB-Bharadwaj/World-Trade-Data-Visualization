@@ -1,0 +1,97 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Bahrain,2021,Unspecified,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,5771.848196097
+Bahrain,2021,Saudi Arabia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2460.689720977
+Bahrain,2021,United Arab Emirates,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1623.377393097
+Bahrain,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1335.722200673
+Bahrain,2021,"Egypt, Arab Rep.",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,729.865105866
+Bahrain,2021,Brazil,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1997.195252865
+Bahrain,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1840.779183367
+Bahrain,2021,United Arab Emirates,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1045.196631317
+Bahrain,2021,Australia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1023.646250665
+Bahrain,2021,Saudi Arabia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,966.392162887
+Bahrain,2021,World,Fuels,Export,Export(US$ Mil),5782.424135959
+Bahrain,2021,World,Metals,Export,Export(US$ Mil),5927.030620972
+Bahrain,2021,World,Minerals,Export,Export(US$ Mil),2361.9775354
+Bahrain,2021,World,Stone and Glass,Export,Export(US$ Mil),542.152362741
+Bahrain,2021,World,Capital goods,Export,Export(US$ Mil),892.910476458999
+Bahrain,2021,World,Chemicals,Export,Export(US$ Mil),832.273105635
+Bahrain,2021,World,Mach and Elec,Export,Export(US$ Mil),713.063754402
+Bahrain,2021,World,Animal,Export,Export(US$ Mil),353.125859486
+Bahrain,2021,World,Wood,Export,Export(US$ Mil),103.208520988
+Bahrain,2021,World,Raw materials,Export,Export(US$ Mil),2571.148794177
+Bahrain,2021,World,Food Products,Export,Export(US$ Mil),292.371765094
+Bahrain,2021,World,Footwear,Export,Export(US$ Mil),16.852217209
+Bahrain,2021,World,Consumer goods,Export,Export(US$ Mil),2005.803202862
+Bahrain,2021,World,Vegetable,Export,Export(US$ Mil),25.022785668
+Bahrain,2021,World,Textiles and Clothing,Export,Export(US$ Mil),110.230866952
+Bahrain,2021,World,Intermediate goods,Export,Export(US$ Mil),6941.869256138
+Bahrain,2021,World,Plastic or Rubber,Export,Export(US$ Mil),328.585251767
+Bahrain,2021,World,Transportation,Export,Export(US$ Mil),602.193087823
+Bahrain,2021,World,Hides and Skins,Export,Export(US$ Mil),4.20128645
+Bahrain,2021,World,Miscellaneous,Export,Export(US$ Mil),204.260643449
+Bahrain,2021,World,Consumer goods,Import,Import(US$ Mil),4518.769948109
+Bahrain,2021,World,Capital goods,Import,Import(US$ Mil),3027.209013519
+Bahrain,2021,World,Intermediate goods,Import,Import(US$ Mil),3468.473184327
+Bahrain,2021,World,Raw materials,Import,Import(US$ Mil),3104.832740956
+Bahrain,2021,World,All Products,Export,Exports (in US$ Mil),18198.973799994
+Bahrain,2021,World,All Products,Import,Imports (in US$ Mil),14135.237381753
+Bahrain,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),10517798.1585027
+Bahrain,2021,...,...,Tariff,No. Of Tariff Agreement,6
+Bahrain,2021,...,...,Import,No. Of Import partners,209
+Bahrain,2021,...,...,Import,No. Of Import products,4002
+Bahrain,2021,...,...,Export,No. Of Export partners,157
+Bahrain,2021,...,...,Export,No. Of Export products,2729
+Bahrain,2018,...,...,Others,Population,1569439
+Bahrain,2019,...,...,Others,Ease of Doing Business Rank,43
+Bahrain,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.04875
+Bahrain,,...,...,Others,Services Trade Restrictions Index - Over All,50.8
+Bahrain,2019,...,...,Others,Trading Across Borders Rank,77
+Bahrain,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0434256
+Bahrain,2016,...,...,Others,LPI Rank,44
+Bahrain,2016,...,...,Others,LPI Score,3.314021
+Bahrain,2021,Unspecified,All Products,Export,Partner share(%)-Top 5 Export Partner,31.7152
+Bahrain,2021,Saudi Arabia,All Products,Export,Partner share(%)-Top 5 Export Partner,13.521
+Bahrain,2021,United Arab Emirates,All Products,Export,Partner share(%)-Top 5 Export Partner,8.9202
+Bahrain,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,7.3395
+Bahrain,2021,"Egypt, Arab Rep.",All Products,Export,Partner share(%)-Top 5 Export Partner,4.0105
+Bahrain,2021,Brazil,All Products,Import,Partner share(%)-Top 5 Import Partner,14.1292
+Bahrain,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,13.0226
+Bahrain,2021,United Arab Emirates,All Products,Import,Partner share(%)-Top 5 Import Partner,7.3943
+Bahrain,2021,Australia,All Products,Import,Partner share(%)-Top 5 Import Partner,7.2418
+Bahrain,2021,Saudi Arabia,All Products,Import,Partner share(%)-Top 5 Import Partner,6.8368
+Bahrain,2021,World,Vegetable,Export,Export Product share(%),0.1375
+Bahrain,2021,World,Textiles and Clothing,Export,Export Product share(%),0.6057
+Bahrain,2021,World,Intermediate goods,Export,Export Product share(%),38.1443
+Bahrain,2021,World,Chemicals,Export,Export Product share(%),4.5732
+Bahrain,2021,World,Mach and Elec,Export,Export Product share(%),3.9182
+Bahrain,2021,World,Food Products,Export,Export Product share(%),1.6065
+Bahrain,2021,World,Footwear,Export,Export Product share(%),0.0926
+Bahrain,2021,World,Consumer goods,Export,Export Product share(%),11.0215
+Bahrain,2021,World,Fuels,Export,Export Product share(%),31.7734
+Bahrain,2021,World,Metals,Export,Export Product share(%),32.5679
+Bahrain,2021,World,Animal,Export,Export Product share(%),1.9404
+Bahrain,2021,World,Wood,Export,Export Product share(%),0.5671
+Bahrain,2021,World,Raw materials,Export,Export Product share(%),14.128
+Bahrain,2021,World,Minerals,Export,Export Product share(%),12.9786
+Bahrain,2021,World,Stone and Glass,Export,Export Product share(%),2.979
+Bahrain,2021,World,Capital goods,Export,Export Product share(%),4.9064
+Bahrain,2021,World,Plastic or Rubber,Export,Export Product share(%),1.8055
+Bahrain,2021,World,Transportation,Export,Export Product share(%),3.3089
+Bahrain,2021,World,Hides and Skins,Export,Export Product share(%),0.0231
+Bahrain,2021,World,Miscellaneous,Export,Export Product share(%),1.1224
+Bahrain,2021,World,Intermediate goods,Import,Import Product share(%),24.5378
+Bahrain,2021,World,Capital goods,Import,Import Product share(%),21.416
+Bahrain,2021,World,Raw materials,Import,Import Product share(%),21.9652
+Bahrain,2021,World,Consumer goods,Import,Import Product share(%),31.9681
+Bahrain,2021,World,Intermediate goods,Tariff,Weighted Average (%),3.08976908342957
+Bahrain,2021,World,Consumer goods,Tariff,Weighted Average (%),3.06974013196367
+Bahrain,2021,World,Capital goods,Tariff,Weighted Average (%),2.48921208526291
+Bahrain,2021,World,Raw materials,Tariff,Weighted Average (%),0.851241011817583
+Bahrain,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Bahrain,2021,World,All Products,Trade Indicator,Country Growth (%),20.3843030796689
+Bahrain,2021,World,All Products,Tariff,Simple Average (%),3.60427764590778
+Bahrain,2021,World,All Products,Tariff,Weighted Average (%),2.08558348698192
+Bahrain,2021,World,All Products,Tariff,Maximum Rate (%),108.148002624512
+Bahrain,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),29.4993952367278
+Bahrain,2021,...,...,Trade Indicator,Index of export market penetration,3.31227365248883
+Bahrain,2021,...,...,Trade Indicator,HH Market concentration index,0.0690695828863472

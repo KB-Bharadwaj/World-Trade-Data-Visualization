@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Angola,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,20058.426271913
+Angola,2021,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3008.390595072
+Angola,2021,United Arab Emirates,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1399.449578198
+Angola,2021,Thailand,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1004.83352977
+Angola,2021,Singapore,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,802.659408761
+Angola,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1688.904641338
+Angola,2021,Portugal,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1357.979633711
+Angola,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,745.723527218
+Angola,2021,Togo,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,687.689058077
+Angola,2021,Brazil,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,546.044463646
+Angola,2021,World,Vegetable,Export,Export(US$ Mil),11.043326979
+Angola,2021,World,Textiles and Clothing,Export,Export(US$ Mil),2.060364335
+Angola,2021,World,Intermediate goods,Export,Export(US$ Mil),232.362979449
+Angola,2021,World,Minerals,Export,Export(US$ Mil),56.819189679
+Angola,2021,World,Stone and Glass,Export,Export(US$ Mil),1550.326328037
+Angola,2021,World,Capital goods,Export,Export(US$ Mil),1314.449941822
+Angola,2021,World,Food Products,Export,Export(US$ Mil),37.193157603
+Angola,2021,World,Footwear,Export,Export(US$ Mil),3.118840838
+Angola,2021,World,Consumer goods,Export,Export(US$ Mil),3808.082470744
+Angola,2021,World,Fuels,Export,Export(US$ Mil),31318.918599479
+Angola,2021,World,Metals,Export,Export(US$ Mil),55.167102028
+Angola,2021,World,Plastic or Rubber,Export,Export(US$ Mil),4.982238508
+Angola,2021,World,Transportation,Export,Export(US$ Mil),1182.33722209
+Angola,2021,World,Hides and Skins,Export,Export(US$ Mil),0.170571162
+Angola,2021,World,Miscellaneous,Export,Export(US$ Mil),65.668385225
+Angola,2021,World,Chemicals,Export,Export(US$ Mil),5.542155646
+Angola,2021,World,Mach and Elec,Export,Export(US$ Mil),98.369240395
+Angola,2021,World,Animal,Export,Export(US$ Mil),23.041054628
+Angola,2021,World,Wood,Export,Export(US$ Mil),57.404180197
+Angola,2021,World,Raw materials,Export,Export(US$ Mil),29096.024333171
+Angola,2021,World,Intermediate goods,Import,Import(US$ Mil),2078.540478137
+Angola,2021,World,Consumer goods,Import,Import(US$ Mil),5090.399845736
+Angola,2021,World,Capital goods,Import,Import(US$ Mil),3392.728948979
+Angola,2021,World,Raw materials,Import,Import(US$ Mil),816.039663618001
+Angola,2021,World,All Products,Export,Exports (in US$ Mil),34472.161956832
+Angola,2021,World,All Products,Import,Imports (in US$ Mil),11378.927920701
+Angola,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),5430391.4779
+Angola,2021,...,...,Tariff,No. Of Tariff Agreement,1
+Angola,2021,...,...,Import,No. Of Import partners,191
+Angola,2021,...,...,Import,No. Of Import products,4033
+Angola,2021,...,...,Export,No. Of Export partners,137
+Angola,2021,...,...,Export,No. Of Export products,2218
+Angola,2019,...,...,Others,Ease of Doing Business Rank,177
+Angola,2019,...,...,Others,Trading Across Borders Rank,174
+Angola,2018,...,...,Others,Population,30809762
+Angola,2013,...,...,Others,CPIA Trade Ratings,3.5
+Angola,2016,...,...,Others,LPI Score,2.241183
+Angola,2016,...,...,Others,LPI Rank,139
+Angola,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,58.1873
+Angola,2021,India,All Products,Export,Partner share(%)-Top 5 Export Partner,8.727
+Angola,2021,United Arab Emirates,All Products,Export,Partner share(%)-Top 5 Export Partner,4.0597
+Angola,2021,Thailand,All Products,Export,Partner share(%)-Top 5 Export Partner,2.9149
+Angola,2021,Singapore,All Products,Export,Partner share(%)-Top 5 Export Partner,2.3284
+Angola,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,14.8424
+Angola,2021,Portugal,All Products,Import,Partner share(%)-Top 5 Import Partner,11.9342
+Angola,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,6.5535
+Angola,2021,Togo,All Products,Import,Partner share(%)-Top 5 Import Partner,6.0435
+Angola,2021,Brazil,All Products,Import,Partner share(%)-Top 5 Import Partner,4.7987
+Angola,2021,World,Vegetable,Export,Export Product share(%),0.032
+Angola,2021,World,Textiles and Clothing,Export,Export Product share(%),0.006
+Angola,2021,World,Intermediate goods,Export,Export Product share(%),0.6741
+Angola,2021,World,Food Products,Export,Export Product share(%),0.1079
+Angola,2021,World,Footwear,Export,Export Product share(%),0.009
+Angola,2021,World,Consumer goods,Export,Export Product share(%),11.0468
+Angola,2021,World,Minerals,Export,Export Product share(%),0.1648
+Angola,2021,World,Stone and Glass,Export,Export Product share(%),4.4973
+Angola,2021,World,Capital goods,Export,Export Product share(%),3.8131
+Angola,2021,World,Fuels,Export,Export Product share(%),90.8528
+Angola,2021,World,Metals,Export,Export Product share(%),0.16
+Angola,2021,World,Chemicals,Export,Export Product share(%),0.0161
+Angola,2021,World,Mach and Elec,Export,Export Product share(%),0.2854
+Angola,2021,World,Plastic or Rubber,Export,Export Product share(%),0.0145
+Angola,2021,World,Transportation,Export,Export Product share(%),3.4298
+Angola,2021,World,Animal,Export,Export Product share(%),0.0668
+Angola,2021,World,Wood,Export,Export Product share(%),0.1665
+Angola,2021,World,Raw materials,Export,Export Product share(%),84.4044
+Angola,2021,World,Hides and Skins,Export,Export Product share(%),0.0005
+Angola,2021,World,Miscellaneous,Export,Export Product share(%),0.1905
+Angola,2021,World,Intermediate goods,Import,Import Product share(%),18.2666
+Angola,2021,World,Consumer goods,Import,Import Product share(%),44.7353
+Angola,2021,World,Capital goods,Import,Import Product share(%),29.8159
+Angola,2021,World,Raw materials,Import,Import Product share(%),7.1715
+Angola,2021,World,Intermediate goods,Tariff,Weighted Average (%),14.3441447007018
+Angola,2021,World,Capital goods,Tariff,Weighted Average (%),2.68415819584799
+Angola,2021,World,Consumer goods,Tariff,Weighted Average (%),19.4363575811971
+Angola,2021,World,Raw materials,Tariff,Weighted Average (%),13.2581158471049
+Angola,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Angola,2021,World,All Products,Trade Indicator,Country Growth (%),18.2122955538453
+Angola,2021,World,All Products,Tariff,Simple Average (%),12.0335490762232
+Angola,2021,World,All Products,Tariff,Weighted Average (%),11.3318485141917
+Angola,2021,World,All Products,Tariff,Maximum Rate (%),70
+Angola,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),34.0203371323279
+Angola,2021,...,...,Trade Indicator,Index of export market penetration,1.83542520892673
+Angola,2021,...,...,Trade Indicator,HH Market concentration index,0.395790289840549

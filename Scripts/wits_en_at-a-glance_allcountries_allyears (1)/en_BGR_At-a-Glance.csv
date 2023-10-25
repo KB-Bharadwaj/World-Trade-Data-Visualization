@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Bulgaria,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,6127.78651291814
+Bulgaria,2021,Romania,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4150.86656377214
+Bulgaria,2021,Italy,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3100.79919118137
+Bulgaria,2021,Greece,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2868.58843703567
+Bulgaria,2021,Turkey,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2543.8414080143
+Bulgaria,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,5674.96454129111
+Bulgaria,2021,Turkey,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3635.17073468007
+Bulgaria,2021,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3523.94866421999
+Bulgaria,2021,Romania,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3497.73740184843
+Bulgaria,2021,Italy,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3059.15678692922
+Bulgaria,2021,World,Food Products,Export,Export(US$ Mil),2244.60938341838
+Bulgaria,2021,World,Footwear,Export,Export(US$ Mil),232.605613175131
+Bulgaria,2021,World,Consumer goods,Export,Export(US$ Mil),12616.075087568
+Bulgaria,2021,World,Vegetable,Export,Export(US$ Mil),4333.38018625453
+Bulgaria,2021,World,Textiles and Clothing,Export,Export(US$ Mil),2252.0833438042
+Bulgaria,2021,World,Intermediate goods,Export,Export(US$ Mil),12896.0238151134
+Bulgaria,2021,World,Animal,Export,Export(US$ Mil),552.664402322407
+Bulgaria,2021,World,Wood,Export,Export(US$ Mil),1001.58181443267
+Bulgaria,2021,World,Raw materials,Export,Export(US$ Mil),5912.44404172038
+Bulgaria,2021,World,Plastic or Rubber,Export,Export(US$ Mil),1913.20353572166
+Bulgaria,2021,World,Transportation,Export,Export(US$ Mil),1769.72759681104
+Bulgaria,2021,World,Minerals,Export,Export(US$ Mil),1425.96659697412
+Bulgaria,2021,World,Stone and Glass,Export,Export(US$ Mil),1092.78220324713
+Bulgaria,2021,World,Capital goods,Export,Export(US$ Mil),8660.07788979266
+Bulgaria,2021,World,Chemicals,Export,Export(US$ Mil),3795.02277290467
+Bulgaria,2021,World,Mach and Elec,Export,Export(US$ Mil),7513.52579413108
+Bulgaria,2021,World,Fuels,Export,Export(US$ Mil),2487.7704910047
+Bulgaria,2021,World,Metals,Export,Export(US$ Mil),7250.71058452273
+Bulgaria,2021,World,Hides and Skins,Export,Export(US$ Mil),99.4506367745094
+Bulgaria,2021,World,Miscellaneous,Export,Export(US$ Mil),3405.77173179358
+Bulgaria,2021,World,Capital goods,Import,Import(US$ Mil),9864.10023911452
+Bulgaria,2021,World,Intermediate goods,Import,Import(US$ Mil),11645.637929646
+Bulgaria,2021,World,Consumer goods,Import,Import(US$ Mil),15251.7631863337
+Bulgaria,2021,World,Raw materials,Import,Import(US$ Mil),7474.60734443177
+Bulgaria,2021,World,All Products,Export,Exports (in US$ Mil),41370.8566872925
+Bulgaria,2021,World,All Products,Import,Imports (in US$ Mil),46395.7773424276
+Bulgaria,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),13468305.4468487
+Bulgaria,2021,...,...,Tariff,No. Of Tariff Agreement,
+Bulgaria,2021,...,...,Import,No. Of Import partners,172
+Bulgaria,2021,...,...,Import,No. Of Import products,4323
+Bulgaria,2021,...,...,Export,No. Of Export partners,204
+Bulgaria,2021,...,...,Export,No. Of Export products,3871
+Bulgaria,2019,...,...,Others,Ease of Doing Business Rank,61
+Bulgaria,2019,...,...,Others,Trading Across Borders Rank,21
+Bulgaria,2018,...,...,Others,Population,7024216
+Bulgaria,2016,...,...,Others,LPI Rank,72
+Bulgaria,,...,...,Others,Services Trade Restrictions Index - Over All,15.5
+Bulgaria,2016,...,...,Others,LPI Score,2.807685
+Bulgaria,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,14.8118
+Bulgaria,2021,Romania,All Products,Export,Partner share(%)-Top 5 Export Partner,10.0333
+Bulgaria,2021,Italy,All Products,Export,Partner share(%)-Top 5 Export Partner,7.4951
+Bulgaria,2021,Greece,All Products,Export,Partner share(%)-Top 5 Export Partner,6.9338
+Bulgaria,2021,Turkey,All Products,Export,Partner share(%)-Top 5 Export Partner,6.1489
+Bulgaria,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,12.2316
+Bulgaria,2021,Turkey,All Products,Import,Partner share(%)-Top 5 Import Partner,7.8351
+Bulgaria,2021,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,7.5954
+Bulgaria,2021,Romania,All Products,Import,Partner share(%)-Top 5 Import Partner,7.5389
+Bulgaria,2021,Italy,All Products,Import,Partner share(%)-Top 5 Import Partner,6.5936
+Bulgaria,2021,World,Vegetable,Export,Export Product share(%),10.4745
+Bulgaria,2021,World,Textiles and Clothing,Export,Export Product share(%),5.4436
+Bulgaria,2021,World,Intermediate goods,Export,Export Product share(%),31.1718
+Bulgaria,2021,World,Food Products,Export,Export Product share(%),5.4256
+Bulgaria,2021,World,Footwear,Export,Export Product share(%),0.5622
+Bulgaria,2021,World,Consumer goods,Export,Export Product share(%),30.4951
+Bulgaria,2021,World,Fuels,Export,Export Product share(%),6.0133
+Bulgaria,2021,World,Metals,Export,Export Product share(%),17.5261
+Bulgaria,2021,World,Animal,Export,Export Product share(%),1.3359
+Bulgaria,2021,World,Wood,Export,Export Product share(%),2.421
+Bulgaria,2021,World,Raw materials,Export,Export Product share(%),14.2913
+Bulgaria,2021,World,Chemicals,Export,Export Product share(%),9.1732
+Bulgaria,2021,World,Mach and Elec,Export,Export Product share(%),18.1614
+Bulgaria,2021,World,Minerals,Export,Export Product share(%),3.4468
+Bulgaria,2021,World,Stone and Glass,Export,Export Product share(%),2.6414
+Bulgaria,2021,World,Capital goods,Export,Export Product share(%),20.9328
+Bulgaria,2021,World,Hides and Skins,Export,Export Product share(%),0.2404
+Bulgaria,2021,World,Miscellaneous,Export,Export Product share(%),8.2323
+Bulgaria,2021,World,Plastic or Rubber,Export,Export Product share(%),4.6245
+Bulgaria,2021,World,Transportation,Export,Export Product share(%),4.2777
+Bulgaria,2021,World,Intermediate goods,Import,Import Product share(%),25.1006
+Bulgaria,2021,World,Capital goods,Import,Import Product share(%),21.2608
+Bulgaria,2021,World,Raw materials,Import,Import Product share(%),16.1105
+Bulgaria,2021,World,Consumer goods,Import,Import Product share(%),32.8732
+Bulgaria,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.38930361309396
+Bulgaria,2021,World,Consumer goods,Tariff,Weighted Average (%),2.46184924921093
+Bulgaria,2021,World,Capital goods,Tariff,Weighted Average (%),0.772137021571554
+Bulgaria,2021,World,Raw materials,Tariff,Weighted Average (%),0.36527524851159
+Bulgaria,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Bulgaria,2021,World,All Products,Trade Indicator,Country Growth (%),17.1004880930935
+Bulgaria,2021,World,All Products,Tariff,Simple Average (%),2.44766105650463
+Bulgaria,2021,World,All Products,Tariff,Weighted Average (%),1.39233375150591
+Bulgaria,2021,World,All Products,Tariff,Maximum Rate (%),209.190093994141
+Bulgaria,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),54.173539470864
+Bulgaria,2021,...,...,Trade Indicator,Index of export market penetration,10.7301169407542
+Bulgaria,2021,...,...,Trade Indicator,HH Market concentration index,0.0582965973020981

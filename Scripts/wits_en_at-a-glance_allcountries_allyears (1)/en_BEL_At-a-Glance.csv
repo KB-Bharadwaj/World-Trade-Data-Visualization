@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Belgium,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,65823.6957669605
+Belgium,2021,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,53115.6554456803
+Belgium,2021,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,47637.7411774105
+Belgium,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,26690.6247224444
+Belgium,2021,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,23950.1295512078
+Belgium,2021,Netherlands,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,83001.1154602863
+Belgium,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,63246.1806788759
+Belgium,2021,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,40560.5030008212
+Belgium,2021,Ireland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,21998.1031754038
+Belgium,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,19271.2849171785
+Belgium,2021,World,Chemicals,Export,Export(US$ Mil),113139.169894088
+Belgium,2021,World,Mach and Elec,Export,Export(US$ Mil),37001.9058321865
+Belgium,2021,World,Minerals,Export,Export(US$ Mil),1888.09248469815
+Belgium,2021,World,Stone and Glass,Export,Export(US$ Mil),25254.4295679943
+Belgium,2021,World,Capital goods,Export,Export(US$ Mil),59242.9696917484
+Belgium,2021,World,Hides and Skins,Export,Export(US$ Mil),647.089630937156
+Belgium,2021,World,Miscellaneous,Export,Export(US$ Mil),15970.9983542474
+Belgium,2021,World,Food Products,Export,Export(US$ Mil),22373.8325954043
+Belgium,2021,World,Footwear,Export,Export(US$ Mil),606.609952896252
+Belgium,2021,World,Consumer goods,Export,Export(US$ Mil),141065.288904467
+Belgium,2021,World,Vegetable,Export,Export(US$ Mil),10600.696224003
+Belgium,2021,World,Textiles and Clothing,Export,Export(US$ Mil),7408.29438633299
+Belgium,2021,World,Intermediate goods,Export,Export(US$ Mil),156265.967997824
+Belgium,2021,World,Plastic or Rubber,Export,Export(US$ Mil),28001.5341749592
+Belgium,2021,World,Transportation,Export,Export(US$ Mil),40278.142519532
+Belgium,2021,World,Animal,Export,Export(US$ Mil),9094.24308311194
+Belgium,2021,World,Wood,Export,Export(US$ Mil),7936.29746134732
+Belgium,2021,World,Raw materials,Export,Export(US$ Mil),27929.0491173852
+Belgium,2021,World,Fuels,Export,Export(US$ Mil),34077.3623494926
+Belgium,2021,World,Metals,Export,Export(US$ Mil),32075.3566920075
+Belgium,2021,World,Intermediate goods,Import,Import(US$ Mil),122661.637372452
+Belgium,2021,World,Capital goods,Import,Import(US$ Mil),73776.091262739
+Belgium,2021,World,Raw materials,Import,Import(US$ Mil),58279.607095367
+Belgium,2021,World,Consumer goods,Import,Import(US$ Mil),138177.766922252
+Belgium,2021,World,All Products,Export,Exports (in US$ Mil),386354.055203238
+Belgium,2021,World,All Products,Import,Imports (in US$ Mil),393654.602370278
+Belgium,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),79010681.0434298
+Belgium,2021,...,...,Tariff,No. Of Tariff Agreement,
+Belgium,2021,...,...,Import,No. Of Import partners,233
+Belgium,2021,...,...,Import,No. Of Import products,4513
+Belgium,2021,...,...,Export,No. Of Export partners,231
+Belgium,2021,...,...,Export,No. Of Export products,4481
+Belgium,2019,...,...,Others,Ease of Doing Business Rank,46
+Belgium,2019,...,...,Others,Trading Across Borders Rank,1
+Belgium,2018,...,...,Others,Population,11422068
+Belgium,2016,...,...,Others,LPI Score,4.108538
+Belgium,,...,...,Others,Services Trade Restrictions Index - Over All,22.5
+Belgium,2016,...,...,Others,LPI Rank,6
+Belgium,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,17.0371
+Belgium,2021,France,All Products,Export,Partner share(%)-Top 5 Export Partner,13.7479
+Belgium,2021,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,12.3301
+Belgium,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,6.9083
+Belgium,2021,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,6.199
+Belgium,2021,Netherlands,All Products,Import,Partner share(%)-Top 5 Import Partner,21.0848
+Belgium,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,16.0664
+Belgium,2021,France,All Products,Import,Partner share(%)-Top 5 Import Partner,10.3036
+Belgium,2021,Ireland,All Products,Import,Partner share(%)-Top 5 Import Partner,5.5882
+Belgium,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,4.8955
+Belgium,2021,World,Vegetable,Export,Export Product share(%),2.7438
+Belgium,2021,World,Textiles and Clothing,Export,Export Product share(%),1.9175
+Belgium,2021,World,Intermediate goods,Export,Export Product share(%),40.4463
+Belgium,2021,World,Food Products,Export,Export Product share(%),5.791
+Belgium,2021,World,Footwear,Export,Export Product share(%),0.157
+Belgium,2021,World,Consumer goods,Export,Export Product share(%),36.5119
+Belgium,2021,World,Minerals,Export,Export Product share(%),0.4887
+Belgium,2021,World,Stone and Glass,Export,Export Product share(%),6.5366
+Belgium,2021,World,Capital goods,Export,Export Product share(%),15.3339
+Belgium,2021,World,Fuels,Export,Export Product share(%),8.8202
+Belgium,2021,World,Metals,Export,Export Product share(%),8.3021
+Belgium,2021,World,Hides and Skins,Export,Export Product share(%),0.1675
+Belgium,2021,World,Miscellaneous,Export,Export Product share(%),4.1338
+Belgium,2021,World,Animal,Export,Export Product share(%),2.3539
+Belgium,2021,World,Wood,Export,Export Product share(%),2.0542
+Belgium,2021,World,Raw materials,Export,Export Product share(%),7.2289
+Belgium,2021,World,Chemicals,Export,Export Product share(%),29.2838
+Belgium,2021,World,Mach and Elec,Export,Export Product share(%),9.5772
+Belgium,2021,World,Plastic or Rubber,Export,Export Product share(%),7.2476
+Belgium,2021,World,Transportation,Export,Export Product share(%),10.4252
+Belgium,2021,World,Intermediate goods,Import,Import Product share(%),31.1597
+Belgium,2021,World,Consumer goods,Import,Import Product share(%),35.1013
+Belgium,2021,World,Capital goods,Import,Import Product share(%),18.7413
+Belgium,2021,World,Raw materials,Import,Import Product share(%),14.8048
+Belgium,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.53571964493655
+Belgium,2021,World,Consumer goods,Tariff,Weighted Average (%),1.5163193320088
+Belgium,2021,World,Capital goods,Tariff,Weighted Average (%),0.616961403211992
+Belgium,2021,World,Raw materials,Tariff,Weighted Average (%),0.564072402669522
+Belgium,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Belgium,2021,World,All Products,Trade Indicator,Country Growth (%),14.4543665559054
+Belgium,2021,World,All Products,Tariff,Simple Average (%),2.1164741714184
+Belgium,2021,World,All Products,Tariff,Weighted Average (%),1.17105187221623
+Belgium,2021,World,All Products,Tariff,Maximum Rate (%),275.476013183594
+Belgium,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),63.423384189221
+Belgium,2021,...,...,Trade Indicator,Index of export market penetration,24.9235008529064
+Belgium,2021,...,...,Trade Indicator,HH Market concentration index,0.0782919939800399

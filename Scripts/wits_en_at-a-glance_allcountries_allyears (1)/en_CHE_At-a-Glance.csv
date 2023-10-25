@@ -1,0 +1,96 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Switzerland,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,62673.9786248917
+Switzerland,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,55240.4729511979
+Switzerland,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,33066.4921898436
+Switzerland,2021,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,31409.2393285863
+Switzerland,2021,Italy,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,20196.8637665752
+Switzerland,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,62360.1573880106
+Switzerland,2021,United Kingdom,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,36389.8740394069
+Switzerland,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,24292.9226139388
+Switzerland,2021,Italy,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,24049.7367936684
+Switzerland,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,19791.1896980823
+Switzerland,2021,World,Fuels,Export,Export(US$ Mil),4277.35453701788
+Switzerland,2021,World,Metals,Export,Export(US$ Mil),11149.9245530337
+Switzerland,2021,World,Animal,Export,Export(US$ Mil),1064.56294562098
+Switzerland,2021,World,Wood,Export,Export(US$ Mil),2233.38198475047
+Switzerland,2021,World,Raw materials,Export,Export(US$ Mil),2861.28678945394
+Switzerland,2021,World,Food Products,Export,Export(US$ Mil),5903.8615471215
+Switzerland,2021,World,Footwear,Export,Export(US$ Mil),924.790158330832
+Switzerland,2021,World,Consumer goods,Export,Export(US$ Mil),122072.808632811
+Switzerland,2021,World,Minerals,Export,Export(US$ Mil),385.334712705251
+Switzerland,2021,World,Stone and Glass,Export,Export(US$ Mil),106665.851909627
+Switzerland,2021,World,Capital goods,Export,Export(US$ Mil),56586.3145797803
+Switzerland,2021,World,Plastic or Rubber,Export,Export(US$ Mil),6686.84048955182
+Switzerland,2021,World,Transportation,Export,Export(US$ Mil),6087.30210353673
+Switzerland,2021,World,Chemicals,Export,Export(US$ Mil),140174.607716375
+Switzerland,2021,World,Mach and Elec,Export,Export(US$ Mil),37570.4821374105
+Switzerland,2021,World,Hides and Skins,Export,Export(US$ Mil),802.228089221102
+Switzerland,2021,World,Miscellaneous,Export,Export(US$ Mil),47662.3580158873
+Switzerland,2021,World,Vegetable,Export,Export(US$ Mil),3984.17567296105
+Switzerland,2021,World,Textiles and Clothing,Export,Export(US$ Mil),4197.87046973924
+Switzerland,2021,World,Intermediate goods,Export,Export(US$ Mil),196749.487412555
+Switzerland,2021,World,Raw materials,Import,Import(US$ Mil),9859.74945789523
+Switzerland,2021,World,Intermediate goods,Import,Import(US$ Mil),153147.775404009
+Switzerland,2021,World,Consumer goods,Import,Import(US$ Mil),109125.195335962
+Switzerland,2021,World,Capital goods,Import,Import(US$ Mil),51132.7881722936
+Switzerland,2021,World,All Products,Export,Exports (in US$ Mil),379770.927042891
+Switzerland,2021,World,All Products,Import,Imports (in US$ Mil),323356.086951794
+Switzerland,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),273377085.05988
+Switzerland,2021,...,...,Tariff,No. Of Tariff Agreement,47
+Switzerland,2021,...,...,Import,No. Of Import partners,198
+Switzerland,2021,...,...,Import,No. Of Import products,4522
+Switzerland,2021,...,...,Export,No. Of Export partners,223
+Switzerland,2021,...,...,Export,No. Of Export products,4334
+Switzerland,2018,...,...,Others,Population,8516543
+Switzerland,2016,...,...,Others,LPI Score,3.987158
+Switzerland,2016,...,...,Others,LPI Rank,11
+Switzerland,2019,...,...,Others,Ease of Doing Business Rank,36
+Switzerland,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0510602
+Switzerland,2019,...,...,Others,Trading Across Borders Rank,26
+Switzerland,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.035908
+Switzerland,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,16.5031
+Switzerland,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,14.5457
+Switzerland,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,8.707
+Switzerland,2021,India,All Products,Export,Partner share(%)-Top 5 Export Partner,8.2706
+Switzerland,2021,Italy,All Products,Export,Partner share(%)-Top 5 Export Partner,5.3182
+Switzerland,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,19.2853
+Switzerland,2021,United Kingdom,All Products,Import,Partner share(%)-Top 5 Import Partner,11.2538
+Switzerland,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,7.5127
+Switzerland,2021,Italy,All Products,Import,Partner share(%)-Top 5 Import Partner,7.4375
+Switzerland,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,6.1206
+Switzerland,2021,World,Vegetable,Export,Export Product share(%),1.0491
+Switzerland,2021,World,Textiles and Clothing,Export,Export Product share(%),1.1054
+Switzerland,2021,World,Intermediate goods,Export,Export Product share(%),51.8074
+Switzerland,2021,World,Food Products,Export,Export Product share(%),1.5546
+Switzerland,2021,World,Footwear,Export,Export Product share(%),0.2435
+Switzerland,2021,World,Consumer goods,Export,Export Product share(%),32.1438
+Switzerland,2021,World,Fuels,Export,Export Product share(%),1.1263
+Switzerland,2021,World,Metals,Export,Export Product share(%),2.936
+Switzerland,2021,World,Minerals,Export,Export Product share(%),0.1015
+Switzerland,2021,World,Stone and Glass,Export,Export Product share(%),28.0869
+Switzerland,2021,World,Capital goods,Export,Export Product share(%),14.9001
+Switzerland,2021,World,Chemicals,Export,Export Product share(%),36.9103
+Switzerland,2021,World,Mach and Elec,Export,Export Product share(%),9.8929
+Switzerland,2021,World,Hides and Skins,Export,Export Product share(%),0.2112
+Switzerland,2021,World,Miscellaneous,Export,Export Product share(%),12.5503
+Switzerland,2021,World,Animal,Export,Export Product share(%),0.2803
+Switzerland,2021,World,Wood,Export,Export Product share(%),0.5881
+Switzerland,2021,World,Raw materials,Export,Export Product share(%),0.7534
+Switzerland,2021,World,Plastic or Rubber,Export,Export Product share(%),1.7608
+Switzerland,2021,World,Transportation,Export,Export Product share(%),1.6029
+Switzerland,2021,World,Intermediate goods,Import,Import Product share(%),47.362
+Switzerland,2021,World,Consumer goods,Import,Import Product share(%),33.7477
+Switzerland,2021,World,Capital goods,Import,Import Product share(%),15.8132
+Switzerland,2021,World,Raw materials,Import,Import Product share(%),3.0492
+Switzerland,2021,World,Intermediate goods,Tariff,Weighted Average (%),0.238195096629475
+Switzerland,2021,World,Capital goods,Tariff,Weighted Average (%),0.0536765776707298
+Switzerland,2021,World,Consumer goods,Tariff,Weighted Average (%),1.56953338180323
+Switzerland,2021,World,Raw materials,Tariff,Weighted Average (%),24.3397677031036
+Switzerland,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Switzerland,2021,World,All Products,Trade Indicator,Country Growth (%),10.6704936168379
+Switzerland,2021,World,All Products,Tariff,Simple Average (%),4.13307401124068
+Switzerland,2021,World,All Products,Tariff,Weighted Average (%),1.40212589438083
+Switzerland,2021,World,All Products,Tariff,Maximum Rate (%),3000
+Switzerland,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),72.5655848769446
+Switzerland,2021,...,...,Trade Indicator,Index of export market penetration,20.6922560396856
+Switzerland,2021,...,...,Trade Indicator,HH Market concentration index,0.0708002052340355

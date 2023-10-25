@@ -1,0 +1,99 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Benin,2021,Bangladesh,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,427.111581156839
+Benin,2021,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,101.897175956081
+Benin,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,100.606571692383
+Benin,2021,Vietnam,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,51.285946476757
+Benin,2021,Chad,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,36.5777277665944
+Benin,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,546.925636183429
+Benin,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,374.044653403349
+Benin,2021,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,349.97272798043
+Benin,2021,Belgium,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,177.730680215714
+Benin,2021,Togo,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,133.172235158597
+Benin,2021,World,Vegetable,Export,Export(US$ Mil),127.722706619742
+Benin,2021,World,Textiles and Clothing,Export,Export(US$ Mil),641.038669651896
+Benin,2021,World,Intermediate goods,Export,Export(US$ Mil),146.824606046791
+Benin,2021,World,Minerals,Export,Export(US$ Mil),11.6286869647228
+Benin,2021,World,Stone and Glass,Export,Export(US$ Mil),16.385894152328
+Benin,2021,World,Capital goods,Export,Export(US$ Mil),33.3682371788672
+Benin,2021,World,Fuels,Export,Export(US$ Mil),37.3367320271982
+Benin,2021,World,Metals,Export,Export(US$ Mil),64.2257638870042
+Benin,2021,World,Plastic or Rubber,Export,Export(US$ Mil),2.69259241251951
+Benin,2021,World,Transportation,Export,Export(US$ Mil),9.34767751311933
+Benin,2021,World,Chemicals,Export,Export(US$ Mil),8.18772430336887
+Benin,2021,World,Mach and Elec,Export,Export(US$ Mil),23.4831267458395
+Benin,2021,World,Food Products,Export,Export(US$ Mil),47.375615545171
+Benin,2021,World,Footwear,Export,Export(US$ Mil),0.12251003948955
+Benin,2021,World,Consumer goods,Export,Export(US$ Mil),89.1311907816427
+Benin,2021,World,Hides and Skins,Export,Export(US$ Mil),0.06905289986511
+Benin,2021,World,Miscellaneous,Export,Export(US$ Mil),2.23563345303063
+Benin,2021,World,Animal,Export,Export(US$ Mil),0.57533875086993
+Benin,2021,World,Wood,Export,Export(US$ Mil),31.0942989323631
+Benin,2021,World,Raw materials,Export,Export(US$ Mil),734.706130896005
+Benin,2021,World,Intermediate goods,Import,Import(US$ Mil),602.953786350326
+Benin,2021,World,Capital goods,Import,Import(US$ Mil),537.33650779356
+Benin,2021,World,Consumer goods,Import,Import(US$ Mil),1740.64851287749
+Benin,2021,World,Raw materials,Import,Import(US$ Mil),299.159199147092
+Benin,2021,World,All Products,Export,Exports (in US$ Mil),1023.52202389853
+Benin,2021,World,All Products,Import,Imports (in US$ Mil),3186.19803811192
+Benin,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),439634.813024923
+Benin,2021,...,...,Tariff,No. Of Tariff Agreement,2
+Benin,2021,...,...,Import,No. Of Import partners,144
+Benin,2021,...,...,Import,No. Of Import products,2990
+Benin,2021,...,...,Export,No. Of Export partners,92
+Benin,2021,...,...,Export,No. Of Export products,678
+Benin,2018,...,...,Others,Population,11485048
+Benin,2018,...,...,Others,CPIA Trade Ratings,4
+Benin,2016,...,...,Others,LPI Score,2.428125
+Benin,2016,...,...,Others,LPI Rank,115
+Benin,2019,...,...,Others,Ease of Doing Business Rank,149
+Benin,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5052
+Benin,2014,...,...,Others,No Of NTM Measures,62
+Benin,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1172308
+Benin,2019,...,...,Others,Trading Across Borders Rank,110
+Benin,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.1091418
+Benin,2021,Bangladesh,All Products,Export,Partner share(%)-Top 5 Export Partner,41.7296
+Benin,2021,India,All Products,Export,Partner share(%)-Top 5 Export Partner,9.9555
+Benin,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,9.8294
+Benin,2021,Vietnam,All Products,Export,Partner share(%)-Top 5 Export Partner,5.0107
+Benin,2021,Chad,All Products,Export,Partner share(%)-Top 5 Export Partner,3.5737
+Benin,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,17.1655
+Benin,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,11.7395
+Benin,2021,France,All Products,Import,Partner share(%)-Top 5 Import Partner,10.984
+Benin,2021,Belgium,All Products,Import,Partner share(%)-Top 5 Import Partner,5.5781
+Benin,2021,Togo,All Products,Import,Partner share(%)-Top 5 Import Partner,4.1797
+Benin,2021,World,Vegetable,Export,Export Product share(%),12.4787
+Benin,2021,World,Textiles and Clothing,Export,Export Product share(%),62.6307
+Benin,2021,World,Intermediate goods,Export,Export Product share(%),14.345
+Benin,2021,World,Minerals,Export,Export Product share(%),1.1361
+Benin,2021,World,Stone and Glass,Export,Export Product share(%),1.6009
+Benin,2021,World,Capital goods,Export,Export Product share(%),3.2601
+Benin,2021,World,Fuels,Export,Export Product share(%),3.6479
+Benin,2021,World,Metals,Export,Export Product share(%),6.275
+Benin,2021,World,Chemicals,Export,Export Product share(%),0.8
+Benin,2021,World,Mach and Elec,Export,Export Product share(%),2.2943
+Benin,2021,World,Hides and Skins,Export,Export Product share(%),0.0067
+Benin,2021,World,Miscellaneous,Export,Export Product share(%),0.2184
+Benin,2021,World,Animal,Export,Export Product share(%),0.0562
+Benin,2021,World,Wood,Export,Export Product share(%),3.038
+Benin,2021,World,Raw materials,Export,Export Product share(%),71.7822
+Benin,2021,World,Plastic or Rubber,Export,Export Product share(%),0.2631
+Benin,2021,World,Transportation,Export,Export Product share(%),0.9133
+Benin,2021,World,Food Products,Export,Export Product share(%),4.6287
+Benin,2021,World,Footwear,Export,Export Product share(%),0.012
+Benin,2021,World,Consumer goods,Export,Export Product share(%),8.7083
+Benin,2021,World,Intermediate goods,Import,Import Product share(%),18.9239
+Benin,2021,World,Capital goods,Import,Import Product share(%),16.8645
+Benin,2021,World,Consumer goods,Import,Import Product share(%),54.6309
+Benin,2021,World,Raw materials,Import,Import Product share(%),9.3892
+Benin,2021,World,Intermediate goods,Tariff,Weighted Average (%),9.16771686318936
+Benin,2021,World,Capital goods,Tariff,Weighted Average (%),8.06733330002645
+Benin,2021,World,Consumer goods,Tariff,Weighted Average (%),11.2190727544748
+Benin,2021,World,Raw materials,Tariff,Weighted Average (%),24.8481300644235
+Benin,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Benin,2021,World,All Products,Trade Indicator,Country Growth (%),21.7388741011529
+Benin,2021,World,All Products,Tariff,Simple Average (%),11.3152283204512
+Benin,2021,World,All Products,Tariff,Weighted Average (%),10.8892801435972
+Benin,2021,World,All Products,Tariff,Maximum Rate (%),35
+Benin,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),21.3150437389626
+Benin,2021,...,...,Trade Indicator,Index of export market penetration,1.55353963695572
+Benin,2021,...,...,Trade Indicator,HH Market concentration index,0.318784481068873

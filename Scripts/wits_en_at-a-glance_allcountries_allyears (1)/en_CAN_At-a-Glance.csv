@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Canada,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,377983.779657918
+Canada,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,22404.738496709
+Canada,2021,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,13155.173156262
+Canada,2021,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,11569.58935001
+Canada,2021,Mexico,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,6541.054947179
+Canada,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,239020.890669047
+Canada,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,68559.619546811
+Canada,2021,Mexico,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,26994.855034087
+Canada,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,15139.531651957
+Canada,2021,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,12323.999196929
+Canada,2021,World,Food Products,Export,Export(US$ Mil),19337.449543315
+Canada,2021,World,Footwear,Export,Export(US$ Mil),251.649160078
+Canada,2021,World,Consumer goods,Export,Export(US$ Mil),123726.416414621
+Canada,2021,World,Vegetable,Export,Export(US$ Mil),31273.366950482
+Canada,2021,World,Textiles and Clothing,Export,Export(US$ Mil),3388.190237324
+Canada,2021,World,Intermediate goods,Export,Export(US$ Mil),131806.801189223
+Canada,2021,World,Animal,Export,Export(US$ Mil),15855.795624544
+Canada,2021,World,Wood,Export,Export(US$ Mil),37480.480940632
+Canada,2021,World,Raw materials,Export,Export(US$ Mil),148368.603765187
+Canada,2021,World,Plastic or Rubber,Export,Export(US$ Mil),20222.355202718
+Canada,2021,World,Transportation,Export,Export(US$ Mil),56800.780027752
+Canada,2021,World,Chemicals,Export,Export(US$ Mil),33696.306594004
+Canada,2021,World,Mach and Elec,Export,Export(US$ Mil),45478.465370151
+Canada,2021,World,Minerals,Export,Export(US$ Mil),15597.811971069
+Canada,2021,World,Stone and Glass,Export,Export(US$ Mil),23933.033540018
+Canada,2021,World,Capital goods,Export,Export(US$ Mil),76183.910004764
+Canada,2021,World,Fuels,Export,Export(US$ Mil),119885.741129596
+Canada,2021,World,Metals,Export,Export(US$ Mil),41722.878101523
+Canada,2021,World,Hides and Skins,Export,Export(US$ Mil),464.267678754
+Canada,2021,World,Miscellaneous,Export,Export(US$ Mil),36150.282802375
+Canada,2021,World,Intermediate goods,Import,Import(US$ Mil),102145.720772954
+Canada,2021,World,Consumer goods,Import,Import(US$ Mil),174770.955025074
+Canada,2021,World,Raw materials,Import,Import(US$ Mil),40753.150488522
+Canada,2021,World,Capital goods,Import,Import(US$ Mil),161532.096915157
+Canada,2021,World,All Products,Export,Exports (in US$ Mil),501538.854874334
+Canada,2021,World,All Products,Import,Imports (in US$ Mil),491400.949546148
+Canada,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),319185395.048766
+Canada,2021,...,...,Tariff,No. Of Tariff Agreement,23
+Canada,2021,...,...,Import,No. Of Import partners,223
+Canada,2021,...,...,Import,No. Of Import products,4536
+Canada,2021,...,...,Export,No. Of Export partners,222
+Canada,2021,...,...,Export,No. Of Export products,4375
+Canada,,...,...,Others,Services Trade Restrictions Index - Over All,21.6
+Canada,2016,...,...,Others,LPI Score,3.930707
+Canada,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,0.454475224
+Canada,2018,...,...,Others,Population,37058856
+Canada,2019,...,...,Others,Trading Across Borders Rank,51
+Canada,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0484893
+Canada,2019,...,...,Others,Ease of Doing Business Rank,23
+Canada,2015,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5319
+Canada,2015,...,...,Others,No Of NTM Measures,90
+Canada,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0709994
+Canada,2016,...,...,Others,LPI Rank,14
+Canada,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,1.394808173
+Canada,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,75.3648
+Canada,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,4.4672
+Canada,2021,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,2.623
+Canada,2021,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,2.3068
+Canada,2021,Mexico,All Products,Export,Partner share(%)-Top 5 Export Partner,1.3042
+Canada,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,48.6407
+Canada,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,13.9519
+Canada,2021,Mexico,All Products,Import,Partner share(%)-Top 5 Import Partner,5.4934
+Canada,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,3.0809
+Canada,2021,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,2.5079
+Canada,2021,World,Vegetable,Export,Export Product share(%),6.2355
+Canada,2021,World,Textiles and Clothing,Export,Export Product share(%),0.6756
+Canada,2021,World,Intermediate goods,Export,Export Product share(%),26.2805
+Canada,2021,World,Food Products,Export,Export Product share(%),3.8556
+Canada,2021,World,Footwear,Export,Export Product share(%),0.0502
+Canada,2021,World,Consumer goods,Export,Export Product share(%),24.6694
+Canada,2021,World,Animal,Export,Export Product share(%),3.1614
+Canada,2021,World,Wood,Export,Export Product share(%),7.4731
+Canada,2021,World,Raw materials,Export,Export Product share(%),29.5827
+Canada,2021,World,Fuels,Export,Export Product share(%),23.9036
+Canada,2021,World,Metals,Export,Export Product share(%),8.319
+Canada,2021,World,Plastic or Rubber,Export,Export Product share(%),4.0321
+Canada,2021,World,Transportation,Export,Export Product share(%),11.3253
+Canada,2021,World,Chemicals,Export,Export Product share(%),6.7186
+Canada,2021,World,Mach and Elec,Export,Export Product share(%),9.0678
+Canada,2021,World,Minerals,Export,Export Product share(%),3.11
+Canada,2021,World,Stone and Glass,Export,Export Product share(%),4.7719
+Canada,2021,World,Capital goods,Export,Export Product share(%),15.19
+Canada,2021,World,Hides and Skins,Export,Export Product share(%),0.0926
+Canada,2021,World,Miscellaneous,Export,Export Product share(%),7.2079
+Canada,2021,World,Intermediate goods,Import,Import Product share(%),20.7866
+Canada,2021,World,Capital goods,Import,Import Product share(%),32.8718
+Canada,2021,World,Consumer goods,Import,Import Product share(%),35.5659
+Canada,2021,World,Raw materials,Import,Import Product share(%),8.2933
+Canada,2021,World,Intermediate goods,Tariff,Weighted Average (%),0.414519250517715
+Canada,2021,World,Consumer goods,Tariff,Weighted Average (%),5.05878885549243
+Canada,2021,World,Raw materials,Tariff,Weighted Average (%),2.18258290446727
+Canada,2021,World,Capital goods,Tariff,Weighted Average (%),0.982531057828806
+Canada,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Canada,2021,World,All Products,Trade Indicator,Country Growth (%),14.0419307067356
+Canada,2021,World,All Products,Tariff,Simple Average (%),2.05569042866169
+Canada,2021,World,All Products,Tariff,Weighted Average (%),2.35461923265825
+Canada,2021,World,All Products,Tariff,Maximum Rate (%),656.390075683594
+Canada,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),80.3802645046237
+Canada,2021,...,...,Trade Indicator,Index of export market penetration,18.2172905094102
+Canada,2021,...,...,Trade Indicator,HH Market concentration index,0.500792158177487

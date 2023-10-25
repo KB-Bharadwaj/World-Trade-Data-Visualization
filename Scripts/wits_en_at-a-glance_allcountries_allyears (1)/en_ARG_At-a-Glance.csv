@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Argentina,2021,Brazil,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,11766.91566576
+Argentina,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,6155.9763773
+Argentina,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4995.20307321
+Argentina,2021,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4293.27336013
+Argentina,2021,Chile,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4204.8820988
+Argentina,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,13525.03927786
+Argentina,2021,Brazil,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,12391.97858168
+Argentina,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,5922.11710804001
+Argentina,2021,Paraguay,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2914.63250389
+Argentina,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2527.15161053
+Argentina,2021,World,Vegetable,Export,Export(US$ Mil),25451.63516757
+Argentina,2021,World,Textiles and Clothing,Export,Export(US$ Mil),408.85732259
+Argentina,2021,World,Intermediate goods,Export,Export(US$ Mil),18651.87384016
+Argentina,2021,World,Minerals,Export,Export(US$ Mil),87.58502112
+Argentina,2021,World,Stone and Glass,Export,Export(US$ Mil),838.9664831
+Argentina,2021,World,Capital goods,Export,Export(US$ Mil),4547.9284036
+Argentina,2021,World,Animal,Export,Export(US$ Mil),6200.32867706
+Argentina,2021,World,Wood,Export,Export(US$ Mil),595.07519912
+Argentina,2021,World,Raw materials,Export,Export(US$ Mil),22653.98340946
+Argentina,2021,World,Fuels,Export,Export(US$ Mil),3780.5213102
+Argentina,2021,World,Metals,Export,Export(US$ Mil),1517.79166554
+Argentina,2021,World,Food Products,Export,Export(US$ Mil),11713.5031129
+Argentina,2021,World,Footwear,Export,Export(US$ Mil),8.75989691
+Argentina,2021,World,Consumer goods,Export,Export(US$ Mil),6286.91573872
+Argentina,2021,World,Plastic or Rubber,Export,Export(US$ Mil),1243.81620096
+Argentina,2021,World,Transportation,Export,Export(US$ Mil),6218.18098556
+Argentina,2021,World,Chemicals,Export,Export(US$ Mil),3228.60007298
+Argentina,2021,World,Mach and Elec,Export,Export(US$ Mil),774.56649721
+Argentina,2021,World,Hides and Skins,Export,Export(US$ Mil),361.94301399
+Argentina,2021,World,Miscellaneous,Export,Export(US$ Mil),15504.18435977
+Argentina,2021,World,Consumer goods,Import,Import(US$ Mil),16786.70079415
+Argentina,2021,World,Capital goods,Import,Import(US$ Mil),21397.83396569
+Argentina,2021,World,Intermediate goods,Import,Import(US$ Mil),18984.64653567
+Argentina,2021,World,Raw materials,Import,Import(US$ Mil),5340.12406964
+Argentina,2021,World,All Products,Export,Exports (in US$ Mil),77934.31498658
+Argentina,2021,World,All Products,Import,Imports (in US$ Mil),63183.63761417
+Argentina,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),25039998.70554
+Argentina,2021,...,...,Tariff,No. Of Tariff Agreement,62
+Argentina,2021,...,...,Import,No. Of Import partners,177
+Argentina,2021,...,...,Import,No. Of Import products,4023
+Argentina,2021,...,...,Export,No. Of Export partners,153
+Argentina,2021,...,...,Export,No. Of Export products,1218
+Argentina,2016,...,...,Others,LPI Score,2.962629
+Argentina,2019,...,...,Others,Trading Across Borders Rank,119
+Argentina,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0916354
+Argentina,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,1.992624998
+Argentina,2018,...,...,Others,Population,44494502
+Argentina,,...,...,Others,Services Trade Restrictions Index - Over All,17
+Argentina,2019,...,...,Others,Ease of Doing Business Rank,126
+Argentina,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5205
+Argentina,2014,...,...,Others,No Of NTM Measures,73
+Argentina,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1447481
+Argentina,2016,...,...,Others,LPI Rank,66
+Argentina,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,3.022084475
+Argentina,2021,Brazil,All Products,Export,Partner share(%)-Top 5 Export Partner,15.0985
+Argentina,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,7.8989
+Argentina,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,6.4095
+Argentina,2021,India,All Products,Export,Partner share(%)-Top 5 Export Partner,5.5088
+Argentina,2021,Chile,All Products,Export,Partner share(%)-Top 5 Export Partner,5.3954
+Argentina,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,21.4059
+Argentina,2021,Brazil,All Products,Import,Partner share(%)-Top 5 Import Partner,19.6126
+Argentina,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,9.3729
+Argentina,2021,Paraguay,All Products,Import,Partner share(%)-Top 5 Import Partner,4.613
+Argentina,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,3.9997
+Argentina,2021,World,Food Products,Export,Export Product share(%),15.03
+Argentina,2021,World,Footwear,Export,Export Product share(%),0.0112
+Argentina,2021,World,Consumer goods,Export,Export Product share(%),8.0669
+Argentina,2021,World,Vegetable,Export,Export Product share(%),32.6578
+Argentina,2021,World,Textiles and Clothing,Export,Export Product share(%),0.5246
+Argentina,2021,World,Intermediate goods,Export,Export Product share(%),23.9328
+Argentina,2021,World,Chemicals,Export,Export Product share(%),4.1427
+Argentina,2021,World,Mach and Elec,Export,Export Product share(%),0.9939
+Argentina,2021,World,Plastic or Rubber,Export,Export Product share(%),1.596
+Argentina,2021,World,Transportation,Export,Export Product share(%),7.9787
+Argentina,2021,World,Animal,Export,Export Product share(%),7.9558
+Argentina,2021,World,Wood,Export,Export Product share(%),0.7636
+Argentina,2021,World,Raw materials,Export,Export Product share(%),29.068
+Argentina,2021,World,Minerals,Export,Export Product share(%),0.1124
+Argentina,2021,World,Stone and Glass,Export,Export Product share(%),1.0765
+Argentina,2021,World,Capital goods,Export,Export Product share(%),5.8356
+Argentina,2021,World,Fuels,Export,Export Product share(%),4.8509
+Argentina,2021,World,Metals,Export,Export Product share(%),1.9475
+Argentina,2021,World,Hides and Skins,Export,Export Product share(%),0.4644
+Argentina,2021,World,Miscellaneous,Export,Export Product share(%),19.8939
+Argentina,2021,World,Capital goods,Import,Import Product share(%),33.8661
+Argentina,2021,World,Consumer goods,Import,Import Product share(%),26.5681
+Argentina,2021,World,Intermediate goods,Import,Import Product share(%),30.0468
+Argentina,2021,World,Raw materials,Import,Import Product share(%),8.4518
+Argentina,2021,World,Intermediate goods,Tariff,Weighted Average (%),5.08533750776819
+Argentina,2021,World,Consumer goods,Tariff,Weighted Average (%),8.89062930033418
+Argentina,2021,World,Capital goods,Tariff,Weighted Average (%),7.48025564023196
+Argentina,2021,World,Raw materials,Tariff,Weighted Average (%),0.868455299403964
+Argentina,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Argentina,2021,World,All Products,Trade Indicator,Country Growth (%),15.4012342447738
+Argentina,2021,World,All Products,Tariff,Simple Average (%),11.8982116972702
+Argentina,2021,World,All Products,Tariff,Weighted Average (%),6.50576204296933
+Argentina,2021,World,All Products,Tariff,Maximum Rate (%),35
+Argentina,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),24.8439066303881
+Argentina,2021,...,...,Trade Indicator,Index of export market penetration,6.35317346833225
+Argentina,2021,...,...,Trade Indicator,HH Market concentration index,0.0474366803462003
