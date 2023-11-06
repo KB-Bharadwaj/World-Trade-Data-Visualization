@@ -4,32 +4,46 @@ import matplotlib.pyplot as plt
 import seaborn as sb
 import numpy as np
 import pandas as pd
+import csv
 #import json
 #from anytree import PostOrderIter
 #from anytree.importer import DictImporter
 #import ipywidgets as widgets
-#import plotly.graph_objs as go
+import plotly
+import plotly.graph_objs as go
 import squarify
 import os
 import math
-#import sankey
+import pySankey.sankey as sankey
 import networkx as nx
+from mpl_toolkits.basemap import Basemap
+from matplotlib.colors import LinearSegmentedColormap
+import plotly.graph_objects as go
+import pandas as pd
 app = Flask(__name__)
 country_mapping=dict()
-country_mapping['United States']='USA'
-country_mapping['Australia']='AUS'
+mappings_csv=open('country_vs_code.csv','r')
+reader=csv.DictReader(mappings_csv)
+for row in reader:
+  print(row)
+  country_mapping[row['Country']]=row['Code']
+print("country mappings")
+print(country_mapping)
+
+
 matplotlib.use('agg')
 #with open('flare.json') as f:
 #    js_data = json.loads(f.read())
 #importer = DictImporter()
 #root = importer.import_(js_data)
 
+
 @app.route("/")
 def hello():
   return render_template('index.html')
 @app.route("/country_analysis")
 def country_analysis():
-  return render_template("country_analysis.html",country_names=[{'cname':'United States'},{'cname':'Australia'}],
+  return render_template("country_analysis.html",country_names=[{'cname':x} for x in country_mapping],
                          years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],
                         indicator_types=[{'type_val':'Export'},{'type_val':'Import'}],show_plot=False,timeVal='2021',typeVal='Export',countryVal='United States'
                          )
@@ -99,13 +113,14 @@ def display_plot():
     #plt.colorbar()
     plt.savefig(os.path.join('static','treemap2.png'), bbox_inches='tight')
     #legend.savefig(os.path.join('static', 'treemap_legend.png'))
-    return render_template("country_analysis.html",country_names=[{'cname':'United States'},{'cname':'Australia'}],
+    return render_template("country_analysis.html",country_names=[{'cname':x} for x in country_mapping],
                          timeVal=year_val,typeVal=type_val,years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],
                         indicator_types=[{'type_val':'Export'},{'type_val':'Import'}],show_plot=True,countryVal=country_val
                          )
 @app.route('/network_graph')
 def network_graph():
-  return render_template("network_graph.html",country_names=[{'cname':'United States'},{'cname':'Australia'}],
+  return render_template("network_graph.html",#country_names=[{'cname':'United States'},{'cname':'Australia'}],
+                         country_names=[{'cname':x} for x in country_mapping],
                          years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],timeVal='2021',countryVal='United States',show_plot=False,
                          importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],impVal='Import')
 @app.route('/display_network_graph',methods=['GET','POST'])
@@ -224,11 +239,101 @@ def display_network_graph():
     print(exports_values)
     #plt.tight_layout(pad=3.0)
     plt.savefig(os.path.join('static','networkgraph.png'))
-    return render_template("network_graph.html",country_names=[{'cname':'United States'},{'cname':'Australia'}],
+    return render_template("network_graph.html",country_names=[{'cname':x} for x in country_mapping],
                          years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],timeVal=year_val,countryVal=country_val,show_plot=True,
                          importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],impVal=impoorexp)
 
-      
+@app.route('/map_viz')
+def map_viz():
+  return render_template("map_viz.html",
+                         country_names=[{'cname':x} for x in country_mapping],
+                         years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],
+                         show_plot=False,
+                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}]
+                         )
+
+@app.route('/display_geographic_map',methods=['GET','POST'])
+def display_geographic_map():
+  if(request.method=='POST'):
+    plt.clf()
+    plt.cla()
+    country_val=request.form['country2']
+    year_val=request.form['timeFrame2']
+    imp_exp=request.form['ImportOrExport']
+    ind_values=dict()
+    ind_values['Export']=['Export(US$ Mil)','Trade (US$ Mil)-Top 5 Export Partner']
+    ind_values['Import']=['Import(US$ Mil)','Trade (US$ Mil)-Top 5 Import Partner']
+    '''for f in os.listdir('wits_en_trade_summary_allcountries_allyears'):
+      with open('wits_en_trade_summary_allcountries_allyears/'+f) as currfile:
+        df=pd.read_csv(currfile)
+        if len(df)>0:
+          curr_country_name=df.iloc[0]['Reporter']
+          for index in range(len(df)):
+            if df.iloc[index]['Indicator Type']==imp_exp and df.iloc[index]['Indicator'] in ind_values[imp_exp] and pd.notnull(df.iloc[index][year_val]) and pd.notna(df.iloc[index][year_val]):
+              if curr_country_name in country_prods_dict:
+                temp=country_prods_dict[curr_country_name]
+                if df.iloc[index]['Product categories'] in temp:
+                  temp[df.iloc[index]['Product categories']]=temp[df.iloc[index]['Product categories']]+df.iloc[index][year_val]
+                else:
+                  temp[df.iloc[index]['Product categories']]=df.iloc[index][year_val]
+                country_prods_dict[curr_country_name]=temp
+              else:
+                country_prods_dict[curr_country_name]={df.iloc[index]['Product categories']:df.iloc[index][year_val]}'''
+    products_dict=dict()
+    with open('wits_en_trade_summary_allcountries_allyears/en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary.csv') as currfile:
+      curr_pd=pd.read_csv(currfile)
+      curr_pd=curr_pd.dropna(subset=['Product categories',str(year_val),'Indicator Type','Indicator'])
+      print(curr_pd.head())
+      if len(curr_pd)>0:
+        for i in range(len(curr_pd)):
+          if curr_pd.iloc[i]['Indicator Type']==imp_exp and curr_pd.iloc[i]['Indicator'] in ind_values[imp_exp] and pd.notnull(curr_pd.iloc[i][year_val] and pd.notna(curr_pd.iloc[i][year_val])):
+            curr_prod_cat=curr_pd.iloc[i]['Product categories']
+            if curr_prod_cat in products_dict:
+              products_dict[curr_prod_cat]=products_dict[curr_prod_cat]+curr_pd.iloc[i][year_val]
+            else:
+              products_dict[curr_prod_cat]=curr_pd.iloc[i][year_val]
+    countries=[]
+    products=[]
+    values=[]
+    data_san=[]
+    labels_san=[]
+    labels_san.append(country_val)
+    for prod in products_dict:
+      countries.append(country_val)
+      products.append(prod+":"+"\n"+str(products_dict[prod]))
+      labels_san.append(prod)
+      values.append(products_dict[prod])
+    aggr_data_frame=pd.DataFrame({'Country':countries,'Product':products,'Total value':values})
+    print(aggr_data_frame)
+    if len(aggr_data_frame)>0:
+      sankey.sankey(
+          left=aggr_data_frame['Country'], right=aggr_data_frame['Product'], 
+          leftWeight= aggr_data_frame['Total value'], rightWeight=aggr_data_frame['Total value'],
+          aspect=10,fontsize=7
+      )
+      data_san.append([go.sankey(
+        node=dict(
+          pad=15,
+          thickness=20,
+          line = dict(color = "black", width = 0.5),
+          label = aggr_data_frame['Country'],
+          color = "blue"
+        )
+      )])
+    else:
+      plt.annotate("No data to show for selected year",[0,0])
+    plt.axis('off')
+    plt.show()
+    plt.savefig(os.path.join('static','mapViz.png'))
+    
+    return render_template('map_viz.html', timeVal=year_val,impVal=imp_exp,countryVal=country_val,
+                           years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],
+                           country_names=[{'cname':x} for x in country_mapping],
+                           show_plot=True,
+                           importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}])
+
+
+
           
 @app.route('/homePage')
 def homePage():
