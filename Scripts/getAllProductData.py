@@ -21,7 +21,7 @@ for f in os.listdir('wits_en_trade_summary_allcountries_allyears'):
             indicator=row['Indicator']
             prod_cat=row['Product categories']
             if indicatorType!=None and (indicatorType=='Export' or indicatorType=='Import') and prod_cat!=None and prod_cat!='...':
-                if indicator!=None and (indicator=='Export(US$ Mil)' or indicator=='Trade (US$ Mil)-Top 5 Export Partner' or indicator=='Import(US$ Mil)' or indicator=='Trade (US$ Mil)-Top 5 Import Partner'):
+                if indicator!=None and (indicator=='Export(US$ Mil)' or indicator=='Import(US$ Mil)'):
                     for year in range(1988,2022):
                         if row[str(year)]!=None and row[str(year)]!="":
                             if prod_cat not in all_products_dict:
