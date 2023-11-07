@@ -5,7 +5,7 @@ import seaborn as sb
 import numpy as np
 import pandas as pd
 import csv
-#import json
+import json
 #from anytree import PostOrderIter
 #from anytree.importer import DictImporter
 #import ipywidgets as widgets
@@ -331,6 +331,84 @@ def display_geographic_map():
                            country_names=[{'cname':x} for x in country_mapping],
                            show_plot=True,
                            importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}])
+  
+@app.route('/bar_chart')
+def bar_chart():
+  product_categories=['All products',
+                        'Animal','Vegetable','Food Products',
+                        'Minerals','Fuels','Chemicals','Plastic or Rubber','Hides and Skins',
+                        'Wood','Textiles and Clothing','Footwear','Stone and Glass',
+                        'Metals','Mach and Elec','Transportation','	Miscellaneous',
+                        'All Products','Capital goods','Consumer goods','Intermediate goods','Raw materials',
+                        'Agricultural Raw Materials','Chemical','Food','Fuel','Manufactures',
+                        'Ores and Metals','Textiles','Machinery and Transport Equipment']
+  years_list=[]
+  for i in range(1988,2022):
+    years_list.append(i)
+  return render_template('bar_chart.html',
+                         show_plot=False,
+                         product_names=[{'pname':x} for x in product_categories],
+                         years=[{'year':x} for x in years_list],
+                         timeVal='2021',
+                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],
+                         impVal='Export'
+                         )
+
+@app.route('/display_bar_chart',methods=['GET','POST'])
+def display_bar_chart():
+  product_categories=['All products',
+                        'Animal','Vegetable','Food Products',
+                        'Minerals','Fuels','Chemicals','Plastic or Rubber','Hides and Skins',
+                        'Wood','Textiles and Clothing','Footwear','Stone and Glass',
+                        'Metals','Mach and Elec','Transportation','	Miscellaneous',
+                        'All Products','Capital goods','Consumer goods','Intermediate goods','Raw materials',
+                        'Agricultural Raw Materials','Chemical','Food','Fuel','Manufactures',
+                        'Ores and Metals','Textiles','Machinery and Transport Equipment']
+  years_list=[]
+  for i in range(1988,2022):
+    years_list.append(i)
+  if request.method=='POST':
+    plt.clf()
+    plt.cla()
+    product_name=request.form['Product']
+    year_val=request.form['timeFrame3']
+    imporexp=request.form['ImportOrExport']
+    summary_curr_dict=dict()
+    with open("product_summaries.json") as json_file:
+      product_summary_dict=json.load(json_file)
+      #print(f"summary dict is : {product_summary_dict[product_name]}")
+      if product_name not in product_summary_dict:
+        plt.annotate('No data to show for selected filters',[0,0])
+      else:
+        list_vals=product_summary_dict[product_name]
+        for x in list_vals:
+          if x[3]==imporexp and x[2]==str(year_val):
+            if x[0] in summary_curr_dict:
+              summary_curr_dict[x[0]]=summary_curr_dict[x[0]]+float(x[5])
+            else:
+              summary_curr_dict[x[0]]=float(x[5])
+      if len(product_summary_dict)==0:
+        plt.annotate('No data to show for selected filters',[0,0])
+      else:
+        x_vals=[]
+        y_vals=[]
+        for x in summary_curr_dict:
+          if x.strip()!='World' and len(x)>0:
+            x_vals.append(x)
+            y_vals.append(summary_curr_dict[x])
+        x_axis=list(range(len(x_vals)))
+        plt.bar(x=x_axis,height=y_vals)
+        plt.xticks(x_axis,x_vals, rotation ='vertical',fontsize='x-small')
+      plt.show()
+      plt.savefig(os.path.join('static','bargraph.png'),bbox_inches="tight")
+  return render_template('bar_chart.html',show_plot=True,
+                         productName=product_name,
+                         product_names=[{'pname':x} for x in product_categories],
+                         years=[{'year':x} for x in years_list],
+                         timeVal=str(year_val),
+                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],
+                         impVal=imporexp
+                         )
 
 
 
