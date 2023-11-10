@@ -340,7 +340,7 @@ def bar_chart():
                         'Minerals','Fuels','Chemicals','Plastic or Rubber','Hides and Skins',
                         'Wood','Textiles and Clothing','Footwear','Stone and Glass',
                         'Metals','Mach and Elec','Transportation','	Miscellaneous',
-                        'All Products','Capital goods','Consumer goods','Intermediate goods','Raw materials',
+                        'Capital goods','Consumer goods','Intermediate goods','Raw materials',
                         'Agricultural Raw Materials','Chemical','Food','Fuel','Manufactures',
                         'Ores and Metals','Textiles','Machinery and Transport Equipment']
   years_list=[]
@@ -349,7 +349,7 @@ def bar_chart():
   return render_template('bar_chart.html',
                          show_plot=False,
                          product_names=[{'pname':x} for x in product_categories],
-                         years=[{'year':x} for x in years_list],
+                         years=[{'year':str(x)} for x in years_list],
                          timeVal='2021',
                          importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],
                          impVal='Export'
@@ -362,7 +362,7 @@ def display_bar_chart():
                         'Minerals','Fuels','Chemicals','Plastic or Rubber','Hides and Skins',
                         'Wood','Textiles and Clothing','Footwear','Stone and Glass',
                         'Metals','Mach and Elec','Transportation','	Miscellaneous',
-                        'All Products','Capital goods','Consumer goods','Intermediate goods','Raw materials',
+                        'Capital goods','Consumer goods','Intermediate goods','Raw materials',
                         'Agricultural Raw Materials','Chemical','Food','Fuel','Manufactures',
                         'Ores and Metals','Textiles','Machinery and Transport Equipment']
   years_list=[]
@@ -379,7 +379,10 @@ def display_bar_chart():
       product_summary_dict=json.load(json_file)
       #print(f"summary dict is : {product_summary_dict[product_name]}")
       if product_name not in product_summary_dict:
-        plt.annotate('No data to show for selected filters',[0,0])
+        plt.clf()
+        plt.cla()
+        plt.annotate('No data to show for selected filters',[0.4,0.4])
+        plt.axis('off')
       else:
         list_vals=product_summary_dict[product_name]
         for x in list_vals:
@@ -389,17 +392,23 @@ def display_bar_chart():
             else:
               summary_curr_dict[x[0]]=float(x[5])
       if len(summary_curr_dict)==0:
-        plt.annotate('No data to show for selected filters',[0,0])
+        plt.clf()
+        plt.cla()
+        plt.annotate('No data to show for selected filters',[0.4,0.4])
+        plt.axis('off')
       else:
-        print(f"product summary dictionary is : {summary_curr_dict}")
+        #print(f"product summary dictionary is : {summary_curr_dict}")
         all_values=[]
         for x in summary_curr_dict:
           if x.strip()!='World' and len(x)>0:
             all_values.append((x,summary_curr_dict[x]))
         all_values.sort(key=lambda x:x[1])
-        print(f"all_values : {all_values}")
+        #print(f"all_values : {all_values}")
         if len(all_values)==0:
-          plt.annotate('No data to show for selected filters',[0,0])
+          plt.clf()
+          plt.cla()
+          plt.annotate('No data to show for selected filters',[0.4,0.4])
+          plt.axis('off')
         elif len(all_values)>0 and len(all_values)<=10:
           x_axis=list(range(len(all_values)))
           heights=[]
@@ -407,7 +416,7 @@ def display_bar_chart():
           for x in all_values:
             heights.append(x[1])
             x_vals.append(x[0])
-          print(f"heights : {heights}, x_vals: {x_vals},x_axis : {x_axis}")
+          #print(f"heights : {heights}, x_vals: {x_vals},x_axis : {x_axis}")
           plt.bar(x_axis,height=heights)
           plt.xticks(x_axis,x_vals,rotation='vertical',fontsize=10)
         else:
@@ -417,12 +426,12 @@ def display_bar_chart():
             temp=[start,min(start+9,len(all_values)-1)]
             list_ranges.append(temp)
             start=temp[1]+1
-          print(f"list_ranges are : {list_ranges}")
+          #print(f"list_ranges are : {list_ranges}")
           numrows=math.ceil(len(list_ranges)/3)
           numcols=3
           fig,axs=plt.subplots(numrows,numcols,figsize=(40,40),sharex=True,sharey=True,subplot_kw=dict(projection="polar"))
           axs[0, 0].set_xticks([])
-          print(f"axs : {len(axs)}, type: {type(axs)}")
+          #print(f"axs : {len(axs)}, type: {type(axs)}")
           for row in range(numrows):
             for col in range(numcols):
               if row*numcols+col<len(list_ranges):
@@ -434,7 +443,7 @@ def display_bar_chart():
                   x_vals.append(all_values[ind][0])
                   heights_curr.append(all_values[ind][1])
                 x_axis=list(range(len(x_vals)))
-                print(f"x_axis values are : {x_axis}")
+                #print(f"x_axis values are : {x_axis}, x_vals are : {x_vals}")
                 fig.add_subplot(numrows,numcols,row*numcols+col+1)
                 plt.bar(x_axis,height=heights_curr)
                 plt.xticks(x_axis,x_vals,rotation='vertical',fontsize=20)
@@ -442,12 +451,13 @@ def display_bar_chart():
                 axs[row,col].remove()
       #axs[0].tick_params(axis='x',visible=False)
       plt.tight_layout()
+      plt.suptitle(print("Bar plot shows the {imporexp} of all countries in year {year_val} for product category {product_name} \n Spatial posiion on X-axis encodes country names and spatial position on Y-axis is used to encode {imporexp} value is millions of USD"))
       plt.show()
       plt.savefig(os.path.join('static','bargraph.png'),bbox_inches="tight")
   return render_template('bar_chart.html',show_plot=True,
                          productName=product_name,
                          product_names=[{'pname':x} for x in product_categories],
-                         years=[{'year':x} for x in years_list],
+                         years=[{'year':str(x)} for x in years_list],
                          timeVal=year_val,
                          importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],
                          impVal=imporexp
