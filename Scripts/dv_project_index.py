@@ -401,7 +401,8 @@ def display_bar_chart():
         all_values=[]
         for x in summary_curr_dict:
           if x.strip()!='World' and len(x)>0:
-            all_values.append((x,summary_curr_dict[x]))
+            if x in summary_curr_dict and summary_curr_dict[x]>0:
+              all_values.append((x,summary_curr_dict[x]))
         all_values.sort(key=lambda x:x[1])
         #print(f"all_values : {all_values}")
         if len(all_values)==0:
