@@ -20,6 +20,7 @@ from mpl_toolkits.basemap import Basemap
 from matplotlib.colors import LinearSegmentedColormap
 import plotly.graph_objects as go
 import pandas as pd
+
 app = Flask(__name__)
 country_mapping=dict()
 mappings_csv=open('country_vs_code.csv','r')
@@ -387,25 +388,67 @@ def display_bar_chart():
               summary_curr_dict[x[0]]=summary_curr_dict[x[0]]+float(x[5])
             else:
               summary_curr_dict[x[0]]=float(x[5])
-      if len(product_summary_dict)==0:
+      if len(summary_curr_dict)==0:
         plt.annotate('No data to show for selected filters',[0,0])
       else:
-        x_vals=[]
-        y_vals=[]
+        print(f"product summary dictionary is : {summary_curr_dict}")
+        all_values=[]
         for x in summary_curr_dict:
           if x.strip()!='World' and len(x)>0:
-            x_vals.append(x)
-            y_vals.append(summary_curr_dict[x])
-        x_axis=list(range(len(x_vals)))
-        plt.bar(x=x_axis,height=y_vals)
-        plt.xticks(x_axis,x_vals, rotation ='vertical',fontsize='x-small')
+            all_values.append((x,summary_curr_dict[x]))
+        all_values.sort(key=lambda x:x[1])
+        print(f"all_values : {all_values}")
+        if len(all_values)==0:
+          plt.annotate('No data to show for selected filters',[0,0])
+        elif len(all_values)>0 and len(all_values)<=10:
+          x_axis=list(range(len(all_values)))
+          heights=[]
+          x_vals=[]
+          for x in all_values:
+            heights.append(x[1])
+            x_vals.append(x[0])
+          print(f"heights : {heights}, x_vals: {x_vals},x_axis : {x_axis}")
+          plt.bar(x_axis,height=heights)
+          plt.xticks(x_axis,x_vals,rotation='vertical',fontsize=10)
+        else:
+          start=0
+          list_ranges=[]
+          while start<len(all_values):
+            temp=[start,min(start+9,len(all_values)-1)]
+            list_ranges.append(temp)
+            start=temp[1]+1
+          print(f"list_ranges are : {list_ranges}")
+          numrows=math.ceil(len(list_ranges)/3)
+          numcols=3
+          fig,axs=plt.subplots(numrows,numcols,figsize=(40,40),sharex=True,sharey=True,subplot_kw=dict(projection="polar"))
+          axs[0, 0].set_xticks([])
+          print(f"axs : {len(axs)}, type: {type(axs)}")
+          for row in range(numrows):
+            for col in range(numcols):
+              if row*numcols+col<len(list_ranges):
+                curr_range_start=list_ranges[row*numcols+col][0]
+                curr_range_end=list_ranges[row*numcols+col][1]
+                heights_curr=[]
+                x_vals=[]
+                for ind in range(curr_range_start,curr_range_end+1):
+                  x_vals.append(all_values[ind][0])
+                  heights_curr.append(all_values[ind][1])
+                x_axis=list(range(len(x_vals)))
+                print(f"x_axis values are : {x_axis}")
+                fig.add_subplot(numrows,numcols,row*numcols+col+1)
+                plt.bar(x_axis,height=heights_curr)
+                plt.xticks(x_axis,x_vals,rotation='vertical',fontsize=20)
+              else:
+                axs[row,col].remove()
+      #axs[0].tick_params(axis='x',visible=False)
+      plt.tight_layout()
       plt.show()
       plt.savefig(os.path.join('static','bargraph.png'),bbox_inches="tight")
   return render_template('bar_chart.html',show_plot=True,
                          productName=product_name,
                          product_names=[{'pname':x} for x in product_categories],
                          years=[{'year':x} for x in years_list],
-                         timeVal=str(year_val),
+                         timeVal=year_val,
                          importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],
                          impVal=imporexp
                          )
