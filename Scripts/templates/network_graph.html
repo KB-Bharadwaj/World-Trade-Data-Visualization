@@ -1,7 +1,23 @@
  <html>
+    
     <head>
         <title>Network graph</title>
-        <link rel="stylesheet" href="static/styles/indexCSS.css">
+        <link rel="stylesheet" tyoe="text/css" href="static/styles/indexCSS.css">
+        <script type="text/javascript">
+            function zoomIn()
+            {
+                document.getElementById('network_image').style.width=document.getElementById('network_image').clientWidth+100+"px";
+                document.getElementById('network_image').style.height=document.getElementById('network_image').clientHeight+100+"px";
+            }
+            function zooomOut()
+            {
+                if(document.getElementById('network_image').clientWidth>100 && document.getElementById('network_image').clientHeight>100){
+                document.getElementById('network_image').style.width=document.getElementById('network_image').clientWidth-100+"px";
+                document.getElementById('network_image').style.height=document.getElementById('network_image').clientHeight-100+"px";
+                }
+                
+            }
+        </script>
     </head>
     <h1 class="heading1">Network graph</h1>
     <a href="{{url_for('homePage')}}" class="redirectionLink">Back to home</a>
@@ -10,7 +26,7 @@
         <table>
         <tr>
         <td>
-        <select name="country2"}>
+        <select name="country2">
             {% for x in country_names%}
             {%if x.cname==countryVal%}
             <option value="{{ x.cname }}" selected>{{ x.cname }}</option>
@@ -56,7 +72,13 @@
     </form>
     <div class="imageBlock">
     {% if show_plot == True %}
-        <image src="static/networkgraph.png"/>
+    <table>
+        <tr>
+        <td><image src="static/networkgraph.png" id="network_image"/></td>
+        <td><button onclick="zoomIn()"><span class="glyphicon glyphicon-zoom-in" style="float:right;top:0px;"></span></button><br/>
+            <button><span class="glyphicon glyphicon-zoom-out" style="float:right;top:0px; " onclick="zooomOut()"></span></button></td>
+        </tr>
+    </table>
     {%endif%}
     {% if show_plot==False%}
     <p>Select the filters and click on the view plot</p>
