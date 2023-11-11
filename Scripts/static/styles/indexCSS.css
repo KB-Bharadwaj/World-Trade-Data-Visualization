@@ -1,4 +1,4 @@
-
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 ul{
     display: grid;
     gap: 10px;
@@ -40,6 +40,21 @@ select{
 .imageBlock img{
     width:800px;
     height: 800px;
+    display: flex;
+    align-items:display_flex;
+}
+
+.imageBlockSankey{
+    position: absolute;
+    left:20%;
+    top:10%;
+    background-color: transparent;
+    margin:auto;
+    width:100%;
+    height:100%;
+}
+
+.imageBlockSankey img{
     display: flex;
     align-items:display_flex;
 }
