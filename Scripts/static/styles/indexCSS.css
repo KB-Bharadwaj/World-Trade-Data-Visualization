@@ -8,13 +8,14 @@ body{
     background-color: bisque;
     left:1%;
     position: relative;
-    overflow-x: hidden;
+    overflow-x: scroll;
+
 }
 
 .heading1{
     position: relative;
     left:35%;
-	#align: center
+	align: center;
 }
 .redirectionLink{
     right:1%;
