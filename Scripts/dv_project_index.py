@@ -74,7 +74,7 @@ def display_plot():
     country_val=request.form['country']
     type_val=request.form['Export_Import']
     print(f"year : {year_val} , country:{country_val}, type: {type_val}")
-    df=pd.read_csv('en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary.csv')
+    df=pd.read_csv('wits_en_trade_summary_allcountries_allyears/en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary.csv')
     df=df.fillna('0')
     product_vs_values=dict()
     for index in df.index:
@@ -132,7 +132,7 @@ def display_network_graph():
     year_val=request.form['timeFrame2']
     country_val=request.form['country2']
     impoorexp=request.form['ImportOrExport']
-    df=pd.read_csv('en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary.csv')
+    df=pd.read_csv('wits_en_trade_summary_allcountries_allyears/en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary.csv')
     df=df.fillna(0)
     g=nx.DiGraph()#export graph
     g2=nx.DiGraph()#import graph
