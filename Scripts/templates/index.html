@@ -2,6 +2,8 @@
 <head>
 <title> Home page </title>
 <link rel="stylesheet" href="static/styles/indexCSS.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
     <h1 class="heading1">Trade data visualization</h1>
@@ -10,6 +12,8 @@
     <ul>
         <li><a href="{{url_for('country_analysis')}}">Country Analysis Treemap - Click here to view the proportions of various product categories imported/exported by a specific country in a specific time frame</a></li>
         <li><a href="{{url_for('network_graph')}}">Network graph - Click here to view network graph which shows the interactions of a target country with other countries in a given timeframe</a></li>
+        <!--<li><a href="{{url_for('map_viz')}}">Map visualization - Click here to view a map that displays indicator value for the selected product for all countries in selected timeframe by luminance</a></li>-->
+        <li><a href="{{url_for('bar_chart')}}">Bar chart- Click here to view bar chart that shows break down of each product's net indicator value in a specific year over various countries</a></li>
     </ul>
 </body>
 </html>
