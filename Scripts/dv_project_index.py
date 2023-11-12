@@ -87,6 +87,7 @@ def display_plot():
             product_vs_values[product_cat]=df[year_val][index]
     sizes=[]
     labels=[]
+    colors=["blue","lightgreen","lime","orange","violet","darkturquoise","cornflowerblue","firebrick","darkviolet","paleturquoise","lightblue","papayawhip","mediumorchid","chartreuse","navajowhite","lightgreen","plum","palegreen","lavender","wheat"]
     for x in product_vs_values:
       sizes.append(product_vs_values[x])
       labels.append(x+"\n"+str(product_vs_values[x]))
@@ -98,7 +99,8 @@ def display_plot():
     plt.title("Tree map for proportions of categories of "+country_val +" in the year " + year_val + ": "+type_val)
     #plt.pie(sizes,labels=labels)
     #squarify.plot(sizes=sizes, color=sb.color_palette("tab20", len(sizes)), pad=1, text_kwargs={'fontsize': 14})
-    squarify.plot(sizes=sizes, label=labels, color=sb.color_palette("tab20", len(sizes)), pad=1, text_kwargs={'fontsize': -1})
+    squarify.plot(sizes=sizes, label=labels, color=colors, pad=1, text_kwargs={'fontsize': -1})
+    #squarify.plot(sizes=sizes, label=labels, color=sb.color_palette("tab20", len(sizes)), pad=1, text_kwargs={'fontsize': -1})
     #squarify.plot(sizes=sizes,label = labels,text_kwargs = {'fontsize': 7, 'color': 'white'},pad=0.2)
     #sankey(left=df['Reporter'],right=df['Partner'],rightWeight=df['2021'])
     print(f"{len(sizes)}")
