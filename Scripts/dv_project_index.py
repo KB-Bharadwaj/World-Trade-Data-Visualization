@@ -124,9 +124,12 @@ def display_plot():
                          )
 @app.route('/network_graph')
 def network_graph():
+  years=[]
+  for i in range(1988,2022):
+    years.append(i)
   return render_template("network_graph.html",#country_names=[{'cname':'United States'},{'cname':'Australia'}],
                          country_names=[{'cname':x} for x in country_mapping],
-                         years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],timeVal='2021',countryVal='United States',show_plot=False,
+                         years=[{'year':str(x)} for x in years],timeVal='2021',countryVal='United States',show_plot=False,
                          importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],impVal='Import')
 @app.route('/display_network_graph',methods=['GET','POST'])
 def display_network_graph():
@@ -519,7 +522,21 @@ def plot_line_chart():
       for y in range(int(start_year),int(end_year)+1):
         x_vals.append(y)
         y_vals.append(net_vals_dict[y])
-      fig=px.line(x=x_vals,y=y_vals)
+      fig=px.line(x=x_vals,y=y_vals,labels={
+        "x":"Year",
+        "y":"Net indicator value in millions of USD"
+      },
+      title="Line chart showing the trend of Net indicator values of "+country_name+" from years "+start_year+" to "+end_year)
+      fig.update_layout(
+        autosize=True,
+        width=800,
+        height=800,
+      xaxis = dict(
+          tickmode = 'linear',
+          tick0 = x_vals[0],
+          dtick = 1
+      )
+    )
       graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
       return render_template('LineChart.html',country_names=[{'cname':x} for x in country_mapping],
                              countryVal=country_name,
@@ -527,7 +544,120 @@ def plot_line_chart():
                          timeValFrom=start_year,
                          timeValTo=end_year,
                          graphJSON=graphJSON)
-
+    
+@app.route('/display_network_graph_with_plotly',methods=['GET','POST'])
+def display_network_graph_with_plotly():
+  years=[]
+  for i in range(1988,2022):
+    years.append(i)
+  if request.method=='POST':
+    year_val=request.form['timeFrame2']
+    country_val=request.form['country2']
+    impoorexp=request.form['ImportOrExport']
+    fig=go.Figure()
+    fig.layout=go.Layout(title=go.layout.Title(text="Below network graph shows the countries with which "+country_val+' '+impoorexp+'ed '+'in year '+str(year_val)+"\n"+". The text on hovering on node shows the name of country and value of "+impoorexp+" in millions of USD"),  autosize=False,
+    width=900,
+    height=900)
+    outward=False
+    if impoorexp=='Export':
+      outward=True
+    df=pd.read_csv('wits_en_trade_summary_allcountries_allyears/en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary.csv',encoding="latin")
+    df=df.fillna(0)
+    g=nx.DiGraph()
+    indicator_vals_dict=dict()
+    nodes=set()
+    nodes.add(country_val)
+    sizes=dict()
+    colors=dict()
+    indicator_types_dict=dict()
+    indicator_types_dict['Export']=['Export(US$ Mil)','Trade (US$ Mil)-Top 5 Export Partner']
+    indicator_types_dict['Import']=['Import(US$ Mil)','Trade (US$ Mil)-Top 5 Import Partner']
+    for index in df.index:
+      if df[year_val][index]!=0 and df[year_val][index]!=None and not(pd.isna(df[year_val][index])) and df['Indicator Type'][index]==impoorexp and df['Indicator'][index] in indicator_types_dict[impoorexp] and df['Partner'][index]!=None:
+        nodes.add(df['Partner'][index])
+        if df['Partner'][index] in indicator_vals_dict:
+          indicator_vals_dict[df['Partner'][index]]=indicator_vals_dict[df['Partner'][index]]+float(df[year_val][index])
+        else:
+          indicator_vals_dict[df['Partner'][index]]=float(df[year_val][index])
+    if len(indicator_vals_dict)==0:
+      fig.add_annotation(x=0.5,y=0.5,text="No data to show for the selected filters")
+      graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+      return render_template('network_graph.html',country_names=[{'cname':x} for x in country_mapping],
+                         years=[{'year':str(x)} for x in years],timeVal=year_val,countryVal=country_val,
+                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],impVal=impoorexp,graphJSON=graphJSON)
+    print(f"nodes are : {nodes}")
+    print(f"indicator values dict is : {indicator_vals_dict}")
+    for x in nodes:
+      g.add_node(x)
+      if x in indicator_vals_dict:
+        if outward:
+          g.add_edge(country_val,x,length=5)
+        else:
+          g.add_edge(x,country_val,length=5)
+        sizes[x]=math.log(indicator_vals_dict[x])*5
+        colors[x]='blue'
+      else:
+        sizes[x]=50
+        colors[x]='red'
+    options = {
+    'edge_color': 'black',
+    'width': 1,
+    'with_labels': False,
+    'font_weight': 'regular',
+    }
+    print(f"graph is : {g}")
+    pos=nx.circular_layout(g,center=(0,0))
+    print(f"positions are : {pos}")
+    edge_x=[]
+    edge_y=[]
+    locations=dict()
+    colors_network=[]
+    sizes_network=[]
+    nodes_annotations=[]
+    nodes_text=[]
+    for edge in g.edges():
+      print(f"current edge is {edge}")
+      #x_0,y_0=g.nodes[edge[0]]['pos']
+      x_0,y_0=pos[edge[0]]
+      print(f"before locations : {x_0},{y_0}")
+      locations[str(x_0)+","+str(y_0)]=edge[0]
+      #x_1,y_1=g.nodes[edge[1]]['pos']
+      x_1,y_1=pos[edge[1]]
+      locations[str(x_1)+","+str(y_1)]=edge[1]
+      print(f"x_0,y_0,x_1,y_1 are  : {x_0},{y_1},{x_1},{y_1}")
+      edge_x.append(x_0)
+      edge_x.append(x_1)
+      edge_y.append(y_0)
+      edge_y.append(y_1)
+    print(f"edge_x is {edge_x}")
+    print(f"edge_y :{edge_y}")
+    print(f"locations are : {locations}")
+    for i in range(len(edge_x)):
+      temp=str(edge_x[i])+","+str(edge_y[i])
+      #print(f"616 : {locations[temp]}")
+      colors_network.append(colors[locations[str(edge_x[i])+","+str(edge_y[i])]])
+      sizes_network.append(sizes[locations[temp]])
+      temp_text=locations[temp]
+      nodes_text.append(locations[temp])
+      if locations[temp] in indicator_vals_dict:
+        temp_text+="\n"
+        temp_text+=str(indicator_vals_dict[locations[temp]])
+      nodes_annotations.append(temp_text)
+      
+    edge_trace=[go.Scatter(
+      x=edge_x, y=edge_y,mode='markers+lines+text',hoverinfo='text',text=nodes_text,textposition='top right',marker=dict(size=sizes_network,color=colors_network)
+    )]
+    edge_trace[0].text=nodes_annotations
+    print(f"edge_trace is : {edge_trace}")
+    for trace1 in edge_trace:
+      print(trace1)
+      fig.add_trace(trace1)
+    fig.update_xaxes(visible=False)
+    fig.update_yaxes(visible=False)
+    graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+    return render_template('network_graph.html',country_names=[{'cname':x} for x in country_mapping],
+                         years=[{'year':str(x)} for x in years],timeVal=year_val,countryVal=country_val,
+                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],impVal=impoorexp,graphJSON=graphJSON)
 @app.route('/homePage')
 def homePage():
   return render_template("index.html")
