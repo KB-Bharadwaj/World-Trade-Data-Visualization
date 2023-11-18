@@ -20,6 +20,8 @@ from mpl_toolkits.basemap import Basemap
 from matplotlib.colors import LinearSegmentedColormap
 import plotly.graph_objects as go
 import pandas as pd
+import plotly
+import plotly.express as px
 
 app = Flask(__name__)
 country_mapping=dict()
@@ -467,8 +469,65 @@ def display_bar_chart():
                          )
 
 
+@app.route('/display_line_chart')
+def display_line_chart():
+  time_frames=[]
+  for i in range(1988,2022):
+    time_frames.append(i)
+  return render_template('LineChart.html',country_names=[{'cname':x} for x in country_mapping],
+                         years=[{'year':str(x)} for x in time_frames],
+                         timeValFrom='1988',
+                         timeValTo='1994',
+                         graphJSON=None
+                         )
 
-          
+@app.route('/plot_line_chart',methods=['GET','POST'])
+def plot_line_chart():
+  time_frames=[]
+  for i in range(1988,2022):
+    time_frames.append(i)
+  if request.method=='POST':
+    country_name=request.form['country2']
+    start_year=request.form['timeFrame1']
+    end_year=request.form['timeFrame2']
+    if int(start_year)>=int(end_year):
+      fig=go.Figure()
+      fig.add_annotation(x=0.5,y=0.5,text="Start year should be strictly less than end year")
+      graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+      return render_template('LineChart.html',country_names=[{'cname':x} for x in country_mapping],
+                             countryVal=country_name,
+                         years=[{'year':str(x)} for x in time_frames],
+                         timeValFrom=start_year,
+                         timeValTo=end_year,
+                         graphJSON=graphJSON)
+    else:
+      df=pd.read_csv('wits_en_trade_summary_allcountries_allyears/en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary.csv',encoding="latin")
+      net_vals_dict=dict()
+      for i in range(int(start_year),int(end_year)+1):
+        net_vals_dict[i]=0
+      for index in df.index:
+        if (df['Indicator Type'][index]=='Export' or df['Indicator Type'][index]=='Import') and (df['Indicator'][index]=='Export(US$ Mil)' or df['Indicator'][index]=='Import(US$ Mil)'):
+          for x in range(int(start_year),int(end_year)+1):
+            if df[str(x)][index]!=None and not(pd.isna(df[str(x)][index])):
+              print(f"strindx : {str(x)}{df[str(x)][index]}")
+              if df['Indicator Type'][index]=='Import':
+                net_vals_dict[x]-=int(df[str(x)][index])
+              else:
+                net_vals_dict[x]+=int(df[str(x)][index])
+      x_vals=[]
+      y_vals=[]
+      for y in range(int(start_year),int(end_year)+1):
+        x_vals.append(y)
+        y_vals.append(net_vals_dict[y])
+      fig=px.line(x=x_vals,y=y_vals)
+      graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+      return render_template('LineChart.html',country_names=[{'cname':x} for x in country_mapping],
+                             countryVal=country_name,
+                         years=[{'year':str(x)} for x in time_frames],
+                         timeValFrom=start_year,
+                         timeValTo=end_year,
+                         graphJSON=graphJSON)
+
 @app.route('/homePage')
 def homePage():
   return render_template("index.html")
