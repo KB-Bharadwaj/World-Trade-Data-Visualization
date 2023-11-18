@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Line Chart</title>
+        <link rel="stylesheet" href="static/styles/indexCSS.css">
+    </head>
+    <body>
+    <h1 class="heading1">Line Chart</h1>
+    <a href="{{url_for('homePage')}}" class="redirectionLink">Back to home</a>
+    <p> Select a Time Frame and Country below <br> to view the Line chart.</p>
+    <form id="trend-analysis" action="/plot_line_chart" method="POST" style="position: sticky;">
+        <table>
+            <tr>
+                <td>
+                    <label for="country2">Country:</label>
+                    <select name="country2">
+                        {% for x in country_names%}
+                        {%if x.cname==countryVal%}
+                        <option value="{{ x.cname }}" selected>{{ x.cname }}</option>
+                        {%else%}
+                        <option value="{{ x.cname }}">{{ x.cname }}</option>
+                        {%endif%}
+                        {%endfor%}
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="timeFrame1">From:</label>
+                    <select name="timeFrame1">
+                        {% for x in years%}
+                        {%if x.year==timeValFrom%}
+                        <option value="{{ x.year }}" selected>{{ x.year }}</option>
+                        {%else%}
+                        <option value="{{ x.year }}">{{ x.year }}</option>
+                        {%endif%}
+                        {%endfor%}
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="timeFrame2">To:</label>
+                    <select name="timeFrame2">
+                        {% for x in years%}
+                        {%if x.year==timeValTo%}
+                        <option value="{{ x.year }}" selected>{{ x.year }}</option>
+                        {%else%}
+                        <option value="{{ x.year }}">{{ x.year }}</option>
+                        {%endif%}
+                        {%endfor%}
+                    </select>
+                
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="View Plot"/>
+                </td>
+            </tr>
+            
+
+        </table>
+    </form>
+
+    <div id='chart' class='chart'></div>
+</body>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type='text/javascript'>
+  var graphs = {{graphJSON | safe}};
+  Plotly.plot('chart',graphs,{});
+</script>
+    
+   
+    
+</html>
