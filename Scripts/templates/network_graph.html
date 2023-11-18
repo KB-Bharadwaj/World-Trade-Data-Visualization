@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Treemap</title>
+<title>Network graph</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -46,14 +46,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <a href="{{url_for('country_analysis')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Tree</a>
     <a href="{{url_for('bar_chart')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Bar</a>
     <a href="{{url_for('network_graph')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Net</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task NA</a>
+    <a href="{{url_for('display_line_chart')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Line</a>
   </div>
 </div>
 
 <!-- Sidebar -->
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
     <p style="margin-left:10px"> Select a Country, Time Frame,<br>and Import/Export below<br> to view the Network graph.</p>
-    <form id="country_analysis" action="/display_network_graph" method="POST" style="position: sticky;">
+    <form id="country_analysis" action="/display_network_graph_with_plotly" method="POST" style="position: sticky;">
         <table>
         <tr>
         <td>
@@ -116,7 +116,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   </div>
 
   <div class="w3-row">
-    <div class="w3-twothird w3-container">
+    <!--<div class="w3-twothird w3-container">
       {% if show_plot == True %}
         <table>
           <tr>
@@ -129,9 +129,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       {% if show_plot==False%}
         <p>Select the filters and click on the view plot</p>
       {%endif%}
+    </div>-->
+    <div class="w3-twothird w3-container">
+    <div id='chart' class='chart'></div>
     </div>
   </div>
-
+  
   <footer id="myFooter">
     <div class="w3-container w3-theme-l2 w3-padding-32" style="margin-top:410px">
       <h4>CMSC 436 Loading... Project</h4>
@@ -168,6 +171,14 @@ function w3_close() {
   mySidebar.style.display = "none";
   overlayBg.style.display = "none";
 }
+</script>
+
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type='text/javascript'>
+  var graphs = {{graphJSON | safe}};
+  var config = {responsive: true}
+
+  Plotly.plot('chart',graphs,graphs['layout'],config);
 </script>
 
 </body>
