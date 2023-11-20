@@ -31,7 +31,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <a href="{{url_for('country_analysis')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Tree</a>
     <a href="{{url_for('bar_chart')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Bar</a>
     <a href="{{url_for('network_graph')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Net</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Line</a>
+    <a href="{{url_for('display_line_chart')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Line</a>
     <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>-->
   </div>
@@ -79,8 +79,117 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Implementation</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h2>Task-1</h2>
+      <table>
+        <tr>
+          <td>Action,target pair</td>
+          <td><b>Summarize</b> the indicator values of all the product categories for a specific country. View the Indicator values of each product in millions of USD category exported/imported by a specific country</td>
+        </tr>
+        <tr>
+          <td>Requirements from UI perspective</td>
+          <td>Provided a drop down to select country, import/export type and the year for which indicator values need to seen for</td>
+        </tr>
+        <tr>
+          <td>Data Transformation</td>
+          <td><ol>
+            <li>Based on the country selected from the drop down fetched the summary for that country in to a dataframe</li>
+            <li>Preprocessed the data to replace NA values with zeros</li>
+            <li>For the selected year from the drop down, computed a dictionary that contains keys are product categories and values as aggregated net import/export (based on whats chosen) value in millions of USD for each product category</li>
+            <li>Encoded the summarized data from previous step in treemap where each product is encoded by an area mark and size of area mark in treemap encodes the net indicator value for that product category</li>
+          </ol></td>
+        </tr>
+      </table>
+      <h2>Task-2</h2>
+      <table>
+        <tr>
+          <td>Action,target pair</td>
+          <td>Derive the net indicator value for a specific country over specific time frame and View the trend of net indicator value of a specific country in a specific time frame</td>
+        </tr>
+        <tr>
+          <td>Requirements from UI perspective</td>
+          <td>Provided a drop down to select the country and two drop downs (from and to) to select start and end of the time period in which the trend for indicator values need to be viewed. Imposed a validation rule to make sure that end of the time period is strictly greater than start of the time frame</td>
+        </tr>
+        <tr>
+          <td>Data Transformation</td>
+          <td>
+            <ol>
+              <li>Based on the country values selected in the drop down fetched the summary file of that specific country to a dataframe</li>
+              <li>Computed a dictionary that contains keys as year values (year>=form drop down's year value and year<=to drop down's year value)and value as net indicator value (total export value in millions of USD for all product categories)-(total import value in millions of USD for all product categories) from the dataframe from above step</li>
+              <li>Encoded the data computed above using a line chart where spatial position along X -axis encodes the year and spatial position along Y-axis encodes the net indicator value in millions of USD</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+      <h2>Task-3</h2>
+      <table>
+        <tr>
+          <td>Action,target pair</td>
+          <td>Summarize the trade interactions of a specific country in specific time frame, View how much in terms of aggregated indicator value did a target country trade with partner countries in a specific time frame</td>
+        </tr>
+        <tr>
+          <td>Requirements from UI perspective</td>
+          <td>Provided a drop down to select country and year value and import/export</td>
+        </tr>
+        <tr>
+          <td>Data transformation</td>
+          <td>
+          <ol>
+            <li>Fetched the summary file of the selected country in the drop down to the dataframe</li>
+            <li>From the data frame from above step, computed a dictionary that contains keys as the country names with which selected country from dropdown imported(or exported based on import/export value from drop down) with and values as net indicator value of trade in millions of USD (net export/net import depending on whats selected in the dropdown) between the selected country from drop down and the country represented by current key</li>
+            <li>Encoded the data from above dictionary in a network graph. The nodes in the network graph represent the country of interest (country selected in the drop down) and all the countries represented keys of above dictionary. There is an edge between the country of interest and all the nodes that represent the keys of above dictionary to indicate that import/export has occurred between them. The size of nodes representing the countries from above dictionary encodes the aggregated indicator value (total import/export in millions of USD) of trade between the country of interest and country represented by the node</li>
+
+          </ol>
+        </td>
+        </tr>
+      </table>
+      <h2>Task-4</h2>
+      <table>
+        <tr>
+          <td>Action,target pair</td>
+          <td>Summarize the  aggregated indicator value of each country towards a specific product for a specific indicator in a specific timeframe, View the distribution of a product’s net indicator value over all countries</td>
+        </tr>
+        <tr>
+          <td>Requirements from UI perspective</td>
+          <td>Provided a drop down to select product category, year and indicator type (import/export)</td>
+        </tr>
+        <tr>
+          <td>Data transformation</td>
+          <td>
+            <ol>
+              <ul>
+                <li>Created a json file programatically by running a one time script (by reading all the summary files pertaining to all countries)that contains keys as product categories. Values will be the list of transactions pertaining to that product category.Each trasaction is represented by a list of size 6. 
+                  <ul>
+                    <li> First element in the list represents reporter country</li>
+                    <li> Second element in the list represents partner country</li>
+                    <li>Third element in the list represents the year in which trade occurred between reporter and partner country</li>
+                    <li>Fourth element in the list represents the type of transaction (import/export) between reporter and partner</li>
+                    <li>Fifth element in the list represents the indicator value type i.e, Export in millions of USD/Import in millions of USD</li>
+                    <li>Sixth element in the list represents actual indicator value in millions of USD</li>
+                  </ul>
+                  </li>
+                  <li>
+                    Feteched the list of transactions pertaining to the product category selected from drop down from the above json file to a list
+                  </li>
+                  <li>
+                    By scanning throgh above list of transactions computed a dictionary that contains country names as keys and net import/export value in millions of USD for that country in the year selected in drop down
+                  </li>
+                  <li>
+                    Encoded the data from above dictionary in bar charts where the spatial position along X-axis encodes country and spatial position along Y-axis encodes net indicator value (encoded either in a single bar chart or in multiple bar charts depending on number of countries imported or exported the selected product category in selected year)
+                  </li>
+              </ul>
+            </ol>
+          </td>
+        </tr>
+      </table>
+      <h2>Tech Stack</h2>
+      <p>
+        <ul>
+          <li>Front end :</li>
+          <li>Backend : Python</li>
+          <li> Framework : Flasl</li>
+          <li>Libraries for visualization : Plotly, matplotlib, squarify</li>
+        </ul>
+      </p>
     </div>
   </div>
 
