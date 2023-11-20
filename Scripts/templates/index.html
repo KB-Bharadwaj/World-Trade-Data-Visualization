@@ -63,17 +63,110 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Introduction</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h3 class="w3-text-teal">Domain and Project Motivation</h2>
+        <p>With a vast amount of trade data available, this project aims at developing a set of visualizations which could help users draw valuable descriptive inferences which in turn, would help the users to understand our visualizations without any sense or feeling of information overload about the imports and exports of different countries from trade data, since this is a bulk dataset. The WITS portal[1] does have certain visualizations that are good in terms of understanding and interpretability. However, there are certain things which we can do through this projects:</p>
+        <ul style="list-style-type:disc">
+          <li style="margin-bottom:6px">Due to the size of this dataset, there exist certain visualizations that a set of users may feel stressed to understand. (like high-school students, non-FINTECH background people, etc).</li>
+          <li>Few existing visualizations can be plotted in such a way that their understandability can be improved.</li>
+        </ul>
+        <p>The domain of this project is economics/finance. Potential users are typically the general population. We aim to develop the visualizations that help users compare imports and exports among countries in-detail with better understanding without any prior-knowledge or expertise. In the source website, it consists of some sophisticated visualizations. But through our project The visualizations would help the users answer the following questions:</p>
+        <ul style="list-style-type:disc">
+          <li style="margin-bottom:6px">What are the various product categories and what are the indicator values for each category thats imported/exported by a specific country in a specific time frame? (Task-1)
+            <br>{action, target} : {<strong>Summarize</strong> the indicator values of all products for a specific country in a specific time frame, View the proportions of indicator values of various product categories in a given year and timeframe}</li>
+          <li style="margin-bottom:6px">In a given time frame, what is the trend of net trade for a specific country ? (Task-2)
+            <br>{action, target} : {<strong>Derive</strong> the net indicator value for a specific country over specific time frame, View the <strong>trend</strong> of net indicator value of a specific country in a specific time frame}</li>
+          <li style="margin-bottom:6px">In a given time frame, how much trade is done among all the countries for a specific or all product categories? (Task-3)
+            <br>{action, target} : {<strong>Summarize</strong> the trade interactions of a specific country in specific time frame, View how much in terms of aggregated indicator value did a target country trade with partner countries in a specific time frame}</li>
+          <li style="margin-bottom:6px">For a specific product category, in a specific year,how much (in terms of a specific indicator value) did all the countries import/export? (Task-4)
+            <br>{action, target} : {<strong>Summarize</strong> the proportions of each country’s aggregated indicator value towards a specific product for a specific indicator in a specific timeframe, View the <strong>distribution</strong> of a product’s net indicator value over all countries}</li>
+        </ul>
+        <h3 class="w3-text-teal">Data</h3>
+        <p>Data set: We will use the trade data available from WITS (World Integrated  Trade Solution website). It contains the trade data related to about 217 countries from the years 1988-2021. Its aggregated by World Integrated Trade Solutions
+          <br>We will be using the archived version of it from here[4](Trade Stats - Country Summary zip file).</p>
+        <h4 class="w3-text-teal">Data Semantics</h4>
+        <p>Data Items: Each row represents trade data (export/import)- for a specific country over the years.</p>
+        <table border="1px solid black">
+            <tr>
+                <th>Attribute</th>
+                <th>Description</th>
+                <th>Attribute Type</th>
+                <th>Domain</th>
+            </tr>
+            <tr>
+                <td>Indicator Type</td>
+                <td>This represents the nature of the trade, i.e., whether the nature of trade is import, export, developmental fund, or tariff funds.</td>
+                <td>Categorical (Among Import, Export, Development, Tariff)</td>
+                <td>String</td>
+            </tr>
+            <tr>
+                <td>Reporter</td>
+                <td>This represents the country of interest, i.e., the specific country which records the trade with the partner country.</td>
+                <td>Categorical (Name of the Country)</td>
+                <td>String</td>
+            </tr>
+            <tr>
+                <td>Partner</td>
+                <td>This represents the country with which the reporter has recorded the trade.</td>
+                <td>Categorical</td>
+                <td>String</td>
+            </tr>
+            <tr>
+                <td>Product Category</td>
+                <td>This represents the category of goods or commodities which have been traded between the reporter country and the partner country. Comprehensive list of product categories can be found here[2].</td>
+                <td>Categorical</td>
+                <td>String</td>
+            </tr>
+            <tr>
+                <td>Indicator</td>
+                <td>This categorizes the indicator type one level further down. For example, if the indicator type is export, then this attribute also tells if the observation recorded is export in USD $ or just the number of exports etc. Comprehensive list of indicators could be found here[1].</td>
+                <td>Categorical</td>
+                <td>String</td>
+            </tr>
+            <tr>
+                <td>1988-2021 (34 Columns)</td>
+                <td>These attributes record the monetary value of the transactions (in $ USD) or the number of imports/exports (depending on the value of Indicator described in the previous row) that happened between the reporter and partner country. Each year (which is taken as an individual attribute) represents the year in which the transactions have occurred.</td>
+                <td>Nominal</td>
+                <td>Float</td>
+            </tr>
+        </table>
+        <h4 class="w3-text-teal">Limitations of the Dataset</h4>
+        <ul>
+          <li>Assuming there exists confidentiality between the two countries regarding their trade relations, there are cases where there exists unknown product categories. This poses a drawback if we want to visualize what/which product was traded between the countries.</li>
+          <li>Missing trade values in some years.</li>
+        </ul>
+        <h3 class="w3-text-teal">Project Contributions</h3>
+        <p>The questions which we would try to address through the visualizations are:</p>
+        <h4 class="w3-text-teal">Task 1: What are the various product categories and in what is the net indicator value of each category for a specific country in a specific time frame?</h4>
+        <p>Achieved using a treemap using Flask and Matplotlib. See "Task 1" in the Implementation section.</p>
+        <h4 class="w3-text-teal">Task 2: In a given time frame, what is the trend of net trade for a specific country?</h4>
+        <p>Achieved using a line graphs using Flask and Plotly. See "Task 2" in the Implementation section.</p>
+        <h4 class="w3-text-teal">Task 3: In a given time frame, how much trade (import or export) is done by a country with all the other countries?</h4>
+        <p>Achieved using a network graph using Flask, Matplotlib, and Plotly. See "Task 3" in the Implementation section.</p>
+        <h4 class="w3-text-teal">Task 4: For a specific product category, in a specific year, how much (in terms of a specific indicator value) did all the countries import/export?</h4>
+        <p>Achieved using a bar graph using Flask and Matplotlib. See "Task 4" in the Implementation section.</p>
     </div>
   </div>
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Related Work</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+      <p>Description for Wei Chen & Nyuying Wang (2022) Visualizing the changing geographies of international trade, 2000–19, Regional Studies, Regional Science, 9:1, 132-134 [19]: (Comparison of global trade in year 2000 and 2019 in padlet)
+        <br>The paper visualizes how the total trade of different countries in the world evolved from 2000 to 2019. It shows two different cartograms one for the year 2000 and the other for the year 2019. In each cartogram, the known geographical position of each country is used to locate the country and color encodes the total trade value (Marks are shapes and color channel is used as a magnitude channel to encode net trade value). I found this source as an inspiration because it's in the same domain of our project and also pretty closely related to a few of the tasks which we want to achieve. This is closely related to task-2 of our project. In task-2, we want to see the net indicator value trend for a specific country in a given time period. Here we intended to encode the trend using a line graph where spatial position along the X-axis encodes the year and spatial position along the Y-axis encodes the indicator value. This idiom is chosen because its real estate efficient considering we will only have one country of interest for a chosen time frame. If I were to do vis in paper differently from the authors, I wouldn’t change the idiom because the task in the paper intends to see the trend for all countries and the cartogram seems efficient to show all countries at once . However, the bucketing of colors based on the net trend value chosen by authors didn't seem intuitive to me in some cases. For example, <100 billions of dollars uses darker green and 100-150 billions of dollars uses less luminous green. So, if I were to do it differently, then I would change color encoding with higher net trend values being more luminous than lower net trend values.</p>
+
+      <p>Description for Trade flows between top 10 EU largest countries[20]:
+        <br>The above visualization is a chord diagram which shows the nominal goods trade flow between the top 10 countries in the European Union(EU) from the year 1998 till 2018.  Each flow line(marks) represents the trade relation between the two individual countries. The opacity of each flow line indicates the magnitude of trade that occurred between the countries (magnitude channel) and color of each flow line encodes an individual's country’s trade with the other acting as the identity channel. This visualization is a source of inspiration for task-2 and task-3. In task-2, we have analyzed the net trade for a specific country with the other. In task-3, we have analyzed the amount of trade which is done between the reporter country and individual other or all other countries.
+        <br>For task-2, we have to analyze the trend of the net trade for a specific country in a given time period. For this we have considered only the individual country and its nominal trade value(both imports and exports) and then aggregate of the entire trade for that year. The chord diagram would visualize the trade relation with the other country. Also, the trade value in the chord diagram is not the exact value of trade since it shows the round off figures and is in the scales of 100. This would hinder the user from fetching the accurate information required.With the present idiom, we aim to visualize a line chart which has an x-axis encoding the year and y-axis encoding the trade indicator value.
+        <br>For task-3, we would analyze the trade value of an individual country with the other countries in a given time frame. With the present idiom of sankey diagram, it is difficult to evaluate the exact trade indicator value for between those countries since it seems to complicate the understanding of the user though the opacity of the flow lines. However, we can transform such visualization into network type data in order to visualize such requirements in an effective way.</p>
+
+      <p>Description for “International Collaboration of antimicrobial resistance in the environment”[21].
+        <br>In this paper the authors have done some analysis on antimicrobial resistance in environment Research. Here they have visualized the collaboration between the multiple countries that have contributed to this research. Here they have used the Network Graph or map to visualize. Along with that they have added the thickness to the connecting lines of the Countries. The thickness indicates the strength of the collaboration between the two countries. The higher the thickness the more strength between the countries. Likewise in Task-3, for the network graph we can add this feature to represent the trade value between the countries. As this can show the strength or relationship between the two countries just at a glance. Hence, we can show the strength of the relation between the partner Country and Reporter Country, the relation between the different partner countries and the reporter country in a particular year with a specific Product Category.</p>
+
+      <p>Description for “US Trade Deficit after Trade War Tariffs” [22]:
+        <br>The above visualization is a Bar graph which shows the USA trade deficit with China in blue bar and USA trade deficit in general with the rest of the world in Grey bar(color: Channel). The position of the lines/bars(Marks) encodes the magnitude of the deficit amounts over time. Higher values(positive) are positioned higher on the chart and lower values (negative) are positioned lower on the chart. I think that this visualization is a great source of inspiration because of multiple reasons but one of the main reasons would be that it is very closely related to the domain of our project and one of the tasks which we want to achieve. The task that we want to achieve and which is closely related to this vis is task 2. For task 2 we are trying to analyze the trend of the net trade for a specific country for which we consider a single country at a time and we consider its trade value which would be export - import and aggregate that entire trade for that individual year. The x-axis encodes the year, while the height of the blue and gray bars represents the deficit amounts in billions of USD. The bar charts make it easy to compare the total vs China amounts for each individual year, but line charts may better highlight the overall trends over time.If I were to do vis in paper differently from the authors, I would likely to use small multiple line charts to also include more countries, rather than just these two categories. The title and axis labels clearly communicate the figure's contents. The use of color to distinguish total vs China is effective given the goal of comparing them. For my purpose of showing trends in more countries, I would use small multiple line charts without color, relying on spatial positioning to encode values for each. This should allow trends across more partners to be compared both horizontally and vertically.</p>
+
+      <p>Description for “Countries and Their Research and Development Spending” [23]:
+        <br>The reference visualization is a Treemap which shows countries and the total USD they spent for Research and Development. The marks are the areas that enclose the country name and spending amount. The size of the areas is a magnitude channel and the larger the size, the greater the amount spent for R&D. The color is an identity channel where countries that are within the same continent are identified by the same color. This vis closely relates to our task 1 and the vis currently chosen for it. In both instances, the color of the treemap indicates what overarching category an area corresponds to. In the reference, it corresponds to the continent that the country falls within where as in our vis it corresponds to the type of good (capital, consumer, intermediate, or raw material) that the entry is apart of. Also, the use of size is the same between both vis’s, meaning a larger size encodes a larger value. For our purposes, I believe that modifying the color of the different areas so the overarching category has more pop (with more vibrant colors) is important but the relation between areas can still be discerned.</p>
+     </div>
   </div>
 
   <div class="w3-row w3-padding-64">
