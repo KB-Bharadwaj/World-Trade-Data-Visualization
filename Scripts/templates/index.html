@@ -83,7 +83,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <table>
         <tr>
           <td>Action,target pair</td>
-          <td><b>Summarize</b> the indicator values of all the product categories for a specific country. View the Indicator values of each product in millions of USD category exported/imported by a specific country</td>
+          <td><b>Summarize</b> the indicator values of all the product categories for a specific country in a specific timeframe. View the Indicator values of each product in millions of USD category exported/imported by a specific country in a specific timeframe</td>
         </tr>
         <tr>
           <td>Requirements from UI perspective</td>
@@ -92,9 +92,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
         <tr>
           <td>Data Transformation</td>
           <td><ol>
-            <li>Based on the country selected from the drop down fetched the summary for that country in to a dataframe</li>
+            <li>Based on the country selected from the drop down fetched the summary file for that country in to a dataframe</li>
             <li>Preprocessed the data to replace NA values with zeros</li>
-            <li>For the selected year from the drop down, computed a dictionary that contains keys are product categories and values as aggregated net import/export (based on whats chosen) value in millions of USD for each product category</li>
+            <li>For the selected year from the drop down, computed a dictionary that contains keys as product categories and values as aggregated net import/export (based on whats chosen) value in millions of USD for each product category</li>
             <li>Encoded the summarized data from previous step in treemap where each product is encoded by an area mark and size of area mark in treemap encodes the net indicator value for that product category</li>
           </ol></td>
         </tr>
