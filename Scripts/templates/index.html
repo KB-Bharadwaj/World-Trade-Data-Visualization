@@ -289,24 +289,59 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Results</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <image src="static/results1.png"></image>
+      <p style="margin-bottom:6px">Figure 5(a) (Packed Bubble chart) , Figure 5(b) (Network graph) and Figure 5(c) represent three different ways to encode the countries that the United States imported various product categories from. (Here we did not show dropdowns for 5(a) because here we just intend to explore various marks and channels and transformation themes. For the final chosen idiom 5(b), we provided dropdowns to achieve the actual task). In figure 5(a), points are used to represent different countries and magnitude channel size encodes the net import value. In figure 5(b), points encode different countries. Size of the node encodes the net import value. Links indicate that import occurred between the countries that are linked. Color channel distinguishes the country of interest from other countries. This lets the user achieve task-3 because the user is able to select from the drop downs provided the country, year and type to view the other countries that country of interest imported/exported with. With the packed bubble chart, if two countries have similar indicator values, it's perceptually difficult to distinguish the difference. Figure 5-(b) adds little more context due to the following:</p>
+      <ul style="list-style-type:disc">
+        <li style="margin-bottom:6px">Having a node that represents country of interest</li>
+        <li style="margin-bottom:6px">Distinguishing between country of interest and other countries</li>
+        <li style="margin-bottom:6px">Direction of arrow representing import/export (In the diagram since the chosen filter is import, its an inward arrow pointing towards the country of interest, otherwise it will be an outward arrow)</li>
+        <li style="margin-bottom:6px">Annotations indicating country name and net indicator value</li>
+      </ul>
+      <p style="margin-bottom:6px">Figure 5(c) encodes the same details as that of Figure 5(b) but with an added option of ability to zoom in/zoom out the plot. Taking into consideration the semantics of data, transforming table data type to network data type seemed more appropriate because the links indicate that a transaction has occurred unlike the bubble chart. Because of its context and appropriateness of network type for the given data set, we chose figure 5(c) to achieve task 3</p>
+      <image src="static/results2.png"></image>
+      <p style="margin-bottom:6px">Figure 6 represents different ways to encode export/import values (in millions of USD) of various countries that imported/exported a selected product category in a selected time frame(In figure 6(a) and 6(b), we didn’t provide drop downs because here we just intend to explore various themes. For the final chosen idiom, figure 6(c), we provided drop downs to achieve the actual task). Figure 6(a) shows a tree map that shows various countries exported Capital goods in 1993 where each country is represented by an area mark and size encodes the export value. Colors distinguish different countries. Figure 6(b) encodes the same using a pie chart where areas represent different countries, color channel differentiates among countries and size encodes the net export value of the product by selected country. We can see that both these idioms are not good at handling large amounts of data .In pie chart, wedges overlap significantly when there are many countries and it's perceptually difficult to distinguish between countries having the same export/import value. In tree map, as the number of countries increases, labels of different areas overlap and the countries with small export/import value for a product are almost hard to perceive. To handle complexity we achieved task-4 by using bar chart with small multiples where spatial position along X-axis is used to encode countries, spatial position along Y-axis is used to encode the net indicator value and length of bars (lines as marks) encodes the net export/import value of a specific country for the chosen product. Since a bar chart with sub multiples is effective among three in terms of handling complexity and also because aligning along a common spatial position is most effective to perceive differences among values, we chose bar plot with small multiples to achieve task-4. This lets users achieve task-4 because users will be able to select product category, year, export/import  from drop down and then view the export/import values of selected product category for various countries.</p>
+      <p style="margin-bottom:6px">The buttons on the navbar at the top of the page will take you to our visualizations separated by task.</p>
     </div>
   </div>
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Future Directions</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p style="margin-bottom:6px">Some future work that we would like to explore, given enough time outside the scope of this project, would be as follows:</p>
+      <ul style="list-style-type:disc">
+          <li style="margin-bottom:6px">Obtaining data for 2022 and 2023 to add to our visualizations</li>
+          <li style="margin-bottom:6px">Visualizations would have pop for specific sections when hovered over with a mouse cursor</li>
+          <li style="margin-bottom:6px">Implementation of colorblind options for users that need them</li>
+      </ul>
     </div>
   </div>
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">References</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p style="margin-bottom:6px">[1]Merchandise trade indicator metadata WITS. Available at: https://wits.worldbank.org/CountryProfile/Metadata/en/Indicator/All#apl_E</p>
+      <p style="margin-bottom:6px">[2]Merchandise Trade Products Metadata WITS. Available at: https://wits.worldbank.org/Product-Metadata.aspx?lang=en</p>
+      <p style="margin-bottom:6px">[3]Wits rest api WITS API. Available at: https://wits.worldbank.org/witsapiintro.aspx?lang=en</p>
+      <p style="margin-bottom:6px">[4]Data download (no date) WITS. Available at:https://wits.worldbank.org/datadownload.aspx?lang=en</p>
+      <p style="margin-bottom:6px">[5]International Trade Indicators (no date) WITS. Available at: https://wits.worldbank.org/country-indicator.aspx?lang=en</p>
+      <p style="margin-bottom:6px">[6]Flask Tutorial (no date) Online Tutorials, Courses, and eBooks Library. Available at: https://www.tutorialspoint.com/flask/flask_templates.html</p>
+      <p style="margin-bottom:6px">[7]Data download (no date) WITS. Available at: https://www.geeksforgeeks.org/flask-rendering-templates/</p>
+      <p style="margin-bottom:6px">[8]Sadia, M.A. (2021) Creating a select tag on a web application using Flask Python, Medium. Available at: https://memudualimatou.medium.com/creating-a-select-tag-on-a-web-application-using-flask-python-fffe6ea0c939</p>
+      <p style="margin-bottom:6px">[9]Python examples (no date) Python Examples. Available at: https://pythonexamples.org/python-flask-if-statement-in-html-template/</p>
+      <p style="margin-bottom:6px">[10] Python Graph Based on User Input (Flask + Matplotlib) Part II. Youtube. Available at:https://www.youtube.com/watch?v=Vf2K6zYQmu8</p>
+      <p style="margin-bottom:6px">[11]Treemaps in matplotlib with squarify (2022) PYTHON CHARTS | The definitive Python data visualization site. Available at: https://python-charts.com/part-whole/treemap-matplotlib/</p>
+      <p style="margin-bottom:6px">[12]Flask form submission without page reload (2021) GeeksforGeeks. Available at: https://www.geeksforgeeks.org/flask-form-submission-without-page-reload/</p>
+      <p style="margin-bottom:6px">[13] Jncharon (2017) Python network graph, Kaggle. Available at: https://www.kaggle.com/code/jncharon/python-network-graph</p>
+      <p style="margin-bottom:6px">[14] TropilioTropilio, Paul BrodersenPaul Brodersen and yatuyatu (1966) Separate edge arrows in python/networkx directed graph, Stack Overflow. Available at: https://stackoverflow.com/questions/61412323/separate-edge-arrows-in-python-networkx-directed-graph.</p>
+      <p style="margin-bottom:6px">[15]  Retrieving HTML form data using flask (2022) GeeksforGeeks. Available at: https://www.geeksforgeeks.org/retrieving-html-from-data-using-flask/</p>
+      <p style="margin-bottom:6px">[16] Masood et al. (1959) Networkx in python - draw node attributes as labels outside the node, Stack Overflow. Available at: https://stackoverflow.com/questions/14547388/networkx-in-python-draw-node-attributes-as-labels-outside-the-node.</p>
+      <p style="margin-bottom:6px">[17] pcecconpceccon and BonlenfumBonlenfum. Create input arrows in networkx, Stack Overflow. Available at: https://stackoverflow.com/questions/49139968/create-input-arrows-in-networkx.</p>
+      <p style="margin-bottom:6px">[18] sysimmiesysimmie and vurmuxvurmux.  Problems with the visualisation of large networks in Networkx, Stack Overflow. Available at: https://stackoverflow.com/questions/56473313/problems-with-the-visualisation-of-large-networks-in-networkx</p>
+      <p style="margin-bottom:6px">[19] Wei Chen & Nyuying Wang (2022) Visualizing the changing geographies of international trade, 2000–19, Regional Studies, Regional Science, 9:1, 132-134,DOI: 10.1080/21681376.2022.2043770</p>
+      <p style="margin-bottom:6px">[20] https://i.redd.it/b0g7ou737h041.png (no date) Reddit. Available at: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fb0g7ou737h041.png (Accessed: 14 November 2023).</p>
+      <p style="margin-bottom:6px">[21] Sweileh, W.M. and Moh’d Mansour, A. (2020) ‘Bibliometric analysis of global research output on antimicrobial resistance in the environment (2000–2019)’, Global Health Research and Policy, 5(1). doi:10.1186/s41256-020-00165-0.</p>
+      <p style="margin-bottom:6px">[22] https://www.exportplanning.com/en/magazine/article/2019/06/21/us-trade-deficit-after-trade-war-tariff/</p>
+      <p style="margin-bottom:6px">[23] A study on the effectiveness of tree-maps as tree visualization techniques, https://www.researchgate.net/publication/322075128_A_Study_on_the_Effectiveness_of_Tree-Maps_as_Tree_Visualization_Techniques (accessed Nov. 16, 2023).</p>
     </div>
   </div>
 
