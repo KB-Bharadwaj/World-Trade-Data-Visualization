@@ -47,25 +47,10 @@ def hello():
 @app.route("/country_analysis")
 def country_analysis():
   return render_template("country_analysis.html",country_names=[{'cname':x} for x in country_mapping],
-                         years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],
-                        indicator_types=[{'type_val':'Export'},{'type_val':'Import'}],show_plot=False,timeVal='2021',typeVal='Export',countryVal='United States'
+                         years=[{'year':str(x)} for x in range(1988,2022)],
+                        indicator_types=[{'type_val':'Export'},{'type_val':'Import'}],show_plot=False,timeVal='2021',typeVal='Export',countryVal='United States',
+                        graphJSON=None
                          )
-#@app.route('/display_treemap', methods='GET', 'POST'])
-#def display_treemap():
-#    if request.method=='POST':
-#        year_val=request.form['timeFrame']
-#        country_val=request.form['country']
-#        type_val=request.form['Export_Import']
-#        print(f"year : {year_val} , country:{country_val}, type: {type_val}")
-#        df=pd.read_csv('en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary.csv')
-#        df=df.fillna('0')
-#        parent = []
-#        child = []
-#        for i in df.i:
-#            if (df['Indicator Type'][i]==type_val):
-#                if (df['Parent'][i] not in parent):
-#                    parent.append(df['Parent'][i])
-
 @app.route('/display_plot',methods=['GET','POST'])
 def display_plot():
   plt.clf()
@@ -81,46 +66,37 @@ def display_plot():
     product_vs_values=dict()
     for index in df.index:
       if df['Indicator Type'][index]==type_val:
-        if (df['Indicator Type'][index]=='Export' and df['Indicator'][index]=='Export(US$ Mil)') or (df['Indicator Type'][index]=='Import' and df['Indicator'][index]=='Import(US$ Mil)'):
+        if (df['Product categories'][index]!='All Products') and ((df['Indicator Type'][index]=='Export' and df['Indicator'][index]=='Export(US$ Mil)') or (df['Indicator Type'][index]=='Import' and df['Indicator'][index]=='Import(US$ Mil)')):
           product_cat=df['Product categories'][index]
-          if product_cat in product_vs_values:
-            product_vs_values[product_cat]=product_vs_values[product_cat]+df[year_val][index]
-          else:
-            product_vs_values[product_cat]=df[year_val][index]
+          if float(df[year_val][index])!=0.0:
+            if product_cat in product_vs_values:
+              product_vs_values[product_cat]=product_vs_values[product_cat]+float(df[year_val][index])
+            else:
+              product_vs_values[product_cat]=float(df[year_val][index])
     sizes=[]
     labels=[]
-    colors=["blue","lightgreen","lime","orange","violet","darkturquoise","cornflowerblue","firebrick","darkviolet","paleturquoise","lightblue","papayawhip","mediumorchid","chartreuse","navajowhite","lightgreen","plum","palegreen","lavender","wheat"]
     for x in product_vs_values:
       sizes.append(product_vs_values[x])
       labels.append(x+"\n"+str(product_vs_values[x]))
     print(product_vs_values)
     print(f"sizes : {sizes}")
-    plt.figure(figsize=(10, 10))
-    plt.grid(False)
-    plt.axis("off")
-    plt.title("Tree map for proportions of categories of "+country_val +" in the year " + year_val + ": "+type_val)
-    #plt.pie(sizes,labels=labels)
-    #squarify.plot(sizes=sizes, color=sb.color_palette("tab20", len(sizes)), pad=1, text_kwargs={'fontsize': 14})
-    squarify.plot(sizes=sizes, label=labels, color=colors, pad=1, text_kwargs={'fontsize': -1})
-    #squarify.plot(sizes=sizes, label=labels, color=sb.color_palette("tab20", len(sizes)), pad=1, text_kwargs={'fontsize': -1})
-    #squarify.plot(sizes=sizes,label = labels,text_kwargs = {'fontsize': 7, 'color': 'white'},pad=0.2)
-    #sankey(left=df['Reporter'],right=df['Partner'],rightWeight=df['2021'])
+    if len(sizes)>0:
+      parents=[]
+      for x in labels:
+        parents.append("")
+      fig=go.Figure(go.Treemap(labels=labels,values=sizes,parents=parents,marker_colorscale='Blues'))
+      fig.update_layout(
+      title=dict(text="Tree map showing indicator values various product categories "+type_val+"ed by "+country_val +" in the year " + year_val,automargin=True,yref='container')
+    ) 
+      graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+    else:
+      fig=go.Figure()
+      fig.add_annotation(x=0.5,y=0.5,text="No data to show for selected filters")
+      graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     print(f"{len(sizes)}")
-    #plt.bar(labels,sizes)
-    #plt.text(wrap=True)
-    plt.legend(loc = 'center left', bbox_to_anchor = (1, .5), ncol = 2)
-    if os.path.exists('static/treemap.png'):
-        print("entered")
-        print(os.remove('static/treemap.png'))
-    #if os.path.exists('static/treemap_legend.png'):
-     #   print("entered")
-      #  print(os.remove('static/treemap_legend.png'))
-    #plt.colorbar()
-    plt.savefig(os.path.join('static','treemap2.png'), bbox_inches='tight')
-    #legend.savefig(os.path.join('static', 'treemap_legend.png'))
     return render_template("country_analysis.html",country_names=[{'cname':x} for x in country_mapping],
-                         timeVal=year_val,typeVal=type_val,years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],
-                        indicator_types=[{'type_val':'Export'},{'type_val':'Import'}],show_plot=True,countryVal=country_val
+                         timeVal=year_val,typeVal=type_val,years=[{'year':str(x)} for x in range(1988,2022)],
+                        indicator_types=[{'type_val':'Export'},{'type_val':'Import'}],show_plot=True,countryVal=country_val,graphJSON=graphJSON
                          )
 @app.route('/network_graph')
 def network_graph():
@@ -460,7 +436,7 @@ def display_bar_chart():
       #axs[0].tick_params(axis='x',visible=False)
       plt.tight_layout()
       plt.suptitle(print("Bar plot shows the {imporexp} of all countries in year {year_val} for product category {product_name} \n Spatial posiion on X-axis encodes country names and spatial position on Y-axis is used to encode {imporexp} value is millions of USD"))
-      plt.show()
+      #plt.show()
       plt.savefig(os.path.join('static','bargraph.png'),bbox_inches="tight")
   return render_template('bar_chart.html',show_plot=True,
                          productName=product_name,
