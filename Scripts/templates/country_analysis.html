@@ -79,7 +79,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
         </tr>
 		<tr>
         <td>
-		<input type="submit" value="View Plot"/ style="margin-left:10px">
+		<input type="submit" value="View Plot" style="margin-left:10px">
 		</td>
 		</tr>
 		</table>
@@ -100,12 +100,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      {% if show_plot == True %}
-        <image src="static/treemap2.png" style="object-fit: contain"/>
-      {%endif%}
-      {% if show_plot==False%}
-        <p>Select the filters and click on the view plot</p>
-      {%endif%}
+      <div id='chart' class='chart'></div>
     </div>
   </div>
 
@@ -121,6 +116,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 <!-- END MAIN -->
 </div>
+
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type='text/javascript'>
+  var graphs = {{graphJSON | safe}};
+  var config = {responsive: true}
+  Plotly.plot('chart',graphs);
+</script>
 
 <script>
 // Get the Sidebar
