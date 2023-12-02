@@ -1,4 +1,4 @@
-from flask import Flask,render_template,url_for,request
+from flask import Flask,render_template,url_for,request,jsonify
 import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sb
@@ -6,9 +6,6 @@ import numpy as np
 import pandas as pd
 import csv
 import json
-#from anytree import PostOrderIter
-#from anytree.importer import DictImporter
-#import ipywidgets as widgets
 import plotly
 import plotly.graph_objs as go
 import squarify
@@ -22,6 +19,8 @@ import plotly.graph_objects as go
 import pandas as pd
 import plotly
 import plotly.express as px
+from plotly.subplots import make_subplots
+import requests
 
 app = Flask(__name__)
 country_mapping=dict()
@@ -32,6 +31,11 @@ for row in reader:
   country_mapping[row['Country']]=row['Code']
 print("country mappings")
 print(country_mapping)
+default_country='United States'
+default_year=2021
+default_type='Export'
+default_from_year=1988
+default_to_year=2021
 
 
 matplotlib.use('agg')
@@ -46,11 +50,22 @@ def hello():
   return render_template('index.html')
 @app.route("/country_analysis")
 def country_analysis():
+  #plotting with default filters here
+  valuesTosend=dict()
+  valuesTosend['country']=default_country
+  valuesTosend['timeFrame']=str(default_year)
+  valuesTosend['Export_Import']=default_type
+  root_url = request.url_root
+  #return requests.post(root_url+'/display_bar_chart',json=valuesTosend)
+  temp_str=requests.post(root_url+'/display_plot',valuesTosend)
+  print(f"temp_str : {temp_str} , type : {type(temp_str)}, text : {temp_str.text.index('graphs')}, substring_obtained : {temp_str.text[temp_str.text.index('graphs =')+8:temp_str.text.index('Plotly')].strip()}")
+  graphJSON=json.loads(temp_str.text[temp_str.text.index('graphs =')+8:temp_str.text.index('Plotly')].strip()[:-1])
+
   return render_template("country_analysis.html",country_names=[{'cname':x} for x in country_mapping],
                          years=[{'year':str(x)} for x in range(1988,2022)],
                         indicator_types=[{'type_val':'Export'},{'type_val':'Import'}],show_plot=False,timeVal='2021',typeVal='Export',countryVal='United States',
-                        graphJSON=None
-                         )
+                        graphJSON=json.dumps(graphJSON,cls=plotly.utils.PlotlyJSONEncoder)
+                        )
 @app.route('/display_plot',methods=['GET','POST'])
 def display_plot():
   plt.clf()
@@ -75,9 +90,14 @@ def display_plot():
               product_vs_values[product_cat]=float(df[year_val][index])
     sizes=[]
     labels=[]
+    labels2=[]
     for x in product_vs_values:
       sizes.append(product_vs_values[x])
       labels.append(x+"\n"+str(product_vs_values[x]))
+      labels2.append(x)
+    #saving csv intermediately
+    products_transformed_df=pd.DataFrame.from_dict({'Product Category':labels2,'Net Indicator Value':sizes})
+    products_transformed_df.to_csv('en_'+country_mapping[country_val]+'AllYears_WITS_Trade_Summary_transformed_treemap_task.csv')
     print(product_vs_values)
     print(f"sizes : {sizes}")
     if len(sizes)>0:
@@ -86,7 +106,11 @@ def display_plot():
         parents.append("")
       fig=go.Figure(go.Treemap(labels=labels,values=sizes,parents=parents,marker_colorscale='Blues'))
       fig.update_layout(
-      title=dict(text="Tree map showing indicator values various product categories "+type_val+"ed by "+country_val +" in the year " + year_val,automargin=True,yref='container')
+      title=dict(text="Tree map showing indicator values for various product categories "+type_val+"ed by "+country_val +" in the year " + year_val,automargin=True,yref='container'),
+      font=dict(
+        size=8,
+        color="RebeccaPurple"
+    )
     ) 
       graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     else:
@@ -98,366 +122,170 @@ def display_plot():
                          timeVal=year_val,typeVal=type_val,years=[{'year':str(x)} for x in range(1988,2022)],
                         indicator_types=[{'type_val':'Export'},{'type_val':'Import'}],show_plot=True,countryVal=country_val,graphJSON=graphJSON
                          )
-@app.route('/network_graph')
-def network_graph():
-  years=[]
-  for i in range(1988,2022):
-    years.append(i)
-  return render_template("network_graph.html",#country_names=[{'cname':'United States'},{'cname':'Australia'}],
-                         country_names=[{'cname':x} for x in country_mapping],
-                         years=[{'year':str(x)} for x in years],timeVal='2021',countryVal='United States',show_plot=False,
-                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],impVal='Import')
-@app.route('/display_network_graph',methods=['GET','POST'])
-def display_network_graph():
-  if request.method=='POST':
-    plt.clf()
-    plt.cla()
-    year_val=request.form['timeFrame2']
-    country_val=request.form['country2']
-    impoorexp=request.form['ImportOrExport']
-    df=pd.read_csv('wits_en_trade_summary_allcountries_allyears/en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary.csv')
-    df=df.fillna(0)
-    g=nx.DiGraph()#export graph
-    g2=nx.DiGraph()#import graph
-    nodes=set()#export nodes
-    nodes_import=set()#import nodes
-    exports_values=dict()
-    import_values=dict()
-    import_annotations=dict()
-    export_annotations=dict()
-    for index in df.index:
-      if (df[year_val][index]!=0.0 ) and (df['Indicator Type'][index]=='Export') and (df['Indicator'][index]=='Export(US$ Mil)' or df['Indicator'][index]=='Trade (US$ Mil)-Top 5 Export Partner'):
-        nodes.add(df['Reporter'][index])
-        nodes.add(df['Partner'][index])
-        if df['Partner'][index] in exports_values:
-          exports_values[df['Partner'][index]]=exports_values[df['Partner'][index]]+df[year_val][index]
-        else:
-          exports_values[df['Partner'][index]]=df[year_val][index]
-      if(df[year_val][index]!=0.0) and (df['Indicator Type'][index]=='Import') and (df['Indicator'][index]=='Import(US$ Mil)' or df['Indicator'][index]=='Trade (US$ Mil)-Top 5 Import Partner'):
-        nodes_import.add(df['Partner'][index])
-        nodes_import.add(df['Reporter'][index])
-        if df['Partner'][index] in import_values:
-          import_values[df['Partner'][index]]=import_values[df['Partner'][index]]+df[year_val][index]
-        else:
-          import_values[df['Partner'][index]]=df[year_val][index]
-    colors=[]
-    for x in nodes:
-      print(f"node is {x}")
-      g.add_node(x)
-      if x==country_val:
-        colors.append('red')#target country
-      else:
-        colors.append('blue')#other countries
-    colors2=[]
-    for x in nodes_import:
-      print(f"import node is {x}")
-      g2.add_node(x)
-      if x==country_val:
-        colors2.append('red')#target country
-      else:
-        colors2.append('blue')#other countries
-    sizes_1=[]
-    for x in nodes:
-      if x in exports_values:
-        g.add_edge(country_val,x,length=5)
-        #g.add_edges_from([(country_val,x)])
-        sizes_1.append(exports_values[x]/1000)
-      else:
-        sizes_1.append(500)
-    sizes_2=[]
-    for x in nodes_import:
-      if x in import_values:
-        #g2.add_edges_from([(x,country_val)])
-        g2.add_edge(x,country_val,length=5)
-        sizes_2.append(import_values[x]/1000)
-      else:
-        sizes_2.append(500)
-    
-    options = {
-    'edge_color': 'black',
-    'width': 1,
-    'with_labels': False,
-    'font_weight': 'regular',
-    } 
-    plt.clf()
-    plt.figure(figsize=(9,9))
-    plt.axis('off')
-    #plt.subplot(121)
-    pos_exp=nx.circular_layout(g,center=(0,0))
-    pos_imp=nx.circular_layout(g2)
-    print(f"nodes positions : {pos_exp}")
-    if impoorexp=='Export':
-      plt.clf()
-      plt.cla()
-      ax=plt.gca()
-      nx.draw(g,node_color=colors,pos=pos_exp,node_size=sizes_1,**options)
-      for x in nodes:
-        if x in exports_values:
-          export_annotations[x]={'text':x+'\n'+'Total Export Value : '+'\n'+str(exports_values[x]),'pos':pos_exp[x]}
-        else:
-          export_annotations[x]={'text':x,'pos':pos_exp[x]}
-      print(f"annotations : {export_annotations}")
-      for x in export_annotations:
-        ax.annotate(export_annotations[x]['text'],xy=export_annotations[x]['pos'],xytext=(0, 30), textcoords='offset points',
-          arrowprops=dict(facecolor='black', shrink=0.10),  
-          bbox=dict(boxstyle="round", fc="cyan"))
-      print(g)
-      plt.title('Network graph of '+country_val+' \'s'+' exports in year '+year_val,y=-0.01)
-    else:
-      plt.clf()
-      plt.cla()
-      ax=plt.gca()
-      nx.draw(g2,node_color=colors2,pos=pos_imp,node_size=sizes_2,**options)
-      for x in nodes_import:
-        if x in import_values:
-          import_annotations[x]={'text':x+'\n'+'Total Import Value: '+'\n'+str(import_values[x]),'pos':pos_imp[x]}
-        else:
-          import_annotations[x]={'text':x,'pos':pos_imp[x]}
-      for x in import_annotations:
-        ax.annotate(import_annotations[x]['text'],xy=import_annotations[x]['pos'],xytext=(0,30),textcoords='offset points',
-                     arrowprops=dict(facecolor='black', shrink=0.10),  
-          bbox=dict(boxstyle="round", fc="cyan"))
-      plt.title('Network graph of '+country_val+' \'s'+' imports in year '+year_val,y=-0.01)
-   
-    print(f"*****{impoorexp} ******* {import_annotations}**** {import_values}")
-    print(exports_values)
-    #plt.tight_layout(pad=3.0)
-    plt.savefig(os.path.join('static','networkgraph.png'))
-    return render_template("network_graph.html",country_names=[{'cname':x} for x in country_mapping],
-                         years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],timeVal=year_val,countryVal=country_val,show_plot=True,
-                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],impVal=impoorexp)
 
-@app.route('/map_viz')
-def map_viz():
-  return render_template("map_viz.html",
-                         country_names=[{'cname':x} for x in country_mapping],
-                         years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],
-                         show_plot=False,
-                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}]
-                         )
-
-@app.route('/display_geographic_map',methods=['GET','POST'])
-def display_geographic_map():
-  if(request.method=='POST'):
-    plt.clf()
-    plt.cla()
-    country_val=request.form['country2']
-    year_val=request.form['timeFrame2']
-    imp_exp=request.form['ImportOrExport']
-    ind_values=dict()
-    ind_values['Export']=['Export(US$ Mil)','Trade (US$ Mil)-Top 5 Export Partner']
-    ind_values['Import']=['Import(US$ Mil)','Trade (US$ Mil)-Top 5 Import Partner']
-    '''for f in os.listdir('wits_en_trade_summary_allcountries_allyears'):
-      with open('wits_en_trade_summary_allcountries_allyears/'+f) as currfile:
-        df=pd.read_csv(currfile)
-        if len(df)>0:
-          curr_country_name=df.iloc[0]['Reporter']
-          for index in range(len(df)):
-            if df.iloc[index]['Indicator Type']==imp_exp and df.iloc[index]['Indicator'] in ind_values[imp_exp] and pd.notnull(df.iloc[index][year_val]) and pd.notna(df.iloc[index][year_val]):
-              if curr_country_name in country_prods_dict:
-                temp=country_prods_dict[curr_country_name]
-                if df.iloc[index]['Product categories'] in temp:
-                  temp[df.iloc[index]['Product categories']]=temp[df.iloc[index]['Product categories']]+df.iloc[index][year_val]
-                else:
-                  temp[df.iloc[index]['Product categories']]=df.iloc[index][year_val]
-                country_prods_dict[curr_country_name]=temp
-              else:
-                country_prods_dict[curr_country_name]={df.iloc[index]['Product categories']:df.iloc[index][year_val]}'''
-    products_dict=dict()
-    with open('wits_en_trade_summary_allcountries_allyears/en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary.csv') as currfile:
-      curr_pd=pd.read_csv(currfile)
-      curr_pd=curr_pd.dropna(subset=['Product categories',str(year_val),'Indicator Type','Indicator'])
-      print(curr_pd.head())
-      if len(curr_pd)>0:
-        for i in range(len(curr_pd)):
-          if curr_pd.iloc[i]['Indicator Type']==imp_exp and curr_pd.iloc[i]['Indicator'] in ind_values[imp_exp] and pd.notnull(curr_pd.iloc[i][year_val] and pd.notna(curr_pd.iloc[i][year_val])):
-            curr_prod_cat=curr_pd.iloc[i]['Product categories']
-            if curr_prod_cat in products_dict:
-              products_dict[curr_prod_cat]=products_dict[curr_prod_cat]+curr_pd.iloc[i][year_val]
-            else:
-              products_dict[curr_prod_cat]=curr_pd.iloc[i][year_val]
-    countries=[]
-    products=[]
-    values=[]
-    data_san=[]
-    labels_san=[]
-    labels_san.append(country_val)
-    for prod in products_dict:
-      countries.append(country_val)
-      products.append(prod+":"+"\n"+str(products_dict[prod]))
-      labels_san.append(prod)
-      values.append(products_dict[prod])
-    aggr_data_frame=pd.DataFrame({'Country':countries,'Product':products,'Total value':values})
-    print(aggr_data_frame)
-    if len(aggr_data_frame)>0:
-      sankey.sankey(
-          left=aggr_data_frame['Country'], right=aggr_data_frame['Product'], 
-          leftWeight= aggr_data_frame['Total value'], rightWeight=aggr_data_frame['Total value'],
-          aspect=10,fontsize=7
-      )
-      data_san.append([go.sankey(
-        node=dict(
-          pad=15,
-          thickness=20,
-          line = dict(color = "black", width = 0.5),
-          label = aggr_data_frame['Country'],
-          color = "blue"
-        )
-      )])
-    else:
-      plt.annotate("No data to show for selected year",[0,0])
-    plt.axis('off')
-    plt.show()
-    plt.savefig(os.path.join('static','mapViz.png'))
-    
-    return render_template('map_viz.html', timeVal=year_val,impVal=imp_exp,countryVal=country_val,
-                           years=[{'year':'2021'},{'year':'2020'},{'year':'2019'}],
-                           country_names=[{'cname':x} for x in country_mapping],
-                           show_plot=True,
-                           importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}])
-  
 @app.route('/bar_chart')
 def bar_chart():
-  product_categories=['All products',
-                        'Animal','Vegetable','Food Products',
-                        'Minerals','Fuels','Chemicals','Plastic or Rubber','Hides and Skins',
-                        'Wood','Textiles and Clothing','Footwear','Stone and Glass',
-                        'Metals','Mach and Elec','Transportation','	Miscellaneous',
-                        'Capital goods','Consumer goods','Intermediate goods','Raw materials',
-                        'Agricultural Raw Materials','Chemical','Food','Fuel','Manufactures',
-                        'Ores and Metals','Textiles','Machinery and Transport Equipment']
-  years_list=[]
-  for i in range(1988,2022):
-    years_list.append(i)
+  #displaying the default viz with default filters
+  valuesTosend=dict()
+  valuesTosend['country_name']=default_country
+  root_url = request.url_root
+  #return requests.post(root_url+'/display_bar_chart',json=valuesTosend)
+  temp_str=requests.post(root_url+'/display_bar_chart',valuesTosend)
+  print(f"temp_str : {temp_str} , type : {type(temp_str)}, text : {temp_str.text.index('graphs')}, substring_obtained : {json.loads(temp_str.text[temp_str.text.index('graphs =')+8:temp_str.text.index('Plotly')].rstrip()[:-1])}")
+  graphJSON=json.loads(temp_str.text[temp_str.text.index('graphs =')+8:temp_str.text.index('Plotly')].rstrip()[:-1])
+  #print(requests.post(root_url+'/display_bar_chart',valuesTosend))
+
   return render_template('bar_chart.html',
                          show_plot=False,
-                         product_names=[{'pname':x} for x in product_categories],
-                         years=[{'year':str(x)} for x in years_list],
-                         timeVal='2021',
-                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],
-                         impVal='Export'
+                         country_names=[{'cname':x} for x in country_mapping],
+                         countryName='United States',
+                         graphJSON=json.dumps(graphJSON,cls=plotly.utils.PlotlyJSONEncoder)
                          )
 
 @app.route('/display_bar_chart',methods=['GET','POST'])
 def display_bar_chart():
-  product_categories=['All products',
-                        'Animal','Vegetable','Food Products',
-                        'Minerals','Fuels','Chemicals','Plastic or Rubber','Hides and Skins',
-                        'Wood','Textiles and Clothing','Footwear','Stone and Glass',
-                        'Metals','Mach and Elec','Transportation','	Miscellaneous',
-                        'Capital goods','Consumer goods','Intermediate goods','Raw materials',
-                        'Agricultural Raw Materials','Chemical','Food','Fuel','Manufactures',
-                        'Ores and Metals','Textiles','Machinery and Transport Equipment']
-  years_list=[]
-  for i in range(1988,2022):
-    years_list.append(i)
   if request.method=='POST':
-    plt.clf()
-    plt.cla()
-    product_name=request.form['Product']
-    year_val=request.form['timeFrame3']
-    imporexp=request.form['ImportOrExport']
-    summary_curr_dict=dict()
-    with open("product_summaries.json") as json_file:
-      product_summary_dict=json.load(json_file)
-      #print(f"summary dict is : {product_summary_dict[product_name]}")
-      if product_name not in product_summary_dict:
-        plt.clf()
-        plt.cla()
-        plt.annotate('No data to show for selected filters',[0.4,0.4])
-        plt.axis('off')
+    country_name=request.form['country_name']
+    df=pd.read_csv('wits_en_trade_summary_allcountries_allyears/en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary.csv',encoding="latin")
+    df_filtered=df[df['Indicator Type'].isin(['Import','Export']) & df['Indicator'].isin(['Export(US$ Mil)','Import(US$ Mil)','Trade (US$ Mil)-Top 5 Import Partner','Trade (US$ Mil)-Top 5 Export Partner'])]
+    df_filtered=df_filtered.fillna('0') #filling missing values with zeros
+    #saving filtered intermediately
+    df_filtered.to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_filtered_bar_chart_task.csv')
+    productVsValue=dict()
+    for index in df_filtered.index:
+      multiplier=1
+      total=0
+      if df_filtered['Indicator Type'][index]=='Import':
+        multiplier=-1
+      for i in range(1988,2022):
+        total+=(multiplier*float(df_filtered[str(i)][index]))
+      if df_filtered['Product categories'][index] in productVsValue:
+        productVsValue[df_filtered['Product categories'][index]]=productVsValue[df_filtered['Product categories'][index]]+total
       else:
-        list_vals=product_summary_dict[product_name]
-        for x in list_vals:
-          if x[3]==imporexp and x[2]==str(year_val):
-            if x[0] in summary_curr_dict:
-              summary_curr_dict[x[0]]=summary_curr_dict[x[0]]+float(x[5])
-            else:
-              summary_curr_dict[x[0]]=float(x[5])
-      if len(summary_curr_dict)==0:
-        plt.clf()
-        plt.cla()
-        plt.annotate('No data to show for selected filters',[0.4,0.4])
-        plt.axis('off')
+        productVsValue[df_filtered['Product categories'][index]]=total
+    products=[]
+    values=[]
+    for x in productVsValue:
+      products.append(x)
+      values.append(productVsValue[x])
+    df_products_summ=pd.DataFrame.from_dict({'Products':products,'Values':values})
+    df_products_summ.sort_values(by=['Values'],ascending=False,inplace=True)
+    df_products_summ.to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_transformed_bar_chart_task.csv')
+    top_num=min(len(df_products_summ),5)
+    print(f"top_num is : {top_num}")
+    top_products=[]
+    count=0
+    for i in df_products_summ.index:
+      top_products.append(df_products_summ['Products'][i])
+      count+=1
+      if count>=top_num:
+        break
+    df_top_products_summary=df_filtered[df_filtered['Product categories'].isin(top_products)]
+    df_top_products_summary=df_top_products_summary[['Product categories','Indicator Type','Indicator','2017','2018','2019','2020','2021']]
+    df_top_products_summary.to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_transformed_filtered_stage_2_bar_chart_task.csv')
+    product_sum_dict=dict()
+    for index in df_top_products_summary.index:
+      multiplier=1
+      if df_top_products_summary['Indicator Type'][index]=='Import':
+        multiplier=-1
+      if df_top_products_summary['Product categories'][index] in product_sum_dict:
+        temp=product_sum_dict[df_top_products_summary['Product categories'][index]]
+        for i in range(2017,2022):
+          temp[i-2017]=temp[i-2017]+(multiplier*float(df_top_products_summary[str(i)][index]))
+        product_sum_dict[df_top_products_summary['Product categories'][index]]=temp
       else:
-        #print(f"product summary dictionary is : {summary_curr_dict}")
-        all_values=[]
-        for x in summary_curr_dict:
-          if x.strip()!='World' and len(x)>0:
-            if x in summary_curr_dict and summary_curr_dict[x]>0:
-              all_values.append((x,summary_curr_dict[x]))
-        all_values.sort(key=lambda x:x[1])
-        #print(f"all_values : {all_values}")
-        if len(all_values)==0:
-          plt.clf()
-          plt.cla()
-          plt.annotate('No data to show for selected filters',[0.4,0.4])
-          plt.axis('off')
-        elif len(all_values)>0 and len(all_values)<=10:
-          x_axis=list(range(len(all_values)))
-          heights=[]
-          x_vals=[]
-          for x in all_values:
-            heights.append(x[1])
-            x_vals.append(x[0])
-          #print(f"heights : {heights}, x_vals: {x_vals},x_axis : {x_axis}")
-          plt.bar(x_axis,height=heights)
-          plt.xticks(x_axis,x_vals,rotation='vertical',fontsize=10)
-        else:
-          start=0
-          list_ranges=[]
-          while start<len(all_values):
-            temp=[start,min(start+9,len(all_values)-1)]
-            list_ranges.append(temp)
-            start=temp[1]+1
-          #print(f"list_ranges are : {list_ranges}")
-          numrows=math.ceil(len(list_ranges)/3)
-          numcols=3
-          fig,axs=plt.subplots(numrows,numcols,figsize=(40,40),sharex=True,sharey=True,subplot_kw=dict(projection="polar"))
-          axs[0, 0].set_xticks([])
-          #print(f"axs : {len(axs)}, type: {type(axs)}")
-          for row in range(numrows):
-            for col in range(numcols):
-              if row*numcols+col<len(list_ranges):
-                curr_range_start=list_ranges[row*numcols+col][0]
-                curr_range_end=list_ranges[row*numcols+col][1]
-                heights_curr=[]
-                x_vals=[]
-                for ind in range(curr_range_start,curr_range_end+1):
-                  x_vals.append(all_values[ind][0])
-                  heights_curr.append(all_values[ind][1])
-                x_axis=list(range(len(x_vals)))
-                #print(f"x_axis values are : {x_axis}, x_vals are : {x_vals}")
-                fig.add_subplot(numrows,numcols,row*numcols+col+1)
-                plt.bar(x_axis,height=heights_curr)
-                plt.xticks(x_axis,x_vals,rotation='vertical',fontsize=20)
-              else:
-                axs[row,col].remove()
-      #axs[0].tick_params(axis='x',visible=False)
-      plt.tight_layout()
-      plt.suptitle(print("Bar plot shows the {imporexp} of all countries in year {year_val} for product category {product_name} \n Spatial posiion on X-axis encodes country names and spatial position on Y-axis is used to encode {imporexp} value is millions of USD"))
-      #plt.show()
-      plt.savefig(os.path.join('static','bargraph.png'),bbox_inches="tight")
-  return render_template('bar_chart.html',show_plot=True,
-                         productName=product_name,
-                         product_names=[{'pname':x} for x in product_categories],
-                         years=[{'year':str(x)} for x in years_list],
-                         timeVal=year_val,
-                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],
-                         impVal=imporexp
-                         )
+        temp=[]
+        for i in range(2017,2022):
+          temp.append(multiplier*float(df_top_products_summary[str(i)][index]))
+        if len(temp)>0:
+          product_sum_dict[df_top_products_summary['Product categories'][index]]=temp
+    if len(product_sum_dict)==0:
+      fig=go.Figure()
+      fig.add_annotation(x=0,y=0,text="No imports/exports of top 5 products in 2017-2022")
+      fig.update_layout(yaxis_range=[-10,10],xaxis_range=[-10,10])
+      graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+      return render_template('bar_chart.html',
+                         country_names=[{'cname':x} for x in country_mapping],
+                         countryName=country_name,
+                         graphJSON=graphJSON
+                        )
 
 
+    print(f"product_sum_dict is {product_sum_dict}")
+    products_array=[]
+    array_2017=[]
+    array_2018=[]
+    array_2019=[]
+    array_2020=[]
+    array_2021=[]
+    specs=[]
+    for x in product_sum_dict:
+      products_array.append(x)
+      specs.append([{'type':'xy','rowspan':2}])
+      specs.append([None])
+      array_2017.append(product_sum_dict[x][0])
+      array_2018.append(product_sum_dict[x][1])
+      array_2019.append(product_sum_dict[x][2])
+      array_2020.append(product_sum_dict[x][3])
+      array_2021.append(product_sum_dict[x][4])
+    product_sum_df=pd.DataFrame.from_dict({'Product category':products_array,'2017':array_2017,
+                                           '2018':array_2018,'2019':array_2019,
+                                           '2020':array_2020,'2021':array_2021})
+    fig=make_subplots(rows=1,cols=1,shared_xaxes ='all')
+    atleast_once=False
+    for index in product_sum_df.index:
+      temp_bool=False
+      temp_vals=[product_sum_df[str(year)][index] for year in range(2017,2022)]
+      for z in temp_vals:
+        if z!=0.0:
+          temp_bool=True
+          atleast_once=True
+          break
+      if temp_bool:
+        fig.add_trace(go.Bar(x=[year for year in range(2017,2022)],y=[product_sum_df[str(year)][index] for year in range(2017,2022)],showlegend=True,name=product_sum_df['Product category'][index]))
+        fig.update_traces( marker={"line": {"width": 3, "color": "rgb(0,0,0)"}})
+    if not(atleast_once):
+      fig=go.Figure()
+      fig.add_annotation(x=0,y=0,text="No imports/exports of top 5 products in 2017-2022")
+      fig.update_layout(yaxis_range=[-10,10],xaxis_range=[-10,10])
+      graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+      return render_template('bar_chart.html',
+                         country_names=[{'cname':x} for x in country_mapping],
+                         countryName=country_name,
+                         graphJSON=graphJSON
+                        )
+    
+    fig.update_layout(
+      title="Bar chart showing the net indicator values of top-5 products for "+country_name+" from years 2017 to 2021",
+      xaxis_title="Year",
+      yaxis_title="Net indicator value in millions of USD",
+      font=dict(
+        size=8,
+        color="RebeccaPurple"
+    )
+    )
+    graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+    return render_template('bar_chart.html',
+                         country_names=[{'cname':x} for x in country_mapping],
+                         countryName=country_name,
+                         graphJSON=graphJSON
+                        )
 @app.route('/display_line_chart')
 def display_line_chart():
+  root_url = request.url_root
+  temp_str=requests.post(root_url+'/plot_line_chart',{'country2':default_country,'timeFrame1':'1988','timeFrame2':'2021'})
+  print(f"temp_str : {temp_str.text}")
+  graphJSON=json.loads(temp_str.text[temp_str.text.index('graphs =')+8:temp_str.text.index('Plotly')].rstrip()[:-1])
+
   time_frames=[]
   for i in range(1988,2022):
     time_frames.append(i)
   return render_template('LineChart.html',country_names=[{'cname':x} for x in country_mapping],
                          years=[{'year':str(x)} for x in time_frames],
-                         timeValFrom='1988',
-                         timeValTo='1994',
-                         graphJSON=None
+                         timeValFrom=str(default_from_year),
+                         timeValTo=str(default_to_year),
+                         countryVal=default_country,
+                         graphJSON=json.dumps(graphJSON, cls=plotly.utils.PlotlyJSONEncoder)
                          )
 
 @app.route('/plot_line_chart',methods=['GET','POST'])
@@ -498,6 +326,8 @@ def plot_line_chart():
       for y in range(int(start_year),int(end_year)+1):
         x_vals.append(y)
         y_vals.append(net_vals_dict[y])
+      #saving csv intermediately
+      pd.DataFrame.from_dict({'Year':x_vals,'Net indicator value':y_vals}).to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_transformed_line_task.csv')
       fig=px.line(x=x_vals,y=y_vals,labels={
         "x":"Year",
         "y":"Net indicator value in millions of USD"
@@ -511,7 +341,10 @@ def plot_line_chart():
           tickmode = 'linear',
           tick0 = x_vals[0],
           dtick = 1
-      )
+      ),font=dict(
+        size=8,
+        color="RebeccaPurple"
+    )
     )
       graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
       return render_template('LineChart.html',country_names=[{'cname':x} for x in country_mapping],
@@ -520,6 +353,28 @@ def plot_line_chart():
                          timeValFrom=start_year,
                          timeValTo=end_year,
                          graphJSON=graphJSON)
+    
+
+@app.route('/network_graph')
+def network_graph():
+  years=[]
+  for i in range(1988,2022):
+    years.append(i)
+  #plotting default map
+  values_to_send=dict()
+  values_to_send['country2']=default_country
+  values_to_send['timeFrame2']=default_year
+  values_to_send['ImportOrExport']=default_type
+  root_url = request.url_root
+  #return requests.post(root_url+'/display_bar_chart',json=valuesTosend)
+  temp_str=requests.post(root_url+'/display_network_graph_with_plotly',values_to_send)
+  print(f"temp_str : {temp_str} , type : {type(temp_str)}, text : {temp_str.text.index('graphs')}, substring_obtained : {temp_str.text[temp_str.text.index('graphs =')+8:temp_str.text.index('Plotly')].rstrip()[:-1]}")
+  graphJSON=json.loads(temp_str.text[temp_str.text.index('graphs =')+8:temp_str.text.index('Plotly')].rstrip()[:-1])
+  return render_template("network_graph.html",
+                         country_names=[{'cname':x} for x in country_mapping],
+                         years=[{'year':str(x)} for x in years],timeVal='2021',countryVal='United States',
+                         importExportType=[{'imporexp':'Import'},{'imporexp':'Export'}],impVal='Export',
+                         graphJSON=json.dumps(graphJSON,cls=plotly.utils.PlotlyJSONEncoder))
     
 @app.route('/display_network_graph_with_plotly',methods=['GET','POST'])
 def display_network_graph_with_plotly():
@@ -581,6 +436,14 @@ def display_network_graph_with_plotly():
     'with_labels': False,
     'font_weight': 'regular',
     }
+    #saving csv intermediately
+    csv_col_1=[]
+    csv_col_2=[]
+    for key in indicator_vals_dict:
+      csv_col_1.append(key)
+      csv_col_2.append(indicator_vals_dict[key])
+    if len(csv_col_1)>0:
+      pd.DataFrame.from_dict({'Country':csv_col_1,'Indicator Value':csv_col_2}).to_csv('en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary_transformed_network_graph_task.csv')
     print(f"graph is : {g}")
     pos=nx.circular_layout(g,center=(0,0))
     print(f"positions are : {pos}")
@@ -630,6 +493,14 @@ def display_network_graph_with_plotly():
       fig.add_trace(trace1)
     fig.update_xaxes(visible=False)
     fig.update_yaxes(visible=False)
+    fig.update_layout(
+      title="Below network graph shows the countries with which "+country_val+' '+impoorexp+'ed '+'in year '+str(year_val),
+      font=dict(
+        size=8,
+        color="RebeccaPurple"
+    ),width=800,
+    height=800
+    )
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     return render_template('network_graph.html',country_names=[{'cname':x} for x in country_mapping],
                          years=[{'year':str(x)} for x in years],timeVal=year_val,countryVal=country_val,
