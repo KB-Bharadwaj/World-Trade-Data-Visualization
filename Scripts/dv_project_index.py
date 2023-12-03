@@ -97,7 +97,10 @@ def display_plot():
       labels2.append(x)
     #saving csv intermediately
     products_transformed_df=pd.DataFrame.from_dict({'Product Category':labels2,'Net Indicator Value':sizes})
-    products_transformed_df.to_csv('en_'+country_mapping[country_val]+'AllYears_WITS_Trade_Summary_transformed_treemap_task.csv')
+    try:
+      products_transformed_df.to_csv('en_'+country_mapping[country_val]+'AllYears_WITS_Trade_Summary_transformed_treemap_task.csv')
+    except:
+      pass
     print(product_vs_values)
     print(f"sizes : {sizes}")
     if len(sizes)>0:
@@ -149,8 +152,12 @@ def display_bar_chart():
     df=pd.read_csv('wits_en_trade_summary_allcountries_allyears/en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary.csv',encoding="latin")
     df_filtered=df[df['Indicator Type'].isin(['Import','Export']) & df['Indicator'].isin(['Export(US$ Mil)','Import(US$ Mil)','Trade (US$ Mil)-Top 5 Import Partner','Trade (US$ Mil)-Top 5 Export Partner'])]
     df_filtered=df_filtered.fillna('0') #filling missing values with zeros
-    #saving filtered intermediately
-    df_filtered.to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_filtered_bar_chart_task.csv')
+    #saving filtered intermediately, if that file is already open in system, it will not be able to save, throws error. In that
+    #case if already present and its opened on the local system, no need to create again
+    try:
+      df_filtered.to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_filtered_bar_chart_task.csv')
+    except:
+      pass
     productVsValue=dict()
     for index in df_filtered.index:
       multiplier=1
@@ -170,7 +177,10 @@ def display_bar_chart():
       values.append(productVsValue[x])
     df_products_summ=pd.DataFrame.from_dict({'Products':products,'Values':values})
     df_products_summ.sort_values(by=['Values'],ascending=False,inplace=True)
-    df_products_summ.to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_transformed_bar_chart_task.csv')
+    try:
+      df_products_summ.to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_transformed_bar_chart_task.csv')
+    except:
+      pass
     top_num=min(len(df_products_summ),5)
     print(f"top_num is : {top_num}")
     top_products=[]
@@ -231,6 +241,10 @@ def display_bar_chart():
     product_sum_df=pd.DataFrame.from_dict({'Product category':products_array,'2017':array_2017,
                                            '2018':array_2018,'2019':array_2019,
                                            '2020':array_2020,'2021':array_2021})
+    try:
+      product_sum_df.to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_transformed_filtered_stage_3_bar_chart_task.csv')
+    except:
+      pass
     fig=make_subplots(rows=1,cols=1,shared_xaxes ='all')
     atleast_once=False
     for index in product_sum_df.index:
@@ -327,7 +341,10 @@ def plot_line_chart():
         x_vals.append(y)
         y_vals.append(net_vals_dict[y])
       #saving csv intermediately
-      pd.DataFrame.from_dict({'Year':x_vals,'Net indicator value':y_vals}).to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_transformed_line_task.csv')
+      try:
+        pd.DataFrame.from_dict({'Year':x_vals,'Net indicator value':y_vals}).to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_transformed_line_task.csv')
+      except:
+        pass
       fig=px.line(x=x_vals,y=y_vals,labels={
         "x":"Year",
         "y":"Net indicator value in millions of USD"
@@ -443,7 +460,10 @@ def display_network_graph_with_plotly():
       csv_col_1.append(key)
       csv_col_2.append(indicator_vals_dict[key])
     if len(csv_col_1)>0:
-      pd.DataFrame.from_dict({'Country':csv_col_1,'Indicator Value':csv_col_2}).to_csv('en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary_transformed_network_graph_task.csv')
+      try:
+        pd.DataFrame.from_dict({'Country':csv_col_1,'Indicator Value':csv_col_2}).to_csv('en_'+country_mapping[country_val]+'_AllYears_WITS_Trade_Summary_transformed_network_graph_task.csv')
+      except:
+        pass
     print(f"graph is : {g}")
     pos=nx.circular_layout(g,center=(0,0))
     print(f"positions are : {pos}")
