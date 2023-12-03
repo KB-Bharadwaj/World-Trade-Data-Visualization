@@ -192,7 +192,10 @@ def display_bar_chart():
         break
     df_top_products_summary=df_filtered[df_filtered['Product categories'].isin(top_products)]
     df_top_products_summary=df_top_products_summary[['Product categories','Indicator Type','Indicator','2017','2018','2019','2020','2021']]
-    df_top_products_summary.to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_transformed_filtered_stage_2_bar_chart_task.csv')
+    try:
+      df_top_products_summary.to_csv('en_'+country_mapping[country_name]+'_AllYears_WITS_Trade_Summary_transformed_filtered_stage_2_bar_chart_task.csv')
+    except:
+      pass
     product_sum_dict=dict()
     for index in df_top_products_summary.index:
       multiplier=1
