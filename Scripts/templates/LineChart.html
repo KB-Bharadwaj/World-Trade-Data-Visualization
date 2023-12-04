@@ -1,18 +1,47 @@
-<html>
-    <head>
-        <title>Line Chart</title>
-        <link rel="stylesheet" href="static/styles/indexCSS.css">
-    </head>
-    <body>
-    <h1 class="heading1">Line Chart</h1>
-    <a href="{{url_for('homePage')}}" class="redirectionLink">Back to home</a>
-    <p> Select a Time Frame and Country below <br> to view the Line chart.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Line Chart</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 340px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="{{url_for('homePage')}}" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="{{url_for('country_analysis')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Tree</a>
+    <a href="{{url_for('bar_chart')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Bar</a>
+    <a href="{{url_for('network_graph')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Net</a>
+    <a href="{{url_for('display_line_chart')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Line</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <p style="margin-left:10px"> Select a Time Frame and Country below <br> to view the Line chart.</p>
     <form id="trend-analysis" action="/plot_line_chart" method="POST" style="position: sticky;">
         <table>
             <tr>
                 <td>
-                    <label for="country2">Country:</label>
-                    <select name="country2">
+                    <label for="country2" style="margin-left:10px">Country:</label>
+                    <select name="country2" style="margin-left:10px">
                         {% for x in country_names%}
                         {%if x.cname==countryVal%}
                         <option value="{{ x.cname }}" selected>{{ x.cname }}</option>
@@ -25,7 +54,7 @@
             </tr>
             <tr>
                 <td>
-                    <label for="timeFrame1">From:</label>
+                    <label for="timeFrame1" style="margin-left:10px">From:</label>
                     <select name="timeFrame1">
                         {% for x in years%}
                         {%if x.year==timeValFrom%}
@@ -39,7 +68,7 @@
             </tr>
             <tr>
                 <td>
-                    <label for="timeFrame2">To:</label>
+                    <label for="timeFrame2" style="margin-left:10px">To:</label>
                     <select name="timeFrame2">
                         {% for x in years%}
                         {%if x.year==timeValTo%}
@@ -49,27 +78,80 @@
                         {%endif%}
                         {%endfor%}
                     </select>
-                
+
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="submit" value="View Plot"/>
+                    <input type="submit" value="View Plot" style="margin-left:10px"/>
                 </td>
             </tr>
-            
+
 
         </table>
     </form>
+</nav>
 
-    <div id='chart' class='chart'></div>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:340px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Line Chart Visualization</h1>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <div id='chart' class='chart'></div>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32" style="margin-top:410px">
+      <h4>CMSC 436 Loading... Project</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by Jameson Carpenter and <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
 </body>
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 <script type='text/javascript'>
   var graphs = {{graphJSON | safe}};
   Plotly.plot('chart',graphs,{});
 </script>
-    
-   
-    
 </html>
