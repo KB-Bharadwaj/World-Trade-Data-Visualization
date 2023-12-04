@@ -77,8 +77,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
             <br>{action, target} : {<strong>Derive</strong> the net indicator value for a specific country over specific time frame, View the <strong>trend</strong> of net indicator value of a specific country in a specific time frame}</li>
           <li style="margin-bottom:6px">In a given time frame, how much trade is done among all the countries for a specific or all product categories? (Task-3)
             <br>{action, target} : {<strong>Summarize</strong> the trade interactions of a specific country in specific time frame, View how much in terms of aggregated indicator value did a target country trade with partner countries in a specific time frame}</li>
-          <li style="margin-bottom:6px">For a specific product category, in a specific year,how much (in terms of a specific indicator value) did all the countries import/export? (Task-4)
-            <br>{action, target} : {<strong>Summarize</strong> the proportions of each country’s aggregated indicator value towards a specific product for a specific indicator in a specific timeframe, View the <strong>distribution</strong> of a product’s net indicator value over all countries}</li>
+          <li style="margin-bottom:6px">For a specific country, what are the top-5 products having the highest net indicator value and what is their net indicator value in years 2017-2021? (Task-4)
+            <br>{action, target} : {<strong>Summarize</strong> the top 5 product categories,  <strong>Summarize</strong> the net indicatr value of top-5 products over years 2017-2021</li>
         </ul>
         <h3 class="w3-text-teal">Data</h3>
         <p>Data set: We will use the trade data available from WITS (World Integrated  Trade Solution website). It contains the trade data related to about 217 countries from the years 1988-2021. Its aggregated by World Integrated Trade Solutions
@@ -137,13 +137,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
         <h3 class="w3-text-teal">Project Contributions</h3>
         <p>The questions which we would try to address through the visualizations are:</p>
         <h4 class="w3-text-teal">Task 1: What are the various product categories and in what is the net indicator value of each category for a specific country in a specific time frame?</h4>
-        <p>Achieved using a treemap using Flask and Matplotlib. See "Task 1" in the Implementation section.</p>
+        <p>Achieved using a treemap using Flask and Plotly. See "Task 1" in the Implementation section.</p>
         <h4 class="w3-text-teal">Task 2: In a given time frame, what is the trend of net trade for a specific country?</h4>
         <p>Achieved using a line graphs using Flask and Plotly. See "Task 2" in the Implementation section.</p>
         <h4 class="w3-text-teal">Task 3: In a given time frame, how much trade (import or export) is done by a country with all the other countries?</h4>
-        <p>Achieved using a network graph using Flask, Matplotlib, and Plotly. See "Task 3" in the Implementation section.</p>
-        <h4 class="w3-text-teal">Task 4: For a specific product category, in a specific year, how much (in terms of a specific indicator value) did all the countries import/export?</h4>
-        <p>Achieved using a bar graph using Flask and Matplotlib. See "Task 4" in the Implementation section.</p>
+        <p>Achieved using a network graph using Flask, Matplotlib, networkx and Plotly. See "Task 3" in the Implementation section.</p>
+        <h4 class="w3-text-teal">Task 4: For a specific country what are the top five product categories over the entire time frame (1988-2021) and what is their net indicator value in years 2017-2021</p>
+        <p>Achieved using a grouped bar chart using Flask and Plotly. See "Task 4" in the Implementation section.</p>
     </div>
   </div>
 
