@@ -1,0 +1,94 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Latvia,2021,Lithuania,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3456.40932608187
+Latvia,2021,Estonia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2067.04265883968
+Latvia,2021,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1490.88976958683
+Latvia,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1416.18833040389
+Latvia,2021,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1415.92083475894
+Latvia,2021,Lithuania,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3975.1942458057
+Latvia,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2430.92843856086
+Latvia,2021,Poland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2214.62333770231
+Latvia,2021,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2095.72617878724
+Latvia,2021,Estonia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2046.38397039297
+Latvia,2021,World,Plastic or Rubber,Export,Export(US$ Mil),693.908152611776
+Latvia,2021,World,Transportation,Export,Export(US$ Mil),902.327163321542
+Latvia,2021,World,Fuels,Export,Export(US$ Mil),1147.99126959077
+Latvia,2021,World,Metals,Export,Export(US$ Mil),1941.49331070068
+Latvia,2021,World,Minerals,Export,Export(US$ Mil),104.278667277251
+Latvia,2021,World,Stone and Glass,Export,Export(US$ Mil),440.195330583878
+Latvia,2021,World,Capital goods,Export,Export(US$ Mil),3649.72527881429
+Latvia,2021,World,Food Products,Export,Export(US$ Mil),1436.2945726792
+Latvia,2021,World,Footwear,Export,Export(US$ Mil),68.4181679510196
+Latvia,2021,World,Consumer goods,Export,Export(US$ Mil),6800.2476234412
+Latvia,2021,World,Vegetable,Export,Export(US$ Mil),1421.37624927636
+Latvia,2021,World,Textiles and Clothing,Export,Export(US$ Mil),512.193052621189
+Latvia,2021,World,Intermediate goods,Export,Export(US$ Mil),5301.76625894633
+Latvia,2021,World,Animal,Export,Export(US$ Mil),685.990664255977
+Latvia,2021,World,Wood,Export,Export(US$ Mil),4112.65683205723
+Latvia,2021,World,Raw materials,Export,Export(US$ Mil),3241.29678937433
+Latvia,2021,World,Chemicals,Export,Export(US$ Mil),1658.18415577425
+Latvia,2021,World,Mach and Elec,Export,Export(US$ Mil),3091.48413052145
+Latvia,2021,World,Hides and Skins,Export,Export(US$ Mil),43.8002941642765
+Latvia,2021,World,Miscellaneous,Export,Export(US$ Mil),1198.22990288627
+Latvia,2021,World,Intermediate goods,Import,Import(US$ Mil),5197.53776942673
+Latvia,2021,World,Consumer goods,Import,Import(US$ Mil),9193.38575982464
+Latvia,2021,World,Capital goods,Import,Import(US$ Mil),5735.23106859828
+Latvia,2021,World,Raw materials,Import,Import(US$ Mil),1838.40470489594
+Latvia,2021,World,All Products,Export,Exports (in US$ Mil),19458.8219162731
+Latvia,2021,World,All Products,Import,Imports (in US$ Mil),23085.5279450376
+Latvia,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),4074522.11235332
+Latvia,2021,...,...,Tariff,No. Of Tariff Agreement,
+Latvia,2021,...,...,Import,No. Of Import partners,165
+Latvia,2021,...,...,Import,No. Of Import products,4255
+Latvia,2021,...,...,Export,No. Of Export partners,193
+Latvia,2021,...,...,Export,No. Of Export products,3716
+Latvia,2019,...,...,Others,Trading Across Borders Rank,28
+Latvia,2018,...,...,Others,Population,1926542
+Latvia,2016,...,...,Others,LPI Score,3.327107
+Latvia,2019,...,...,Others,Ease of Doing Business Rank,19
+Latvia,2016,...,...,Others,LPI Rank,43
+Latvia,2021,Lithuania,All Products,Export,Partner share(%)-Top 5 Export Partner,17.7627
+Latvia,2021,Estonia,All Products,Export,Partner share(%)-Top 5 Export Partner,10.6227
+Latvia,2021,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,7.6618
+Latvia,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,7.2779
+Latvia,2021,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,7.2765
+Latvia,2021,Lithuania,All Products,Import,Partner share(%)-Top 5 Import Partner,17.2194
+Latvia,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,10.5301
+Latvia,2021,Poland,All Products,Import,Partner share(%)-Top 5 Import Partner,9.5931
+Latvia,2021,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,9.0781
+Latvia,2021,Estonia,All Products,Import,Partner share(%)-Top 5 Import Partner,8.8644
+Latvia,2021,World,Food Products,Export,Export Product share(%),7.3812
+Latvia,2021,World,Footwear,Export,Export Product share(%),0.3516
+Latvia,2021,World,Consumer goods,Export,Export Product share(%),34.9469
+Latvia,2021,World,Vegetable,Export,Export Product share(%),7.3045
+Latvia,2021,World,Textiles and Clothing,Export,Export Product share(%),2.6322
+Latvia,2021,World,Intermediate goods,Export,Export Product share(%),27.2461
+Latvia,2021,World,Animal,Export,Export Product share(%),3.5253
+Latvia,2021,World,Wood,Export,Export Product share(%),21.1352
+Latvia,2021,World,Raw materials,Export,Export Product share(%),16.6572
+Latvia,2021,World,Chemicals,Export,Export Product share(%),8.5215
+Latvia,2021,World,Mach and Elec,Export,Export Product share(%),15.8873
+Latvia,2021,World,Minerals,Export,Export Product share(%),0.5359
+Latvia,2021,World,Stone and Glass,Export,Export Product share(%),2.2622
+Latvia,2021,World,Capital goods,Export,Export Product share(%),18.7561
+Latvia,2021,World,Fuels,Export,Export Product share(%),5.8996
+Latvia,2021,World,Metals,Export,Export Product share(%),9.9774
+Latvia,2021,World,Plastic or Rubber,Export,Export Product share(%),3.566
+Latvia,2021,World,Transportation,Export,Export Product share(%),4.6371
+Latvia,2021,World,Hides and Skins,Export,Export Product share(%),0.2251
+Latvia,2021,World,Miscellaneous,Export,Export Product share(%),6.1578
+Latvia,2021,World,Intermediate goods,Import,Import Product share(%),22.5143
+Latvia,2021,World,Capital goods,Import,Import Product share(%),24.8434
+Latvia,2021,World,Raw materials,Import,Import Product share(%),7.9635
+Latvia,2021,World,Consumer goods,Import,Import Product share(%),39.8232
+Latvia,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.84053122264477
+Latvia,2021,World,Capital goods,Tariff,Weighted Average (%),0.339214536299556
+Latvia,2021,World,Consumer goods,Tariff,Weighted Average (%),1.5245309067309
+Latvia,2021,World,Raw materials,Tariff,Weighted Average (%),1.97990348169333
+Latvia,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Latvia,2021,World,All Products,Trade Indicator,Country Growth (%),10.9080529801103
+Latvia,2021,World,All Products,Tariff,Simple Average (%),2.36079672302385
+Latvia,2021,World,All Products,Tariff,Weighted Average (%),1.27548353718916
+Latvia,2021,World,All Products,Tariff,Maximum Rate (%),193.426300048828
+Latvia,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),56.4911811610119
+Latvia,2021,...,...,Trade Indicator,Index of export market penetration,6.81621618681361
+Latvia,2021,...,...,Trade Indicator,HH Market concentration index,0.0714112135535883

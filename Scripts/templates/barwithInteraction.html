@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Bar graph</title>
+        <link rel="stylesheet" href="static/styles/indexCSS.css">
+    </head>
+    <body>
+    <h1 class="heading1">Bar graph with Interaction</h1>
+    <a href="{{url_for('homePage')}}" class="redirectionLink">Back to home</a>
+    <p> Select a Product category, Time Frame,<br>and Import/Export below<br> to view the Bar graph.</p>
+    <form id="product_analysis" action="/display_bar_chart_with_plotly" method="POST" style="position: sticky;">
+        <table>
+        <tr>
+        <td>
+        <select name="Product">
+            {% for x in product_names%}
+            {%if x.pname==productName%}
+            <option value="{{ x.pname }}" selected>{{ x.pname }}</option>
+            {%else%}
+            <option value="{{ x.pname }}">{{ x.pname }}</option>
+            {%endif%}
+            {%endfor%}
+        </select>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <select name="timeFrame3">
+            {% for x in years%}
+            {%if x.year==timeVal%}
+            <option value="{{ x.year }}" selected>{{ x.year }}</option>
+            {%else%}
+            <option value="{{ x.year }}">{{ x.year }}</option>
+            {%endif%}
+            {%endfor%}
+        </select>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <select name="ImportOrExport">
+                    {%for x in importExportType%}
+                    {%if x.imporexp==impVal%}
+                    <option value="{{x.imporexp}}" selected>{{x.imporexp}}</option>
+                    {%else%}
+                    <option value="{{x.imporexp}}">{{x.imporexp}}</option>
+                    {%endif%}
+                    {%endfor%}
+                </select>
+            </td>
+        </tr>
+    <tr>
+        <td>
+        <input type="submit" value="View Plot"/>
+    </td>
+    </tr>
+    </table>
+    </form>
+    <div class="imageBlock">
+    {% if show_plot == True %}
+    <div id='chart'></div>
+    {%endif%}
+    {% if show_plot==False%}
+    <p>Select the filters and click on the view plot</p>
+    {%endif%}
+    </div>
+</body>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type='text/javascript'>
+  var graphs = {{graphJSON | safe}};
+  Plotly.plot('chart',graphs,{});
+</script>
+</html>

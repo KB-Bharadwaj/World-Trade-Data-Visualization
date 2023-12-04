@@ -1,0 +1,99 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Paraguay,2021,Brazil,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3546.840418
+Paraguay,2021,Argentina,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2652.333009
+Paraguay,2021,Chile,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,998.490796
+Paraguay,2021,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,735.923186
+Paraguay,2021,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,232.621743
+Paraguay,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4067.307965
+Paraguay,2021,Brazil,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3219.967147
+Paraguay,2021,Argentina,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1284.189884
+Paraguay,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,961.765812
+Paraguay,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,451.109578
+Paraguay,2021,World,Fuels,Export,Export(US$ Mil),1608.852055
+Paraguay,2021,World,Metals,Export,Export(US$ Mil),273.960934
+Paraguay,2021,World,Minerals,Export,Export(US$ Mil),1.029095
+Paraguay,2021,World,Stone and Glass,Export,Export(US$ Mil),22.919355
+Paraguay,2021,World,Capital goods,Export,Export(US$ Mil),97.4849849999999
+Paraguay,2021,World,Chemicals,Export,Export(US$ Mil),186.223855
+Paraguay,2021,World,Mach and Elec,Export,Export(US$ Mil),264.083965
+Paraguay,2021,World,Food Products,Export,Export(US$ Mil),1057.309302
+Paraguay,2021,World,Footwear,Export,Export(US$ Mil),15.245254
+Paraguay,2021,World,Consumer goods,Export,Export(US$ Mil),1065.101503
+Paraguay,2021,World,Vegetable,Export,Export(US$ Mil),4664.763924
+Paraguay,2021,World,Textiles and Clothing,Export,Export(US$ Mil),281.85019
+Paraguay,2021,World,Intermediate goods,Export,Export(US$ Mil),3742.839149
+Paraguay,2021,World,Plastic or Rubber,Export,Export(US$ Mil),95.737879
+Paraguay,2021,World,Transportation,Export,Export(US$ Mil),18.153026
+Paraguay,2021,World,Hides and Skins,Export,Export(US$ Mil),117.187969
+Paraguay,2021,World,Miscellaneous,Export,Export(US$ Mil),51.082222
+Paraguay,2021,World,Animal,Export,Export(US$ Mil),1753.673896
+Paraguay,2021,World,Wood,Export,Export(US$ Mil),138.349448
+Paraguay,2021,World,Raw materials,Export,Export(US$ Mil),5644.996732
+Paraguay,2021,World,Consumer goods,Import,Import(US$ Mil),5484.560611
+Paraguay,2021,World,Capital goods,Import,Import(US$ Mil),4281.71037
+Paraguay,2021,World,Intermediate goods,Import,Import(US$ Mil),3436.424516
+Paraguay,2021,World,Raw materials,Import,Import(US$ Mil),356.287024
+Paraguay,2021,World,All Products,Export,Exports (in US$ Mil),10550.422369
+Paraguay,2021,World,All Products,Import,Imports (in US$ Mil),13559.72627
+Paraguay,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),4835422.418
+Paraguay,2021,...,...,Tariff,No. Of Tariff Agreement,49
+Paraguay,2021,...,...,Import,No. Of Import partners,153
+Paraguay,2021,...,...,Import,No. Of Import products,3751
+Paraguay,2021,...,...,Export,No. Of Export partners,140
+Paraguay,2021,...,...,Export,No. Of Export products,1530
+Paraguay,2018,...,...,Others,Population,6956071
+Paraguay,2019,...,...,Others,Ease of Doing Business Rank,125
+Paraguay,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),1727
+Paraguay,2014,...,...,Others,No Of NTM Measures,35
+Paraguay,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1261258
+Paraguay,2016,...,...,Others,LPI Score,2.561337
+Paraguay,2019,...,...,Others,Trading Across Borders Rank,128
+Paraguay,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0944392
+Paraguay,2016,...,...,Others,LPI Rank,101
+Paraguay,,...,...,Others,Services Trade Restrictions Index - Over All,15.9
+Paraguay,2021,Brazil,All Products,Export,Partner share(%)-Top 5 Export Partner,33.618
+Paraguay,2021,Argentina,All Products,Export,Partner share(%)-Top 5 Export Partner,25.1396
+Paraguay,2021,Chile,All Products,Export,Partner share(%)-Top 5 Export Partner,9.464
+Paraguay,2021,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,6.9753
+Paraguay,2021,India,All Products,Export,Partner share(%)-Top 5 Export Partner,2.2049
+Paraguay,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,29.9955
+Paraguay,2021,Brazil,All Products,Import,Partner share(%)-Top 5 Import Partner,23.7465
+Paraguay,2021,Argentina,All Products,Import,Partner share(%)-Top 5 Import Partner,9.4706
+Paraguay,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,7.0928
+Paraguay,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,3.3268
+Paraguay,2021,World,Vegetable,Export,Export Product share(%),44.214
+Paraguay,2021,World,Textiles and Clothing,Export,Export Product share(%),2.6715
+Paraguay,2021,World,Intermediate goods,Export,Export Product share(%),35.4757
+Paraguay,2021,World,Food Products,Export,Export Product share(%),10.0215
+Paraguay,2021,World,Footwear,Export,Export Product share(%),0.1445
+Paraguay,2021,World,Consumer goods,Export,Export Product share(%),10.0953
+Paraguay,2021,World,Minerals,Export,Export Product share(%),0.0098
+Paraguay,2021,World,Stone and Glass,Export,Export Product share(%),0.2172
+Paraguay,2021,World,Capital goods,Export,Export Product share(%),0.924
+Paraguay,2021,World,Fuels,Export,Export Product share(%),15.2492
+Paraguay,2021,World,Metals,Export,Export Product share(%),2.5967
+Paraguay,2021,World,Chemicals,Export,Export Product share(%),1.7651
+Paraguay,2021,World,Mach and Elec,Export,Export Product share(%),2.5031
+Paraguay,2021,World,Plastic or Rubber,Export,Export Product share(%),0.9074
+Paraguay,2021,World,Transportation,Export,Export Product share(%),0.1721
+Paraguay,2021,World,Animal,Export,Export Product share(%),16.6218
+Paraguay,2021,World,Wood,Export,Export Product share(%),1.3113
+Paraguay,2021,World,Raw materials,Export,Export Product share(%),53.5049
+Paraguay,2021,World,Hides and Skins,Export,Export Product share(%),1.1107
+Paraguay,2021,World,Miscellaneous,Export,Export Product share(%),0.4842
+Paraguay,2021,World,Consumer goods,Import,Import Product share(%),40.4474
+Paraguay,2021,World,Raw materials,Import,Import Product share(%),2.6275
+Paraguay,2021,World,Capital goods,Import,Import Product share(%),31.5767
+Paraguay,2021,World,Intermediate goods,Import,Import Product share(%),25.3429
+Paraguay,2021,World,Intermediate goods,Tariff,Weighted Average (%),3.73258664627063
+Paraguay,2021,World,Capital goods,Tariff,Weighted Average (%),3.80287304393329
+Paraguay,2021,World,Raw materials,Tariff,Weighted Average (%),0.762108398042872
+Paraguay,2021,World,Consumer goods,Tariff,Weighted Average (%),6.26625903497703
+Paraguay,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Paraguay,2021,World,All Products,Trade Indicator,Country Growth (%),13.0237745998773
+Paraguay,2021,World,All Products,Tariff,Simple Average (%),8.11105775087688
+Paraguay,2021,World,All Products,Tariff,Weighted Average (%),4.48649755931585
+Paraguay,2021,World,All Products,Tariff,Maximum Rate (%),35
+Paraguay,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),37.1602178147689
+Paraguay,2021,...,...,Trade Indicator,Index of export market penetration,2.25071840862303
+Paraguay,2021,...,...,Trade Indicator,HH Market concentration index,0.195186203536431

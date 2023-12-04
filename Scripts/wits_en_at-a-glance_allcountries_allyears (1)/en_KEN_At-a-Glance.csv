@@ -1,0 +1,98 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Kenya,2021,Uganda,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,831.916748114224
+Kenya,2021,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,562.452313610513
+Kenya,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,543.26774083852
+Kenya,2021,Pakistan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,484.9867621122
+Kenya,2021,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,450.577155921953
+Kenya,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4025.66171997071
+Kenya,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2106.72215700909
+Kenya,2021,United Arab Emirates,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1628.40433412077
+Kenya,2021,Saudi Arabia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1045.97961017021
+Kenya,2021,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,892.273175232008
+Kenya,2021,World,Food Products,Export,Export(US$ Mil),542.854610114184
+Kenya,2021,World,Footwear,Export,Export(US$ Mil),54.5112886584482
+Kenya,2021,World,Consumer goods,Export,Export(US$ Mil),4088.14317340563
+Kenya,2021,World,Minerals,Export,Export(US$ Mil),418.427479990777
+Kenya,2021,World,Stone and Glass,Export,Export(US$ Mil),56.3391251989898
+Kenya,2021,World,Capital goods,Export,Export(US$ Mil),330.199143407976
+Kenya,2021,World,Fuels,Export,Export(US$ Mil),280.609257550249
+Kenya,2021,World,Metals,Export,Export(US$ Mil),334.042190325178
+Kenya,2021,World,Chemicals,Export,Export(US$ Mil),568.228649166038
+Kenya,2021,World,Mach and Elec,Export,Export(US$ Mil),219.574261043547
+Kenya,2021,World,Vegetable,Export,Export(US$ Mil),3184.19323948713
+Kenya,2021,World,Textiles and Clothing,Export,Export(US$ Mil),488.627220887734
+Kenya,2021,World,Intermediate goods,Export,Export(US$ Mil),925.523689241494
+Kenya,2021,World,Plastic or Rubber,Export,Export(US$ Mil),144.392793173661
+Kenya,2021,World,Transportation,Export,Export(US$ Mil),86.9796024040174
+Kenya,2021,World,Hides and Skins,Export,Export(US$ Mil),20.3201940674069
+Kenya,2021,World,Miscellaneous,Export,Export(US$ Mil),101.702095015777
+Kenya,2021,World,Animal,Export,Export(US$ Mil),125.33777239191
+Kenya,2021,World,Wood,Export,Export(US$ Mil),125.226441558983
+Kenya,2021,World,Raw materials,Export,Export(US$ Mil),1407.06265659368
+Kenya,2021,World,Consumer goods,Import,Import(US$ Mil),7706.31651948085
+Kenya,2021,World,Intermediate goods,Import,Import(US$ Mil),6521.64492042422
+Kenya,2021,World,Capital goods,Import,Import(US$ Mil),4178.37110797967
+Kenya,2021,World,Raw materials,Import,Import(US$ Mil),1177.88951599903
+Kenya,2021,World,All Products,Export,Exports (in US$ Mil),6751.36622103404
+Kenya,2021,World,All Products,Import,Imports (in US$ Mil),19594.1177299884
+Kenya,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),9083037.6539939
+Kenya,2021,...,...,Tariff,No. Of Tariff Agreement,4
+Kenya,2021,...,...,Import,No. Of Import partners,190
+Kenya,2021,...,...,Import,No. Of Import products,4099
+Kenya,2021,...,...,Export,No. Of Export partners,179
+Kenya,2021,...,...,Export,No. Of Export products,3278
+Kenya,2018,...,...,Others,Population,51393010
+Kenya,2018,...,...,Others,CPIA Trade Ratings,4
+Kenya,2016,...,...,Others,LPI Rank,42
+Kenya,2019,...,...,Others,Ease of Doing Business Rank,56
+Kenya,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1305724
+Kenya,2019,...,...,Others,Trading Across Borders Rank,117
+Kenya,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.1223468
+Kenya,2016,...,...,Others,LPI Score,3.331295
+Kenya,,...,...,Others,Services Trade Restrictions Index - Over All,29.5
+Kenya,2021,Uganda,All Products,Export,Partner share(%)-Top 5 Export Partner,12.3222
+Kenya,2021,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,8.3309
+Kenya,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,8.0468
+Kenya,2021,Pakistan,All Products,Export,Partner share(%)-Top 5 Export Partner,7.1835
+Kenya,2021,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,6.6739
+Kenya,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,20.5453
+Kenya,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,10.7518
+Kenya,2021,United Arab Emirates,All Products,Import,Partner share(%)-Top 5 Import Partner,8.3107
+Kenya,2021,Saudi Arabia,All Products,Import,Partner share(%)-Top 5 Import Partner,5.3382
+Kenya,2021,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,4.5538
+Kenya,2021,World,Vegetable,Export,Export Product share(%),47.1637
+Kenya,2021,World,Textiles and Clothing,Export,Export Product share(%),7.2375
+Kenya,2021,World,Intermediate goods,Export,Export Product share(%),13.7087
+Kenya,2021,World,Food Products,Export,Export Product share(%),8.0407
+Kenya,2021,World,Footwear,Export,Export Product share(%),0.8074
+Kenya,2021,World,Consumer goods,Export,Export Product share(%),60.5528
+Kenya,2021,World,Minerals,Export,Export Product share(%),6.1977
+Kenya,2021,World,Stone and Glass,Export,Export Product share(%),0.8345
+Kenya,2021,World,Capital goods,Export,Export Product share(%),4.8908
+Kenya,2021,World,Fuels,Export,Export Product share(%),4.1563
+Kenya,2021,World,Metals,Export,Export Product share(%),4.9478
+Kenya,2021,World,Chemicals,Export,Export Product share(%),8.4165
+Kenya,2021,World,Mach and Elec,Export,Export Product share(%),3.2523
+Kenya,2021,World,Plastic or Rubber,Export,Export Product share(%),2.1387
+Kenya,2021,World,Transportation,Export,Export Product share(%),1.2883
+Kenya,2021,World,Hides and Skins,Export,Export Product share(%),0.301
+Kenya,2021,World,Miscellaneous,Export,Export Product share(%),1.5064
+Kenya,2021,World,Animal,Export,Export Product share(%),1.8565
+Kenya,2021,World,Wood,Export,Export Product share(%),1.8548
+Kenya,2021,World,Raw materials,Export,Export Product share(%),20.8412
+Kenya,2021,World,Consumer goods,Import,Import Product share(%),39.3297
+Kenya,2021,World,Intermediate goods,Import,Import Product share(%),33.2837
+Kenya,2021,World,Capital goods,Import,Import Product share(%),21.3246
+Kenya,2021,World,Raw materials,Import,Import Product share(%),6.0114
+Kenya,2021,World,Intermediate goods,Tariff,Weighted Average (%),4.76904723389117
+Kenya,2021,World,Consumer goods,Tariff,Weighted Average (%),16.0246904974783
+Kenya,2021,World,Capital goods,Tariff,Weighted Average (%),5.05409143574724
+Kenya,2021,World,Raw materials,Tariff,Weighted Average (%),3.18429293760782
+Kenya,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Kenya,2021,World,All Products,Trade Indicator,Country Growth (%),1.17565877098946
+Kenya,2021,World,All Products,Tariff,Simple Average (%),14.1152923934833
+Kenya,2021,World,All Products,Tariff,Weighted Average (%),9.30499799220307
+Kenya,2021,World,All Products,Tariff,Maximum Rate (%),122.334297180176
+Kenya,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),33.8994633154438
+Kenya,2021,...,...,Trade Indicator,Index of export market penetration,3.90458671127769
+Kenya,2021,...,...,Trade Indicator,HH Market concentration index,0.0488366333922122

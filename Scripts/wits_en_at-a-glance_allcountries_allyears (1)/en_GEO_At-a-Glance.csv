@@ -1,0 +1,98 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Georgia,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,615.68444143
+Georgia,2021,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,610.06005083
+Georgia,2021,Azerbaijan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,531.72507631
+Georgia,2021,Turkey,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,322.7613353
+Georgia,2021,Ukraine,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,307.43570999
+Georgia,2021,Turkey,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1828.97577783
+Georgia,2021,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1023.18152827
+Georgia,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,865.021181860001
+Georgia,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,648.19722968
+Georgia,2021,Azerbaijan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,598.3909867
+Georgia,2021,World,Vegetable,Export,Export(US$ Mil),295.20308551
+Georgia,2021,World,Textiles and Clothing,Export,Export(US$ Mil),167.71640035
+Georgia,2021,World,Intermediate goods,Export,Export(US$ Mil),968.70179034
+Georgia,2021,World,Minerals,Export,Export(US$ Mil),887.26867751
+Georgia,2021,World,Stone and Glass,Export,Export(US$ Mil),93.4293103
+Georgia,2021,World,Capital goods,Export,Export(US$ Mil),269.72437659
+Georgia,2021,World,Chemicals,Export,Export(US$ Mil),315.06415525
+Georgia,2021,World,Mach and Elec,Export,Export(US$ Mil),198.13071176
+Georgia,2021,World,Food Products,Export,Export(US$ Mil),743.0074302
+Georgia,2021,World,Footwear,Export,Export(US$ Mil),5.82229392
+Georgia,2021,World,Consumer goods,Export,Export(US$ Mil),1644.67560951
+Georgia,2021,World,Plastic or Rubber,Export,Export(US$ Mil),61.92769351
+Georgia,2021,World,Transportation,Export,Export(US$ Mil),507.31346425
+Georgia,2021,World,Hides and Skins,Export,Export(US$ Mil),1.6053453
+Georgia,2021,World,Miscellaneous,Export,Export(US$ Mil),85.80646763
+Georgia,2021,World,Fuels,Export,Export(US$ Mil),35.91351621
+Georgia,2021,World,Metals,Export,Export(US$ Mil),671.84976206
+Georgia,2021,World,Animal,Export,Export(US$ Mil),103.43655457
+Georgia,2021,World,Wood,Export,Export(US$ Mil),69.15814884
+Georgia,2021,World,Raw materials,Export,Export(US$ Mil),1347.37813527
+Georgia,2021,World,Intermediate goods,Import,Import(US$ Mil),1738.77107791
+Georgia,2021,World,Consumer goods,Import,Import(US$ Mil),5210.48244558001
+Georgia,2021,World,Capital goods,Import,Import(US$ Mil),1797.04735802
+Georgia,2021,World,Raw materials,Import,Import(US$ Mil),1288.14910019
+Georgia,2021,World,All Products,Export,Exports (in US$ Mil),4242.65301717
+Georgia,2021,World,All Products,Import,Imports (in US$ Mil),10099.75499561
+Georgia,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),8022564.40211
+Georgia,2021,...,...,Tariff,No. Of Tariff Agreement,10
+Georgia,2021,...,...,Import,No. Of Import partners,119
+Georgia,2021,...,...,Import,No. Of Import products,3909
+Georgia,2021,...,...,Export,No. Of Export partners,130
+Georgia,2021,...,...,Export,No. Of Export products,2502
+Georgia,2018,...,...,Others,Population,3731000
+Georgia,2013,...,...,Others,CPIA Trade Ratings,6
+Georgia,2019,...,...,Others,Ease of Doing Business Rank,7
+Georgia,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0144548
+Georgia,2016,...,...,Others,LPI Score,2.353013
+Georgia,2016,...,...,Others,LPI Rank,130
+Georgia,2019,...,...,Others,Trading Across Borders Rank,45
+Georgia,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0047404
+Georgia,,...,...,Others,Services Trade Restrictions Index - Over All,11.5
+Georgia,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,14.5118
+Georgia,2021,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,14.3792
+Georgia,2021,Azerbaijan,All Products,Export,Partner share(%)-Top 5 Export Partner,12.5328
+Georgia,2021,Turkey,All Products,Export,Partner share(%)-Top 5 Export Partner,7.6075
+Georgia,2021,Ukraine,All Products,Export,Partner share(%)-Top 5 Export Partner,7.2463
+Georgia,2021,Turkey,All Products,Import,Partner share(%)-Top 5 Import Partner,18.1091
+Georgia,2021,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,10.1308
+Georgia,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,8.5648
+Georgia,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,6.418
+Georgia,2021,Azerbaijan,All Products,Import,Partner share(%)-Top 5 Import Partner,5.9248
+Georgia,2021,World,Vegetable,Export,Export Product share(%),6.958
+Georgia,2021,World,Textiles and Clothing,Export,Export Product share(%),3.9531
+Georgia,2021,World,Intermediate goods,Export,Export Product share(%),22.8325
+Georgia,2021,World,Food Products,Export,Export Product share(%),17.5128
+Georgia,2021,World,Footwear,Export,Export Product share(%),0.1372
+Georgia,2021,World,Consumer goods,Export,Export Product share(%),38.7653
+Georgia,2021,World,Minerals,Export,Export Product share(%),20.9131
+Georgia,2021,World,Stone and Glass,Export,Export Product share(%),2.2021
+Georgia,2021,World,Capital goods,Export,Export Product share(%),6.3574
+Georgia,2021,World,Fuels,Export,Export Product share(%),0.8465
+Georgia,2021,World,Metals,Export,Export Product share(%),15.8356
+Georgia,2021,World,Chemicals,Export,Export Product share(%),7.4261
+Georgia,2021,World,Mach and Elec,Export,Export Product share(%),4.67
+Georgia,2021,World,Plastic or Rubber,Export,Export Product share(%),1.4596
+Georgia,2021,World,Transportation,Export,Export Product share(%),11.9575
+Georgia,2021,World,Hides and Skins,Export,Export Product share(%),0.0378
+Georgia,2021,World,Miscellaneous,Export,Export Product share(%),2.0225
+Georgia,2021,World,Animal,Export,Export Product share(%),2.438
+Georgia,2021,World,Wood,Export,Export Product share(%),1.6301
+Georgia,2021,World,Raw materials,Export,Export Product share(%),31.7579
+Georgia,2021,World,Intermediate goods,Import,Import Product share(%),17.216
+Georgia,2021,World,Consumer goods,Import,Import Product share(%),51.5902
+Georgia,2021,World,Capital goods,Import,Import Product share(%),17.793
+Georgia,2021,World,Raw materials,Import,Import Product share(%),12.7543
+Georgia,2021,World,Intermediate goods,Tariff,Weighted Average (%),0.76292494541264
+Georgia,2021,World,Consumer goods,Tariff,Weighted Average (%),0.159885147073687
+Georgia,2021,World,Capital goods,Tariff,Weighted Average (%),0.00141346493553207
+Georgia,2021,World,Raw materials,Tariff,Weighted Average (%),0.709589087997198
+Georgia,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Georgia,2021,World,All Products,Trade Indicator,Country Growth (%),15.7247055542682
+Georgia,2021,World,All Products,Tariff,Simple Average (%),0.428429593583652
+Georgia,2021,World,All Products,Tariff,Weighted Average (%),0.344892817744326
+Georgia,2021,World,All Products,Tariff,Maximum Rate (%),479.760498046875
+Georgia,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),94.5043929990935
+Georgia,2021,...,...,Trade Indicator,Index of export market penetration,3.44151560909126
+Georgia,2021,...,...,Trade Indicator,HH Market concentration index,0.060686144205557

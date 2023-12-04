@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Finland,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,10755.5138434643
+Finland,2021,Sweden,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,8353.45026969174
+Finland,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,5408.12564082463
+Finland,2021,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4968.81070309708
+Finland,2021,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4361.43895639253
+Finland,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,12540.2951003532
+Finland,2021,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,10051.9711864547
+Finland,2021,Sweden,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,9869.99099414743
+Finland,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,7794.65605901979
+Finland,2021,Netherlands,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3856.88833877161
+Finland,2021,World,Vegetable,Export,Export(US$ Mil),358.855528411216
+Finland,2021,World,Textiles and Clothing,Export,Export(US$ Mil),651.040004471578
+Finland,2021,World,Intermediate goods,Export,Export(US$ Mil),30012.9088519029
+Finland,2021,World,Food Products,Export,Export(US$ Mil),852.947717531351
+Finland,2021,World,Footwear,Export,Export(US$ Mil),145.765258826819
+Finland,2021,World,Consumer goods,Export,Export(US$ Mil),16691.248686354
+Finland,2021,World,Animal,Export,Export(US$ Mil),912.634026017084
+Finland,2021,World,Wood,Export,Export(US$ Mil),15493.5954675363
+Finland,2021,World,Raw materials,Export,Export(US$ Mil),3051.21195188465
+Finland,2021,World,Chemicals,Export,Export(US$ Mil),4218.94834593105
+Finland,2021,World,Mach and Elec,Export,Export(US$ Mil),16652.3203526331
+Finland,2021,World,Plastic or Rubber,Export,Export(US$ Mil),3798.7271348852
+Finland,2021,World,Transportation,Export,Export(US$ Mil),8134.29811775485
+Finland,2021,World,Minerals,Export,Export(US$ Mil),1195.3850304156
+Finland,2021,World,Stone and Glass,Export,Export(US$ Mil),865.046454268609
+Finland,2021,World,Capital goods,Export,Export(US$ Mil),23718.9268987758
+Finland,2021,World,Fuels,Export,Export(US$ Mil),5704.3081990056
+Finland,2021,World,Metals,Export,Export(US$ Mil),12828.4254111129
+Finland,2021,World,Hides and Skins,Export,Export(US$ Mil),500.202298891495
+Finland,2021,World,Miscellaneous,Export,Export(US$ Mil),9187.76586161232
+Finland,2021,World,Intermediate goods,Import,Import(US$ Mil),16648.2576254754
+Finland,2021,World,Consumer goods,Import,Import(US$ Mil),25644.4857465636
+Finland,2021,World,Raw materials,Import,Import(US$ Mil),11436.5198640594
+Finland,2021,World,Capital goods,Import,Import(US$ Mil),23738.8827745445
+Finland,2021,World,All Products,Export,Exports (in US$ Mil),81500.2652093052
+Finland,2021,World,All Products,Import,Imports (in US$ Mil),86263.5744239866
+Finland,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),22555786.2988585
+Finland,2021,...,...,Tariff,No. Of Tariff Agreement,
+Finland,2021,...,...,Import,No. Of Import partners,222
+Finland,2021,...,...,Import,No. Of Import products,4334
+Finland,2021,...,...,Export,No. Of Export partners,215
+Finland,2021,...,...,Export,No. Of Export products,3888
+Finland,,...,...,Others,Services Trade Restrictions Index - Over All,25.6
+Finland,2019,...,...,Others,Trading Across Borders Rank,37
+Finland,2018,...,...,Others,Population,5518050
+Finland,2016,...,...,Others,LPI Score,3.920745
+Finland,2019,...,...,Others,Ease of Doing Business Rank,20
+Finland,2016,...,...,Others,LPI Rank,15
+Finland,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,13.1969
+Finland,2021,Sweden,All Products,Export,Partner share(%)-Top 5 Export Partner,10.2496
+Finland,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,6.6357
+Finland,2021,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,6.0967
+Finland,2021,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,5.3514
+Finland,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,14.5372
+Finland,2021,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,11.6526
+Finland,2021,Sweden,All Products,Import,Partner share(%)-Top 5 Import Partner,11.4417
+Finland,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,9.0359
+Finland,2021,Netherlands,All Products,Import,Partner share(%)-Top 5 Import Partner,4.4711
+Finland,2021,World,Vegetable,Export,Export Product share(%),0.4403
+Finland,2021,World,Textiles and Clothing,Export,Export Product share(%),0.7988
+Finland,2021,World,Intermediate goods,Export,Export Product share(%),36.8255
+Finland,2021,World,Food Products,Export,Export Product share(%),1.0466
+Finland,2021,World,Footwear,Export,Export Product share(%),0.1789
+Finland,2021,World,Consumer goods,Export,Export Product share(%),20.48
+Finland,2021,World,Minerals,Export,Export Product share(%),1.4667
+Finland,2021,World,Stone and Glass,Export,Export Product share(%),1.0614
+Finland,2021,World,Capital goods,Export,Export Product share(%),29.1029
+Finland,2021,World,Animal,Export,Export Product share(%),1.1198
+Finland,2021,World,Wood,Export,Export Product share(%),19.0105
+Finland,2021,World,Raw materials,Export,Export Product share(%),3.7438
+Finland,2021,World,Fuels,Export,Export Product share(%),6.9991
+Finland,2021,World,Metals,Export,Export Product share(%),15.7403
+Finland,2021,World,Chemicals,Export,Export Product share(%),5.1766
+Finland,2021,World,Mach and Elec,Export,Export Product share(%),20.4322
+Finland,2021,World,Plastic or Rubber,Export,Export Product share(%),4.661
+Finland,2021,World,Transportation,Export,Export Product share(%),9.9807
+Finland,2021,World,Hides and Skins,Export,Export Product share(%),0.6137
+Finland,2021,World,Miscellaneous,Export,Export Product share(%),11.2733
+Finland,2021,World,Consumer goods,Import,Import Product share(%),29.7281
+Finland,2021,World,Intermediate goods,Import,Import Product share(%),19.2993
+Finland,2021,World,Capital goods,Import,Import Product share(%),27.519
+Finland,2021,World,Raw materials,Import,Import Product share(%),13.2576
+Finland,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.12916141522594
+Finland,2021,World,Consumer goods,Tariff,Weighted Average (%),3.53498768384246
+Finland,2021,World,Capital goods,Tariff,Weighted Average (%),0.451873872681346
+Finland,2021,World,Raw materials,Tariff,Weighted Average (%),0.310658422064538
+Finland,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Finland,2021,World,All Products,Trade Indicator,Country Growth (%),10.598561511114
+Finland,2021,World,All Products,Tariff,Simple Average (%),2.29371712194576
+Finland,2021,World,All Products,Tariff,Weighted Average (%),1.34561009230086
+Finland,2021,World,All Products,Tariff,Maximum Rate (%),209.190093994141
+Finland,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),62.0839738756646
+Finland,2021,...,...,Trade Indicator,Index of export market penetration,11.8972254655157
+Finland,2021,...,...,Trade Indicator,HH Market concentration index,0.044865196177449

@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Colombia,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,11624.28949609
+Colombia,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3660.96936825
+Colombia,2021,Panama,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2384.74370219
+Colombia,2021,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2238.80100905
+Colombia,2021,Brazil,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2049.07943702
+Colombia,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,14795.94632232
+Colombia,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,14191.68150934
+Colombia,2021,Mexico,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3800.48042188
+Colombia,2021,Brazil,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3502.31704289
+Colombia,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2065.11619937
+Colombia,2021,World,Food Products,Export,Export(US$ Mil),1476.63630219
+Colombia,2021,World,Footwear,Export,Export(US$ Mil),42.10855038
+Colombia,2021,World,Consumer goods,Export,Export(US$ Mil),8968.58542299001
+Colombia,2021,World,Minerals,Export,Export(US$ Mil),196.36588258
+Colombia,2021,World,Stone and Glass,Export,Export(US$ Mil),3634.95673181
+Colombia,2021,World,Capital goods,Export,Export(US$ Mil),1138.37518119
+Colombia,2021,World,Chemicals,Export,Export(US$ Mil),2046.6396211
+Colombia,2021,World,Mach and Elec,Export,Export(US$ Mil),996.26601919
+Colombia,2021,World,Vegetable,Export,Export(US$ Mil),7289.2799589
+Colombia,2021,World,Textiles and Clothing,Export,Export(US$ Mil),810.97458247
+Colombia,2021,World,Intermediate goods,Export,Export(US$ Mil),9798.38283495002
+Colombia,2021,World,Plastic or Rubber,Export,Export(US$ Mil),2086.68312103
+Colombia,2021,World,Transportation,Export,Export(US$ Mil),400.38537531
+Colombia,2021,World,Fuels,Export,Export(US$ Mil),19179.8462229
+Colombia,2021,World,Metals,Export,Export(US$ Mil),1714.50052504
+Colombia,2021,World,Hides and Skins,Export,Export(US$ Mil),130.47879245
+Colombia,2021,World,Miscellaneous,Export,Export(US$ Mil),321.97221958
+Colombia,2021,World,Animal,Export,Export(US$ Mil),617.84082921
+Colombia,2021,World,Wood,Export,Export(US$ Mil),445.05431345
+Colombia,2021,World,Raw materials,Export,Export(US$ Mil),21473.78512719
+Colombia,2021,World,Intermediate goods,Import,Import(US$ Mil),20542.23978911
+Colombia,2021,World,Consumer goods,Import,Import(US$ Mil),18917.75851105
+Colombia,2021,World,Capital goods,Import,Import(US$ Mil),15991.83289941
+Colombia,2021,World,Raw materials,Import,Import(US$ Mil),4993.31855276
+Colombia,2021,World,All Products,Export,Exports (in US$ Mil),41389.98904759
+Colombia,2021,World,All Products,Import,Imports (in US$ Mil),61098.58956005
+Colombia,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),39802834.72945
+Colombia,2021,...,...,Tariff,No. Of Tariff Agreement,68
+Colombia,2021,...,...,Import,No. Of Import partners,197
+Colombia,2021,...,...,Import,No. Of Import products,4184
+Colombia,2021,...,...,Export,No. Of Export partners,178
+Colombia,2021,...,...,Export,No. Of Export products,3409
+Colombia,2019,...,...,Others,Ease of Doing Business Rank,67
+Colombia,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),4024
+Colombia,2014,...,...,Others,No Of NTM Measures,68
+Colombia,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.2292567
+Colombia,2019,...,...,Others,Trading Across Borders Rank,133
+Colombia,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.2053517
+Colombia,2016,...,...,Others,LPI Score,2.612351
+Colombia,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,1.182856917
+Colombia,2018,...,...,Others,Population,49648685
+Colombia,,...,...,Others,Services Trade Restrictions Index - Over All,18.3
+Colombia,2016,...,...,Others,LPI Rank,94
+Colombia,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,0.5811700821
+Colombia,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,28.0848
+Colombia,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,8.8451
+Colombia,2021,Panama,All Products,Export,Partner share(%)-Top 5 Export Partner,5.7616
+Colombia,2021,India,All Products,Export,Partner share(%)-Top 5 Export Partner,5.409
+Colombia,2021,Brazil,All Products,Export,Partner share(%)-Top 5 Export Partner,4.9507
+Colombia,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,24.2165
+Colombia,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,23.2275
+Colombia,2021,Mexico,All Products,Import,Partner share(%)-Top 5 Import Partner,6.2202
+Colombia,2021,Brazil,All Products,Import,Partner share(%)-Top 5 Import Partner,5.7322
+Colombia,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,3.38
+Colombia,2021,World,Vegetable,Export,Export Product share(%),17.6112
+Colombia,2021,World,Textiles and Clothing,Export,Export Product share(%),1.9593
+Colombia,2021,World,Intermediate goods,Export,Export Product share(%),23.6733
+Colombia,2021,World,Minerals,Export,Export Product share(%),0.4744
+Colombia,2021,World,Stone and Glass,Export,Export Product share(%),8.7822
+Colombia,2021,World,Capital goods,Export,Export Product share(%),2.7504
+Colombia,2021,World,Food Products,Export,Export Product share(%),3.5676
+Colombia,2021,World,Footwear,Export,Export Product share(%),0.1017
+Colombia,2021,World,Consumer goods,Export,Export Product share(%),21.6685
+Colombia,2021,World,Fuels,Export,Export Product share(%),46.3393
+Colombia,2021,World,Metals,Export,Export Product share(%),4.1423
+Colombia,2021,World,Animal,Export,Export Product share(%),1.4927
+Colombia,2021,World,Wood,Export,Export Product share(%),1.0753
+Colombia,2021,World,Raw materials,Export,Export Product share(%),51.8816
+Colombia,2021,World,Hides and Skins,Export,Export Product share(%),0.3152
+Colombia,2021,World,Miscellaneous,Export,Export Product share(%),0.7779
+Colombia,2021,World,Chemicals,Export,Export Product share(%),4.9448
+Colombia,2021,World,Mach and Elec,Export,Export Product share(%),2.407
+Colombia,2021,World,Plastic or Rubber,Export,Export Product share(%),5.0415
+Colombia,2021,World,Transportation,Export,Export Product share(%),0.9673
+Colombia,2021,World,Intermediate goods,Import,Import Product share(%),33.6215
+Colombia,2021,World,Consumer goods,Import,Import Product share(%),30.9627
+Colombia,2021,World,Capital goods,Import,Import Product share(%),26.1738
+Colombia,2021,World,Raw materials,Import,Import Product share(%),8.1726
+Colombia,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.22025928759453
+Colombia,2021,World,Consumer goods,Tariff,Weighted Average (%),5.48356961767271
+Colombia,2021,World,Capital goods,Tariff,Weighted Average (%),1.38896234118059
+Colombia,2021,World,Raw materials,Tariff,Weighted Average (%),3.19940052586457
+Colombia,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Colombia,2021,World,All Products,Trade Indicator,Country Growth (%),14.8601128892394
+Colombia,2021,World,All Products,Tariff,Simple Average (%),3.18793049999765
+Colombia,2021,World,All Products,Tariff,Weighted Average (%),2.57827097492262
+Colombia,2021,World,All Products,Tariff,Maximum Rate (%),80
+Colombia,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),75.4031614991322
+Colombia,2021,...,...,Trade Indicator,Index of export market penetration,6.60813819217539
+Colombia,2021,...,...,Trade Indicator,HH Market concentration index,0.114091187591551

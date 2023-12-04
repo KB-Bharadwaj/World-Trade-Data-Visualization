@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Ecuador,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,6402.858058026
+Ecuador,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4074.884603531
+Ecuador,2021,Panama,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3969.541807679
+Ecuador,2021,Chile,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1120.473064005
+Ecuador,2021,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,999.795919049
+Ecuador,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,6036.902970352
+Ecuador,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,5668.124461965
+Ecuador,2021,Colombia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1791.87045105
+Ecuador,2021,Brazil,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,994.904056796001
+Ecuador,2021,"Korea, Rep.",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,914.652599587
+Ecuador,2021,World,Chemicals,Export,Export(US$ Mil),119.022536233
+Ecuador,2021,World,Mach and Elec,Export,Export(US$ Mil),156.121237363
+Ecuador,2021,World,Fuels,Export,Export(US$ Mil),8619.981016065
+Ecuador,2021,World,Metals,Export,Export(US$ Mil),507.951176255
+Ecuador,2021,World,Vegetable,Export,Export(US$ Mil),5176.247261947
+Ecuador,2021,World,Textiles and Clothing,Export,Export(US$ Mil),138.870124737
+Ecuador,2021,World,Intermediate goods,Export,Export(US$ Mil),1963.681803031
+Ecuador,2021,World,Minerals,Export,Export(US$ Mil),1545.5941488
+Ecuador,2021,World,Stone and Glass,Export,Export(US$ Mil),659.399849015
+Ecuador,2021,World,Capital goods,Export,Export(US$ Mil),158.040684042
+Ecuador,2021,World,Food Products,Export,Export(US$ Mil),2993.194818756
+Ecuador,2021,World,Footwear,Export,Export(US$ Mil),41.195305068
+Ecuador,2021,World,Consumer goods,Export,Export(US$ Mil),4966.016309973
+Ecuador,2021,World,Plastic or Rubber,Export,Export(US$ Mil),253.094366993
+Ecuador,2021,World,Transportation,Export,Export(US$ Mil),37.512841423
+Ecuador,2021,World,Hides and Skins,Export,Export(US$ Mil),13.263540925
+Ecuador,2021,World,Miscellaneous,Export,Export(US$ Mil),66.351909391
+Ecuador,2021,World,Animal,Export,Export(US$ Mil),5720.376689483
+Ecuador,2021,World,Wood,Export,Export(US$ Mil),651.023021918
+Ecuador,2021,World,Raw materials,Export,Export(US$ Mil),19589.241314778
+Ecuador,2021,World,Intermediate goods,Import,Import(US$ Mil),8850.60789856501
+Ecuador,2021,World,Capital goods,Import,Import(US$ Mil),5553.73764347201
+Ecuador,2021,World,Consumer goods,Import,Import(US$ Mil),9628.84353441698
+Ecuador,2021,World,Raw materials,Import,Import(US$ Mil),1340.721774571
+Ecuador,2021,World,All Products,Export,Exports (in US$ Mil),26699.199844372
+Ecuador,2021,World,All Products,Import,Imports (in US$ Mil),25687.187046213
+Ecuador,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),15128329.587742
+Ecuador,2021,...,...,Tariff,No. Of Tariff Agreement,47
+Ecuador,2021,...,...,Import,No. Of Import partners,204
+Ecuador,2021,...,...,Import,No. Of Import products,4032
+Ecuador,2021,...,...,Export,No. Of Export partners,155
+Ecuador,2021,...,...,Export,No. Of Export products,2486
+Ecuador,2019,...,...,Others,Ease of Doing Business Rank,129
+Ecuador,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),2985
+Ecuador,2014,...,...,Others,No Of NTM Measures,62
+Ecuador,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0497022
+Ecuador,2016,...,...,Others,LPI Score,2.779081
+Ecuador,,...,...,Others,Services Trade Restrictions Index - Over All,6.2
+Ecuador,2019,...,...,Others,Trading Across Borders Rank,103
+Ecuador,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0333879
+Ecuador,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,0.0405648313
+Ecuador,2018,...,...,Others,Population,17084357
+Ecuador,2016,...,...,Others,LPI Rank,74
+Ecuador,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,0.0193723366
+Ecuador,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,23.9815
+Ecuador,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,15.2622
+Ecuador,2021,Panama,All Products,Export,Partner share(%)-Top 5 Export Partner,14.8676
+Ecuador,2021,Chile,All Products,Export,Partner share(%)-Top 5 Export Partner,4.1967
+Ecuador,2021,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,3.7447
+Ecuador,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,23.5016
+Ecuador,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,22.066
+Ecuador,2021,Colombia,All Products,Import,Partner share(%)-Top 5 Import Partner,6.9757
+Ecuador,2021,Brazil,All Products,Import,Partner share(%)-Top 5 Import Partner,3.8732
+Ecuador,2021,"Korea, Rep.",All Products,Import,Partner share(%)-Top 5 Import Partner,3.5607
+Ecuador,2021,World,Vegetable,Export,Export Product share(%),19.3873
+Ecuador,2021,World,Textiles and Clothing,Export,Export Product share(%),0.5201
+Ecuador,2021,World,Intermediate goods,Export,Export Product share(%),7.3548
+Ecuador,2021,World,Minerals,Export,Export Product share(%),5.7889
+Ecuador,2021,World,Stone and Glass,Export,Export Product share(%),2.4697
+Ecuador,2021,World,Capital goods,Export,Export Product share(%),0.5919
+Ecuador,2021,World,Fuels,Export,Export Product share(%),32.2855
+Ecuador,2021,World,Metals,Export,Export Product share(%),1.9025
+Ecuador,2021,World,Plastic or Rubber,Export,Export Product share(%),0.9479
+Ecuador,2021,World,Transportation,Export,Export Product share(%),0.1405
+Ecuador,2021,World,Food Products,Export,Export Product share(%),11.2108
+Ecuador,2021,World,Footwear,Export,Export Product share(%),0.1543
+Ecuador,2021,World,Consumer goods,Export,Export Product share(%),18.5999
+Ecuador,2021,World,Chemicals,Export,Export Product share(%),0.4458
+Ecuador,2021,World,Mach and Elec,Export,Export Product share(%),0.5847
+Ecuador,2021,World,Hides and Skins,Export,Export Product share(%),0.0497
+Ecuador,2021,World,Miscellaneous,Export,Export Product share(%),0.2485
+Ecuador,2021,World,Animal,Export,Export Product share(%),21.4253
+Ecuador,2021,World,Wood,Export,Export Product share(%),2.4384
+Ecuador,2021,World,Raw materials,Export,Export Product share(%),73.3701
+Ecuador,2021,World,Intermediate goods,Import,Import Product share(%),34.4553
+Ecuador,2021,World,Consumer goods,Import,Import Product share(%),37.485
+Ecuador,2021,World,Capital goods,Import,Import Product share(%),21.6207
+Ecuador,2021,World,Raw materials,Import,Import Product share(%),5.2194
+Ecuador,2021,World,Intermediate goods,Tariff,Weighted Average (%),0.926144688715304
+Ecuador,2021,World,Consumer goods,Tariff,Weighted Average (%),9.6420788784695
+Ecuador,2021,World,Capital goods,Tariff,Weighted Average (%),4.64116086725816
+Ecuador,2021,World,Raw materials,Tariff,Weighted Average (%),1.51438256069689
+Ecuador,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Ecuador,2021,World,All Products,Trade Indicator,Country Growth (%),14.6841253212992
+Ecuador,2021,World,All Products,Tariff,Simple Average (%),7.69937047766783
+Ecuador,2021,World,All Products,Tariff,Weighted Average (%),4.62674876234227
+Ecuador,2021,World,All Products,Tariff,Maximum Rate (%),1361.30505371094
+Ecuador,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),63.5104291205154
+Ecuador,2021,...,...,Trade Indicator,Index of export market penetration,3.49913994692362
+Ecuador,2021,...,...,Trade Indicator,HH Market concentration index,0.1268667746675

@@ -1,0 +1,79 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Martinique,1995,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,148.475104
+Martinique,1995,Guadeloupe,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,30.202858
+Martinique,1995,Belgium-Luxembourg,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,20.727336
+Martinique,1995,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,16.899772
+Martinique,1995,French Guiana,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,7.478515
+Martinique,1995,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1236.357248
+Martinique,1995,Italy,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,73.371256
+Martinique,1995,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,64.292728
+Martinique,1995,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,56.449748
+Martinique,1995,Unspecified,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,48.859316
+Martinique,1995,World,Vegetable,Export,Export(US$ Mil),108.040663
+Martinique,1995,World,Textiles and Clothing,Export,Export(US$ Mil),0.830362
+Martinique,1995,World,Intermediate goods,Export,Export(US$ Mil),7.612327
+Martinique,1995,World,Chemicals,Export,Export(US$ Mil),5.126651
+Martinique,1995,World,Mach and Elec,Export,Export(US$ Mil),11.000124
+Martinique,1995,World,Food Products,Export,Export(US$ Mil),41.261867
+Martinique,1995,World,Footwear,Export,Export(US$ Mil),0.467273
+Martinique,1995,World,Consumer goods,Export,Export(US$ Mil),72.671519
+Martinique,1995,World,Minerals,Export,Export(US$ Mil),1.577296
+Martinique,1995,World,Stone and Glass,Export,Export(US$ Mil),0.305414
+Martinique,1995,World,Capital goods,Export,Export(US$ Mil),14.149208
+Martinique,1995,World,Plastic or Rubber,Export,Export(US$ Mil),0.652132
+Martinique,1995,World,Transportation,Export,Export(US$ Mil),20.36166
+Martinique,1995,World,Hides and Skins,Export,Export(US$ Mil),0.170472
+Martinique,1995,World,Miscellaneous,Export,Export(US$ Mil),1.812213
+Martinique,1995,World,Fuels,Export,Export(US$ Mil),43.175664
+Martinique,1995,World,Metals,Export,Export(US$ Mil),4.27798
+Martinique,1995,World,Animal,Export,Export(US$ Mil),1.168245
+Martinique,1995,World,Wood,Export,Export(US$ Mil),1.687481
+Martinique,1995,World,Raw materials,Export,Export(US$ Mil),105.957913
+Martinique,1995,World,Consumer goods,Import,Import(US$ Mil),982.351836000001
+Martinique,1995,World,Intermediate goods,Import,Import(US$ Mil),239.069933
+Martinique,1995,World,Capital goods,Import,Import(US$ Mil),424.107808
+Martinique,1995,World,Raw materials,Import,Import(US$ Mil),245.416377
+Martinique,1995,World,All Products,Export,Exports (in US$ Mil),241.915488
+Martinique,1995,World,All Products,Import,Imports (in US$ Mil),1969.808128
+Martinique,1995,...,...,Import,No. Of Import partners,129
+Martinique,1995,...,...,Import,No. Of Import products,3369
+Martinique,1995,...,...,Export,No. Of Export partners,50
+Martinique,1995,...,...,Export,No. Of Export products,727
+Martinique,1995,France,All Products,Export,Partner share(%)-Top 5 Export Partner,61.3748
+Martinique,1995,Guadeloupe,All Products,Export,Partner share(%)-Top 5 Export Partner,12.4849
+Martinique,1995,Belgium-Luxembourg,All Products,Export,Partner share(%)-Top 5 Export Partner,8.568
+Martinique,1995,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,6.9858
+Martinique,1995,French Guiana,All Products,Export,Partner share(%)-Top 5 Export Partner,3.0914
+Martinique,1995,France,All Products,Import,Partner share(%)-Top 5 Import Partner,62.7654
+Martinique,1995,Italy,All Products,Import,Partner share(%)-Top 5 Import Partner,3.7248
+Martinique,1995,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,3.2639
+Martinique,1995,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,2.8657
+Martinique,1995,Unspecified,All Products,Import,Partner share(%)-Top 5 Import Partner,2.4804
+Martinique,1995,World,Food Products,Export,Export Product share(%),17.0563
+Martinique,1995,World,Footwear,Export,Export Product share(%),0.1932
+Martinique,1995,World,Consumer goods,Export,Export Product share(%),30.04
+Martinique,1995,World,Minerals,Export,Export Product share(%),0.652
+Martinique,1995,World,Stone and Glass,Export,Export Product share(%),0.1262
+Martinique,1995,World,Capital goods,Export,Export Product share(%),5.8488
+Martinique,1995,World,Vegetable,Export,Export Product share(%),44.6605
+Martinique,1995,World,Textiles and Clothing,Export,Export Product share(%),0.3432
+Martinique,1995,World,Intermediate goods,Export,Export Product share(%),3.1467
+Martinique,1995,World,Fuels,Export,Export Product share(%),17.8474
+Martinique,1995,World,Metals,Export,Export Product share(%),1.7684
+Martinique,1995,World,Animal,Export,Export Product share(%),0.4829
+Martinique,1995,World,Wood,Export,Export Product share(%),0.6975
+Martinique,1995,World,Raw materials,Export,Export Product share(%),43.7996
+Martinique,1995,World,Hides and Skins,Export,Export Product share(%),0.0705
+Martinique,1995,World,Miscellaneous,Export,Export Product share(%),0.7491
+Martinique,1995,World,Plastic or Rubber,Export,Export Product share(%),0.2696
+Martinique,1995,World,Transportation,Export,Export Product share(%),8.4168
+Martinique,1995,World,Chemicals,Export,Export Product share(%),2.1192
+Martinique,1995,World,Mach and Elec,Export,Export Product share(%),4.5471
+Martinique,1995,World,Intermediate goods,Import,Import Product share(%),12.1367
+Martinique,1995,World,Consumer goods,Import,Import Product share(%),49.8704
+Martinique,1995,World,Capital goods,Import,Import Product share(%),21.5304
+Martinique,1995,World,Raw materials,Import,Import Product share(%),12.4589
+Martinique,1995,World,All Products,Trade Indicator,World Growth (%),11.5145551966227
+Martinique,1995,World,All Products,Trade Indicator,Country Growth (%),7.85265851139316
+Martinique,1995,...,...,Trade Indicator,Index of export market penetration,1.40060480662104
+Martinique,1995,...,...,Trade Indicator,HH Market concentration index,0.412740929523484

@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Ireland,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,62173.5442395143
+Ireland,2021,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,21505.0529500648
+Ireland,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,21021.6635376798
+Ireland,2021,Belgium,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,16001.9787456699
+Ireland,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,13243.4443069712
+Ireland,2021,United Kingdom,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,23070.6655546068
+Ireland,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,21435.9988250146
+Ireland,2021,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,12200.1832335122
+Ireland,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,9996.87758514587
+Ireland,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,8630.40775196589
+Ireland,2021,World,Vegetable,Export,Export(US$ Mil),642.68189449247
+Ireland,2021,World,Textiles and Clothing,Export,Export(US$ Mil),629.170045653112
+Ireland,2021,World,Intermediate goods,Export,Export(US$ Mil),101859.630567487
+Ireland,2021,World,Food Products,Export,Export(US$ Mil),7125.46975607814
+Ireland,2021,World,Footwear,Export,Export(US$ Mil),49.7033687925911
+Ireland,2021,World,Consumer goods,Export,Export(US$ Mil),46400.969909636
+Ireland,2021,World,Fuels,Export,Export(US$ Mil),1121.00556862725
+Ireland,2021,World,Metals,Export,Export(US$ Mil),1704.37402889234
+Ireland,2021,World,Minerals,Export,Export(US$ Mil),524.531827687101
+Ireland,2021,World,Stone and Glass,Export,Export(US$ Mil),1751.58459980152
+Ireland,2021,World,Capital goods,Export,Export(US$ Mil),39993.8729027259
+Ireland,2021,World,Animal,Export,Export(US$ Mil),8977.95665084573
+Ireland,2021,World,Wood,Export,Export(US$ Mil),1260.17162026505
+Ireland,2021,World,Raw materials,Export,Export(US$ Mil),6767.23178132691
+Ireland,2021,World,Plastic or Rubber,Export,Export(US$ Mil),2757.71063760068
+Ireland,2021,World,Transportation,Export,Export(US$ Mil),4400.74011351401
+Ireland,2021,World,Chemicals,Export,Export(US$ Mil),120674.383159189
+Ireland,2021,World,Mach and Elec,Export,Export(US$ Mil),25338.0416009861
+Ireland,2021,World,Hides and Skins,Export,Export(US$ Mil),174.30928993044
+Ireland,2021,World,Miscellaneous,Export,Export(US$ Mil),18866.0417384887
+Ireland,2021,World,Consumer goods,Import,Import(US$ Mil),38014.8184256762
+Ireland,2021,World,Intermediate goods,Import,Import(US$ Mil),29813.2442022928
+Ireland,2021,World,Raw materials,Import,Import(US$ Mil),5965.57923546177
+Ireland,2021,World,Capital goods,Import,Import(US$ Mil),46798.280539629
+Ireland,2021,World,All Products,Export,Exports (in US$ Mil),195997.875900844
+Ireland,2021,World,All Products,Import,Imports (in US$ Mil),122755.296375445
+Ireland,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),54865213.0348722
+Ireland,2021,...,...,Tariff,No. Of Tariff Agreement,
+Ireland,2021,...,...,Import,No. Of Import partners,234
+Ireland,2021,...,...,Import,No. Of Import products,4486
+Ireland,2021,...,...,Export,No. Of Export partners,212
+Ireland,2021,...,...,Export,No. Of Export products,4062
+Ireland,2019,...,...,Others,Ease of Doing Business Rank,24
+Ireland,2019,...,...,Others,Trading Across Borders Rank,52
+Ireland,2018,...,...,Others,Population,4853506
+Ireland,2016,...,...,Others,LPI Score,3.794886
+Ireland,,...,...,Others,Services Trade Restrictions Index - Over All,12.4
+Ireland,2016,...,...,Others,LPI Rank,18
+Ireland,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,31.7215
+Ireland,2021,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,10.9721
+Ireland,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,10.7255
+Ireland,2021,Belgium,All Products,Export,Partner share(%)-Top 5 Export Partner,8.1644
+Ireland,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,6.7569
+Ireland,2021,United Kingdom,All Products,Import,Partner share(%)-Top 5 Import Partner,18.794
+Ireland,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,17.4624
+Ireland,2021,France,All Products,Import,Partner share(%)-Top 5 Import Partner,9.9386
+Ireland,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,8.1437
+Ireland,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,7.0306
+Ireland,2021,World,Food Products,Export,Export Product share(%),3.6355
+Ireland,2021,World,Footwear,Export,Export Product share(%),0.0254
+Ireland,2021,World,Consumer goods,Export,Export Product share(%),23.6742
+Ireland,2021,World,Vegetable,Export,Export Product share(%),0.3279
+Ireland,2021,World,Textiles and Clothing,Export,Export Product share(%),0.321
+Ireland,2021,World,Intermediate goods,Export,Export Product share(%),51.9698
+Ireland,2021,World,Animal,Export,Export Product share(%),4.5806
+Ireland,2021,World,Wood,Export,Export Product share(%),0.643
+Ireland,2021,World,Raw materials,Export,Export Product share(%),3.4527
+Ireland,2021,World,Plastic or Rubber,Export,Export Product share(%),1.407
+Ireland,2021,World,Transportation,Export,Export Product share(%),2.2453
+Ireland,2021,World,Fuels,Export,Export Product share(%),0.5719
+Ireland,2021,World,Metals,Export,Export Product share(%),0.8696
+Ireland,2021,World,Chemicals,Export,Export Product share(%),61.5692
+Ireland,2021,World,Mach and Elec,Export,Export Product share(%),12.9277
+Ireland,2021,World,Minerals,Export,Export Product share(%),0.2676
+Ireland,2021,World,Stone and Glass,Export,Export Product share(%),0.8937
+Ireland,2021,World,Capital goods,Export,Export Product share(%),20.4053
+Ireland,2021,World,Hides and Skins,Export,Export Product share(%),0.0889
+Ireland,2021,World,Miscellaneous,Export,Export Product share(%),9.6256
+Ireland,2021,World,Intermediate goods,Import,Import Product share(%),24.2867
+Ireland,2021,World,Consumer goods,Import,Import Product share(%),30.968
+Ireland,2021,World,Capital goods,Import,Import Product share(%),38.1232
+Ireland,2021,World,Raw materials,Import,Import Product share(%),4.8597
+Ireland,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.1709883624309
+Ireland,2021,World,Consumer goods,Tariff,Weighted Average (%),1.88783939080259
+Ireland,2021,World,Raw materials,Tariff,Weighted Average (%),0.563949447459606
+Ireland,2021,World,Capital goods,Tariff,Weighted Average (%),0.262632756900266
+Ireland,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Ireland,2021,World,All Products,Trade Indicator,Country Growth (%),7.89440235466825
+Ireland,2021,World,All Products,Tariff,Simple Average (%),2.52279598231394
+Ireland,2021,World,All Products,Tariff,Weighted Average (%),1.01114958162584
+Ireland,2021,World,All Products,Tariff,Maximum Rate (%),275.476013183594
+Ireland,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),60.5772957559315
+Ireland,2021,...,...,Trade Indicator,Index of export market penetration,10.0149989693294
+Ireland,2021,...,...,Trade Indicator,HH Market concentration index,0.119847405482489

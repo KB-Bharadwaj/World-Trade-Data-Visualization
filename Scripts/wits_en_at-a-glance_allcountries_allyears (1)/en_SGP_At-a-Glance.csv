@@ -1,0 +1,98 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Singapore,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,67746.76440913
+Singapore,2021,"Hong Kong, China",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,60147.38058049
+Singapore,2021,Malaysia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,42130.40627228
+Singapore,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,39316.82200382
+Singapore,2021,Indonesia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,28801.0663608
+Singapore,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,54610.67645484
+Singapore,2021,Malaysia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,53729.37287943
+Singapore,2021,"Other Asia, nes",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,51118.63305102
+Singapore,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,40573.13833712
+Singapore,2021,"Korea, Rep.",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,22194.92510136
+Singapore,2021,World,Minerals,Export,Export(US$ Mil),118.91219236
+Singapore,2021,World,Stone and Glass,Export,Export(US$ Mil),21837.38180666
+Singapore,2021,World,Capital goods,Export,Export(US$ Mil),248722.40636456
+Singapore,2021,World,Food Products,Export,Export(US$ Mil),12906.43128757
+Singapore,2021,World,Footwear,Export,Export(US$ Mil),593.00652863
+Singapore,2021,World,Consumer goods,Export,Export(US$ Mil),100956.37454258
+Singapore,2021,World,Fuels,Export,Export(US$ Mil),45936.65441823
+Singapore,2021,World,Metals,Export,Export(US$ Mil),10117.63666433
+Singapore,2021,World,Vegetable,Export,Export(US$ Mil),973.61378447
+Singapore,2021,World,Textiles and Clothing,Export,Export(US$ Mil),2275.50985761
+Singapore,2021,World,Intermediate goods,Export,Export(US$ Mil),79263.93417084
+Singapore,2021,World,Plastic or Rubber,Export,Export(US$ Mil),17815.72212154
+Singapore,2021,World,Transportation,Export,Export(US$ Mil),8002.05760862
+Singapore,2021,World,Hides and Skins,Export,Export(US$ Mil),1547.15196626
+Singapore,2021,World,Miscellaneous,Export,Export(US$ Mil),59729.52531627
+Singapore,2021,World,Chemicals,Export,Export(US$ Mil),45685.9252998
+Singapore,2021,World,Mach and Elec,Export,Export(US$ Mil),226843.78256602
+Singapore,2021,World,Animal,Export,Export(US$ Mil),671.33594743
+Singapore,2021,World,Wood,Export,Export(US$ Mil),2419.33870345
+Singapore,2021,World,Raw materials,Export,Export(US$ Mil),3909.64802236
+Singapore,2021,World,Consumer goods,Import,Import(US$ Mil),102818.45991468
+Singapore,2021,World,Intermediate goods,Import,Import(US$ Mil),61692.39688137
+Singapore,2021,World,Capital goods,Import,Import(US$ Mil),207326.72636664
+Singapore,2021,World,Raw materials,Import,Import(US$ Mil),29644.14360268
+Singapore,2021,World,All Products,Export,Exports (in US$ Mil),457473.98606925
+Singapore,2021,World,All Products,Import,Imports (in US$ Mil),406622.36668423
+Singapore,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),291420966.57412
+Singapore,2021,...,...,Tariff,No. Of Tariff Agreement,27
+Singapore,2021,...,...,Import,No. Of Import partners,225
+Singapore,2021,...,...,Import,No. Of Import products,4299
+Singapore,2021,...,...,Export,No. Of Export partners,215
+Singapore,2021,...,...,Export,No. Of Export products,4213
+Singapore,2018,...,...,Others,Population,5638676
+Singapore,2019,...,...,Others,Ease of Doing Business Rank,2
+Singapore,2015,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5205
+Singapore,2015,...,...,Others,No Of NTM Measures,48
+Singapore,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1411219
+Singapore,2016,...,...,Others,LPI Score,4.143632
+Singapore,2016,...,...,Others,LPI Rank,5
+Singapore,2019,...,...,Others,Trading Across Borders Rank,47
+Singapore,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.140688
+Singapore,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,14.8089
+Singapore,2021,"Hong Kong, China",All Products,Export,Partner share(%)-Top 5 Export Partner,13.1477
+Singapore,2021,Malaysia,All Products,Export,Partner share(%)-Top 5 Export Partner,9.2094
+Singapore,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,8.5943
+Singapore,2021,Indonesia,All Products,Export,Partner share(%)-Top 5 Export Partner,6.2957
+Singapore,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,13.4303
+Singapore,2021,Malaysia,All Products,Import,Partner share(%)-Top 5 Import Partner,13.2136
+Singapore,2021,"Other Asia, nes",All Products,Import,Partner share(%)-Top 5 Import Partner,12.5715
+Singapore,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,9.9781
+Singapore,2021,"Korea, Rep.",All Products,Import,Partner share(%)-Top 5 Import Partner,5.4584
+Singapore,2021,World,Vegetable,Export,Export Product share(%),0.2128
+Singapore,2021,World,Textiles and Clothing,Export,Export Product share(%),0.4974
+Singapore,2021,World,Intermediate goods,Export,Export Product share(%),17.3264
+Singapore,2021,World,Food Products,Export,Export Product share(%),2.8212
+Singapore,2021,World,Footwear,Export,Export Product share(%),0.1296
+Singapore,2021,World,Consumer goods,Export,Export Product share(%),22.0682
+Singapore,2021,World,Fuels,Export,Export Product share(%),10.0414
+Singapore,2021,World,Metals,Export,Export Product share(%),2.2116
+Singapore,2021,World,Minerals,Export,Export Product share(%),0.026
+Singapore,2021,World,Stone and Glass,Export,Export Product share(%),4.7735
+Singapore,2021,World,Capital goods,Export,Export Product share(%),54.3686
+Singapore,2021,World,Chemicals,Export,Export Product share(%),9.9866
+Singapore,2021,World,Mach and Elec,Export,Export Product share(%),49.5862
+Singapore,2021,World,Plastic or Rubber,Export,Export Product share(%),3.8944
+Singapore,2021,World,Transportation,Export,Export Product share(%),1.7492
+Singapore,2021,World,Hides and Skins,Export,Export Product share(%),0.3382
+Singapore,2021,World,Miscellaneous,Export,Export Product share(%),13.0564
+Singapore,2021,World,Animal,Export,Export Product share(%),0.1467
+Singapore,2021,World,Wood,Export,Export Product share(%),0.5288
+Singapore,2021,World,Raw materials,Export,Export Product share(%),0.8546
+Singapore,2021,World,Consumer goods,Import,Import Product share(%),25.286
+Singapore,2021,World,Capital goods,Import,Import Product share(%),50.9875
+Singapore,2021,World,Intermediate goods,Import,Import Product share(%),15.1719
+Singapore,2021,World,Raw materials,Import,Import Product share(%),7.2903
+Singapore,2021,World,Intermediate goods,Tariff,Weighted Average (%),0
+Singapore,2021,World,Capital goods,Tariff,Weighted Average (%),0
+Singapore,2021,World,Raw materials,Tariff,Weighted Average (%),0
+Singapore,2021,World,Consumer goods,Tariff,Weighted Average (%),0.00151592427893908
+Singapore,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Singapore,2021,World,All Products,Trade Indicator,Country Growth (%),10.5908744995815
+Singapore,2021,World,All Products,Tariff,Simple Average (%),0.083293765914918
+Singapore,2021,World,All Products,Tariff,Weighted Average (%),0.000235863732956237
+Singapore,2021,World,All Products,Tariff,Maximum Rate (%),414.376190185547
+Singapore,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),99.9537729239348
+Singapore,2021,...,...,Trade Indicator,Index of export market penetration,13.0691907897321
+Singapore,2021,...,...,Trade Indicator,HH Market concentration index,0.0743419258858501

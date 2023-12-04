@@ -1,0 +1,91 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,81023.3768663097
+,2021,United Arab Emirates,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,26931.0293194175
+,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,26385.2229249602
+,2021,Bangladesh,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,15155.1252654779
+,2021,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,13515.6420707778
+,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,115984.54734324
+,2021,United Arab Emirates,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,52580.0780572782
+,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,46144.8533719477
+,2021,Saudi Arabia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,31916.4315164078
+,2021,Switzerland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,29964.4722281309
+,2021,World,Chemicals,Export,Export(US$ Mil),57492.9088343199
+,2021,World,Mach and Elec,Export,Export(US$ Mil),43790.6812505383
+,2021,World,Hides and Skins,Export,Export(US$ Mil),3745.2550818212
+,2021,World,Miscellaneous,Export,Export(US$ Mil),9585.60795475321
+,2021,World,Food Products,Export,Export(US$ Mil),12831.5598895007
+,2021,World,Footwear,Export,Export(US$ Mil),3246.3049846415
+,2021,World,Consumer goods,Export,Export(US$ Mil),196800.175585329
+,2021,World,Plastic or Rubber,Export,Export(US$ Mil),14728.6499784325
+,2021,World,Transportation,Export,Export(US$ Mil),25325.9226758626
+,2021,World,Minerals,Export,Export(US$ Mil),7310.39636128516
+,2021,World,Stone and Glass,Export,Export(US$ Mil),44294.4529595209
+,2021,World,Capital goods,Export,Export(US$ Mil),63330.8129345748
+,2021,World,Animal,Export,Export(US$ Mil),12006.0218323603
+,2021,World,Wood,Export,Export(US$ Mil),4421.89245683623
+,2021,World,Raw materials,Export,Export(US$ Mil),33932.4951090113
+,2021,World,Vegetable,Export,Export(US$ Mil),31713.6398630872
+,2021,World,Textiles and Clothing,Export,Export(US$ Mil),65370.4340606819
+,2021,World,Intermediate goods,Export,Export(US$ Mil),144523.983675477
+,2021,World,Fuels,Export,Export(US$ Mil),56855.4314852434
+,2021,World,Metals,Export,Export(US$ Mil),46037.9624087364
+,2021,World,Intermediate goods,Import,Import(US$ Mil),238903.223614811
+,2021,World,Consumer goods,Import,Import(US$ Mil),103791.066600528
+,2021,World,Capital goods,Import,Import(US$ Mil),142199.236811984
+,2021,World,Raw materials,Import,Import(US$ Mil),196665.598817663
+,2021,World,All Products,Export,Exports (in US$ Mil),438757.122077621
+,2021,World,All Products,Import,Imports (in US$ Mil),683199.128660533
+,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),145134771.432022
+,2021,...,...,Tariff,No. Of Tariff Agreement,258
+,2021,...,...,Import,No. Of Import partners,228
+,2021,...,...,Import,No. Of Import products,4511
+,2021,...,...,Export,No. Of Export partners,222
+,2021,...,...,Export,No. Of Export products,4477
+,2018,...,...,Others,Population,1814388744
+,2018,...,...,Others,CPIA Trade Ratings,3.5833333333
+,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,18.4666
+,2021,United Arab Emirates,All Products,Export,Partner share(%)-Top 5 Export Partner,6.138
+,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,6.0136
+,2021,Bangladesh,All Products,Export,Partner share(%)-Top 5 Export Partner,3.4541
+,2021,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,3.0804
+,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,16.9767
+,2021,United Arab Emirates,All Products,Import,Partner share(%)-Top 5 Import Partner,7.6962
+,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,6.7542
+,2021,Saudi Arabia,All Products,Import,Partner share(%)-Top 5 Import Partner,4.6716
+,2021,Switzerland,All Products,Import,Partner share(%)-Top 5 Import Partner,4.3859
+,2021,World,Hides and Skins,Export,Export Product share(%),0.8536
+,2021,World,Miscellaneous,Export,Export Product share(%),2.1847
+,2021,World,Chemicals,Export,Export Product share(%),13.1036
+,2021,World,Mach and Elec,Export,Export Product share(%),9.9806
+,2021,World,Plastic or Rubber,Export,Export Product share(%),3.3569
+,2021,World,Transportation,Export,Export Product share(%),5.7722
+,2021,World,Vegetable,Export,Export Product share(%),7.2281
+,2021,World,Textiles and Clothing,Export,Export Product share(%),14.899
+,2021,World,Intermediate goods,Export,Export Product share(%),32.9394
+,2021,World,Food Products,Export,Export Product share(%),2.9245
+,2021,World,Footwear,Export,Export Product share(%),0.7399
+,2021,World,Consumer goods,Export,Export Product share(%),44.854
+,2021,World,Animal,Export,Export Product share(%),2.7364
+,2021,World,Wood,Export,Export Product share(%),1.0078
+,2021,World,Raw materials,Export,Export Product share(%),7.7338
+,2021,World,Minerals,Export,Export Product share(%),1.6662
+,2021,World,Stone and Glass,Export,Export Product share(%),10.0954
+,2021,World,Capital goods,Export,Export Product share(%),14.4341
+,2021,World,Fuels,Export,Export Product share(%),12.9583
+,2021,World,Metals,Export,Export Product share(%),10.4928
+,2021,World,Intermediate goods,Import,Import Product share(%),34.9683
+,2021,World,Capital goods,Import,Import Product share(%),20.8137
+,2021,World,Consumer goods,Import,Import Product share(%),15.1919
+,2021,World,Raw materials,Import,Import Product share(%),28.786
+,2021,World,Consumer goods,Tariff,Weighted Average (%),11.8629332416183
+,2021,World,Capital goods,Tariff,Weighted Average (%),6.19200228203351
+,2021,World,Intermediate goods,Tariff,Weighted Average (%),8.19790977147283
+,2021,World,Raw materials,Tariff,Weighted Average (%),2.15081902198789
+,2021,World,All Products,Trade Indicator,World Growth (%),
+,2021,World,All Products,Trade Indicator,Country Growth (%),
+,2021,World,All Products,Tariff,Simple Average (%),9.95777102401846
+,2021,World,All Products,Tariff,Weighted Average (%),6.54619592422121
+,2021,World,All Products,Tariff,Maximum Rate (%),1319.22204589844
+,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),27.0877200969736
+,2021,...,...,Trade Indicator,Index of export market penetration,
+,2021,...,...,Trade Indicator,HH Market concentration index,

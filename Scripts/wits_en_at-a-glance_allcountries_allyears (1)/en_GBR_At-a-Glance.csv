@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+United Kingdom,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,59891.1166954874
+United Kingdom,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,40956.6801043544
+United Kingdom,2021,Switzerland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,39648.1258931935
+United Kingdom,2021,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,37015.9203161119
+United Kingdom,2021,Ireland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,29135.166462144
+United Kingdom,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,91162.1918326035
+United Kingdom,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,75512.9674062705
+United Kingdom,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,59691.0722194966
+United Kingdom,2021,Netherlands,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,41621.0213039983
+United Kingdom,2021,Norway,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,35965.9796183758
+United Kingdom,2021,World,Vegetable,Export,Export(US$ Mil),3259.57037293555
+United Kingdom,2021,World,Textiles and Clothing,Export,Export(US$ Mil),8765.70605271178
+United Kingdom,2021,World,Intermediate goods,Export,Export(US$ Mil),128102.359255726
+United Kingdom,2021,World,Minerals,Export,Export(US$ Mil),2146.54314861805
+United Kingdom,2021,World,Stone and Glass,Export,Export(US$ Mil),67493.7254851131
+United Kingdom,2021,World,Capital goods,Export,Export(US$ Mil),128241.565627385
+United Kingdom,2021,World,Animal,Export,Export(US$ Mil),7291.56038679403
+United Kingdom,2021,World,Wood,Export,Export(US$ Mil),7767.77805376256
+United Kingdom,2021,World,Raw materials,Export,Export(US$ Mil),38325.8558619205
+United Kingdom,2021,World,Food Products,Export,Export(US$ Mil),18975.654869077
+United Kingdom,2021,World,Footwear,Export,Export(US$ Mil),1454.45752513758
+United Kingdom,2021,World,Consumer goods,Export,Export(US$ Mil),144997.493541718
+United Kingdom,2021,World,Fuels,Export,Export(US$ Mil),37743.2239722653
+United Kingdom,2021,World,Metals,Export,Export(US$ Mil),25651.5224186976
+United Kingdom,2021,World,Chemicals,Export,Export(US$ Mil),61661.7758742412
+United Kingdom,2021,World,Mach and Elec,Export,Export(US$ Mil),94253.5372611438
+United Kingdom,2021,World,Plastic or Rubber,Export,Export(US$ Mil),15580.9990672114
+United Kingdom,2021,World,Transportation,Export,Export(US$ Mil),55961.0639356197
+United Kingdom,2021,World,Hides and Skins,Export,Export(US$ Mil),1502.72379656955
+United Kingdom,2021,World,Miscellaneous,Export,Export(US$ Mil),61037.9438095642
+United Kingdom,2021,World,Intermediate goods,Import,Import(US$ Mil),175496.984268662
+United Kingdom,2021,World,Consumer goods,Import,Import(US$ Mil),266579.576197059
+United Kingdom,2021,World,Capital goods,Import,Import(US$ Mil),172554.612381888
+United Kingdom,2021,World,Raw materials,Import,Import(US$ Mil),61338.7354010232
+United Kingdom,2021,World,All Products,Export,Exports (in US$ Mil),470547.786029463
+United Kingdom,2021,World,All Products,Import,Imports (in US$ Mil),688236.538506736
+United Kingdom,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),563148499.779148
+United Kingdom,2021,...,...,Tariff,No. Of Tariff Agreement,50
+United Kingdom,2021,...,...,Import,No. Of Import partners,226
+United Kingdom,2021,...,...,Import,No. Of Import products,4491
+United Kingdom,2021,...,...,Export,No. Of Export partners,230
+United Kingdom,2021,...,...,Export,No. Of Export products,4457
+United Kingdom,2019,...,...,Others,Ease of Doing Business Rank,8
+United Kingdom,2019,...,...,Others,Trading Across Borders Rank,33
+United Kingdom,2018,...,...,Others,Population,66488991
+United Kingdom,2016,...,...,Others,LPI Score,4.069669
+United Kingdom,,...,...,Others,Services Trade Restrictions Index - Over All,14.3
+United Kingdom,2016,...,...,Others,LPI Rank,8
+United Kingdom,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,12.728
+United Kingdom,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,8.704
+United Kingdom,2021,Switzerland,All Products,Export,Partner share(%)-Top 5 Export Partner,8.426
+United Kingdom,2021,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,7.8666
+United Kingdom,2021,Ireland,All Products,Export,Partner share(%)-Top 5 Export Partner,6.1918
+United Kingdom,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,13.2458
+United Kingdom,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,10.9719
+United Kingdom,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,8.673
+United Kingdom,2021,Netherlands,All Products,Import,Partner share(%)-Top 5 Import Partner,6.0475
+United Kingdom,2021,Norway,All Products,Import,Partner share(%)-Top 5 Import Partner,5.2258
+United Kingdom,2021,World,Food Products,Export,Export Product share(%),4.0327
+United Kingdom,2021,World,Footwear,Export,Export Product share(%),0.3091
+United Kingdom,2021,World,Consumer goods,Export,Export Product share(%),30.8146
+United Kingdom,2021,World,Animal,Export,Export Product share(%),1.5496
+United Kingdom,2021,World,Wood,Export,Export Product share(%),1.6508
+United Kingdom,2021,World,Raw materials,Export,Export Product share(%),8.1449
+United Kingdom,2021,World,Plastic or Rubber,Export,Export Product share(%),3.3112
+United Kingdom,2021,World,Transportation,Export,Export Product share(%),11.8927
+United Kingdom,2021,World,Chemicals,Export,Export Product share(%),13.1043
+United Kingdom,2021,World,Mach and Elec,Export,Export Product share(%),20.0306
+United Kingdom,2021,World,Minerals,Export,Export Product share(%),0.4562
+United Kingdom,2021,World,Stone and Glass,Export,Export Product share(%),14.3436
+United Kingdom,2021,World,Capital goods,Export,Export Product share(%),27.2537
+United Kingdom,2021,World,Vegetable,Export,Export Product share(%),0.6927
+United Kingdom,2021,World,Textiles and Clothing,Export,Export Product share(%),1.8629
+United Kingdom,2021,World,Intermediate goods,Export,Export Product share(%),27.2241
+United Kingdom,2021,World,Fuels,Export,Export Product share(%),8.0211
+United Kingdom,2021,World,Metals,Export,Export Product share(%),5.4514
+United Kingdom,2021,World,Hides and Skins,Export,Export Product share(%),0.3194
+United Kingdom,2021,World,Miscellaneous,Export,Export Product share(%),12.9717
+United Kingdom,2021,World,Intermediate goods,Import,Import Product share(%),25.4995
+United Kingdom,2021,World,Capital goods,Import,Import Product share(%),25.072
+United Kingdom,2021,World,Raw materials,Import,Import Product share(%),8.9124
+United Kingdom,2021,World,Consumer goods,Import,Import Product share(%),38.7337
+United Kingdom,2021,World,Consumer goods,Tariff,Weighted Average (%),1.34498341147338
+United Kingdom,2021,World,Capital goods,Tariff,Weighted Average (%),0.146764633497874
+United Kingdom,2021,World,Intermediate goods,Tariff,Weighted Average (%),0.247089914682914
+United Kingdom,2021,World,Raw materials,Tariff,Weighted Average (%),0.663251702575862
+United Kingdom,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+United Kingdom,2021,World,All Products,Trade Indicator,Country Growth (%),6.5043966840197
+United Kingdom,2021,World,All Products,Tariff,Simple Average (%),1.00111501463295
+United Kingdom,2021,World,All Products,Tariff,Weighted Average (%),0.717232576705684
+United Kingdom,2021,World,All Products,Tariff,Maximum Rate (%),264.634796142578
+United Kingdom,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),82.9979593308642
+United Kingdom,2021,...,...,Trade Indicator,Index of export market penetration,34.9917807357225
+United Kingdom,2021,...,...,Trade Indicator,HH Market concentration index,0.0507193713184284

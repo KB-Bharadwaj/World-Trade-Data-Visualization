@@ -1,0 +1,92 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Eswatini,2021,South Africa,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1405.40287965
+Eswatini,2021,Kenya,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,116.35364141
+Eswatini,2021,Nigeria,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,79.64924275
+Eswatini,2021,Mozambique,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,70.39024264
+Eswatini,2021,Zimbabwe,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,50.6676818
+Eswatini,2021,South Africa,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1536.89557138
+Eswatini,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,206.13937468
+Eswatini,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,56.92882135
+Eswatini,2021,Mozambique,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,34.04353666
+Eswatini,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,32.48056583
+Eswatini,2021,World,Fuels,Export,Export(US$ Mil),24.42377989
+Eswatini,2021,World,Metals,Export,Export(US$ Mil),7.07019578
+Eswatini,2021,World,Vegetable,Export,Export(US$ Mil),19.82602637
+Eswatini,2021,World,Textiles and Clothing,Export,Export(US$ Mil),262.06266822
+Eswatini,2021,World,Intermediate goods,Export,Export(US$ Mil),1506.81617124
+Eswatini,2021,World,Food Products,Export,Export(US$ Mil),612.60863028
+Eswatini,2021,World,Footwear,Export,Export(US$ Mil),0.2600935
+Eswatini,2021,World,Consumer goods,Export,Export(US$ Mil),428.945894830001
+Eswatini,2021,World,Plastic or Rubber,Export,Export(US$ Mil),8.59910548
+Eswatini,2021,World,Transportation,Export,Export(US$ Mil),5.43106833
+Eswatini,2021,World,Chemicals,Export,Export(US$ Mil),924.35014397
+Eswatini,2021,World,Mach and Elec,Export,Export(US$ Mil),27.45023411
+Eswatini,2021,World,Minerals,Export,Export(US$ Mil),0.00661735
+Eswatini,2021,World,Stone and Glass,Export,Export(US$ Mil),1.46282504
+Eswatini,2021,World,Capital goods,Export,Export(US$ Mil),32.91493364
+Eswatini,2021,World,Hides and Skins,Export,Export(US$ Mil),0.18938141
+Eswatini,2021,World,Miscellaneous,Export,Export(US$ Mil),14.02134574
+Eswatini,2021,World,Animal,Export,Export(US$ Mil),7.02848084
+Eswatini,2021,World,Wood,Export,Export(US$ Mil),153.6782141
+Eswatini,2021,World,Raw materials,Export,Export(US$ Mil),99.07371388
+Eswatini,2021,World,Intermediate goods,Import,Import(US$ Mil),694.81425477
+Eswatini,2021,World,Consumer goods,Import,Import(US$ Mil),883.54753412
+Eswatini,2021,World,Raw materials,Import,Import(US$ Mil),175.33473781
+Eswatini,2021,World,Capital goods,Import,Import(US$ Mil),356.155687289999
+Eswatini,2021,World,All Products,Export,Exports (in US$ Mil),2068.46881041
+Eswatini,2021,World,All Products,Import,Imports (in US$ Mil),2122.85888491
+Eswatini,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),1261765.28327
+Eswatini,2021,...,...,Tariff,No. Of Tariff Agreement,11
+Eswatini,2021,...,...,Import,No. Of Import partners,166
+Eswatini,2021,...,...,Import,No. Of Import products,3827
+Eswatini,2021,...,...,Export,No. Of Export partners,106
+Eswatini,2021,...,...,Export,No. Of Export products,1815
+Eswatini,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0790681
+Eswatini,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0187553
+Eswatini,2018,...,...,Others,Population,1136191
+Eswatini,2021,South Africa,All Products,Export,Partner share(%)-Top 5 Export Partner,67.9441
+Eswatini,2021,Kenya,All Products,Export,Partner share(%)-Top 5 Export Partner,5.6251
+Eswatini,2021,Nigeria,All Products,Export,Partner share(%)-Top 5 Export Partner,3.8506
+Eswatini,2021,Mozambique,All Products,Export,Partner share(%)-Top 5 Export Partner,3.403
+Eswatini,2021,Zimbabwe,All Products,Export,Partner share(%)-Top 5 Export Partner,2.4495
+Eswatini,2021,South Africa,All Products,Import,Partner share(%)-Top 5 Import Partner,72.3974
+Eswatini,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,9.7105
+Eswatini,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,2.6817
+Eswatini,2021,Mozambique,All Products,Import,Partner share(%)-Top 5 Import Partner,1.6037
+Eswatini,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,1.53
+Eswatini,2021,World,Minerals,Export,Export Product share(%),0.0003
+Eswatini,2021,World,Stone and Glass,Export,Export Product share(%),0.0707
+Eswatini,2021,World,Capital goods,Export,Export Product share(%),1.5913
+Eswatini,2021,World,Food Products,Export,Export Product share(%),29.6165
+Eswatini,2021,World,Footwear,Export,Export Product share(%),0.0126
+Eswatini,2021,World,Consumer goods,Export,Export Product share(%),20.7374
+Eswatini,2021,World,Vegetable,Export,Export Product share(%),0.9585
+Eswatini,2021,World,Textiles and Clothing,Export,Export Product share(%),12.6694
+Eswatini,2021,World,Intermediate goods,Export,Export Product share(%),72.8469
+Eswatini,2021,World,Fuels,Export,Export Product share(%),1.1808
+Eswatini,2021,World,Metals,Export,Export Product share(%),0.3418
+Eswatini,2021,World,Plastic or Rubber,Export,Export Product share(%),0.4157
+Eswatini,2021,World,Transportation,Export,Export Product share(%),0.2626
+Eswatini,2021,World,Hides and Skins,Export,Export Product share(%),0.0092
+Eswatini,2021,World,Miscellaneous,Export,Export Product share(%),0.6779
+Eswatini,2021,World,Chemicals,Export,Export Product share(%),44.6877
+Eswatini,2021,World,Mach and Elec,Export,Export Product share(%),1.3271
+Eswatini,2021,World,Animal,Export,Export Product share(%),0.3398
+Eswatini,2021,World,Wood,Export,Export Product share(%),7.4296
+Eswatini,2021,World,Raw materials,Export,Export Product share(%),4.7897
+Eswatini,2021,World,Intermediate goods,Import,Import Product share(%),32.7301
+Eswatini,2021,World,Consumer goods,Import,Import Product share(%),41.6206
+Eswatini,2021,World,Capital goods,Import,Import Product share(%),16.7772
+Eswatini,2021,World,Raw materials,Import,Import Product share(%),8.2594
+Eswatini,2021,World,Intermediate goods,Tariff,Weighted Average (%),2.9431964575828
+Eswatini,2021,World,Consumer goods,Tariff,Weighted Average (%),2.29057595407275
+Eswatini,2021,World,Raw materials,Tariff,Weighted Average (%),0.827052849061619
+Eswatini,2021,World,Capital goods,Tariff,Weighted Average (%),0.552529432671642
+Eswatini,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Eswatini,2021,World,All Products,Trade Indicator,Country Growth (%),12.2730269151103
+Eswatini,2021,World,All Products,Tariff,Simple Average (%),7.17844097411794
+Eswatini,2021,World,All Products,Tariff,Weighted Average (%),2.1396331213626
+Eswatini,2021,World,All Products,Tariff,Maximum Rate (%),221.122192382813
+Eswatini,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),64.2597106587736
+Eswatini,2021,...,...,Trade Indicator,Index of export market penetration,2.26700552433451
+Eswatini,2021,...,...,Trade Indicator,HH Market concentration index,0.354301938144288

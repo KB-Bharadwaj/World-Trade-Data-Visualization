@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+"Korea, Rep.",2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,162912.971626
+"Korea, Rep.",2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,96299.348465
+"Korea, Rep.",2021,Vietnam,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,56728.532105
+"Korea, Rep.",2021,"Hong Kong, China",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,37465.021175
+"Korea, Rep.",2021,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,30061.769927
+"Korea, Rep.",2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,138627.45637
+"Korea, Rep.",2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,73659.005658
+"Korea, Rep.",2021,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,54641.466341
+"Korea, Rep.",2021,Australia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,32916.488566
+"Korea, Rep.",2021,Saudi Arabia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,24271.348371
+"Korea, Rep.",2021,World,Animal,Export,Export(US$ Mil),1713.728002
+"Korea, Rep.",2021,World,Wood,Export,Export(US$ Mil),3422.321232
+"Korea, Rep.",2021,World,Raw materials,Export,Export(US$ Mil),5470.916798
+"Korea, Rep.",2021,World,Minerals,Export,Export(US$ Mil),2345.876496
+"Korea, Rep.",2021,World,Stone and Glass,Export,Export(US$ Mil),8597.390964
+"Korea, Rep.",2021,World,Capital goods,Export,Export(US$ Mil),319937.393
+"Korea, Rep.",2021,World,Vegetable,Export,Export(US$ Mil),995.720765
+"Korea, Rep.",2021,World,Textiles and Clothing,Export,Export(US$ Mil),12224.689501
+"Korea, Rep.",2021,World,Intermediate goods,Export,Export(US$ Mil),162930.278026
+"Korea, Rep.",2021,World,Food Products,Export,Export(US$ Mil),7390.538032
+"Korea, Rep.",2021,World,Footwear,Export,Export(US$ Mil),654.340008
+"Korea, Rep.",2021,World,Consumer goods,Export,Export(US$ Mil),155994.64929
+"Korea, Rep.",2021,World,Fuels,Export,Export(US$ Mil),40012.148135
+"Korea, Rep.",2021,World,Metals,Export,Export(US$ Mil),56936.764795
+"Korea, Rep.",2021,World,Chemicals,Export,Export(US$ Mil),63523.381331
+"Korea, Rep.",2021,World,Mach and Elec,Export,Export(US$ Mil),273757.873844
+"Korea, Rep.",2021,World,Hides and Skins,Export,Export(US$ Mil),781.093046
+"Korea, Rep.",2021,World,Miscellaneous,Export,Export(US$ Mil),29115.421219
+"Korea, Rep.",2021,World,Plastic or Rubber,Export,Export(US$ Mil),51440.567231
+"Korea, Rep.",2021,World,Transportation,Export,Export(US$ Mil),91461.082151
+"Korea, Rep.",2021,World,Intermediate goods,Import,Import(US$ Mil),117720.761185
+"Korea, Rep.",2021,World,Consumer goods,Import,Import(US$ Mil),154713.33025
+"Korea, Rep.",2021,World,Raw materials,Import,Import(US$ Mil),140351.937802
+"Korea, Rep.",2021,World,Capital goods,Import,Import(US$ Mil),202170.652568
+"Korea, Rep.",2021,World,All Products,Export,Exports (in US$ Mil),644372.936752
+"Korea, Rep.",2021,World,All Products,Import,Imports (in US$ Mil),615072.659909
+"Korea, Rep.",2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),306767908.677
+"Korea, Rep.",2021,...,...,Tariff,No. Of Tariff Agreement,33
+"Korea, Rep.",2021,...,...,Import,No. Of Import partners,231
+"Korea, Rep.",2021,...,...,Import,No. Of Import products,4482
+"Korea, Rep.",2021,...,...,Export,No. Of Export partners,224
+"Korea, Rep.",2021,...,...,Export,No. Of Export products,4293
+"Korea, Rep.",,...,...,Others,Services Trade Restrictions Index - Over All,23.1
+"Korea, Rep.",2019,...,...,Others,Ease of Doing Business Rank,5
+"Korea, Rep.",2013,...,...,Others,No Of NTM Affected Products (HS 6 Digit),30
+"Korea, Rep.",2013,...,...,Others,No Of NTM Measures,3
+"Korea, Rep.",2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0910329
+"Korea, Rep.",2016,...,...,Others,LPI Rank,24
+"Korea, Rep.",2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,0.52305305
+"Korea, Rep.",2019,...,...,Others,Trading Across Borders Rank,36
+"Korea, Rep.",2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0900861
+"Korea, Rep.",2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,0.3962549865
+"Korea, Rep.",2018,...,...,Others,Population,51635256
+"Korea, Rep.",2016,...,...,Others,LPI Score,3.717126
+"Korea, Rep.",2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,25.2824
+"Korea, Rep.",2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,14.9447
+"Korea, Rep.",2021,Vietnam,All Products,Export,Partner share(%)-Top 5 Export Partner,8.8037
+"Korea, Rep.",2021,"Hong Kong, China",All Products,Export,Partner share(%)-Top 5 Export Partner,5.8142
+"Korea, Rep.",2021,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,4.6653
+"Korea, Rep.",2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,22.5384
+"Korea, Rep.",2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,11.9757
+"Korea, Rep.",2021,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,8.8837
+"Korea, Rep.",2021,Australia,All Products,Import,Partner share(%)-Top 5 Import Partner,5.3516
+"Korea, Rep.",2021,Saudi Arabia,All Products,Import,Partner share(%)-Top 5 Import Partner,3.9461
+"Korea, Rep.",2021,World,Vegetable,Export,Export Product share(%),0.1545
+"Korea, Rep.",2021,World,Textiles and Clothing,Export,Export Product share(%),1.8971
+"Korea, Rep.",2021,World,Intermediate goods,Export,Export Product share(%),25.2851
+"Korea, Rep.",2021,World,Minerals,Export,Export Product share(%),0.3641
+"Korea, Rep.",2021,World,Stone and Glass,Export,Export Product share(%),1.3342
+"Korea, Rep.",2021,World,Capital goods,Export,Export Product share(%),49.651
+"Korea, Rep.",2021,World,Chemicals,Export,Export Product share(%),9.8582
+"Korea, Rep.",2021,World,Mach and Elec,Export,Export Product share(%),42.4844
+"Korea, Rep.",2021,World,Animal,Export,Export Product share(%),0.266
+"Korea, Rep.",2021,World,Wood,Export,Export Product share(%),0.5311
+"Korea, Rep.",2021,World,Raw materials,Export,Export Product share(%),0.849
+"Korea, Rep.",2021,World,Fuels,Export,Export Product share(%),6.2095
+"Korea, Rep.",2021,World,Metals,Export,Export Product share(%),8.836
+"Korea, Rep.",2021,World,Food Products,Export,Export Product share(%),1.1469
+"Korea, Rep.",2021,World,Footwear,Export,Export Product share(%),0.1015
+"Korea, Rep.",2021,World,Consumer goods,Export,Export Product share(%),24.2088
+"Korea, Rep.",2021,World,Hides and Skins,Export,Export Product share(%),0.1212
+"Korea, Rep.",2021,World,Miscellaneous,Export,Export Product share(%),4.5184
+"Korea, Rep.",2021,World,Plastic or Rubber,Export,Export Product share(%),7.983
+"Korea, Rep.",2021,World,Transportation,Export,Export Product share(%),14.1938
+"Korea, Rep.",2021,World,Intermediate goods,Import,Import Product share(%),19.1393
+"Korea, Rep.",2021,World,Consumer goods,Import,Import Product share(%),25.1537
+"Korea, Rep.",2021,World,Raw materials,Import,Import Product share(%),22.8188
+"Korea, Rep.",2021,World,Capital goods,Import,Import Product share(%),32.8694
+"Korea, Rep.",2021,World,Consumer goods,Tariff,Weighted Average (%),2.89752800777881
+"Korea, Rep.",2021,World,Capital goods,Tariff,Weighted Average (%),0.592617539359896
+"Korea, Rep.",2021,World,Intermediate goods,Tariff,Weighted Average (%),2.59944903621176
+"Korea, Rep.",2021,World,Raw materials,Tariff,Weighted Average (%),13.9529794900406
+"Korea, Rep.",2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+"Korea, Rep.",2021,World,All Products,Trade Indicator,Country Growth (%),12.2315181744589
+"Korea, Rep.",2021,World,All Products,Tariff,Simple Average (%),5.00043168903376
+"Korea, Rep.",2021,World,All Products,Tariff,Weighted Average (%),4.84851328915696
+"Korea, Rep.",2021,World,All Products,Tariff,Maximum Rate (%),887.400024414063
+"Korea, Rep.",2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),73.9940007378772
+"Korea, Rep.",2021,...,...,Trade Indicator,Index of export market penetration,21.2928220656509
+"Korea, Rep.",2021,...,...,Trade Indicator,HH Market concentration index,0.115163620172479

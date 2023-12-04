@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Mexico,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,386086.717587
+Mexico,2021,Unspecified,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,22905.035041
+Mexico,2021,Canada,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,12895.260598
+Mexico,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,9078.868364
+Mexico,2021,"Other Asia, nes",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,7489.936894
+Mexico,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,221311.735897
+Mexico,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,101020.778949
+Mexico,2021,"Korea, Rep.",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,18963.156999
+Mexico,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,17214.364747
+Mexico,2021,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,17078.967078
+Mexico,2021,World,Minerals,Export,Export(US$ Mil),9365.467817
+Mexico,2021,World,Stone and Glass,Export,Export(US$ Mil),11241.165984
+Mexico,2021,World,Capital goods,Export,Export(US$ Mil),216890.025859
+Mexico,2021,World,Fuels,Export,Export(US$ Mil),27583.940809
+Mexico,2021,World,Metals,Export,Export(US$ Mil),24708.505758
+Mexico,2021,World,Food Products,Export,Export(US$ Mil),19259.662183
+Mexico,2021,World,Footwear,Export,Export(US$ Mil),895.061896
+Mexico,2021,World,Consumer goods,Export,Export(US$ Mil),128186.661443
+Mexico,2021,World,Chemicals,Export,Export(US$ Mil),9948.227262
+Mexico,2021,World,Mach and Elec,Export,Export(US$ Mil),168461.114438
+Mexico,2021,World,Vegetable,Export,Export(US$ Mil),19136.353399
+Mexico,2021,World,Textiles and Clothing,Export,Export(US$ Mil),7863.55204
+Mexico,2021,World,Intermediate goods,Export,Export(US$ Mil),28594.612454
+Mexico,2021,World,Plastic or Rubber,Export,Export(US$ Mil),15391.042127
+Mexico,2021,World,Transportation,Export,Export(US$ Mil),119084.368796
+Mexico,2021,World,Animal,Export,Export(US$ Mil),4942.865652
+Mexico,2021,World,Wood,Export,Export(US$ Mil),3684.474006
+Mexico,2021,World,Raw materials,Export,Export(US$ Mil),51795.188096
+Mexico,2021,World,Hides and Skins,Export,Export(US$ Mil),746.336341
+Mexico,2021,World,Miscellaneous,Export,Export(US$ Mil),52283.364927
+Mexico,2021,World,Intermediate goods,Import,Import(US$ Mil),82821.5446360001
+Mexico,2021,World,Consumer goods,Import,Import(US$ Mil),125821.417755
+Mexico,2021,World,Capital goods,Import,Import(US$ Mil),205263.900148
+Mexico,2021,World,Raw materials,Import,Import(US$ Mil),19309.105148
+Mexico,2021,World,All Products,Export,Exports (in US$ Mil),494595.503435
+Mexico,2021,World,All Products,Import,Imports (in US$ Mil),506565.459467
+Mexico,2018,World,All Products,Tariff,Duty Free Imports (US$ Thousand),385663734.722
+Mexico,2018,...,...,Tariff,No. Of Tariff Agreement,57
+Mexico,2021,...,...,Import,No. Of Import partners,215
+Mexico,2021,...,...,Import,No. Of Import products,3707
+Mexico,2021,...,...,Export,No. Of Export partners,139
+Mexico,2021,...,...,Export,No. Of Export products,2716
+Mexico,2019,...,...,Others,Trading Across Borders Rank,69
+Mexico,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.1518051
+Mexico,2019,...,...,Others,Ease of Doing Business Rank,60
+Mexico,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),3454
+Mexico,2014,...,...,Others,No Of NTM Measures,55
+Mexico,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.2185722
+Mexico,,...,...,Others,Services Trade Restrictions Index - Over All,29.5
+Mexico,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,0.8149527311
+Mexico,2018,...,...,Others,Population,126190788
+Mexico,2016,...,...,Others,LPI Rank,54
+Mexico,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,1.277190208
+Mexico,2016,...,...,Others,LPI Score,3.114031
+Mexico,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,78.0611
+Mexico,2021,Unspecified,All Products,Export,Partner share(%)-Top 5 Export Partner,4.6311
+Mexico,2021,Canada,All Products,Export,Partner share(%)-Top 5 Export Partner,2.6072
+Mexico,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,1.8356
+Mexico,2021,"Other Asia, nes",All Products,Export,Partner share(%)-Top 5 Export Partner,1.5144
+Mexico,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,43.6887
+Mexico,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,19.9423
+Mexico,2021,"Korea, Rep.",All Products,Import,Partner share(%)-Top 5 Import Partner,3.7435
+Mexico,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,3.3983
+Mexico,2021,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,3.3715
+Mexico,2021,World,Food Products,Export,Export Product share(%),3.894
+Mexico,2021,World,Footwear,Export,Export Product share(%),0.181
+Mexico,2021,World,Consumer goods,Export,Export Product share(%),25.9175
+Mexico,2021,World,Vegetable,Export,Export Product share(%),3.8691
+Mexico,2021,World,Textiles and Clothing,Export,Export Product share(%),1.5899
+Mexico,2021,World,Intermediate goods,Export,Export Product share(%),5.7814
+Mexico,2021,World,Chemicals,Export,Export Product share(%),2.0114
+Mexico,2021,World,Mach and Elec,Export,Export Product share(%),34.0604
+Mexico,2021,World,Hides and Skins,Export,Export Product share(%),0.1509
+Mexico,2021,World,Miscellaneous,Export,Export Product share(%),10.5709
+Mexico,2021,World,Plastic or Rubber,Export,Export Product share(%),3.1118
+Mexico,2021,World,Transportation,Export,Export Product share(%),24.0771
+Mexico,2021,World,Fuels,Export,Export Product share(%),5.5771
+Mexico,2021,World,Metals,Export,Export Product share(%),4.9957
+Mexico,2021,World,Animal,Export,Export Product share(%),0.9994
+Mexico,2021,World,Wood,Export,Export Product share(%),0.7449
+Mexico,2021,World,Raw materials,Export,Export Product share(%),10.4722
+Mexico,2021,World,Minerals,Export,Export Product share(%),1.8936
+Mexico,2021,World,Stone and Glass,Export,Export Product share(%),2.2728
+Mexico,2021,World,Capital goods,Export,Export Product share(%),43.852
+Mexico,2021,World,Intermediate goods,Import,Import Product share(%),16.3496
+Mexico,2021,World,Consumer goods,Import,Import Product share(%),24.8381
+Mexico,2021,World,Capital goods,Import,Import Product share(%),40.5207
+Mexico,2021,World,Raw materials,Import,Import Product share(%),3.8118
+Mexico,2018,World,Intermediate goods,Tariff,Weighted Average (%),0.502916830605659
+Mexico,2018,World,Consumer goods,Tariff,Weighted Average (%),3.41981047138673
+Mexico,2018,World,Capital goods,Tariff,Weighted Average (%),0.406161067116609
+Mexico,2018,World,Raw materials,Tariff,Weighted Average (%),0.900279246793304
+Mexico,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Mexico,2021,World,All Products,Trade Indicator,Country Growth (%),9.00715965917944
+Mexico,2018,World,All Products,Tariff,Simple Average (%),3.27725999431889
+Mexico,2018,World,All Products,Tariff,Weighted Average (%),1.20592789347278
+Mexico,2018,World,All Products,Tariff,Maximum Rate (%),75
+Mexico,2018,World,All Products,Tariff,Duty Free Tariff Lines Share (%),80.4331974455519
+Mexico,2021,...,...,Trade Indicator,Index of export market penetration,14.9996465393483
+Mexico,2021,...,...,Trade Indicator,HH Market concentration index,0.54069575079508

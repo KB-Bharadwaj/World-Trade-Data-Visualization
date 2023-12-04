@@ -1,0 +1,102 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+India,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,71510.4974496739
+India,2021,United Arab Emirates,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,25446.6393147851
+India,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,23036.5972556752
+India,2021,Bangladesh,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,14092.7480876706
+India,2021,"Hong Kong, China",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,11290.0611119194
+India,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,87535.1356849443
+India,2021,United Arab Emirates,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,43070.3449280535
+India,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,41386.8164060819
+India,2021,Switzerland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,29492.002640264
+India,2021,Saudi Arabia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,27689.3461060723
+India,2021,World,Hides and Skins,Export,Export(US$ Mil),2839.21663142075
+India,2021,World,Miscellaneous,Export,Export(US$ Mil),8365.44444708411
+India,2021,World,Fuels,Export,Export(US$ Mil),56400.6387540194
+India,2021,World,Metals,Export,Export(US$ Mil),44514.4987981935
+India,2021,World,Vegetable,Export,Export(US$ Mil),24679.7788812683
+India,2021,World,Textiles and Clothing,Export,Export(US$ Mil),41467.5878306774
+India,2021,World,Intermediate goods,Export,Export(US$ Mil),135785.586324152
+India,2021,World,Food Products,Export,Export(US$ Mil),10907.3630015558
+India,2021,World,Footwear,Export,Export(US$ Mil),3043.89825135458
+India,2021,World,Consumer goods,Export,Export(US$ Mil),167315.26454458
+India,2021,World,Minerals,Export,Export(US$ Mil),6621.71838593052
+India,2021,World,Stone and Glass,Export,Export(US$ Mil),43754.4905738045
+India,2021,World,Capital goods,Export,Export(US$ Mil),61564.7267822613
+India,2021,World,Plastic or Rubber,Export,Export(US$ Mil),13015.0469856603
+India,2021,World,Transportation,Export,Export(US$ Mil),24715.8309336955
+India,2021,World,Chemicals,Export,Export(US$ Mil),56612.9422674323
+India,2021,World,Mach and Elec,Export,Export(US$ Mil),42991.9694288875
+India,2021,World,Animal,Export,Export(US$ Mil),10772.9842098805
+India,2021,World,Wood,Export,Export(US$ Mil),4110.26396643245
+India,2021,World,Raw materials,Export,Export(US$ Mil),29980.8212600767
+India,2021,World,Intermediate goods,Import,Import(US$ Mil),202111.437144412
+India,2021,World,Consumer goods,Import,Import(US$ Mil),67344.4589984348
+India,2021,World,Capital goods,Import,Import(US$ Mil),121214.400071869
+India,2021,World,Raw materials,Import,Import(US$ Mil),178131.481355259
+India,2021,World,All Products,Export,Exports (in US$ Mil),394813.673347297
+India,2021,World,All Products,Import,Imports (in US$ Mil),570402.004491755
+India,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),107176554.413203
+India,2021,...,...,Tariff,No. Of Tariff Agreement,22
+India,2021,...,...,Import,No. Of Import partners,208
+India,2021,...,...,Import,No. Of Import products,4342
+India,2021,...,...,Export,No. Of Export partners,220
+India,2021,...,...,Export,No. Of Export products,4437
+India,2013,...,...,Others,CPIA Trade Ratings,4
+India,2016,...,...,Others,LPI Score,3.420043
+India,2019,...,...,Others,Ease of Doing Business Rank,63
+India,2013,...,...,Others,No Of NTM Affected Products (HS 6 Digit),347
+India,2013,...,...,Others,No Of NTM Measures,3
+India,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1529563
+India,2019,...,...,Others,Trading Across Borders Rank,68
+India,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.1490326
+India,,...,...,Others,Services Trade Restrictions Index - Over All,65.7
+India,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,5.318890572
+India,2018,...,...,Others,Population,1352617328
+India,2016,...,...,Others,LPI Rank,35
+India,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,6.586594105
+India,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,18.1125
+India,2021,United Arab Emirates,All Products,Export,Partner share(%)-Top 5 Export Partner,6.4452
+India,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,5.8348
+India,2021,Bangladesh,All Products,Export,Partner share(%)-Top 5 Export Partner,3.5695
+India,2021,"Hong Kong, China",All Products,Export,Partner share(%)-Top 5 Export Partner,2.8596
+India,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,15.3462
+India,2021,United Arab Emirates,All Products,Import,Partner share(%)-Top 5 Import Partner,7.5509
+India,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,7.2557
+India,2021,Switzerland,All Products,Import,Partner share(%)-Top 5 Import Partner,5.1704
+India,2021,Saudi Arabia,All Products,Import,Partner share(%)-Top 5 Import Partner,4.8544
+India,2021,World,Vegetable,Export,Export Product share(%),6.251
+India,2021,World,Textiles and Clothing,Export,Export Product share(%),10.5031
+India,2021,World,Intermediate goods,Export,Export Product share(%),34.3923
+India,2021,World,Fuels,Export,Export Product share(%),14.2854
+India,2021,World,Metals,Export,Export Product share(%),11.2748
+India,2021,World,Food Products,Export,Export Product share(%),2.7627
+India,2021,World,Footwear,Export,Export Product share(%),0.771
+India,2021,World,Consumer goods,Export,Export Product share(%),42.3783
+India,2021,World,Minerals,Export,Export Product share(%),1.6772
+India,2021,World,Stone and Glass,Export,Export Product share(%),11.0823
+India,2021,World,Capital goods,Export,Export Product share(%),15.5934
+India,2021,World,Hides and Skins,Export,Export Product share(%),0.7191
+India,2021,World,Miscellaneous,Export,Export Product share(%),2.1188
+India,2021,World,Animal,Export,Export Product share(%),2.7286
+India,2021,World,Wood,Export,Export Product share(%),1.0411
+India,2021,World,Raw materials,Export,Export Product share(%),7.5937
+India,2021,World,Chemicals,Export,Export Product share(%),14.3392
+India,2021,World,Mach and Elec,Export,Export Product share(%),10.8892
+India,2021,World,Plastic or Rubber,Export,Export Product share(%),3.2965
+India,2021,World,Transportation,Export,Export Product share(%),6.2601
+India,2021,World,Intermediate goods,Import,Import Product share(%),35.4332
+India,2021,World,Consumer goods,Import,Import Product share(%),11.8065
+India,2021,World,Capital goods,Import,Import Product share(%),21.2507
+India,2021,World,Raw materials,Import,Import Product share(%),31.2291
+India,2021,World,Intermediate goods,Tariff,Weighted Average (%),8.21505087150839
+India,2021,World,Consumer goods,Tariff,Weighted Average (%),9.49628000991017
+India,2021,World,Capital goods,Tariff,Weighted Average (%),5.84770868610197
+India,2021,World,Raw materials,Tariff,Weighted Average (%),1.89707596270379
+India,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+India,2021,World,All Products,Trade Indicator,Country Growth (%),18.6137006459779
+India,2021,World,All Products,Tariff,Simple Average (%),9.86375601219281
+India,2021,World,All Products,Tariff,Weighted Average (%),5.87307628024288
+India,2021,World,All Products,Tariff,Maximum Rate (%),150
+India,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),18.033554664189
+India,2021,...,...,Trade Indicator,Index of export market penetration,31.2270676057526
+India,2021,...,...,Trade Indicator,HH Market concentration index,0.0559490358845416

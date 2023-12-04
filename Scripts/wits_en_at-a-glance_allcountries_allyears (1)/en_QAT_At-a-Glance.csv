@@ -1,0 +1,97 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Qatar,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,13472.9613252239
+Qatar,2021,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,11843.7173869831
+Qatar,2021,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,11196.9390291874
+Qatar,2021,"Korea, Rep.",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,11191.926893334
+Qatar,2021,Singapore,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,5346.40578015446
+Qatar,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4550.05778228846
+Qatar,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3312.14798817666
+Qatar,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1777.12586225212
+Qatar,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1617.58781305936
+Qatar,2021,United Kingdom,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1581.46466841969
+Qatar,2021,World,Food Products,Export,Export(US$ Mil),3.38446021651256
+Qatar,2021,World,Footwear,Export,Export(US$ Mil),5.32598960070067
+Qatar,2021,World,Consumer goods,Export,Export(US$ Mil),61256.1228397299
+Qatar,2021,World,Vegetable,Export,Export(US$ Mil),13.7451357580892
+Qatar,2021,World,Textiles and Clothing,Export,Export(US$ Mil),19.9178391107099
+Qatar,2021,World,Intermediate goods,Export,Export(US$ Mil),161.260186638413
+Qatar,2021,World,Animal,Export,Export(US$ Mil),31.4427139756689
+Qatar,2021,World,Wood,Export,Export(US$ Mil),23.9465134122958
+Qatar,2021,World,Raw materials,Export,Export(US$ Mil),12971.7952698219
+Qatar,2021,World,Fuels,Export,Export(US$ Mil),73602.9782220095
+Qatar,2021,World,Metals,Export,Export(US$ Mil),2239.88050256746
+Qatar,2021,World,Minerals,Export,Export(US$ Mil),564.84791747967
+Qatar,2021,World,Stone and Glass,Export,Export(US$ Mil),109.355024915797
+Qatar,2021,World,Capital goods,Export,Export(US$ Mil),193.4972714191
+Qatar,2021,World,Plastic or Rubber,Export,Export(US$ Mil),3186.0330043321
+Qatar,2021,World,Transportation,Export,Export(US$ Mil),1858.89743144454
+Qatar,2021,World,Hides and Skins,Export,Export(US$ Mil),6.4348601915182
+Qatar,2021,World,Miscellaneous,Export,Export(US$ Mil),574.549471447419
+Qatar,2021,World,Chemicals,Export,Export(US$ Mil),4543.94371575625
+Qatar,2021,World,Mach and Elec,Export,Export(US$ Mil),418.608386651584
+Qatar,2021,World,Consumer goods,Import,Import(US$ Mil),9612.9521898413
+Qatar,2021,World,Intermediate goods,Import,Import(US$ Mil),5965.71029669747
+Qatar,2021,World,Raw materials,Import,Import(US$ Mil),2169.4761148993
+Qatar,2021,World,Capital goods,Import,Import(US$ Mil),8894.6476945725
+Qatar,2021,World,All Products,Export,Exports (in US$ Mil),87203.2911888698
+Qatar,2021,World,All Products,Import,Imports (in US$ Mil),27985.4032137582
+Qatar,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),7499960.70164353
+Qatar,2021,...,...,Tariff,No. Of Tariff Agreement,5
+Qatar,2021,...,...,Import,No. Of Import partners,136
+Qatar,2021,...,...,Import,No. Of Import products,3452
+Qatar,2021,...,...,Export,No. Of Export partners,152
+Qatar,2021,...,...,Export,No. Of Export products,76
+Qatar,,...,...,Others,Services Trade Restrictions Index - Over All,60.1
+Qatar,2016,...,...,Others,LPI Rank,30
+Qatar,2019,...,...,Others,Trading Across Borders Rank,101
+Qatar,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0388586
+Qatar,2019,...,...,Others,Ease of Doing Business Rank,77
+Qatar,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0469342
+Qatar,2018,...,...,Others,Population,2781677
+Qatar,2016,...,...,Others,LPI Score,3.599232
+Qatar,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,15.4501
+Qatar,2021,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,13.5817
+Qatar,2021,India,All Products,Export,Partner share(%)-Top 5 Export Partner,12.84
+Qatar,2021,"Korea, Rep.",All Products,Export,Partner share(%)-Top 5 Export Partner,12.8343
+Qatar,2021,Singapore,All Products,Export,Partner share(%)-Top 5 Export Partner,6.131
+Qatar,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,16.2587
+Qatar,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,11.8353
+Qatar,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,6.3502
+Qatar,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,5.7801
+Qatar,2021,United Kingdom,All Products,Import,Partner share(%)-Top 5 Import Partner,5.651
+Qatar,2021,World,Food Products,Export,Export Product share(%),0.0039
+Qatar,2021,World,Footwear,Export,Export Product share(%),0.0061
+Qatar,2021,World,Consumer goods,Export,Export Product share(%),70.2452
+Qatar,2021,World,Vegetable,Export,Export Product share(%),0.0158
+Qatar,2021,World,Textiles and Clothing,Export,Export Product share(%),0.0228
+Qatar,2021,World,Intermediate goods,Export,Export Product share(%),0.1849
+Qatar,2021,World,Animal,Export,Export Product share(%),0.0361
+Qatar,2021,World,Wood,Export,Export Product share(%),0.0275
+Qatar,2021,World,Raw materials,Export,Export Product share(%),14.8754
+Qatar,2021,World,Chemicals,Export,Export Product share(%),5.2107
+Qatar,2021,World,Mach and Elec,Export,Export Product share(%),0.48
+Qatar,2021,World,Minerals,Export,Export Product share(%),0.6477
+Qatar,2021,World,Stone and Glass,Export,Export Product share(%),0.1254
+Qatar,2021,World,Capital goods,Export,Export Product share(%),0.2219
+Qatar,2021,World,Plastic or Rubber,Export,Export Product share(%),3.6536
+Qatar,2021,World,Transportation,Export,Export Product share(%),2.1317
+Qatar,2021,World,Fuels,Export,Export Product share(%),84.4039
+Qatar,2021,World,Metals,Export,Export Product share(%),2.5686
+Qatar,2021,World,Hides and Skins,Export,Export Product share(%),0.0074
+Qatar,2021,World,Miscellaneous,Export,Export Product share(%),0.6589
+Qatar,2021,World,Intermediate goods,Import,Import Product share(%),21.3172
+Qatar,2021,World,Raw materials,Import,Import Product share(%),7.7522
+Qatar,2021,World,Capital goods,Import,Import Product share(%),31.7832
+Qatar,2021,World,Consumer goods,Import,Import Product share(%),34.3499
+Qatar,2021,World,Consumer goods,Tariff,Weighted Average (%),3.82730804572817
+Qatar,2021,World,Intermediate goods,Tariff,Weighted Average (%),3.84608930112948
+Qatar,2021,World,Raw materials,Tariff,Weighted Average (%),2.0407925185363
+Qatar,2021,World,Capital goods,Tariff,Weighted Average (%),3.4459725815325
+Qatar,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Qatar,2021,World,All Products,Trade Indicator,Country Growth (%),22.3606207536223
+Qatar,2021,World,All Products,Tariff,Simple Average (%),3.94786090706744
+Qatar,2021,World,All Products,Tariff,Weighted Average (%),3.5334763568275
+Qatar,2021,World,All Products,Tariff,Maximum Rate (%),100
+Qatar,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),23.6822876552718
+Qatar,2021,...,...,Trade Indicator,Index of export market penetration,3.23467278868296
+Qatar,2021,...,...,Trade Indicator,HH Market concentration index,0.087190926356901

@@ -1,0 +1,20 @@
+dv beta references:
+https://towardsdatascience.com/mapping-with-matplotlib-pandas-geopandas-and-basemap-in-python-d11b57ab5dac
+- https://www.efrainmaps.es/english-version/free-downloads/world/
+- https://stackoverflow.com/questions/14446447/how-to-read-a-local-text-file-in-the-browserhttps://bagrow.com/dsv/heatmap_basemap.html
+- https://gist.github.com/metal3d/5b925077e66194551df949de64e910f6#file-country-coord-csv
+- https://plotly.com/python/choropleth-maps/
+- https://plotly.com/python/sankey-diagram/
+- https://python-graph-gallery.com/basic-sankey-diagram-with-pysankey/
+- https://www.geeksforgeeks.org/how-to-add-one-row-in-an-existing-pandas-dataframe/
+- https://developers.google.com/chart/interactive/docs/gallery/sankey
+- https://www.codingninjas.com/studio/library/how-to-read-csv-file-in-javascript
+
+- https://blog.heptanalytics.com/flask-plotly-dashboard/
+- https://stackoverflow.com/questions/26700598/matplotlib-showing-x-tick-labels-overlapping
+- https://docs.kanaries.net/topics/Matplotlib/matplotlib-savefig-cuts-off-labels
+- https://stackoverflow.com/questions/12608788/changing-the-tick-frequency-on-the-x-or-y-axis
+- https://stackoverflow.com/questions/47282918/clearing-a-subplot-in-matplotlib
+- https://www.geeksforgeeks.org/create-a-bar-chart-from-a-dataframe-with-plotly-and-flask/
+- https://www.w3schools.com/icons/tryit.asp?filename=trybs_ref_glyph_zoom-in
+-https://css.gg/zoom-in

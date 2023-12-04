@@ -1,0 +1,100 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Senegal,2021,Mali,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1050.52406677723
+Senegal,2021,Switzerland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,747.997645977118
+Senegal,2021,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,509.253823988492
+Senegal,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,342.212224093157
+Senegal,2021,Cote d'Ivoire,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,217.426445087104
+Senegal,2021,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1141.16067898845
+Senegal,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,938.413579520986
+Senegal,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,691.986812118245
+Senegal,2021,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,554.785709782314
+Senegal,2021,Nigeria,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,518.567720349781
+Senegal,2021,World,Animal,Export,Export(US$ Mil),494.71274138019
+Senegal,2021,World,Wood,Export,Export(US$ Mil),55.2771607575399
+Senegal,2021,World,Raw materials,Export,Export(US$ Mil),1337.10927549064
+Senegal,2021,World,Vegetable,Export,Export(US$ Mil),650.264045948678
+Senegal,2021,World,Textiles and Clothing,Export,Export(US$ Mil),67.8229067106231
+Senegal,2021,World,Intermediate goods,Export,Export(US$ Mil),2129.92616601812
+Senegal,2021,World,Food Products,Export,Export(US$ Mil),432.931555379019
+Senegal,2021,World,Footwear,Export,Export(US$ Mil),79.2703641474256
+Senegal,2021,World,Consumer goods,Export,Export(US$ Mil),1575.51456833962
+Senegal,2021,World,Minerals,Export,Export(US$ Mil),500.852027208982
+Senegal,2021,World,Stone and Glass,Export,Export(US$ Mil),994.315772404329
+Senegal,2021,World,Capital goods,Export,Export(US$ Mil),133.967911377015
+Senegal,2021,World,Hides and Skins,Export,Export(US$ Mil),3.72694899331964
+Senegal,2021,World,Miscellaneous,Export,Export(US$ Mil),29.3307435951143
+Senegal,2021,World,Plastic or Rubber,Export,Export(US$ Mil),46.1483606757215
+Senegal,2021,World,Transportation,Export,Export(US$ Mil),60.4065452499573
+Senegal,2021,World,Fuels,Export,Export(US$ Mil),807.710434413774
+Senegal,2021,World,Metals,Export,Export(US$ Mil),198.20235706442
+Senegal,2021,World,Chemicals,Export,Export(US$ Mil),687.274187593037
+Senegal,2021,World,Mach and Elec,Export,Export(US$ Mil),93.9754381122075
+Senegal,2021,World,Raw materials,Import,Import(US$ Mil),1450.67353337987
+Senegal,2021,World,Intermediate goods,Import,Import(US$ Mil),1909.35110909739
+Senegal,2021,World,Consumer goods,Import,Import(US$ Mil),4409.34219968377
+Senegal,2021,World,Capital goods,Import,Import(US$ Mil),1875.58744061393
+Senegal,2021,World,All Products,Export,Exports (in US$ Mil),5202.22158963434
+Senegal,2021,World,All Products,Import,Imports (in US$ Mil),9699.02212907065
+Senegal,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),1310631.25274022
+Senegal,2021,...,...,Tariff,No. Of Tariff Agreement,2
+Senegal,2021,...,...,Import,No. Of Import partners,158
+Senegal,2021,...,...,Import,No. Of Import products,3634
+Senegal,2021,...,...,Export,No. Of Export partners,124
+Senegal,2021,...,...,Export,No. Of Export products,1771
+Senegal,,...,...,Others,Services Trade Restrictions Index - Over All,19
+Senegal,2019,...,...,Others,Trading Across Borders Rank,142
+Senegal,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.4232293
+Senegal,2016,...,...,Others,LPI Score,2.327711
+Senegal,2019,...,...,Others,Ease of Doing Business Rank,123
+Senegal,2012,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5052
+Senegal,2012,...,...,Others,No Of NTM Measures,42
+Senegal,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.426735
+Senegal,2018,...,...,Others,Population,15854360
+Senegal,2018,...,...,Others,CPIA Trade Ratings,4.5
+Senegal,2016,...,...,Others,LPI Rank,132
+Senegal,2021,Mali,All Products,Export,Partner share(%)-Top 5 Export Partner,20.1938
+Senegal,2021,Switzerland,All Products,Export,Partner share(%)-Top 5 Export Partner,14.3784
+Senegal,2021,India,All Products,Export,Partner share(%)-Top 5 Export Partner,9.7892
+Senegal,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,6.5782
+Senegal,2021,Cote d'Ivoire,All Products,Export,Partner share(%)-Top 5 Export Partner,4.1795
+Senegal,2021,France,All Products,Import,Partner share(%)-Top 5 Import Partner,11.7657
+Senegal,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,9.6753
+Senegal,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,7.1346
+Senegal,2021,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,5.72
+Senegal,2021,Nigeria,All Products,Import,Partner share(%)-Top 5 Import Partner,5.3466
+Senegal,2021,World,Animal,Export,Export Product share(%),9.5096
+Senegal,2021,World,Wood,Export,Export Product share(%),1.0626
+Senegal,2021,World,Raw materials,Export,Export Product share(%),25.7027
+Senegal,2021,World,Plastic or Rubber,Export,Export Product share(%),0.8871
+Senegal,2021,World,Transportation,Export,Export Product share(%),1.1612
+Senegal,2021,World,Food Products,Export,Export Product share(%),8.3221
+Senegal,2021,World,Footwear,Export,Export Product share(%),1.5238
+Senegal,2021,World,Consumer goods,Export,Export Product share(%),30.2854
+Senegal,2021,World,Minerals,Export,Export Product share(%),9.6277
+Senegal,2021,World,Stone and Glass,Export,Export Product share(%),19.1133
+Senegal,2021,World,Capital goods,Export,Export Product share(%),2.5752
+Senegal,2021,World,Vegetable,Export,Export Product share(%),12.4997
+Senegal,2021,World,Textiles and Clothing,Export,Export Product share(%),1.3037
+Senegal,2021,World,Intermediate goods,Export,Export Product share(%),40.9426
+Senegal,2021,World,Chemicals,Export,Export Product share(%),13.2112
+Senegal,2021,World,Mach and Elec,Export,Export Product share(%),1.8064
+Senegal,2021,World,Hides and Skins,Export,Export Product share(%),0.0716
+Senegal,2021,World,Miscellaneous,Export,Export Product share(%),0.5638
+Senegal,2021,World,Fuels,Export,Export Product share(%),15.5263
+Senegal,2021,World,Metals,Export,Export Product share(%),3.81
+Senegal,2021,World,Raw materials,Import,Import Product share(%),14.9569
+Senegal,2021,World,Consumer goods,Import,Import Product share(%),45.4617
+Senegal,2021,World,Capital goods,Import,Import Product share(%),19.3379
+Senegal,2021,World,Intermediate goods,Import,Import Product share(%),19.686
+Senegal,2021,World,Raw materials,Tariff,Weighted Average (%),5.15209504014115
+Senegal,2021,World,Consumer goods,Tariff,Weighted Average (%),11.5453568485447
+Senegal,2021,World,Intermediate goods,Tariff,Weighted Average (%),9.06421914078281
+Senegal,2021,World,Capital goods,Tariff,Weighted Average (%),7.51210974803814
+Senegal,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Senegal,2021,World,All Products,Trade Indicator,Country Growth (%),12.5039946179362
+Senegal,2021,World,All Products,Tariff,Simple Average (%),12.878326150147
+Senegal,2021,World,All Products,Tariff,Weighted Average (%),8.8797098807517
+Senegal,2021,World,All Products,Tariff,Maximum Rate (%),35
+Senegal,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),4.94346018993661
+Senegal,2021,...,...,Trade Indicator,Index of export market penetration,2.24014690226606
+Senegal,2021,...,...,Trade Indicator,HH Market concentration index,0.0997443530938343

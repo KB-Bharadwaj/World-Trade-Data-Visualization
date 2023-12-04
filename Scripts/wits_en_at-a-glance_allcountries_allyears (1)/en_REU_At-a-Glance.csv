@@ -1,0 +1,79 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Reunion,1995,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,148.918624
+Reunion,1995,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,12.731058
+Reunion,1995,Belgium-Luxembourg,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,10.380171
+Reunion,1995,Comoros,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,9.851343
+Reunion,1995,Madagascar,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,6.639726
+Reunion,1995,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1797.966848
+Reunion,1995,Italy,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,95.594288
+Reunion,1995,Bahrain,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,83.79172
+Reunion,1995,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,75.969256
+Reunion,1995,South Africa,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,70.338344
+Reunion,1995,World,Animal,Export,Export(US$ Mil),16.952671
+Reunion,1995,World,Wood,Export,Export(US$ Mil),1.707185
+Reunion,1995,World,Raw materials,Export,Export(US$ Mil),20.811686
+Reunion,1995,World,Plastic or Rubber,Export,Export(US$ Mil),0.855357
+Reunion,1995,World,Transportation,Export,Export(US$ Mil),12.268483
+Reunion,1995,World,Chemicals,Export,Export(US$ Mil),3.467657
+Reunion,1995,World,Mach and Elec,Export,Export(US$ Mil),14.23889
+Reunion,1995,World,Food Products,Export,Export(US$ Mil),140.62014
+Reunion,1995,World,Footwear,Export,Export(US$ Mil),0.021945
+Reunion,1995,World,Consumer goods,Export,Export(US$ Mil),26.494911
+Reunion,1995,World,Minerals,Export,Export(US$ Mil),0.494129
+Reunion,1995,World,Stone and Glass,Export,Export(US$ Mil),0.310761
+Reunion,1995,World,Capital goods,Export,Export(US$ Mil),23.455405
+Reunion,1995,World,Vegetable,Export,Export(US$ Mil),5.907096
+Reunion,1995,World,Textiles and Clothing,Export,Export(US$ Mil),2.231277
+Reunion,1995,World,Intermediate goods,Export,Export(US$ Mil),137.843212
+Reunion,1995,World,Hides and Skins,Export,Export(US$ Mil),0.012351
+Reunion,1995,World,Miscellaneous,Export,Export(US$ Mil),4.098888
+Reunion,1995,World,Fuels,Export,Export(US$ Mil),0.436348
+Reunion,1995,World,Metals,Export,Export(US$ Mil),5.066757
+Reunion,1995,World,Intermediate goods,Import,Import(US$ Mil),363.565047999999
+Reunion,1995,World,Raw materials,Import,Import(US$ Mil),213.677826
+Reunion,1995,World,Consumer goods,Import,Import(US$ Mil),1418.127466
+Reunion,1995,World,Capital goods,Import,Import(US$ Mil),563.765919
+Reunion,1995,World,All Products,Export,Exports (in US$ Mil),208.689936
+Reunion,1995,World,All Products,Import,Imports (in US$ Mil),2711.07968
+Reunion,1995,...,...,Import,No. Of Import partners,118
+Reunion,1995,...,...,Import,No. Of Import products,3321
+Reunion,1995,...,...,Export,No. Of Export partners,49
+Reunion,1995,...,...,Export,No. Of Export products,1039
+Reunion,1995,France,All Products,Export,Partner share(%)-Top 5 Export Partner,71.3588
+Reunion,1995,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,6.1005
+Reunion,1995,Belgium-Luxembourg,All Products,Export,Partner share(%)-Top 5 Export Partner,4.974
+Reunion,1995,Comoros,All Products,Export,Partner share(%)-Top 5 Export Partner,4.7206
+Reunion,1995,Madagascar,All Products,Export,Partner share(%)-Top 5 Export Partner,3.1816
+Reunion,1995,France,All Products,Import,Partner share(%)-Top 5 Import Partner,66.3192
+Reunion,1995,Italy,All Products,Import,Partner share(%)-Top 5 Import Partner,3.5261
+Reunion,1995,Bahrain,All Products,Import,Partner share(%)-Top 5 Import Partner,3.0907
+Reunion,1995,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,2.8022
+Reunion,1995,South Africa,All Products,Import,Partner share(%)-Top 5 Import Partner,2.5945
+Reunion,1995,World,Vegetable,Export,Export Product share(%),2.8306
+Reunion,1995,World,Textiles and Clothing,Export,Export Product share(%),1.0692
+Reunion,1995,World,Intermediate goods,Export,Export Product share(%),66.0517
+Reunion,1995,World,Animal,Export,Export Product share(%),8.1234
+Reunion,1995,World,Wood,Export,Export Product share(%),0.818
+Reunion,1995,World,Raw materials,Export,Export Product share(%),9.9725
+Reunion,1995,World,Minerals,Export,Export Product share(%),0.2368
+Reunion,1995,World,Stone and Glass,Export,Export Product share(%),0.1489
+Reunion,1995,World,Capital goods,Export,Export Product share(%),11.2394
+Reunion,1995,World,Plastic or Rubber,Export,Export Product share(%),0.4099
+Reunion,1995,World,Transportation,Export,Export Product share(%),5.8788
+Reunion,1995,World,Hides and Skins,Export,Export Product share(%),0.0059
+Reunion,1995,World,Miscellaneous,Export,Export Product share(%),1.9641
+Reunion,1995,World,Food Products,Export,Export Product share(%),67.3823
+Reunion,1995,World,Footwear,Export,Export Product share(%),0.0105
+Reunion,1995,World,Consumer goods,Export,Export Product share(%),12.6958
+Reunion,1995,World,Fuels,Export,Export Product share(%),0.2091
+Reunion,1995,World,Metals,Export,Export Product share(%),2.4279
+Reunion,1995,World,Chemicals,Export,Export Product share(%),1.6616
+Reunion,1995,World,Mach and Elec,Export,Export Product share(%),6.823
+Reunion,1995,World,Intermediate goods,Import,Import Product share(%),13.4103
+Reunion,1995,World,Raw materials,Import,Import Product share(%),7.8817
+Reunion,1995,World,Capital goods,Import,Import Product share(%),20.7949
+Reunion,1995,World,Consumer goods,Import,Import Product share(%),52.3086
+Reunion,1995,World,All Products,Trade Indicator,World Growth (%),11.5145551966227
+Reunion,1995,World,All Products,Trade Indicator,Country Growth (%),8.35503753471891
+Reunion,1995,...,...,Trade Indicator,Index of export market penetration,1.37500894411716
+Reunion,1995,...,...,Trade Indicator,HH Market concentration index,0.755688562504621
