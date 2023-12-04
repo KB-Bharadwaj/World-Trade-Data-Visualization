@@ -1,6 +1,6 @@
-# World-Trade-Data-Visualization
-Directory structure
-| --- site-packages
+# World-Trade-Data-Visualization<br>
+Directory structure<br>
+| --- site-packages<br>
 | --- Scripts
      | -- static
 	        |-- styles
