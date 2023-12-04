@@ -4,8 +4,8 @@ Website link : https://unomewrite.pythonanywhere.com/
 # World-Trade-Data-Visualization<br>
 Directory structure<br>
 | --- site-packages<br>
-| --- Scripts
-     | -- static
+| --- Scripts<br>
+     &emsp;| -- static<br>
 	        |-- styles
 	            |-- index.css
 	        |-- png files
