@@ -1,0 +1,93 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Dominica,2012,Trinidad and Tobago,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,6.941986
+Dominica,2012,Jamaica,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,6.007212
+Dominica,2012,St. Kitts and Nevis,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,5.30933
+Dominica,2012,Guyana,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3.523418
+Dominica,2012,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3.244555
+Dominica,2012,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,77.878134
+Dominica,2012,Trinidad and Tobago,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,35.989432
+Dominica,2012,Unspecified,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,18.244103
+Dominica,2012,United Kingdom,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,8.393831
+Dominica,2012,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,5.130573
+Dominica,2012,World,Minerals,Export,Export(US$ Mil),3.474559
+Dominica,2012,World,Stone and Glass,Export,Export(US$ Mil),0.394617
+Dominica,2012,World,Capital goods,Export,Export(US$ Mil),4.378276
+Dominica,2012,World,Food Products,Export,Export(US$ Mil),0.861506
+Dominica,2012,World,Footwear,Export,Export(US$ Mil),0.010366
+Dominica,2012,World,Consumer goods,Export,Export(US$ Mil),25.09633
+Dominica,2012,World,Vegetable,Export,Export(US$ Mil),3.311133
+Dominica,2012,World,Textiles and Clothing,Export,Export(US$ Mil),0.157603
+Dominica,2012,World,Intermediate goods,Export,Export(US$ Mil),0.727821
+Dominica,2012,World,Chemicals,Export,Export(US$ Mil),18.807679
+Dominica,2012,World,Mach and Elec,Export,Export(US$ Mil),4.134989
+Dominica,2012,World,Fuels,Export,Export(US$ Mil),0.003767
+Dominica,2012,World,Metals,Export,Export(US$ Mil),0.54241
+Dominica,2012,World,Plastic or Rubber,Export,Export(US$ Mil),0.173179
+Dominica,2012,World,Transportation,Export,Export(US$ Mil),0.172515
+Dominica,2012,World,Hides and Skins,Export,Export(US$ Mil),0.041514
+Dominica,2012,World,Miscellaneous,Export,Export(US$ Mil),0.388708
+Dominica,2012,World,Animal,Export,Export(US$ Mil),0.007782
+Dominica,2012,World,Wood,Export,Export(US$ Mil),4.530897
+Dominica,2012,World,Raw materials,Export,Export(US$ Mil),6.808692
+Dominica,2012,World,Intermediate goods,Import,Import(US$ Mil),40.1428670000001
+Dominica,2012,World,Consumer goods,Import,Import(US$ Mil),127.401437
+Dominica,2012,World,Capital goods,Import,Import(US$ Mil),31.535165
+Dominica,2012,World,Raw materials,Import,Import(US$ Mil),12.526934
+Dominica,2012,World,All Products,Export,Exports (in US$ Mil),37.013221
+Dominica,2012,World,All Products,Import,Imports (in US$ Mil),211.867612
+Dominica,2012,World,All Products,Tariff,Duty Free Imports (US$ Thousand),78724.754
+Dominica,2012,...,...,Tariff,No. Of Tariff Agreement,2
+Dominica,2012,...,...,Import,No. Of Import partners,92
+Dominica,2012,...,...,Import,No. Of Import products,2723
+Dominica,2012,...,...,Export,No. Of Export partners,52
+Dominica,2012,...,...,Export,No. Of Export products,682
+Dominica,2019,...,...,Others,Ease of Doing Business Rank,111
+Dominica,2019,...,...,Others,Trading Across Borders Rank,91
+Dominica,2018,...,...,Others,Population,71625
+Dominica,2018,...,...,Others,CPIA Trade Ratings,4
+Dominica,2012,Trinidad and Tobago,All Products,Export,Partner share(%)-Top 5 Export Partner,18.7554
+Dominica,2012,Jamaica,All Products,Export,Partner share(%)-Top 5 Export Partner,16.2299
+Dominica,2012,St. Kitts and Nevis,All Products,Export,Partner share(%)-Top 5 Export Partner,14.3444
+Dominica,2012,Guyana,All Products,Export,Partner share(%)-Top 5 Export Partner,9.5193
+Dominica,2012,France,All Products,Export,Partner share(%)-Top 5 Export Partner,8.7659
+Dominica,2012,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,36.7579
+Dominica,2012,Trinidad and Tobago,All Products,Import,Partner share(%)-Top 5 Import Partner,16.9868
+Dominica,2012,Unspecified,All Products,Import,Partner share(%)-Top 5 Import Partner,8.6111
+Dominica,2012,United Kingdom,All Products,Import,Partner share(%)-Top 5 Import Partner,3.9618
+Dominica,2012,China,All Products,Import,Partner share(%)-Top 5 Import Partner,2.4216
+Dominica,2012,World,Vegetable,Export,Export Product share(%),8.9458
+Dominica,2012,World,Textiles and Clothing,Export,Export Product share(%),0.4258
+Dominica,2012,World,Intermediate goods,Export,Export Product share(%),1.9664
+Dominica,2012,World,Plastic or Rubber,Export,Export Product share(%),0.4679
+Dominica,2012,World,Transportation,Export,Export Product share(%),0.4661
+Dominica,2012,World,Fuels,Export,Export Product share(%),0.0102
+Dominica,2012,World,Metals,Export,Export Product share(%),1.4654
+Dominica,2012,World,Minerals,Export,Export Product share(%),9.3873
+Dominica,2012,World,Stone and Glass,Export,Export Product share(%),1.0662
+Dominica,2012,World,Capital goods,Export,Export Product share(%),11.829
+Dominica,2012,World,Food Products,Export,Export Product share(%),2.3276
+Dominica,2012,World,Footwear,Export,Export Product share(%),0.028
+Dominica,2012,World,Consumer goods,Export,Export Product share(%),67.8037
+Dominica,2012,World,Chemicals,Export,Export Product share(%),50.8134
+Dominica,2012,World,Mach and Elec,Export,Export Product share(%),11.1717
+Dominica,2012,World,Hides and Skins,Export,Export Product share(%),0.1122
+Dominica,2012,World,Miscellaneous,Export,Export Product share(%),1.0502
+Dominica,2012,World,Animal,Export,Export Product share(%),0.021
+Dominica,2012,World,Wood,Export,Export Product share(%),12.2413
+Dominica,2012,World,Raw materials,Export,Export Product share(%),18.3953
+Dominica,2012,World,Intermediate goods,Import,Import Product share(%),18.9471
+Dominica,2012,World,Consumer goods,Import,Import Product share(%),60.1326
+Dominica,2012,World,Capital goods,Import,Import Product share(%),14.8844
+Dominica,2012,World,Raw materials,Import,Import Product share(%),5.9126
+Dominica,2012,World,Intermediate goods,Tariff,Weighted Average (%),5.78324282019179
+Dominica,2012,World,Consumer goods,Tariff,Weighted Average (%),9.28010144610041
+Dominica,2012,World,Capital goods,Tariff,Weighted Average (%),8.12345184909283
+Dominica,2012,World,Raw materials,Tariff,Weighted Average (%),4.65394674923605
+Dominica,2012,World,All Products,Trade Indicator,World Growth (%),-0.0214717700142586
+Dominica,2012,World,All Products,Trade Indicator,Country Growth (%),0.406640564399208
+Dominica,2012,World,All Products,Tariff,Simple Average (%),10.7550222697928
+Dominica,2012,World,All Products,Tariff,Weighted Average (%),8.15284956053511
+Dominica,2012,World,All Products,Tariff,Maximum Rate (%),45
+Dominica,2012,World,All Products,Tariff,Duty Free Tariff Lines Share (%),25.6748207507381
+Dominica,2012,...,...,Trade Indicator,Index of export market penetration,1.54093347500454
+Dominica,2012,...,...,Trade Indicator,HH Market concentration index,0.0699381882982281

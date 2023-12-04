@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Romania,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,18153.08723242
+Romania,2021,Italy,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,9233.12722505
+Romania,2021,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,5647.35956929001
+Romania,2021,Hungary,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,5011.87339971
+Romania,2021,Poland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3522.31612351
+Romania,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,23473.8258584399
+Romania,2021,Italy,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,10345.40379237
+Romania,2021,Hungary,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,7991.1842415
+Romania,2021,Poland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,7270.50905581
+Romania,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,6378.60364041
+Romania,2021,World,Animal,Export,Export(US$ Mil),1206.76787515
+Romania,2021,World,Wood,Export,Export(US$ Mil),3369.47535477
+Romania,2021,World,Raw materials,Export,Export(US$ Mil),8814.27588654001
+Romania,2021,World,Vegetable,Export,Export(US$ Mil),6823.37453355
+Romania,2021,World,Textiles and Clothing,Export,Export(US$ Mil),3840.02538731
+Romania,2021,World,Intermediate goods,Export,Export(US$ Mil),16013.02332749
+Romania,2021,World,Minerals,Export,Export(US$ Mil),164.5577412
+Romania,2021,World,Stone and Glass,Export,Export(US$ Mil),592.56599153
+Romania,2021,World,Capital goods,Export,Export(US$ Mil),30190.78900824
+Romania,2021,World,Chemicals,Export,Export(US$ Mil),3133.10762325
+Romania,2021,World,Mach and Elec,Export,Export(US$ Mil),25462.07797184
+Romania,2021,World,Food Products,Export,Export(US$ Mil),3286.00021055
+Romania,2021,World,Footwear,Export,Export(US$ Mil),1191.10972357
+Romania,2021,World,Consumer goods,Export,Export(US$ Mil),32853.48602006
+Romania,2021,World,Plastic or Rubber,Export,Export(US$ Mil),5464.79884488
+Romania,2021,World,Transportation,Export,Export(US$ Mil),14345.93866676
+Romania,2021,World,Hides and Skins,Export,Export(US$ Mil),385.92301421
+Romania,2021,World,Miscellaneous,Export,Export(US$ Mil),6660.22214958
+Romania,2021,World,Fuels,Export,Export(US$ Mil),3114.19526563
+Romania,2021,World,Metals,Export,Export(US$ Mil),9349.58861713
+Romania,2021,World,Raw materials,Import,Import(US$ Mil),10560.84094341
+Romania,2021,World,Intermediate goods,Import,Import(US$ Mil),29511.84421461
+Romania,2021,World,Consumer goods,Import,Import(US$ Mil),39876.4668894699
+Romania,2021,World,Capital goods,Import,Import(US$ Mil),35725.58853318
+Romania,2021,World,All Products,Export,Exports (in US$ Mil),88389.72897091
+Romania,2021,World,All Products,Import,Imports (in US$ Mil),116401.94458841
+Romania,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),21489707.64758
+Romania,2021,...,...,Tariff,No. Of Tariff Agreement,
+Romania,2021,...,...,Import,No. Of Import partners,176
+Romania,2021,...,...,Import,No. Of Import products,4452
+Romania,2021,...,...,Export,No. Of Export partners,201
+Romania,2021,...,...,Export,No. Of Export products,4102
+Romania,2019,...,...,Others,Ease of Doing Business Rank,55
+Romania,,...,...,Others,Services Trade Restrictions Index - Over All,14.5
+Romania,2019,...,...,Others,Trading Across Borders Rank,1
+Romania,2018,...,...,Others,Population,19473936
+Romania,2016,...,...,Others,LPI Score,2.99312
+Romania,2016,...,...,Others,LPI Rank,60
+Romania,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,20.5376
+Romania,2021,Italy,All Products,Export,Partner share(%)-Top 5 Export Partner,10.4459
+Romania,2021,France,All Products,Export,Partner share(%)-Top 5 Export Partner,6.3892
+Romania,2021,Hungary,All Products,Export,Partner share(%)-Top 5 Export Partner,5.6702
+Romania,2021,Poland,All Products,Export,Partner share(%)-Top 5 Export Partner,3.985
+Romania,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,20.1662
+Romania,2021,Italy,All Products,Import,Partner share(%)-Top 5 Import Partner,8.8877
+Romania,2021,Hungary,All Products,Import,Partner share(%)-Top 5 Import Partner,6.8652
+Romania,2021,Poland,All Products,Import,Partner share(%)-Top 5 Import Partner,6.246
+Romania,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,5.4798
+Romania,2021,World,Animal,Export,Export Product share(%),1.3653
+Romania,2021,World,Wood,Export,Export Product share(%),3.8121
+Romania,2021,World,Raw materials,Export,Export Product share(%),9.9721
+Romania,2021,World,Vegetable,Export,Export Product share(%),7.7196
+Romania,2021,World,Textiles and Clothing,Export,Export Product share(%),4.3444
+Romania,2021,World,Intermediate goods,Export,Export Product share(%),18.1164
+Romania,2021,World,Plastic or Rubber,Export,Export Product share(%),6.1826
+Romania,2021,World,Transportation,Export,Export Product share(%),16.2303
+Romania,2021,World,Hides and Skins,Export,Export Product share(%),0.4366
+Romania,2021,World,Miscellaneous,Export,Export Product share(%),7.5351
+Romania,2021,World,Food Products,Export,Export Product share(%),3.7176
+Romania,2021,World,Footwear,Export,Export Product share(%),1.3476
+Romania,2021,World,Consumer goods,Export,Export Product share(%),37.1689
+Romania,2021,World,Fuels,Export,Export Product share(%),3.5233
+Romania,2021,World,Metals,Export,Export Product share(%),10.5777
+Romania,2021,World,Minerals,Export,Export Product share(%),0.1862
+Romania,2021,World,Stone and Glass,Export,Export Product share(%),0.6704
+Romania,2021,World,Capital goods,Export,Export Product share(%),34.1564
+Romania,2021,World,Chemicals,Export,Export Product share(%),3.5447
+Romania,2021,World,Mach and Elec,Export,Export Product share(%),28.8066
+Romania,2021,World,Raw materials,Import,Import Product share(%),9.0727
+Romania,2021,World,Intermediate goods,Import,Import Product share(%),25.3534
+Romania,2021,World,Capital goods,Import,Import Product share(%),30.6916
+Romania,2021,World,Consumer goods,Import,Import Product share(%),34.2576
+Romania,2021,World,Raw materials,Tariff,Weighted Average (%),0.442618079541337
+Romania,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.01271075761072
+Romania,2021,World,Consumer goods,Tariff,Weighted Average (%),1.90679366700541
+Romania,2021,World,Capital goods,Tariff,Weighted Average (%),0.796126453276712
+Romania,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Romania,2021,World,All Products,Trade Indicator,Country Growth (%),11.8560119021548
+Romania,2021,World,All Products,Tariff,Simple Average (%),1.94603552400177
+Romania,2021,World,All Products,Tariff,Weighted Average (%),1.30234198003247
+Romania,2021,World,All Products,Tariff,Maximum Rate (%),205.690093994141
+Romania,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),63.2170445722407
+Romania,2021,...,...,Trade Indicator,Index of export market penetration,11.9657752575244
+Romania,2021,...,...,Trade Indicator,HH Market concentration index,0.0600233613328217

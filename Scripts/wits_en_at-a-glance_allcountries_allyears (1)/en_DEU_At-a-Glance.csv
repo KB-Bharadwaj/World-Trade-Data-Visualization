@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Germany,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,144604.026224551
+Germany,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,123585.271090828
+Germany,2021,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,121000.352306048
+Germany,2021,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,108856.278817801
+Germany,2021,Poland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,92311.1145345435
+Germany,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,170640.079042259
+Germany,2021,Netherlands,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,106763.470737483
+Germany,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,86798.9952931947
+Germany,2021,Poland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,81518.3077760991
+Germany,2021,Italy,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,77221.2464357397
+Germany,2021,World,Vegetable,Export,Export(US$ Mil),22073.3478558043
+Germany,2021,World,Textiles and Clothing,Export,Export(US$ Mil),42136.1882082477
+Germany,2021,World,Intermediate goods,Export,Export(US$ Mil),352582.209292538
+Germany,2021,World,Plastic or Rubber,Export,Export(US$ Mil),91969.4401850708
+Germany,2021,World,Transportation,Export,Export(US$ Mil),286187.763781626
+Germany,2021,World,Food Products,Export,Export(US$ Mil),50201.2320709926
+Germany,2021,World,Footwear,Export,Export(US$ Mil),10726.9932077766
+Germany,2021,World,Consumer goods,Export,Export(US$ Mil),564669.982984003
+Germany,2021,World,Fuels,Export,Export(US$ Mil),43300.1182418154
+Germany,2021,World,Metals,Export,Export(US$ Mil),126890.046308378
+Germany,2021,World,Animal,Export,Export(US$ Mil),23038.269901317
+Germany,2021,World,Wood,Export,Export(US$ Mil),43738.1734612387
+Germany,2021,World,Raw materials,Export,Export(US$ Mil),45953.6613080643
+Germany,2021,World,Chemicals,Export,Export(US$ Mil),241236.451084072
+Germany,2021,World,Mach and Elec,Export,Export(US$ Mil),442198.390656374
+Germany,2021,World,Hides and Skins,Export,Export(US$ Mil),3743.47055889626
+Germany,2021,World,Miscellaneous,Export,Export(US$ Mil),162026.803031926
+Germany,2021,World,Minerals,Export,Export(US$ Mil),5887.0173518405
+Germany,2021,World,Stone and Glass,Export,Export(US$ Mil),40245.8678822343
+Germany,2021,World,Capital goods,Export,Export(US$ Mil),619053.373905197
+Germany,2021,World,Intermediate goods,Import,Import(US$ Mil),312658.153623147
+Germany,2021,World,Capital goods,Import,Import(US$ Mil),421567.718905817
+Germany,2021,World,Raw materials,Import,Import(US$ Mil),136804.558496494
+Germany,2021,World,Consumer goods,Import,Import(US$ Mil),488129.980605989
+Germany,2021,World,All Products,Export,Exports (in US$ Mil),1635599.57378761
+Germany,2021,World,All Products,Import,Imports (in US$ Mil),1424674.9861413
+Germany,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),461912284.857201
+Germany,2021,...,...,Tariff,No. Of Tariff Agreement,
+Germany,2021,...,...,Import,No. Of Import partners,226
+Germany,2021,...,...,Import,No. Of Import products,4501
+Germany,2021,...,...,Export,No. Of Export partners,230
+Germany,2021,...,...,Export,No. Of Export products,4407
+Germany,2019,...,...,Others,Ease of Doing Business Rank,22
+Germany,2019,...,...,Others,Trading Across Borders Rank,42
+Germany,2018,...,...,Others,Population,82927922
+Germany,2016,...,...,Others,LPI Score,4.225967
+Germany,,...,...,Others,Services Trade Restrictions Index - Over All,17.5
+Germany,2016,...,...,Others,LPI Rank,1
+Germany,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,8.841
+Germany,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,7.556
+Germany,2021,France,All Products,Export,Partner share(%)-Top 5 Export Partner,7.3979
+Germany,2021,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,6.6554
+Germany,2021,Poland,All Products,Export,Partner share(%)-Top 5 Export Partner,5.6439
+Germany,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,11.9775
+Germany,2021,Netherlands,All Products,Import,Partner share(%)-Top 5 Import Partner,7.4939
+Germany,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,6.0925
+Germany,2021,Poland,All Products,Import,Partner share(%)-Top 5 Import Partner,5.7219
+Germany,2021,Italy,All Products,Import,Partner share(%)-Top 5 Import Partner,5.4203
+Germany,2021,World,Food Products,Export,Export Product share(%),3.0693
+Germany,2021,World,Footwear,Export,Export Product share(%),0.6558
+Germany,2021,World,Consumer goods,Export,Export Product share(%),34.5237
+Germany,2021,World,Minerals,Export,Export Product share(%),0.3599
+Germany,2021,World,Stone and Glass,Export,Export Product share(%),2.4606
+Germany,2021,World,Capital goods,Export,Export Product share(%),37.8487
+Germany,2021,World,Vegetable,Export,Export Product share(%),1.3496
+Germany,2021,World,Textiles and Clothing,Export,Export Product share(%),2.5762
+Germany,2021,World,Intermediate goods,Export,Export Product share(%),21.5568
+Germany,2021,World,Plastic or Rubber,Export,Export Product share(%),5.623
+Germany,2021,World,Transportation,Export,Export Product share(%),17.4974
+Germany,2021,World,Fuels,Export,Export Product share(%),2.6474
+Germany,2021,World,Metals,Export,Export Product share(%),7.758
+Germany,2021,World,Animal,Export,Export Product share(%),1.4086
+Germany,2021,World,Wood,Export,Export Product share(%),2.6741
+Germany,2021,World,Raw materials,Export,Export Product share(%),2.8096
+Germany,2021,World,Chemicals,Export,Export Product share(%),14.7491
+Germany,2021,World,Mach and Elec,Export,Export Product share(%),27.0359
+Germany,2021,World,Hides and Skins,Export,Export Product share(%),0.2289
+Germany,2021,World,Miscellaneous,Export,Export Product share(%),9.9063
+Germany,2021,World,Intermediate goods,Import,Import Product share(%),21.9459
+Germany,2021,World,Capital goods,Import,Import Product share(%),29.5904
+Germany,2021,World,Raw materials,Import,Import Product share(%),9.6025
+Germany,2021,World,Consumer goods,Import,Import Product share(%),34.2626
+Germany,2021,World,Consumer goods,Tariff,Weighted Average (%),2.38010820267067
+Germany,2021,World,Capital goods,Tariff,Weighted Average (%),0.477562461997655
+Germany,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.33559733866264
+Germany,2021,World,Raw materials,Tariff,Weighted Average (%),0.911184362080754
+Germany,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Germany,2021,World,All Products,Trade Indicator,Country Growth (%),9.15024014023071
+Germany,2021,World,All Products,Tariff,Simple Average (%),2.15035747774796
+Germany,2021,World,All Products,Tariff,Weighted Average (%),1.37706979443183
+Germany,2021,World,All Products,Tariff,Maximum Rate (%),275.476013183594
+Germany,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),64.0260632949504
+Germany,2021,...,...,Trade Indicator,Index of export market penetration,41.9838649042675
+Germany,2021,...,...,Trade Indicator,HH Market concentration index,0.0374207579446327

@@ -1,0 +1,100 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Nigeria,2021,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,7733.67404164858
+Nigeria,2021,Spain,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,5575.73666636403
+Nigeria,2021,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2974.08152333454
+Nigeria,2021,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2835.54774577443
+Nigeria,2021,Canada,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2143.13828628959
+Nigeria,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,12879.0770211108
+Nigeria,2021,Netherlands,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,5350.99830218394
+Nigeria,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4598.98426339293
+Nigeria,2021,Belgium,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3781.88219179562
+Nigeria,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3178.6386568916
+Nigeria,2021,World,Vegetable,Export,Export(US$ Mil),665.26537781573
+Nigeria,2021,World,Textiles and Clothing,Export,Export(US$ Mil),30.7066369156081
+Nigeria,2021,World,Intermediate goods,Export,Export(US$ Mil),2171.12776231068
+Nigeria,2021,World,Animal,Export,Export(US$ Mil),54.5509068005248
+Nigeria,2021,World,Wood,Export,Export(US$ Mil),17.2434193563913
+Nigeria,2021,World,Raw materials,Export,Export(US$ Mil),37394.0901704589
+Nigeria,2021,World,Minerals,Export,Export(US$ Mil),135.839475819824
+Nigeria,2021,World,Stone and Glass,Export,Export(US$ Mil),64.0328615138786
+Nigeria,2021,World,Capital goods,Export,Export(US$ Mil),1512.99751245642
+Nigeria,2021,World,Chemicals,Export,Export(US$ Mil),1012.6748824598
+Nigeria,2021,World,Mach and Elec,Export,Export(US$ Mil),48.2075167177831
+Nigeria,2021,World,Fuels,Export,Export(US$ Mil),42105.687983024
+Nigeria,2021,World,Metals,Export,Export(US$ Mil),380.291615732967
+Nigeria,2021,World,Hides and Skins,Export,Export(US$ Mil),92.9668825206022
+Nigeria,2021,World,Miscellaneous,Export,Export(US$ Mil),4.42878167339175
+Nigeria,2021,World,Plastic or Rubber,Export,Export(US$ Mil),112.496707814351
+Nigeria,2021,World,Transportation,Export,Export(US$ Mil),1634.11113201069
+Nigeria,2021,World,Food Products,Export,Export(US$ Mil),862.564959785007
+Nigeria,2021,World,Footwear,Export,Export(US$ Mil),10.6437904039408
+Nigeria,2021,World,Consumer goods,Export,Export(US$ Mil),6116.21489985029
+Nigeria,2021,World,Consumer goods,Import,Import(US$ Mil),23558.579525675
+Nigeria,2021,World,Capital goods,Import,Import(US$ Mil),12689.579175042
+Nigeria,2021,World,Raw materials,Import,Import(US$ Mil),3965.34734390689
+Nigeria,2021,World,Intermediate goods,Import,Import(US$ Mil),11854.5043646647
+Nigeria,2021,World,All Products,Export,Exports (in US$ Mil),47231.7129303644
+Nigeria,2021,World,All Products,Import,Imports (in US$ Mil),52068.2869831447
+Nigeria,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),2017260.62068825
+Nigeria,2021,...,...,Tariff,No. Of Tariff Agreement,2
+Nigeria,2021,...,...,Import,No. Of Import partners,201
+Nigeria,2021,...,...,Import,No. Of Import products,4013
+Nigeria,2021,...,...,Export,No. Of Export partners,136
+Nigeria,2021,...,...,Export,No. Of Export products,608
+Nigeria,2018,...,...,Others,Population,195874740
+Nigeria,,...,...,Others,Services Trade Restrictions Index - Over All,27.1
+Nigeria,2018,...,...,Others,CPIA Trade Ratings,3.5
+Nigeria,2019,...,...,Others,Trading Across Borders Rank,179
+Nigeria,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.3201251
+Nigeria,2016,...,...,Others,LPI Score,2.62809
+Nigeria,2019,...,...,Others,Ease of Doing Business Rank,131
+Nigeria,2013,...,...,Others,No Of NTM Affected Products (HS 6 Digit),4329
+Nigeria,2013,...,...,Others,No Of NTM Measures,28
+Nigeria,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.3201251
+Nigeria,2016,...,...,Others,LPI Rank,90
+Nigeria,2021,India,All Products,Export,Partner share(%)-Top 5 Export Partner,16.3739
+Nigeria,2021,Spain,All Products,Export,Partner share(%)-Top 5 Export Partner,11.8051
+Nigeria,2021,France,All Products,Export,Partner share(%)-Top 5 Export Partner,6.2968
+Nigeria,2021,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,6.0035
+Nigeria,2021,Canada,All Products,Export,Partner share(%)-Top 5 Export Partner,4.5375
+Nigeria,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,24.735
+Nigeria,2021,Netherlands,All Products,Import,Partner share(%)-Top 5 Import Partner,10.2769
+Nigeria,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,8.8326
+Nigeria,2021,Belgium,All Products,Import,Partner share(%)-Top 5 Import Partner,7.2633
+Nigeria,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,6.1047
+Nigeria,2021,World,Vegetable,Export,Export Product share(%),1.4085
+Nigeria,2021,World,Textiles and Clothing,Export,Export Product share(%),0.065
+Nigeria,2021,World,Intermediate goods,Export,Export Product share(%),4.5968
+Nigeria,2021,World,Chemicals,Export,Export Product share(%),2.1441
+Nigeria,2021,World,Mach and Elec,Export,Export Product share(%),0.1021
+Nigeria,2021,World,Animal,Export,Export Product share(%),0.1155
+Nigeria,2021,World,Wood,Export,Export Product share(%),0.0365
+Nigeria,2021,World,Raw materials,Export,Export Product share(%),79.1716
+Nigeria,2021,World,Minerals,Export,Export Product share(%),0.2876
+Nigeria,2021,World,Stone and Glass,Export,Export Product share(%),0.1356
+Nigeria,2021,World,Capital goods,Export,Export Product share(%),3.2034
+Nigeria,2021,World,Fuels,Export,Export Product share(%),89.1471
+Nigeria,2021,World,Metals,Export,Export Product share(%),0.8052
+Nigeria,2021,World,Hides and Skins,Export,Export Product share(%),0.1968
+Nigeria,2021,World,Miscellaneous,Export,Export Product share(%),0.0094
+Nigeria,2021,World,Plastic or Rubber,Export,Export Product share(%),0.2382
+Nigeria,2021,World,Transportation,Export,Export Product share(%),3.4598
+Nigeria,2021,World,Food Products,Export,Export Product share(%),1.8262
+Nigeria,2021,World,Footwear,Export,Export Product share(%),0.0225
+Nigeria,2021,World,Consumer goods,Export,Export Product share(%),12.9494
+Nigeria,2021,World,Intermediate goods,Import,Import Product share(%),22.7672
+Nigeria,2021,World,Raw materials,Import,Import Product share(%),7.6157
+Nigeria,2021,World,Capital goods,Import,Import Product share(%),24.371
+Nigeria,2021,World,Consumer goods,Import,Import Product share(%),45.2455
+Nigeria,2021,World,Capital goods,Tariff,Weighted Average (%),8.68853771507079
+Nigeria,2021,World,Raw materials,Tariff,Weighted Average (%),8.42257822735623
+Nigeria,2021,World,Consumer goods,Tariff,Weighted Average (%),15.846172306929
+Nigeria,2021,World,Intermediate goods,Tariff,Weighted Average (%),11.645036112727
+Nigeria,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Nigeria,2021,World,All Products,Trade Indicator,Country Growth (%),17.1350188309667
+Nigeria,2021,World,All Products,Tariff,Simple Average (%),12.7037143098625
+Nigeria,2021,World,All Products,Tariff,Weighted Average (%),12.1999577158767
+Nigeria,2021,World,All Products,Tariff,Maximum Rate (%),35
+Nigeria,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),3.02593948121038
+Nigeria,2021,...,...,Trade Indicator,Index of export market penetration,3.69754457366461
+Nigeria,2021,...,...,Trade Indicator,HH Market concentration index,0.065236847289496

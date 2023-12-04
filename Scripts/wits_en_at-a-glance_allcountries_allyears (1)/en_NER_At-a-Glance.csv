@@ -1,0 +1,99 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Niger,2021,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,117.69179763
+Niger,2021,Mali,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,109.78277361
+Niger,2021,Burkina Faso,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,67.00775333
+Niger,2021,Nigeria,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,47.63844722
+Niger,2021,United Arab Emirates,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,46.74808915
+Niger,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,413.29466527
+Niger,2021,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,329.5020348
+Niger,2021,Nigeria,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,171.53239008
+Niger,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,168.728494
+Niger,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,136.11441347
+Niger,2021,World,Vegetable,Export,Export(US$ Mil),40.28668994
+Niger,2021,World,Textiles and Clothing,Export,Export(US$ Mil),3.10373044
+Niger,2021,World,Intermediate goods,Export,Export(US$ Mil),70.4524598
+Niger,2021,World,Chemicals,Export,Export(US$ Mil),1.67556013
+Niger,2021,World,Mach and Elec,Export,Export(US$ Mil),9.42921601
+Niger,2021,World,Food Products,Export,Export(US$ Mil),9.98686006
+Niger,2021,World,Footwear,Export,Export(US$ Mil),0.31610773
+Niger,2021,World,Consumer goods,Export,Export(US$ Mil),220.10561206
+Niger,2021,World,Fuels,Export,Export(US$ Mil),191.39945789
+Niger,2021,World,Metals,Export,Export(US$ Mil),1.23720837
+Niger,2021,World,Hides and Skins,Export,Export(US$ Mil),0.05838497
+Niger,2021,World,Miscellaneous,Export,Export(US$ Mil),0.80106409
+Niger,2021,World,Animal,Export,Export(US$ Mil),11.37800474
+Niger,2021,World,Wood,Export,Export(US$ Mil),0.10658882
+Niger,2021,World,Raw materials,Export,Export(US$ Mil),191.32504353
+Niger,2021,World,Plastic or Rubber,Export,Export(US$ Mil),1.56213601
+Niger,2021,World,Transportation,Export,Export(US$ Mil),18.16508083
+Niger,2021,World,Minerals,Export,Export(US$ Mil),153.33697812
+Niger,2021,World,Stone and Glass,Export,Export(US$ Mil),63.82949193
+Niger,2021,World,Capital goods,Export,Export(US$ Mil),24.78944469
+Niger,2021,World,Intermediate goods,Import,Import(US$ Mil),624.085147100001
+Niger,2021,World,Raw materials,Import,Import(US$ Mil),101.46294273
+Niger,2021,World,Consumer goods,Import,Import(US$ Mil),942.72746721
+Niger,2021,World,Capital goods,Import,Import(US$ Mil),458.59893302
+Niger,2021,World,All Products,Export,Exports (in US$ Mil),506.67256008
+Niger,2021,World,All Products,Import,Imports (in US$ Mil),2126.91674276
+Niger,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),681844.129852221
+Niger,2021,...,...,Tariff,No. Of Tariff Agreement,2
+Niger,2021,...,...,Import,No. Of Import partners,139
+Niger,2021,...,...,Import,No. Of Import products,2672
+Niger,2021,...,...,Export,No. Of Export partners,65
+Niger,2021,...,...,Export,No. Of Export products,390
+Niger,2016,...,...,Others,LPI Rank,100
+Niger,2016,...,...,Others,LPI Score,2.561951
+Niger,2019,...,...,Others,Trading Across Borders Rank,126
+Niger,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0899045
+Niger,2019,...,...,Others,Ease of Doing Business Rank,132
+Niger,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5052
+Niger,2014,...,...,Others,No Of NTM Measures,33
+Niger,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0990844
+Niger,2018,...,...,Others,CPIA Trade Ratings,4
+Niger,2018,...,...,Others,Population,22442948
+Niger,2021,France,All Products,Export,Partner share(%)-Top 5 Export Partner,23.2284
+Niger,2021,Mali,All Products,Export,Partner share(%)-Top 5 Export Partner,21.6674
+Niger,2021,Burkina Faso,All Products,Export,Partner share(%)-Top 5 Export Partner,13.2251
+Niger,2021,Nigeria,All Products,Export,Partner share(%)-Top 5 Export Partner,9.4022
+Niger,2021,United Arab Emirates,All Products,Export,Partner share(%)-Top 5 Export Partner,9.2265
+Niger,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,19.4316
+Niger,2021,France,All Products,Import,Partner share(%)-Top 5 Import Partner,15.492
+Niger,2021,Nigeria,All Products,Import,Partner share(%)-Top 5 Import Partner,8.0648
+Niger,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,7.933
+Niger,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,6.3996
+Niger,2021,World,Vegetable,Export,Export Product share(%),7.9512
+Niger,2021,World,Textiles and Clothing,Export,Export Product share(%),0.6126
+Niger,2021,World,Intermediate goods,Export,Export Product share(%),13.9049
+Niger,2021,World,Animal,Export,Export Product share(%),2.2456
+Niger,2021,World,Wood,Export,Export Product share(%),0.021
+Niger,2021,World,Raw materials,Export,Export Product share(%),37.7611
+Niger,2021,World,Chemicals,Export,Export Product share(%),0.3307
+Niger,2021,World,Mach and Elec,Export,Export Product share(%),1.861
+Niger,2021,World,Food Products,Export,Export Product share(%),1.9711
+Niger,2021,World,Footwear,Export,Export Product share(%),0.0624
+Niger,2021,World,Consumer goods,Export,Export Product share(%),43.4414
+Niger,2021,World,Plastic or Rubber,Export,Export Product share(%),0.3083
+Niger,2021,World,Transportation,Export,Export Product share(%),3.5852
+Niger,2021,World,Fuels,Export,Export Product share(%),37.7758
+Niger,2021,World,Metals,Export,Export Product share(%),0.2442
+Niger,2021,World,Hides and Skins,Export,Export Product share(%),0.0115
+Niger,2021,World,Miscellaneous,Export,Export Product share(%),0.1581
+Niger,2021,World,Minerals,Export,Export Product share(%),30.2635
+Niger,2021,World,Stone and Glass,Export,Export Product share(%),12.5978
+Niger,2021,World,Capital goods,Export,Export Product share(%),4.8926
+Niger,2021,World,Intermediate goods,Import,Import Product share(%),29.3422
+Niger,2021,World,Consumer goods,Import,Import Product share(%),44.3237
+Niger,2021,World,Raw materials,Import,Import Product share(%),4.7704
+Niger,2021,World,Capital goods,Import,Import Product share(%),21.5617
+Niger,2021,World,Intermediate goods,Tariff,Weighted Average (%),5.01535667323387
+Niger,2021,World,Raw materials,Tariff,Weighted Average (%),9.60743591278569
+Niger,2021,World,Consumer goods,Tariff,Weighted Average (%),11.8275971063826
+Niger,2021,World,Capital goods,Tariff,Weighted Average (%),7.07373528217378
+Niger,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Niger,2021,World,All Products,Trade Indicator,Country Growth (%),23.7732260662402
+Niger,2021,World,All Products,Tariff,Simple Average (%),10.4794619983283
+Niger,2021,World,All Products,Tariff,Weighted Average (%),8.45809896719278
+Niger,2021,World,All Products,Tariff,Maximum Rate (%),35
+Niger,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),22.9529015515433
+Niger,2021,...,...,Trade Indicator,Index of export market penetration,1.62151389841681
+Niger,2021,...,...,Trade Indicator,HH Market concentration index,0.554779745056328

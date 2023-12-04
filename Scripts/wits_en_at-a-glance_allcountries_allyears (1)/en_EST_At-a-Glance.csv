@@ -1,0 +1,94 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Estonia,2021,Finland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3090.10730833
+Estonia,2021,Latvia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2157.82965674
+Estonia,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1993.70322421
+Estonia,2021,Sweden,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1972.94337089
+Estonia,2021,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1425.92592674
+Estonia,2021,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2773.25906339
+Estonia,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2255.87295232
+Estonia,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2108.42316676
+Estonia,2021,Finland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2053.51517018
+Estonia,2021,Unspecified,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1711.14715672
+Estonia,2021,World,Vegetable,Export,Export(US$ Mil),714.03133928
+Estonia,2021,World,Textiles and Clothing,Export,Export(US$ Mil),500.31506234
+Estonia,2021,World,Intermediate goods,Export,Export(US$ Mil),6063.4747144
+Estonia,2021,World,Food Products,Export,Export(US$ Mil),786.65009447
+Estonia,2021,World,Footwear,Export,Export(US$ Mil),58.86194981
+Estonia,2021,World,Consumer goods,Export,Export(US$ Mil),7201.81199996001
+Estonia,2021,World,Animal,Export,Export(US$ Mil),542.03745478
+Estonia,2021,World,Wood,Export,Export(US$ Mil),2798.53248309
+Estonia,2021,World,Raw materials,Export,Export(US$ Mil),1851.02804017
+Estonia,2021,World,Minerals,Export,Export(US$ Mil),26.69877268
+Estonia,2021,World,Stone and Glass,Export,Export(US$ Mil),575.39353409
+Estonia,2021,World,Capital goods,Export,Export(US$ Mil),6583.39588259
+Estonia,2021,World,Fuels,Export,Export(US$ Mil),3726.81488376
+Estonia,2021,World,Metals,Export,Export(US$ Mil),1835.31826558
+Estonia,2021,World,Hides and Skins,Export,Export(US$ Mil),37.36073195
+Estonia,2021,World,Miscellaneous,Export,Export(US$ Mil),2436.04709951
+Estonia,2021,World,Plastic or Rubber,Export,Export(US$ Mil),676.33282035
+Estonia,2021,World,Transportation,Export,Export(US$ Mil),1460.2738133
+Estonia,2021,World,Chemicals,Export,Export(US$ Mil),1094.21733343
+Estonia,2021,World,Mach and Elec,Export,Export(US$ Mil),5034.34533265
+Estonia,2021,World,Intermediate goods,Import,Import(US$ Mil),7246.17309459
+Estonia,2021,World,Consumer goods,Import,Import(US$ Mil),8911.56781589
+Estonia,2021,World,Raw materials,Import,Import(US$ Mil),1045.38531216
+Estonia,2021,World,Capital goods,Import,Import(US$ Mil),5613.32602364
+Estonia,2021,World,All Products,Export,Exports (in US$ Mil),22303.23097107
+Estonia,2021,World,All Products,Import,Imports (in US$ Mil),24203.34893494
+Estonia,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),4894732.90217
+Estonia,2021,...,...,Tariff,No. Of Tariff Agreement,
+Estonia,2021,...,...,Import,No. Of Import partners,195
+Estonia,2021,...,...,Import,No. Of Import products,4251
+Estonia,2021,...,...,Export,No. Of Export partners,185
+Estonia,2021,...,...,Export,No. Of Export products,3685
+Estonia,2019,...,...,Others,Ease of Doing Business Rank,18
+Estonia,2019,...,...,Others,Trading Across Borders Rank,17
+Estonia,2018,...,...,Others,Population,1320884
+Estonia,2016,...,...,Others,LPI Score,3.363489
+Estonia,2016,...,...,Others,LPI Rank,38
+Estonia,2021,Finland,All Products,Export,Partner share(%)-Top 5 Export Partner,13.855
+Estonia,2021,Latvia,All Products,Export,Partner share(%)-Top 5 Export Partner,9.675
+Estonia,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,8.9391
+Estonia,2021,Sweden,All Products,Export,Partner share(%)-Top 5 Export Partner,8.846
+Estonia,2021,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,6.3934
+Estonia,2021,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,11.4582
+Estonia,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,9.3205
+Estonia,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,8.7113
+Estonia,2021,Finland,All Products,Import,Partner share(%)-Top 5 Import Partner,8.4844
+Estonia,2021,Unspecified,All Products,Import,Partner share(%)-Top 5 Import Partner,7.0699
+Estonia,2021,World,Vegetable,Export,Export Product share(%),3.2015
+Estonia,2021,World,Textiles and Clothing,Export,Export Product share(%),2.2432
+Estonia,2021,World,Intermediate goods,Export,Export Product share(%),27.1865
+Estonia,2021,World,Fuels,Export,Export Product share(%),16.7098
+Estonia,2021,World,Metals,Export,Export Product share(%),8.2289
+Estonia,2021,World,Minerals,Export,Export Product share(%),0.1197
+Estonia,2021,World,Stone and Glass,Export,Export Product share(%),2.5799
+Estonia,2021,World,Capital goods,Export,Export Product share(%),29.5177
+Estonia,2021,World,Food Products,Export,Export Product share(%),3.5271
+Estonia,2021,World,Footwear,Export,Export Product share(%),0.2639
+Estonia,2021,World,Consumer goods,Export,Export Product share(%),32.2904
+Estonia,2021,World,Animal,Export,Export Product share(%),2.4303
+Estonia,2021,World,Wood,Export,Export Product share(%),12.5477
+Estonia,2021,World,Raw materials,Export,Export Product share(%),8.2994
+Estonia,2021,World,Hides and Skins,Export,Export Product share(%),0.1675
+Estonia,2021,World,Miscellaneous,Export,Export Product share(%),10.9224
+Estonia,2021,World,Plastic or Rubber,Export,Export Product share(%),3.0324
+Estonia,2021,World,Transportation,Export,Export Product share(%),6.5474
+Estonia,2021,World,Chemicals,Export,Export Product share(%),4.9061
+Estonia,2021,World,Mach and Elec,Export,Export Product share(%),22.5723
+Estonia,2021,World,Intermediate goods,Import,Import Product share(%),29.9387
+Estonia,2021,World,Consumer goods,Import,Import Product share(%),36.8196
+Estonia,2021,World,Capital goods,Import,Import Product share(%),23.1924
+Estonia,2021,World,Raw materials,Import,Import Product share(%),4.3192
+Estonia,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.44678295967988
+Estonia,2021,World,Raw materials,Tariff,Weighted Average (%),3.44996990670709
+Estonia,2021,World,Consumer goods,Tariff,Weighted Average (%),3.63375445674405
+Estonia,2021,World,Capital goods,Tariff,Weighted Average (%),0.949683337337187
+Estonia,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Estonia,2021,World,All Products,Trade Indicator,Country Growth (%),13.5104081929041
+Estonia,2021,World,All Products,Tariff,Simple Average (%),2.55794964656642
+Estonia,2021,World,All Products,Tariff,Weighted Average (%),2.00157622025531
+Estonia,2021,World,All Products,Tariff,Maximum Rate (%),209.190093994141
+Estonia,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),57.1959594397846
+Estonia,2021,...,...,Trade Indicator,Index of export market penetration,7.13478383724216
+Estonia,2021,...,...,Trade Indicator,HH Market concentration index,0.0635381879994958

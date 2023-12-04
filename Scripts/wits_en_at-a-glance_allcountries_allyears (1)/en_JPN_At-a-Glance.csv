@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Japan,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,163860.265633826
+Japan,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,135975.91458709
+Japan,2021,"Other Asia, nes",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,54558.9294703201
+Japan,2021,"Korea, Rep.",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,52567.98569703
+Japan,2021,"Hong Kong, China",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,35446.48900125
+Japan,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,185664.476693581
+Japan,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,82966.4885086662
+Japan,2021,Australia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,52241.209731765
+Japan,2021,"Other Asia, nes",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,33546.0313568563
+Japan,2021,"Korea, Rep.",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,32082.1678199812
+Japan,2021,World,Vegetable,Export,Export(US$ Mil),1344.57993566625
+Japan,2021,World,Textiles and Clothing,Export,Export(US$ Mil),7375.53233840375
+Japan,2021,World,Intermediate goods,Export,Export(US$ Mil),163653.947272555
+Japan,2021,World,Food Products,Export,Export(US$ Mil),5896.969120785
+Japan,2021,World,Footwear,Export,Export(US$ Mil),321.76484154375
+Japan,2021,World,Consumer goods,Export,Export(US$ Mil),178162.812610911
+Japan,2021,World,Animal,Export,Export(US$ Mil),2428.9746793775
+Japan,2021,World,Wood,Export,Export(US$ Mil),5383.8866617475
+Japan,2021,World,Raw materials,Export,Export(US$ Mil),12343.9147394525
+Japan,2021,World,Fuels,Export,Export(US$ Mil),10228.4128167725
+Japan,2021,World,Metals,Export,Export(US$ Mil),67728.0348153724
+Japan,2021,World,Chemicals,Export,Export(US$ Mil),73454.2263562137
+Japan,2021,World,Mach and Elec,Export,Export(US$ Mil),247728.798132731
+Japan,2021,World,Minerals,Export,Export(US$ Mil),1593.9350311975
+Japan,2021,World,Stone and Glass,Export,Export(US$ Mil),21292.830928445
+Japan,2021,World,Capital goods,Export,Export(US$ Mil),352510.348252332
+Japan,2021,World,Plastic or Rubber,Export,Export(US$ Mil),40954.3247435474
+Japan,2021,World,Transportation,Export,Export(US$ Mil),149703.755757994
+Japan,2021,World,Hides and Skins,Export,Export(US$ Mil),293.2892241375
+Japan,2021,World,Miscellaneous,Export,Export(US$ Mil),121336.945865036
+Japan,2021,World,Consumer goods,Import,Import(US$ Mil),245409.023543076
+Japan,2021,World,Capital goods,Import,Import(US$ Mil),202358.511442162
+Japan,2021,World,Intermediate goods,Import,Import(US$ Mil),131051.949210898
+Japan,2021,World,Raw materials,Import,Import(US$ Mil),181317.808463294
+Japan,2021,World,All Products,Export,Exports (in US$ Mil),757066.261248971
+Japan,2021,World,All Products,Import,Imports (in US$ Mil),772276.197103327
+Japan,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),594761981.725195
+Japan,2021,...,...,Tariff,No. Of Tariff Agreement,28
+Japan,2021,...,...,Import,No. Of Import partners,215
+Japan,2021,...,...,Import,No. Of Import products,4412
+Japan,2021,...,...,Export,No. Of Export partners,213
+Japan,2021,...,...,Export,No. Of Export products,4199
+Japan,2016,...,...,Others,LPI Score,3.970464
+Japan,2019,...,...,Others,Ease of Doing Business Rank,29
+Japan,2015,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5207
+Japan,2015,...,...,Others,No Of NTM Measures,80
+Japan,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0933038
+Japan,2019,...,...,Others,Trading Across Borders Rank,57
+Japan,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0893345
+Japan,,...,...,Others,Services Trade Restrictions Index - Over All,23.4
+Japan,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,0.0046445378
+Japan,2018,...,...,Others,Population,126529100
+Japan,2016,...,...,Others,LPI Rank,12
+Japan,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,0.0193723366
+Japan,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,21.6441
+Japan,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,17.9609
+Japan,2021,"Other Asia, nes",All Products,Export,Partner share(%)-Top 5 Export Partner,7.2066
+Japan,2021,"Korea, Rep.",All Products,Export,Partner share(%)-Top 5 Export Partner,6.9436
+Japan,2021,"Hong Kong, China",All Products,Export,Partner share(%)-Top 5 Export Partner,4.6821
+Japan,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,24.0412
+Japan,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,10.7431
+Japan,2021,Australia,All Products,Import,Partner share(%)-Top 5 Import Partner,6.7646
+Japan,2021,"Other Asia, nes",All Products,Import,Partner share(%)-Top 5 Import Partner,4.3438
+Japan,2021,"Korea, Rep.",All Products,Import,Partner share(%)-Top 5 Import Partner,4.1542
+Japan,2021,World,Fuels,Export,Export Product share(%),1.3511
+Japan,2021,World,Metals,Export,Export Product share(%),8.9461
+Japan,2021,World,Plastic or Rubber,Export,Export Product share(%),5.4096
+Japan,2021,World,Transportation,Export,Export Product share(%),19.7742
+Japan,2021,World,Vegetable,Export,Export Product share(%),0.1776
+Japan,2021,World,Textiles and Clothing,Export,Export Product share(%),0.9742
+Japan,2021,World,Intermediate goods,Export,Export Product share(%),21.6169
+Japan,2021,World,Minerals,Export,Export Product share(%),0.2105
+Japan,2021,World,Stone and Glass,Export,Export Product share(%),2.8125
+Japan,2021,World,Capital goods,Export,Export Product share(%),46.5627
+Japan,2021,World,Food Products,Export,Export Product share(%),0.7789
+Japan,2021,World,Footwear,Export,Export Product share(%),0.0425
+Japan,2021,World,Consumer goods,Export,Export Product share(%),23.5333
+Japan,2021,World,Animal,Export,Export Product share(%),0.3208
+Japan,2021,World,Wood,Export,Export Product share(%),0.7112
+Japan,2021,World,Raw materials,Export,Export Product share(%),1.6305
+Japan,2021,World,Chemicals,Export,Export Product share(%),9.7025
+Japan,2021,World,Mach and Elec,Export,Export Product share(%),32.7222
+Japan,2021,World,Hides and Skins,Export,Export Product share(%),0.0387
+Japan,2021,World,Miscellaneous,Export,Export Product share(%),16.0273
+Japan,2021,World,Intermediate goods,Import,Import Product share(%),16.9696
+Japan,2021,World,Consumer goods,Import,Import Product share(%),31.7774
+Japan,2021,World,Capital goods,Import,Import Product share(%),26.2029
+Japan,2021,World,Raw materials,Import,Import Product share(%),23.4784
+Japan,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.20914079369399
+Japan,2021,World,Consumer goods,Tariff,Weighted Average (%),2.90296560749818
+Japan,2021,World,Capital goods,Tariff,Weighted Average (%),0.00439410514778224
+Japan,2021,World,Raw materials,Tariff,Weighted Average (%),2.44414752169536
+Japan,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Japan,2021,World,All Products,Trade Indicator,Country Growth (%),8.58475796209681
+Japan,2021,World,All Products,Tariff,Simple Average (%),2.1771132783025
+Japan,2021,World,All Products,Tariff,Weighted Average (%),1.84379450183742
+Japan,2021,World,All Products,Tariff,Maximum Rate (%),966.658996582031
+Japan,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),70.4883541962313
+Japan,2021,...,...,Trade Indicator,Index of export market penetration,25.1676560434894
+Japan,2021,...,...,Trade Indicator,HH Market concentration index,0.097064423966787

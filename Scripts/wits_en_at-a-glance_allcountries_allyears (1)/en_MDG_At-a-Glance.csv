@@ -1,0 +1,96 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Madagascar,2021,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,536.405299501522
+Madagascar,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,505.511969775803
+Madagascar,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,369.290893325946
+Madagascar,2021,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,242.965588957634
+Madagascar,2021,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,145.912475871614
+Madagascar,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,853.500659259313
+Madagascar,2021,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,451.280705317382
+Madagascar,2021,Oman,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,450.872304139227
+Madagascar,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,364.783916312529
+Madagascar,2021,United Arab Emirates,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,259.681169118996
+Madagascar,2021,World,Fuels,Export,Export(US$ Mil),32.3805746392464
+Madagascar,2021,World,Metals,Export,Export(US$ Mil),638.695784478159
+Madagascar,2021,World,Food Products,Export,Export(US$ Mil),108.689812475038
+Madagascar,2021,World,Footwear,Export,Export(US$ Mil),3.75009450323733
+Madagascar,2021,World,Consumer goods,Export,Export(US$ Mil),1442.01194051534
+Madagascar,2021,World,Plastic or Rubber,Export,Export(US$ Mil),4.74525376841295
+Madagascar,2021,World,Transportation,Export,Export(US$ Mil),3.39487654426497
+Madagascar,2021,World,Vegetable,Export,Export(US$ Mil),873.679423981351
+Madagascar,2021,World,Textiles and Clothing,Export,Export(US$ Mil),541.409823440521
+Madagascar,2021,World,Intermediate goods,Export,Export(US$ Mil),768.599846565056
+Madagascar,2021,World,Chemicals,Export,Export(US$ Mil),113.137826625684
+Madagascar,2021,World,Mach and Elec,Export,Export(US$ Mil),15.5375939797883
+Madagascar,2021,World,Minerals,Export,Export(US$ Mil),232.033308864634
+Madagascar,2021,World,Stone and Glass,Export,Export(US$ Mil),43.68912706819
+Madagascar,2021,World,Capital goods,Export,Export(US$ Mil),23.5113285747081
+Madagascar,2021,World,Hides and Skins,Export,Export(US$ Mil),9.29586213798039
+Madagascar,2021,World,Miscellaneous,Export,Export(US$ Mil),25.9505022134897
+Madagascar,2021,World,Animal,Export,Export(US$ Mil),102.434011746884
+Madagascar,2021,World,Wood,Export,Export(US$ Mil),39.5524640542607
+Madagascar,2021,World,Raw materials,Export,Export(US$ Mil),550.703322123155
+Madagascar,2021,World,Capital goods,Import,Import(US$ Mil),744.155059429119
+Madagascar,2021,World,Consumer goods,Import,Import(US$ Mil),1976.34245944564
+Madagascar,2021,World,Intermediate goods,Import,Import(US$ Mil),1370.8165529674
+Madagascar,2021,World,Raw materials,Import,Import(US$ Mil),308.684312456928
+Madagascar,2021,World,All Products,Export,Exports (in US$ Mil),2788.37634052114
+Madagascar,2021,World,All Products,Import,Imports (in US$ Mil),4408.16539221686
+Madagascar,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),884526.80405
+Madagascar,2021,...,...,Tariff,No. Of Tariff Agreement,7
+Madagascar,2021,...,...,Import,No. Of Import partners,141
+Madagascar,2021,...,...,Import,No. Of Import products,3688
+Madagascar,2021,...,...,Export,No. Of Export partners,141
+Madagascar,2021,...,...,Export,No. Of Export products,1728
+Madagascar,2019,...,...,Others,Ease of Doing Business Rank,161
+Madagascar,2019,...,...,Others,Trading Across Borders Rank,140
+Madagascar,2018,...,...,Others,Population,26262368
+Madagascar,2018,...,...,Others,CPIA Trade Ratings,4
+Madagascar,2016,...,...,Others,LPI Score,2.154639
+Madagascar,2016,...,...,Others,LPI Rank,147
+Madagascar,,...,...,Others,Services Trade Restrictions Index - Over All,18.7
+Madagascar,2021,France,All Products,Export,Partner share(%)-Top 5 Export Partner,19.2372
+Madagascar,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,18.1293
+Madagascar,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,13.2439
+Madagascar,2021,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,8.7135
+Madagascar,2021,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,5.2329
+Madagascar,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,19.3618
+Madagascar,2021,France,All Products,Import,Partner share(%)-Top 5 Import Partner,10.2374
+Madagascar,2021,Oman,All Products,Import,Partner share(%)-Top 5 Import Partner,10.2281
+Madagascar,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,8.2752
+Madagascar,2021,United Arab Emirates,All Products,Import,Partner share(%)-Top 5 Import Partner,5.8909
+Madagascar,2021,World,Vegetable,Export,Export Product share(%),31.3329
+Madagascar,2021,World,Textiles and Clothing,Export,Export Product share(%),19.4167
+Madagascar,2021,World,Intermediate goods,Export,Export Product share(%),27.5644
+Madagascar,2021,World,Minerals,Export,Export Product share(%),8.3214
+Madagascar,2021,World,Stone and Glass,Export,Export Product share(%),1.5668
+Madagascar,2021,World,Capital goods,Export,Export Product share(%),0.8432
+Madagascar,2021,World,Food Products,Export,Export Product share(%),3.898
+Madagascar,2021,World,Footwear,Export,Export Product share(%),0.1345
+Madagascar,2021,World,Consumer goods,Export,Export Product share(%),51.7151
+Madagascar,2021,World,Fuels,Export,Export Product share(%),1.1613
+Madagascar,2021,World,Metals,Export,Export Product share(%),22.9057
+Madagascar,2021,World,Chemicals,Export,Export Product share(%),4.0575
+Madagascar,2021,World,Mach and Elec,Export,Export Product share(%),0.5572
+Madagascar,2021,World,Plastic or Rubber,Export,Export Product share(%),0.1702
+Madagascar,2021,World,Transportation,Export,Export Product share(%),0.1218
+Madagascar,2021,World,Hides and Skins,Export,Export Product share(%),0.3334
+Madagascar,2021,World,Miscellaneous,Export,Export Product share(%),0.9307
+Madagascar,2021,World,Animal,Export,Export Product share(%),3.6736
+Madagascar,2021,World,Wood,Export,Export Product share(%),1.4185
+Madagascar,2021,World,Raw materials,Export,Export Product share(%),19.75
+Madagascar,2021,World,Intermediate goods,Import,Import Product share(%),31.0972
+Madagascar,2021,World,Consumer goods,Import,Import Product share(%),44.8337
+Madagascar,2021,World,Raw materials,Import,Import Product share(%),7.0026
+Madagascar,2021,World,Capital goods,Import,Import Product share(%),16.8813
+Madagascar,2021,World,Intermediate goods,Tariff,Weighted Average (%),7.82707417712599
+Madagascar,2021,World,Capital goods,Tariff,Weighted Average (%),5.20221917689349
+Madagascar,2021,World,Consumer goods,Tariff,Weighted Average (%),8.28388130398285
+Madagascar,2021,World,Raw materials,Tariff,Weighted Average (%),6.11318259485567
+Madagascar,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Madagascar,2021,World,All Products,Trade Indicator,Country Growth (%),9.51963231704234
+Madagascar,2021,World,All Products,Tariff,Simple Average (%),8.52891046417648
+Madagascar,2021,World,All Products,Tariff,Weighted Average (%),7.50783343150677
+Madagascar,2021,World,All Products,Tariff,Maximum Rate (%),20
+Madagascar,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),19.5356029552539
+Madagascar,2021,...,...,Trade Indicator,Index of export market penetration,3.6368532009877
+Madagascar,2021,...,...,Trade Indicator,HH Market concentration index,0.0996895328927881

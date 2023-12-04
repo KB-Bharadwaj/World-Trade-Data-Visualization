@@ -1,0 +1,100 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Nicaragua,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,3671.22226285
+Nicaragua,2021,Mexico,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,768.62615148
+Nicaragua,2021,El Salvador,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,386.38398832
+Nicaragua,2021,Honduras,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,336.99570877
+Nicaragua,2021,Costa Rica,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,189.33187141
+Nicaragua,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2443.04862474
+Nicaragua,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1223.88040166
+Nicaragua,2021,Mexico,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,868.42775512
+Nicaragua,2021,Netherlands,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,724.1327681
+Nicaragua,2021,Guatemala,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,718.51577453
+Nicaragua,2021,World,Chemicals,Export,Export(US$ Mil),56.79094084
+Nicaragua,2021,World,Mach and Elec,Export,Export(US$ Mil),607.45740197
+Nicaragua,2021,World,Food Products,Export,Export(US$ Mil),742.24448164
+Nicaragua,2021,World,Footwear,Export,Export(US$ Mil),3.13146838
+Nicaragua,2021,World,Consumer goods,Export,Export(US$ Mil),3074.75442808
+Nicaragua,2021,World,Minerals,Export,Export(US$ Mil),3.59630878
+Nicaragua,2021,World,Stone and Glass,Export,Export(US$ Mil),959.10210579
+Nicaragua,2021,World,Capital goods,Export,Export(US$ Mil),39.84374826
+Nicaragua,2021,World,Vegetable,Export,Export(US$ Mil),971.66888249
+Nicaragua,2021,World,Textiles and Clothing,Export,Export(US$ Mil),1646.83740648
+Nicaragua,2021,World,Intermediate goods,Export,Export(US$ Mil),1461.53452773
+Nicaragua,2021,World,Fuels,Export,Export(US$ Mil),38.94769118
+Nicaragua,2021,World,Metals,Export,Export(US$ Mil),73.47984814
+Nicaragua,2021,World,Plastic or Rubber,Export,Export(US$ Mil),22.11274672
+Nicaragua,2021,World,Transportation,Export,Export(US$ Mil),7.66325468
+Nicaragua,2021,World,Animal,Export,Export(US$ Mil),1296.75148511
+Nicaragua,2021,World,Wood,Export,Export(US$ Mil),30.60237062
+Nicaragua,2021,World,Raw materials,Export,Export(US$ Mil),1918.85216285
+Nicaragua,2021,World,Hides and Skins,Export,Export(US$ Mil),9.96754945
+Nicaragua,2021,World,Miscellaneous,Export,Export(US$ Mil),24.63092465
+Nicaragua,2021,World,Consumer goods,Import,Import(US$ Mil),5079.23352562
+Nicaragua,2021,World,Intermediate goods,Import,Import(US$ Mil),2381.824501
+Nicaragua,2021,World,Raw materials,Import,Import(US$ Mil),913.8817575
+Nicaragua,2021,World,Capital goods,Import,Import(US$ Mil),1451.39621162
+Nicaragua,2021,World,All Products,Export,Exports (in US$ Mil),6494.98486692
+Nicaragua,2021,World,All Products,Import,Imports (in US$ Mil),9826.37947143
+Nicaragua,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),6403859.20746
+Nicaragua,2021,...,...,Tariff,No. Of Tariff Agreement,18
+Nicaragua,2021,...,...,Import,No. Of Import partners,174
+Nicaragua,2021,...,...,Import,No. Of Import products,3638
+Nicaragua,2021,...,...,Export,No. Of Export partners,127
+Nicaragua,2021,...,...,Export,No. Of Export products,1968
+Nicaragua,2018,...,...,Others,Population,6465513
+Nicaragua,2018,...,...,Others,CPIA Trade Ratings,4.5
+Nicaragua,2016,...,...,Others,LPI Score,2.531062
+Nicaragua,2019,...,...,Others,Ease of Doing Business Rank,142
+Nicaragua,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),1026
+Nicaragua,2014,...,...,Others,No Of NTM Measures,55
+Nicaragua,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1543768
+Nicaragua,,...,...,Others,Services Trade Restrictions Index - Over All,12.8
+Nicaragua,2019,...,...,Others,Trading Across Borders Rank,84
+Nicaragua,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.1165638
+Nicaragua,2016,...,...,Others,LPI Rank,102
+Nicaragua,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,56.524
+Nicaragua,2021,Mexico,All Products,Export,Partner share(%)-Top 5 Export Partner,11.8341
+Nicaragua,2021,El Salvador,All Products,Export,Partner share(%)-Top 5 Export Partner,5.949
+Nicaragua,2021,Honduras,All Products,Export,Partner share(%)-Top 5 Export Partner,5.1886
+Nicaragua,2021,Costa Rica,All Products,Export,Partner share(%)-Top 5 Export Partner,2.915
+Nicaragua,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,24.8621
+Nicaragua,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,12.455
+Nicaragua,2021,Mexico,All Products,Import,Partner share(%)-Top 5 Import Partner,8.8377
+Nicaragua,2021,Netherlands,All Products,Import,Partner share(%)-Top 5 Import Partner,7.3693
+Nicaragua,2021,Guatemala,All Products,Import,Partner share(%)-Top 5 Import Partner,7.3121
+Nicaragua,2021,World,Vegetable,Export,Export Product share(%),14.9603
+Nicaragua,2021,World,Textiles and Clothing,Export,Export Product share(%),25.3555
+Nicaragua,2021,World,Intermediate goods,Export,Export Product share(%),22.5025
+Nicaragua,2021,World,Food Products,Export,Export Product share(%),11.428
+Nicaragua,2021,World,Footwear,Export,Export Product share(%),0.0482
+Nicaragua,2021,World,Consumer goods,Export,Export Product share(%),47.3404
+Nicaragua,2021,World,Fuels,Export,Export Product share(%),0.5997
+Nicaragua,2021,World,Metals,Export,Export Product share(%),1.1313
+Nicaragua,2021,World,Minerals,Export,Export Product share(%),0.0554
+Nicaragua,2021,World,Stone and Glass,Export,Export Product share(%),14.7668
+Nicaragua,2021,World,Capital goods,Export,Export Product share(%),0.6135
+Nicaragua,2021,World,Chemicals,Export,Export Product share(%),0.8744
+Nicaragua,2021,World,Mach and Elec,Export,Export Product share(%),9.3527
+Nicaragua,2021,World,Animal,Export,Export Product share(%),19.9654
+Nicaragua,2021,World,Wood,Export,Export Product share(%),0.4712
+Nicaragua,2021,World,Raw materials,Export,Export Product share(%),29.5436
+Nicaragua,2021,World,Plastic or Rubber,Export,Export Product share(%),0.3405
+Nicaragua,2021,World,Transportation,Export,Export Product share(%),0.118
+Nicaragua,2021,World,Hides and Skins,Export,Export Product share(%),0.1535
+Nicaragua,2021,World,Miscellaneous,Export,Export Product share(%),0.3792
+Nicaragua,2021,World,Intermediate goods,Import,Import Product share(%),24.2391
+Nicaragua,2021,World,Capital goods,Import,Import Product share(%),14.7704
+Nicaragua,2021,World,Consumer goods,Import,Import Product share(%),51.6898
+Nicaragua,2021,World,Raw materials,Import,Import Product share(%),9.3003
+Nicaragua,2021,World,Intermediate goods,Tariff,Weighted Average (%),2.01657487543174
+Nicaragua,2021,World,Capital goods,Tariff,Weighted Average (%),1.21703310694416
+Nicaragua,2021,World,Consumer goods,Tariff,Weighted Average (%),1.79373884866114
+Nicaragua,2021,World,Raw materials,Tariff,Weighted Average (%),2.22481384594969
+Nicaragua,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Nicaragua,2021,World,All Products,Trade Indicator,Country Growth (%),15.0708838115393
+Nicaragua,2021,World,All Products,Tariff,Simple Average (%),3.04258154268511
+Nicaragua,2021,World,All Products,Tariff,Weighted Average (%),1.95663011473838
+Nicaragua,2021,World,All Products,Tariff,Maximum Rate (%),60
+Nicaragua,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),64.2426502579402
+Nicaragua,2021,...,...,Trade Indicator,Index of export market penetration,2.57419955238
+Nicaragua,2021,...,...,Trade Indicator,HH Market concentration index,0.391084013205539

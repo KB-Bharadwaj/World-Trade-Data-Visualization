@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Spain,2021,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,59692.0844350433
+Spain,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,38320.4614175628
+Spain,2021,Italy,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,31421.6389149818
+Spain,2021,Portugal,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,29415.9930897437
+Spain,2021,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,21704.4739998668
+Spain,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,45267.7719280454
+Spain,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,41200.3480608762
+Spain,2021,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,40390.8374159375
+Spain,2021,Italy,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,26751.950427262
+Spain,2021,Unspecified,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,25277.0684911379
+Spain,2021,World,Fuels,Export,Export(US$ Mil),23137.9311950179
+Spain,2021,World,Metals,Export,Export(US$ Mil),34326.3068690517
+Spain,2021,World,Minerals,Export,Export(US$ Mil),3878.97693381886
+Spain,2021,World,Stone and Glass,Export,Export(US$ Mil),12633.3059817628
+Spain,2021,World,Capital goods,Export,Export(US$ Mil),68730.8640247849
+Spain,2021,World,Vegetable,Export,Export(US$ Mil),31600.4977910333
+Spain,2021,World,Textiles and Clothing,Export,Export(US$ Mil),20677.1119309316
+Spain,2021,World,Intermediate goods,Export,Export(US$ Mil),93746.0688687711
+Spain,2021,World,Animal,Export,Export(US$ Mil),17273.8711629973
+Spain,2021,World,Wood,Export,Export(US$ Mil),9525.19863729744
+Spain,2021,World,Raw materials,Export,Export(US$ Mil),45253.7721065863
+Spain,2021,World,Plastic or Rubber,Export,Export(US$ Mil),20498.7881881224
+Spain,2021,World,Transportation,Export,Export(US$ Mil),61974.3808305522
+Spain,2021,World,Hides and Skins,Export,Export(US$ Mil),2235.73652698148
+Spain,2021,World,Miscellaneous,Export,Export(US$ Mil),36494.2235882561
+Spain,2021,World,Chemicals,Export,Export(US$ Mil),47743.9150725269
+Spain,2021,World,Mach and Elec,Export,Export(US$ Mil),44864.6264198756
+Spain,2021,World,Food Products,Export,Export(US$ Mil),21252.2721239949
+Spain,2021,World,Footwear,Export,Export(US$ Mil),3441.37622444991
+Spain,2021,World,Consumer goods,Export,Export(US$ Mil),159829.486204297
+Spain,2021,World,Intermediate goods,Import,Import(US$ Mil),100765.367941511
+Spain,2021,World,Consumer goods,Import,Import(US$ Mil),144237.744718678
+Spain,2021,World,Capital goods,Import,Import(US$ Mil),94165.2831189394
+Spain,2021,World,Raw materials,Import,Import(US$ Mil),65745.7903937521
+Spain,2021,World,All Products,Export,Exports (in US$ Mil),391558.51947667
+Spain,2021,World,All Products,Import,Imports (in US$ Mil),426059.816727044
+Spain,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),140408724.492498
+Spain,2021,...,...,Tariff,No. Of Tariff Agreement,
+Spain,2021,...,...,Import,No. Of Import partners,232
+Spain,2021,...,...,Import,No. Of Import products,4534
+Spain,2021,...,...,Export,No. Of Export partners,231
+Spain,2021,...,...,Export,No. Of Export products,4497
+Spain,2019,...,...,Others,Ease of Doing Business Rank,30
+Spain,2019,...,...,Others,Trading Across Borders Rank,1
+Spain,2018,...,...,Others,Population,46723749
+Spain,2016,...,...,Others,LPI Score,3.727412
+Spain,2016,...,...,Others,LPI Rank,23
+Spain,,...,...,Others,Services Trade Restrictions Index - Over All,16.1
+Spain,2021,France,All Products,Export,Partner share(%)-Top 5 Export Partner,15.2447
+Spain,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,9.7866
+Spain,2021,Italy,All Products,Export,Partner share(%)-Top 5 Export Partner,8.0248
+Spain,2021,Portugal,All Products,Export,Partner share(%)-Top 5 Export Partner,7.5125
+Spain,2021,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,5.5431
+Spain,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,10.6247
+Spain,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,9.6701
+Spain,2021,France,All Products,Import,Partner share(%)-Top 5 Import Partner,9.4801
+Spain,2021,Italy,All Products,Import,Partner share(%)-Top 5 Import Partner,6.2789
+Spain,2021,Unspecified,All Products,Import,Partner share(%)-Top 5 Import Partner,5.9328
+Spain,2021,World,Food Products,Export,Export Product share(%),5.4276
+Spain,2021,World,Footwear,Export,Export Product share(%),0.8789
+Spain,2021,World,Consumer goods,Export,Export Product share(%),40.8188
+Spain,2021,World,Vegetable,Export,Export Product share(%),8.0704
+Spain,2021,World,Textiles and Clothing,Export,Export Product share(%),5.2807
+Spain,2021,World,Intermediate goods,Export,Export Product share(%),23.9418
+Spain,2021,World,Fuels,Export,Export Product share(%),5.9092
+Spain,2021,World,Metals,Export,Export Product share(%),8.7666
+Spain,2021,World,Minerals,Export,Export Product share(%),0.9907
+Spain,2021,World,Stone and Glass,Export,Export Product share(%),3.2264
+Spain,2021,World,Capital goods,Export,Export Product share(%),17.5532
+Spain,2021,World,Animal,Export,Export Product share(%),4.4116
+Spain,2021,World,Wood,Export,Export Product share(%),2.4326
+Spain,2021,World,Raw materials,Export,Export Product share(%),11.5573
+Spain,2021,World,Hides and Skins,Export,Export Product share(%),0.571
+Spain,2021,World,Miscellaneous,Export,Export Product share(%),9.3202
+Spain,2021,World,Chemicals,Export,Export Product share(%),12.1933
+Spain,2021,World,Mach and Elec,Export,Export Product share(%),11.458
+Spain,2021,World,Plastic or Rubber,Export,Export Product share(%),5.2352
+Spain,2021,World,Transportation,Export,Export Product share(%),15.8276
+Spain,2021,World,Intermediate goods,Import,Import Product share(%),23.6505
+Spain,2021,World,Consumer goods,Import,Import Product share(%),33.8539
+Spain,2021,World,Capital goods,Import,Import Product share(%),22.1014
+Spain,2021,World,Raw materials,Import,Import Product share(%),15.4311
+Spain,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.71607192293777
+Spain,2021,World,Capital goods,Tariff,Weighted Average (%),0.697241521514647
+Spain,2021,World,Consumer goods,Tariff,Weighted Average (%),2.56830738868392
+Spain,2021,World,Raw materials,Tariff,Weighted Average (%),0.467530271566614
+Spain,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Spain,2021,World,All Products,Trade Indicator,Country Growth (%),11.026611681893
+Spain,2021,World,All Products,Tariff,Simple Average (%),2.25740544818136
+Spain,2021,World,All Products,Tariff,Weighted Average (%),1.65435405766129
+Spain,2021,World,All Products,Tariff,Maximum Rate (%),209.190093994141
+Spain,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),62.0741515282168
+Spain,2021,...,...,Trade Indicator,Index of export market penetration,30.6316801729646
+Spain,2021,...,...,Trade Indicator,HH Market concentration index,0.0578482974611264

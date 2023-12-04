@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Sweden,2021,Norway,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,20254.230127015
+Sweden,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,19422.64878794
+Sweden,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,15301.714461945
+Sweden,2021,Denmark,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,14664.10898949
+Sweden,2021,Finland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,13411.323101355
+Sweden,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,31739.723911893
+Sweden,2021,Norway,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,19043.838591258
+Sweden,2021,Netherlands,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,18835.282181953
+Sweden,2021,Denmark,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,12960.304058625
+Sweden,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,12908.67279353
+Sweden,2021,World,Fuels,Export,Export(US$ Mil),13189.217797585
+Sweden,2021,World,Metals,Export,Export(US$ Mil),18159.731456667
+Sweden,2021,World,Vegetable,Export,Export(US$ Mil),1923.465200371
+Sweden,2021,World,Textiles and Clothing,Export,Export(US$ Mil),4035.264965834
+Sweden,2021,World,Intermediate goods,Export,Export(US$ Mil),49611.01489763
+Sweden,2021,World,Chemicals,Export,Export(US$ Mil),19467.229213159
+Sweden,2021,World,Mach and Elec,Export,Export(US$ Mil),44324.48050125
+Sweden,2021,World,Minerals,Export,Export(US$ Mil),5774.783020964
+Sweden,2021,World,Stone and Glass,Export,Export(US$ Mil),2479.150481802
+Sweden,2021,World,Capital goods,Export,Export(US$ Mil),55180.732999574
+Sweden,2021,World,Plastic or Rubber,Export,Export(US$ Mil),8190.626703511
+Sweden,2021,World,Transportation,Export,Export(US$ Mil),24430.817490493
+Sweden,2021,World,Food Products,Export,Export(US$ Mil),4967.261192186
+Sweden,2021,World,Footwear,Export,Export(US$ Mil),797.941888365
+Sweden,2021,World,Consumer goods,Export,Export(US$ Mil),64606.0108291749
+Sweden,2021,World,Hides and Skins,Export,Export(US$ Mil),418.285315731
+Sweden,2021,World,Miscellaneous,Export,Export(US$ Mil),16458.504830179
+Sweden,2021,World,Animal,Export,Export(US$ Mil),5382.031348493
+Sweden,2021,World,Wood,Export,Export(US$ Mil),19636.271793288
+Sweden,2021,World,Raw materials,Export,Export(US$ Mil),13199.452895249
+Sweden,2021,World,Intermediate goods,Import,Import(US$ Mil),33259.155419705
+Sweden,2021,World,Raw materials,Import,Import(US$ Mil),22022.777396573
+Sweden,2021,World,Consumer goods,Import,Import(US$ Mil),66756.0206387409
+Sweden,2021,World,Capital goods,Import,Import(US$ Mil),56686.342776488
+Sweden,2021,World,All Products,Export,Exports (in US$ Mil),189635.063199877
+Sweden,2021,World,All Products,Import,Imports (in US$ Mil),187319.607120962
+Sweden,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),38908898.5487864
+Sweden,2021,...,...,Tariff,No. Of Tariff Agreement,
+Sweden,2021,...,...,Import,No. Of Import partners,231
+Sweden,2021,...,...,Import,No. Of Import products,4467
+Sweden,2021,...,...,Export,No. Of Export partners,225
+Sweden,2021,...,...,Export,No. Of Export products,4357
+Sweden,2019,...,...,Others,Ease of Doing Business Rank,10
+Sweden,2019,...,...,Others,Trading Across Borders Rank,18
+Sweden,2018,...,...,Others,Population,10183175
+Sweden,2016,...,...,Others,LPI Score,4.204593
+Sweden,2016,...,...,Others,LPI Rank,3
+Sweden,,...,...,Others,Services Trade Restrictions Index - Over All,15.5
+Sweden,2021,Norway,All Products,Export,Partner share(%)-Top 5 Export Partner,10.6806
+Sweden,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,10.2421
+Sweden,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,8.069
+Sweden,2021,Denmark,All Products,Export,Partner share(%)-Top 5 Export Partner,7.7328
+Sweden,2021,Finland,All Products,Export,Partner share(%)-Top 5 Export Partner,7.0722
+Sweden,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,16.9442
+Sweden,2021,Norway,All Products,Import,Partner share(%)-Top 5 Import Partner,10.1665
+Sweden,2021,Netherlands,All Products,Import,Partner share(%)-Top 5 Import Partner,10.0552
+Sweden,2021,Denmark,All Products,Import,Partner share(%)-Top 5 Import Partner,6.9188
+Sweden,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,6.8913
+Sweden,2021,World,Animal,Export,Export Product share(%),2.8381
+Sweden,2021,World,Wood,Export,Export Product share(%),10.3548
+Sweden,2021,World,Raw materials,Export,Export Product share(%),6.9604
+Sweden,2021,World,Vegetable,Export,Export Product share(%),1.0143
+Sweden,2021,World,Textiles and Clothing,Export,Export Product share(%),2.1279
+Sweden,2021,World,Intermediate goods,Export,Export Product share(%),26.1613
+Sweden,2021,World,Minerals,Export,Export Product share(%),3.0452
+Sweden,2021,World,Stone and Glass,Export,Export Product share(%),1.3073
+Sweden,2021,World,Capital goods,Export,Export Product share(%),29.0984
+Sweden,2021,World,Fuels,Export,Export Product share(%),6.9551
+Sweden,2021,World,Metals,Export,Export Product share(%),9.5761
+Sweden,2021,World,Plastic or Rubber,Export,Export Product share(%),4.3192
+Sweden,2021,World,Transportation,Export,Export Product share(%),12.8831
+Sweden,2021,World,Chemicals,Export,Export Product share(%),10.2656
+Sweden,2021,World,Mach and Elec,Export,Export Product share(%),23.3736
+Sweden,2021,World,Hides and Skins,Export,Export Product share(%),0.2206
+Sweden,2021,World,Miscellaneous,Export,Export Product share(%),8.679
+Sweden,2021,World,Food Products,Export,Export Product share(%),2.6194
+Sweden,2021,World,Footwear,Export,Export Product share(%),0.4208
+Sweden,2021,World,Consumer goods,Export,Export Product share(%),34.0686
+Sweden,2021,World,Intermediate goods,Import,Import Product share(%),17.7553
+Sweden,2021,World,Raw materials,Import,Import Product share(%),11.7568
+Sweden,2021,World,Capital goods,Import,Import Product share(%),30.2618
+Sweden,2021,World,Consumer goods,Import,Import Product share(%),35.6375
+Sweden,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.02920730565157
+Sweden,2021,World,Raw materials,Tariff,Weighted Average (%),0.302894102678243
+Sweden,2021,World,Consumer goods,Tariff,Weighted Average (%),3.2175733033008
+Sweden,2021,World,Capital goods,Tariff,Weighted Average (%),0.582507549015065
+Sweden,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Sweden,2021,World,All Products,Trade Indicator,Country Growth (%),11.1054419722407
+Sweden,2021,World,All Products,Tariff,Simple Average (%),2.18538887802738
+Sweden,2021,World,All Products,Tariff,Weighted Average (%),1.48317296012887
+Sweden,2021,World,All Products,Tariff,Maximum Rate (%),275.476013183594
+Sweden,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),62.9958380753799
+Sweden,2021,...,...,Trade Indicator,Index of export market penetration,18.0213245033113
+Sweden,2021,...,...,Trade Indicator,HH Market concentration index,0.0439556180163111

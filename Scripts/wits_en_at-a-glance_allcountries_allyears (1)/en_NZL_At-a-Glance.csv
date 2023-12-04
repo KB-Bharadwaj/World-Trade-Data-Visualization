@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+New Zealand,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,13932.4708270918
+New Zealand,2021,Australia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,5558.2583471645
+New Zealand,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,4717.25663462266
+New Zealand,2021,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2499.36831992509
+New Zealand,2021,"Korea, Rep.",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1394.39440446151
+New Zealand,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,11774.0530836631
+New Zealand,2021,Australia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,5544.20564599061
+New Zealand,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4257.54792379252
+New Zealand,2021,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3122.58914637635
+New Zealand,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2410.20440813402
+New Zealand,2021,World,Fuels,Export,Export(US$ Mil),511.896476922676
+New Zealand,2021,World,Metals,Export,Export(US$ Mil),1733.73542798665
+New Zealand,2021,World,Vegetable,Export,Export(US$ Mil),3612.60661857778
+New Zealand,2021,World,Textiles and Clothing,Export,Export(US$ Mil),667.034796425443
+New Zealand,2021,World,Intermediate goods,Export,Export(US$ Mil),13821.6247955695
+New Zealand,2021,World,Animal,Export,Export(US$ Mil),20371.3215960736
+New Zealand,2021,World,Wood,Export,Export(US$ Mil),4798.0249813041
+New Zealand,2021,World,Raw materials,Export,Export(US$ Mil),16103.7067272093
+New Zealand,2021,World,Minerals,Export,Export(US$ Mil),86.8159672539523
+New Zealand,2021,World,Stone and Glass,Export,Export(US$ Mil),491.803973113705
+New Zealand,2021,World,Capital goods,Export,Export(US$ Mil),3562.29929949985
+New Zealand,2021,World,Chemicals,Export,Export(US$ Mil),2172.8839033645
+New Zealand,2021,World,Mach and Elec,Export,Export(US$ Mil),2133.0063501236
+New Zealand,2021,World,Plastic or Rubber,Export,Export(US$ Mil),409.413764082059
+New Zealand,2021,World,Transportation,Export,Export(US$ Mil),493.664727809816
+New Zealand,2021,World,Hides and Skins,Export,Export(US$ Mil),201.304932698443
+New Zealand,2021,World,Miscellaneous,Export,Export(US$ Mil),1414.69637424784
+New Zealand,2021,World,Food Products,Export,Export(US$ Mil),5194.64662986284
+New Zealand,2021,World,Footwear,Export,Export(US$ Mil),32.4313006186003
+New Zealand,2021,World,Consumer goods,Export,Export(US$ Mil),10618.0628492659
+New Zealand,2021,World,Raw materials,Import,Import(US$ Mil),3632.11978302001
+New Zealand,2021,World,Intermediate goods,Import,Import(US$ Mil),8602.24327826953
+New Zealand,2021,World,Consumer goods,Import,Import(US$ Mil),22414.5039587262
+New Zealand,2021,World,Capital goods,Import,Import(US$ Mil),14572.0143950247
+New Zealand,2021,World,All Products,Export,Exports (in US$ Mil),44325.2878204656
+New Zealand,2021,World,All Products,Import,Imports (in US$ Mil),49221.4089557089
+New Zealand,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),36558855.0516184
+New Zealand,2021,...,...,Tariff,No. Of Tariff Agreement,18
+New Zealand,2021,...,...,Import,No. Of Import partners,224
+New Zealand,2021,...,...,Import,No. Of Import products,4262
+New Zealand,2021,...,...,Export,No. Of Export partners,213
+New Zealand,2021,...,...,Export,No. Of Export products,3701
+New Zealand,2016,...,...,Others,LPI Score,3.388
+New Zealand,2019,...,...,Others,Ease of Doing Business Rank,1
+New Zealand,2015,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5208
+New Zealand,2015,...,...,Others,No Of NTM Measures,75
+New Zealand,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.120615
+New Zealand,,...,...,Others,Services Trade Restrictions Index - Over All,11
+New Zealand,2019,...,...,Others,Trading Across Borders Rank,63
+New Zealand,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.1128678
+New Zealand,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,0.1107577905
+New Zealand,2018,...,...,Others,Population,4885500
+New Zealand,2016,...,...,Others,LPI Rank,37
+New Zealand,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,0.3099573851
+New Zealand,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,31.4323
+New Zealand,2021,Australia,All Products,Export,Partner share(%)-Top 5 Export Partner,12.5397
+New Zealand,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,10.6424
+New Zealand,2021,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,5.6387
+New Zealand,2021,"Korea, Rep.",All Products,Export,Partner share(%)-Top 5 Export Partner,3.1458
+New Zealand,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,23.9206
+New Zealand,2021,Australia,All Products,Import,Partner share(%)-Top 5 Import Partner,11.2638
+New Zealand,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,8.6498
+New Zealand,2021,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,6.344
+New Zealand,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,4.8967
+New Zealand,2021,World,Animal,Export,Export Product share(%),45.9587
+New Zealand,2021,World,Wood,Export,Export Product share(%),10.8246
+New Zealand,2021,World,Raw materials,Export,Export Product share(%),36.3307
+New Zealand,2021,World,Vegetable,Export,Export Product share(%),8.1502
+New Zealand,2021,World,Textiles and Clothing,Export,Export Product share(%),1.5049
+New Zealand,2021,World,Intermediate goods,Export,Export Product share(%),31.1823
+New Zealand,2021,World,Minerals,Export,Export Product share(%),0.1959
+New Zealand,2021,World,Stone and Glass,Export,Export Product share(%),1.1095
+New Zealand,2021,World,Capital goods,Export,Export Product share(%),8.0367
+New Zealand,2021,World,Fuels,Export,Export Product share(%),1.1549
+New Zealand,2021,World,Metals,Export,Export Product share(%),3.9114
+New Zealand,2021,World,Chemicals,Export,Export Product share(%),4.9021
+New Zealand,2021,World,Mach and Elec,Export,Export Product share(%),4.8122
+New Zealand,2021,World,Plastic or Rubber,Export,Export Product share(%),0.9237
+New Zealand,2021,World,Transportation,Export,Export Product share(%),1.1137
+New Zealand,2021,World,Hides and Skins,Export,Export Product share(%),0.4542
+New Zealand,2021,World,Miscellaneous,Export,Export Product share(%),3.1916
+New Zealand,2021,World,Food Products,Export,Export Product share(%),11.7194
+New Zealand,2021,World,Footwear,Export,Export Product share(%),0.0732
+New Zealand,2021,World,Consumer goods,Export,Export Product share(%),23.9549
+New Zealand,2021,World,Intermediate goods,Import,Import Product share(%),17.4766
+New Zealand,2021,World,Raw materials,Import,Import Product share(%),7.3791
+New Zealand,2021,World,Capital goods,Import,Import Product share(%),29.605
+New Zealand,2021,World,Consumer goods,Import,Import Product share(%),45.5381
+New Zealand,2021,World,Intermediate goods,Tariff,Weighted Average (%),0.46707316031378
+New Zealand,2021,World,Consumer goods,Tariff,Weighted Average (%),1.24951475037993
+New Zealand,2021,World,Raw materials,Tariff,Weighted Average (%),0.317817101385512
+New Zealand,2021,World,Capital goods,Tariff,Weighted Average (%),0.698096005556691
+New Zealand,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+New Zealand,2021,World,All Products,Trade Indicator,Country Growth (%),7.51511591206395
+New Zealand,2021,World,All Products,Tariff,Simple Average (%),1.91262032424615
+New Zealand,2021,World,All Products,Tariff,Weighted Average (%),0.856934927240833
+New Zealand,2021,World,All Products,Tariff,Maximum Rate (%),172.950302124023
+New Zealand,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),67.3409830858413
+New Zealand,2021,...,...,Trade Indicator,Index of export market penetration,7.26811140954413
+New Zealand,2021,...,...,Trade Indicator,HH Market concentration index,0.149483122476595

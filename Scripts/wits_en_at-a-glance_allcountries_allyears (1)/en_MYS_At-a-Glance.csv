@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Malaysia,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,46351.7248748483
+Malaysia,2021,Singapore,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,41847.308487154
+Malaysia,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,34366.2500281411
+Malaysia,2021,"Hong Kong, China",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,18494.037028564
+Malaysia,2021,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,18166.7202149305
+Malaysia,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,55269.8883720879
+Malaysia,2021,Singapore,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,22618.5913590153
+Malaysia,2021,"Other Asia, nes",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,18150.4801589618
+Malaysia,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,18079.8682725146
+Malaysia,2021,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,17790.6525836494
+Malaysia,2021,World,Chemicals,Export,Export(US$ Mil),14395.1452244714
+Malaysia,2021,World,Mach and Elec,Export,Export(US$ Mil),127470.352060213
+Malaysia,2021,World,Minerals,Export,Export(US$ Mil),2297.70548862822
+Malaysia,2021,World,Stone and Glass,Export,Export(US$ Mil),5054.17184582448
+Malaysia,2021,World,Capital goods,Export,Export(US$ Mil),127302.169234736
+Malaysia,2021,World,Food Products,Export,Export(US$ Mil),7014.77838690939
+Malaysia,2021,World,Footwear,Export,Export(US$ Mil),236.01450516682
+Malaysia,2021,World,Consumer goods,Export,Export(US$ Mil),94783.585117628
+Malaysia,2021,World,Fuels,Export,Export(US$ Mil),37270.1711979641
+Malaysia,2021,World,Metals,Export,Export(US$ Mil),21986.9945473719
+Malaysia,2021,World,Plastic or Rubber,Export,Export(US$ Mil),27018.5307927782
+Malaysia,2021,World,Transportation,Export,Export(US$ Mil),3872.18974366874
+Malaysia,2021,World,Hides and Skins,Export,Export(US$ Mil),153.310668351546
+Malaysia,2021,World,Miscellaneous,Export,Export(US$ Mil),18643.2772678496
+Malaysia,2021,World,Animal,Export,Export(US$ Mil),1542.20643897464
+Malaysia,2021,World,Wood,Export,Export(US$ Mil),4699.97751466336
+Malaysia,2021,World,Raw materials,Export,Export(US$ Mil),11752.293457121
+Malaysia,2021,World,Vegetable,Export,Export(US$ Mil),24389.0083691693
+Malaysia,2021,World,Textiles and Clothing,Export,Export(US$ Mil),3186.60034222661
+Malaysia,2021,World,Intermediate goods,Export,Export(US$ Mil),63983.0143929035
+Malaysia,2021,World,Consumer goods,Import,Import(US$ Mil),53718.8802730644
+Malaysia,2021,World,Capital goods,Import,Import(US$ Mil),99345.5740230947
+Malaysia,2021,World,Raw materials,Import,Import(US$ Mil),25011.8308497204
+Malaysia,2021,World,Intermediate goods,Import,Import(US$ Mil),58649.2595259112
+Malaysia,2021,World,All Products,Export,Exports (in US$ Mil),299230.434394232
+Malaysia,2021,World,All Products,Import,Imports (in US$ Mil),238249.762706575
+Malaysia,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),156015510.810729
+Malaysia,2021,...,...,Tariff,No. Of Tariff Agreement,1
+Malaysia,2021,...,...,Import,No. Of Import partners,206
+Malaysia,2021,...,...,Import,No. Of Import products,4384
+Malaysia,2021,...,...,Export,No. Of Export partners,219
+Malaysia,2021,...,...,Export,No. Of Export products,4050
+Malaysia,2019,...,...,Others,Ease of Doing Business Rank,12
+Malaysia,2015,...,...,Others,No Of NTM Affected Products (HS 6 Digit),2556
+Malaysia,2015,...,...,Others,No Of NTM Measures,60
+Malaysia,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.2898032
+Malaysia,2016,...,...,Others,LPI Score,3.426307
+Malaysia,2019,...,...,Others,Trading Across Borders Rank,49
+Malaysia,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.2738927
+Malaysia,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,0.3926124871
+Malaysia,2018,...,...,Others,Population,31528585
+Malaysia,,...,...,Others,Services Trade Restrictions Index - Over All,46.1
+Malaysia,2016,...,...,Others,LPI Rank,32
+Malaysia,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,0.1743510216
+Malaysia,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,15.4903
+Malaysia,2021,Singapore,All Products,Export,Partner share(%)-Top 5 Export Partner,13.985
+Malaysia,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,11.4849
+Malaysia,2021,"Hong Kong, China",All Products,Export,Partner share(%)-Top 5 Export Partner,6.1805
+Malaysia,2021,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,6.0711
+Malaysia,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,23.1983
+Malaysia,2021,Singapore,All Products,Import,Partner share(%)-Top 5 Import Partner,9.4936
+Malaysia,2021,"Other Asia, nes",All Products,Import,Partner share(%)-Top 5 Import Partner,7.6183
+Malaysia,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,7.5886
+Malaysia,2021,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,7.4672
+Malaysia,2021,World,Chemicals,Export,Export Product share(%),4.8107
+Malaysia,2021,World,Mach and Elec,Export,Export Product share(%),42.5994
+Malaysia,2021,World,Fuels,Export,Export Product share(%),12.4553
+Malaysia,2021,World,Metals,Export,Export Product share(%),7.3478
+Malaysia,2021,World,Food Products,Export,Export Product share(%),2.3443
+Malaysia,2021,World,Footwear,Export,Export Product share(%),0.0789
+Malaysia,2021,World,Consumer goods,Export,Export Product share(%),31.6758
+Malaysia,2021,World,Plastic or Rubber,Export,Export Product share(%),9.0293
+Malaysia,2021,World,Transportation,Export,Export Product share(%),1.294
+Malaysia,2021,World,Hides and Skins,Export,Export Product share(%),0.0512
+Malaysia,2021,World,Miscellaneous,Export,Export Product share(%),6.2304
+Malaysia,2021,World,Animal,Export,Export Product share(%),0.5154
+Malaysia,2021,World,Wood,Export,Export Product share(%),1.5707
+Malaysia,2021,World,Raw materials,Export,Export Product share(%),3.9275
+Malaysia,2021,World,Minerals,Export,Export Product share(%),0.7679
+Malaysia,2021,World,Stone and Glass,Export,Export Product share(%),1.6891
+Malaysia,2021,World,Capital goods,Export,Export Product share(%),42.5432
+Malaysia,2021,World,Vegetable,Export,Export Product share(%),8.1506
+Malaysia,2021,World,Textiles and Clothing,Export,Export Product share(%),1.0649
+Malaysia,2021,World,Intermediate goods,Export,Export Product share(%),21.3825
+Malaysia,2021,World,Capital goods,Import,Import Product share(%),41.6981
+Malaysia,2021,World,Consumer goods,Import,Import Product share(%),22.5473
+Malaysia,2021,World,Raw materials,Import,Import Product share(%),10.4982
+Malaysia,2021,World,Intermediate goods,Import,Import Product share(%),24.6167
+Malaysia,2021,World,Capital goods,Tariff,Weighted Average (%),1.88003727898092
+Malaysia,2021,World,Raw materials,Tariff,Weighted Average (%),1.76563108856174
+Malaysia,2021,World,Consumer goods,Tariff,Weighted Average (%),9.28737904848253
+Malaysia,2021,World,Intermediate goods,Tariff,Weighted Average (%),4.19935119254791
+Malaysia,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Malaysia,2021,World,All Products,Trade Indicator,Country Growth (%),12.6474297746268
+Malaysia,2021,World,All Products,Tariff,Simple Average (%),5.61254416812458
+Malaysia,2021,World,All Products,Tariff,Weighted Average (%),3.62384031410566
+Malaysia,2021,World,All Products,Tariff,Maximum Rate (%),1246.02905273438
+Malaysia,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),57.6269912834385
+Malaysia,2021,...,...,Trade Indicator,Index of export market penetration,14.3998072735295
+Malaysia,2021,...,...,Trade Indicator,HH Market concentration index,0.0973748533437922

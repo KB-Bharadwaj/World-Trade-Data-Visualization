@@ -1,0 +1,99 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Togo,2021,Burkina Faso,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,154.14120022748
+Togo,2021,Mali,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,119.807765217879
+Togo,2021,Benin,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,116.092732393607
+Togo,2021,Ghana,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,93.8596758296037
+Togo,2021,Niger,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,86.819296951996
+Togo,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,564.860713608751
+Togo,2021,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,253.029888915618
+Togo,2021,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,179.460107960772
+Togo,2021,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,108.695076656844
+Togo,2021,Ghana,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,106.699436342175
+Togo,2021,World,Food Products,Export,Export(US$ Mil),105.949405901751
+Togo,2021,World,Footwear,Export,Export(US$ Mil),56.9124951843854
+Togo,2021,World,Consumer goods,Export,Export(US$ Mil),503.089858619397
+Togo,2021,World,Fuels,Export,Export(US$ Mil),72.99928128968
+Togo,2021,World,Metals,Export,Export(US$ Mil),22.1157604080639
+Togo,2021,World,Hides and Skins,Export,Export(US$ Mil),0.11105316308512
+Togo,2021,World,Miscellaneous,Export,Export(US$ Mil),4.70864944599557
+Togo,2021,World,Chemicals,Export,Export(US$ Mil),81.6087110937569
+Togo,2021,World,Mach and Elec,Export,Export(US$ Mil),23.9468300224563
+Togo,2021,World,Animal,Export,Export(US$ Mil),27.7096877929848
+Togo,2021,World,Wood,Export,Export(US$ Mil),22.2928597899225
+Togo,2021,World,Raw materials,Export,Export(US$ Mil),255.411628008111
+Togo,2021,World,Minerals,Export,Export(US$ Mil),205.234408475356
+Togo,2021,World,Stone and Glass,Export,Export(US$ Mil),0.32873326736516
+Togo,2021,World,Capital goods,Export,Export(US$ Mil),115.498151792495
+Togo,2021,World,Vegetable,Export,Export(US$ Mil),120.582676796057
+Togo,2021,World,Textiles and Clothing,Export,Export(US$ Mil),108.250489065044
+Togo,2021,World,Intermediate goods,Export,Export(US$ Mil),205.793034491992
+Togo,2021,World,Plastic or Rubber,Export,Export(US$ Mil),125.354242674772
+Togo,2021,World,Transportation,Export,Export(US$ Mil),101.687388541319
+Togo,2021,World,Intermediate goods,Import,Import(US$ Mil),831.502645907385
+Togo,2021,World,Raw materials,Import,Import(US$ Mil),166.309003595416
+Togo,2021,World,Capital goods,Import,Import(US$ Mil),604.388729814037
+Togo,2021,World,Consumer goods,Import,Import(US$ Mil),1261.1266419207
+Togo,2021,World,All Products,Export,Exports (in US$ Mil),1079.79267291199
+Togo,2021,World,All Products,Import,Imports (in US$ Mil),2863.32702123754
+Togo,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),422884.156606622
+Togo,2021,...,...,Tariff,No. Of Tariff Agreement,2
+Togo,2021,...,...,Import,No. Of Import partners,134
+Togo,2021,...,...,Import,No. Of Import products,2477
+Togo,2021,...,...,Export,No. Of Export partners,95
+Togo,2021,...,...,Export,No. Of Export products,719
+Togo,2018,...,...,Others,Population,7889094
+Togo,2018,...,...,Others,CPIA Trade Ratings,4
+Togo,2016,...,...,Others,LPI Score,2.617778
+Togo,2019,...,...,Others,Trading Across Borders Rank,131
+Togo,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.1149931
+Togo,2016,...,...,Others,LPI Rank,92
+Togo,2019,...,...,Others,Ease of Doing Business Rank,97
+Togo,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5052
+Togo,2014,...,...,Others,No Of NTM Measures,34
+Togo,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1194208
+Togo,2021,Burkina Faso,All Products,Export,Partner share(%)-Top 5 Export Partner,14.2751
+Togo,2021,Mali,All Products,Export,Partner share(%)-Top 5 Export Partner,11.0954
+Togo,2021,Benin,All Products,Export,Partner share(%)-Top 5 Export Partner,10.7514
+Togo,2021,Ghana,All Products,Export,Partner share(%)-Top 5 Export Partner,8.6924
+Togo,2021,Niger,All Products,Export,Partner share(%)-Top 5 Export Partner,8.0404
+Togo,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,19.7274
+Togo,2021,France,All Products,Import,Partner share(%)-Top 5 Import Partner,8.8369
+Togo,2021,India,All Products,Import,Partner share(%)-Top 5 Import Partner,6.2675
+Togo,2021,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,3.7961
+Togo,2021,Ghana,All Products,Import,Partner share(%)-Top 5 Import Partner,3.7264
+Togo,2021,World,Food Products,Export,Export Product share(%),9.812
+Togo,2021,World,Footwear,Export,Export Product share(%),5.2707
+Togo,2021,World,Consumer goods,Export,Export Product share(%),46.5913
+Togo,2021,World,Fuels,Export,Export Product share(%),6.7605
+Togo,2021,World,Metals,Export,Export Product share(%),2.0481
+Togo,2021,World,Chemicals,Export,Export Product share(%),7.5578
+Togo,2021,World,Mach and Elec,Export,Export Product share(%),2.2177
+Togo,2021,World,Animal,Export,Export Product share(%),2.5662
+Togo,2021,World,Wood,Export,Export Product share(%),2.0646
+Togo,2021,World,Raw materials,Export,Export Product share(%),23.6538
+Togo,2021,World,Plastic or Rubber,Export,Export Product share(%),11.6091
+Togo,2021,World,Transportation,Export,Export Product share(%),9.4173
+Togo,2021,World,Minerals,Export,Export Product share(%),19.0068
+Togo,2021,World,Stone and Glass,Export,Export Product share(%),0.0304
+Togo,2021,World,Capital goods,Export,Export Product share(%),10.6963
+Togo,2021,World,Vegetable,Export,Export Product share(%),11.1672
+Togo,2021,World,Textiles and Clothing,Export,Export Product share(%),10.0251
+Togo,2021,World,Intermediate goods,Export,Export Product share(%),19.0586
+Togo,2021,World,Hides and Skins,Export,Export Product share(%),0.0103
+Togo,2021,World,Miscellaneous,Export,Export Product share(%),0.4361
+Togo,2021,World,Intermediate goods,Import,Import Product share(%),29.0397
+Togo,2021,World,Capital goods,Import,Import Product share(%),21.1079
+Togo,2021,World,Raw materials,Import,Import Product share(%),5.8082
+Togo,2021,World,Consumer goods,Import,Import Product share(%),44.0441
+Togo,2021,World,Intermediate goods,Tariff,Weighted Average (%),8.42177399756794
+Togo,2021,World,Capital goods,Tariff,Weighted Average (%),9.50625980789391
+Togo,2021,World,Raw materials,Tariff,Weighted Average (%),10.9707514298305
+Togo,2021,World,Consumer goods,Tariff,Weighted Average (%),13.9183191924964
+Togo,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Togo,2021,World,All Products,Trade Indicator,Country Growth (%),45.7171218446816
+Togo,2021,World,All Products,Tariff,Simple Average (%),11.3281774557323
+Togo,2021,World,All Products,Tariff,Weighted Average (%),10.7311833482115
+Togo,2021,World,All Products,Tariff,Maximum Rate (%),35
+Togo,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),15.0111118593845
+Togo,2021,...,...,Trade Indicator,Index of export market penetration,1.76636208282765
+Togo,2021,...,...,Trade Indicator,HH Market concentration index,0.103557680815001

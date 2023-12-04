@@ -1,0 +1,94 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Malta,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,422.174686444
+Malta,2021,Italy,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,233.091607525
+Malta,2021,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,189.355134028
+Malta,2021,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,172.777182326
+Malta,2021,Singapore,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,136.318722616
+Malta,2021,Italy,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1678.879160262
+Malta,2021,United Kingdom,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,502.435620109
+Malta,2021,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,472.650340898
+Malta,2021,Canada,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,460.448218465
+Malta,2021,Spain,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,416.458922399
+Malta,2021,World,Vegetable,Export,Export(US$ Mil),5.888416927
+Malta,2021,World,Textiles and Clothing,Export,Export(US$ Mil),62.999569773
+Malta,2021,World,Intermediate goods,Export,Export(US$ Mil),285.666143467
+Malta,2021,World,Fuels,Export,Export(US$ Mil),223.098993016
+Malta,2021,World,Metals,Export,Export(US$ Mil),39.686075225
+Malta,2021,World,Minerals,Export,Export(US$ Mil),0.14949601
+Malta,2021,World,Stone and Glass,Export,Export(US$ Mil),20.984665868
+Malta,2021,World,Capital goods,Export,Export(US$ Mil),958.058191875
+Malta,2021,World,Food Products,Export,Export(US$ Mil),104.825866813
+Malta,2021,World,Footwear,Export,Export(US$ Mil),4.742509516
+Malta,2021,World,Consumer goods,Export,Export(US$ Mil),1572.960847073
+Malta,2021,World,Chemicals,Export,Export(US$ Mil),614.607974276
+Malta,2021,World,Mach and Elec,Export,Export(US$ Mil),858.378233
+Malta,2021,World,Plastic or Rubber,Export,Export(US$ Mil),166.03394457
+Malta,2021,World,Transportation,Export,Export(US$ Mil),134.799589672
+Malta,2021,World,Hides and Skins,Export,Export(US$ Mil),3.355972406
+Malta,2021,World,Miscellaneous,Export,Export(US$ Mil),292.148222705
+Malta,2021,World,Animal,Export,Export(US$ Mil),201.855524644
+Malta,2021,World,Wood,Export,Export(US$ Mil),333.276576407
+Malta,2021,World,Raw materials,Export,Export(US$ Mil),232.713093961
+Malta,2021,World,Intermediate goods,Import,Import(US$ Mil),833.711035383
+Malta,2021,World,Consumer goods,Import,Import(US$ Mil),3807.377748353
+Malta,2021,World,Capital goods,Import,Import(US$ Mil),2158.660532255
+Malta,2021,World,Raw materials,Import,Import(US$ Mil),340.931297707
+Malta,2021,World,All Products,Export,Exports (in US$ Mil),3066.831630829
+Malta,2021,World,All Products,Import,Imports (in US$ Mil),7140.682683534
+Malta,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),2109450.04922
+Malta,2021,...,...,Tariff,No. Of Tariff Agreement,
+Malta,2021,...,...,Import,No. Of Import partners,169
+Malta,2021,...,...,Import,No. Of Import products,3963
+Malta,2021,...,...,Export,No. Of Export partners,161
+Malta,2021,...,...,Export,No. Of Export products,1847
+Malta,2019,...,...,Others,Ease of Doing Business Rank,88
+Malta,2019,...,...,Others,Trading Across Borders Rank,48
+Malta,2018,...,...,Others,Population,483530
+Malta,2016,...,...,Others,LPI Score,3.069256
+Malta,2016,...,...,Others,LPI Rank,56
+Malta,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,13.7658
+Malta,2021,Italy,All Products,Export,Partner share(%)-Top 5 Export Partner,7.6004
+Malta,2021,France,All Products,Export,Partner share(%)-Top 5 Export Partner,6.1743
+Malta,2021,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,5.6337
+Malta,2021,Singapore,All Products,Export,Partner share(%)-Top 5 Export Partner,4.4449
+Malta,2021,Italy,All Products,Import,Partner share(%)-Top 5 Import Partner,23.5115
+Malta,2021,United Kingdom,All Products,Import,Partner share(%)-Top 5 Import Partner,7.0362
+Malta,2021,France,All Products,Import,Partner share(%)-Top 5 Import Partner,6.6191
+Malta,2021,Canada,All Products,Import,Partner share(%)-Top 5 Import Partner,6.4482
+Malta,2021,Spain,All Products,Import,Partner share(%)-Top 5 Import Partner,5.8322
+Malta,2021,World,Vegetable,Export,Export Product share(%),0.192
+Malta,2021,World,Textiles and Clothing,Export,Export Product share(%),2.0542
+Malta,2021,World,Intermediate goods,Export,Export Product share(%),9.3147
+Malta,2021,World,Food Products,Export,Export Product share(%),3.4181
+Malta,2021,World,Footwear,Export,Export Product share(%),0.1546
+Malta,2021,World,Consumer goods,Export,Export Product share(%),51.2894
+Malta,2021,World,Minerals,Export,Export Product share(%),0.0049
+Malta,2021,World,Stone and Glass,Export,Export Product share(%),0.6842
+Malta,2021,World,Capital goods,Export,Export Product share(%),31.2393
+Malta,2021,World,Chemicals,Export,Export Product share(%),20.0405
+Malta,2021,World,Mach and Elec,Export,Export Product share(%),27.9891
+Malta,2021,World,Fuels,Export,Export Product share(%),7.2746
+Malta,2021,World,Metals,Export,Export Product share(%),1.294
+Malta,2021,World,Plastic or Rubber,Export,Export Product share(%),5.4139
+Malta,2021,World,Transportation,Export,Export Product share(%),4.3954
+Malta,2021,World,Hides and Skins,Export,Export Product share(%),0.1094
+Malta,2021,World,Miscellaneous,Export,Export Product share(%),9.5261
+Malta,2021,World,Animal,Export,Export Product share(%),6.5819
+Malta,2021,World,Wood,Export,Export Product share(%),10.8671
+Malta,2021,World,Raw materials,Export,Export Product share(%),7.5881
+Malta,2021,World,Intermediate goods,Import,Import Product share(%),11.6755
+Malta,2021,World,Consumer goods,Import,Import Product share(%),53.3195
+Malta,2021,World,Capital goods,Import,Import Product share(%),30.2305
+Malta,2021,World,Raw materials,Import,Import Product share(%),4.7745
+Malta,2021,World,Intermediate goods,Tariff,Weighted Average (%),2.16413769844187
+Malta,2021,World,Consumer goods,Tariff,Weighted Average (%),1.85270264468372
+Malta,2021,World,Capital goods,Tariff,Weighted Average (%),0.30552176432542
+Malta,2021,World,Raw materials,Tariff,Weighted Average (%),7.34296000996857
+Malta,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Malta,2021,World,All Products,Trade Indicator,Country Growth (%),15.7303293126801
+Malta,2021,World,All Products,Tariff,Simple Average (%),2.22763498819334
+Malta,2021,World,All Products,Tariff,Weighted Average (%),1.36010275928533
+Malta,2021,World,All Products,Tariff,Maximum Rate (%),275.476013183594
+Malta,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),59.1941214809831
+Malta,2021,...,...,Trade Indicator,Index of export market penetration,3.17310406046951
+Malta,2021,...,...,Trade Indicator,HH Market concentration index,0.0397217298893797

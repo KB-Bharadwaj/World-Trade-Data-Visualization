@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Hungary,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,37602.910253
+Hungary,2021,Italy,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,8243.003172
+Hungary,2021,Romania,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,7454.355584
+Hungary,2021,Slovak Republic,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,7312.637072
+Hungary,2021,Austria,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,6403.971611
+Hungary,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,33018.771372
+Hungary,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,9825.403731
+Hungary,2021,Austria,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,8485.755572
+Hungary,2021,Slovak Republic,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,8156.640882
+Hungary,2021,Poland,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,7942.378497
+Hungary,2021,World,Minerals,Export,Export(US$ Mil),133.016776
+Hungary,2021,World,Stone and Glass,Export,Export(US$ Mil),2115.829837
+Hungary,2021,World,Capital goods,Export,Export(US$ Mil),57535.810704
+Hungary,2021,World,Fuels,Export,Export(US$ Mil),4513.544274
+Hungary,2021,World,Metals,Export,Export(US$ Mil),7138.727601
+Hungary,2021,World,Vegetable,Export,Export(US$ Mil),4576.401452
+Hungary,2021,World,Textiles and Clothing,Export,Export(US$ Mil),2188.220933
+Hungary,2021,World,Intermediate goods,Export,Export(US$ Mil),22059.7274
+Hungary,2021,World,Food Products,Export,Export(US$ Mil),5535.726681
+Hungary,2021,World,Footwear,Export,Export(US$ Mil),691.723833
+Hungary,2021,World,Consumer goods,Export,Export(US$ Mil),49652.164307
+Hungary,2021,World,Chemicals,Export,Export(US$ Mil),12794.939995
+Hungary,2021,World,Mach and Elec,Export,Export(US$ Mil),55064.68898
+Hungary,2021,World,Plastic or Rubber,Export,Export(US$ Mil),9897.778088
+Hungary,2021,World,Transportation,Export,Export(US$ Mil),22580.196382
+Hungary,2021,World,Animal,Export,Export(US$ Mil),2535.28399
+Hungary,2021,World,Wood,Export,Export(US$ Mil),2970.309985
+Hungary,2021,World,Raw materials,Export,Export(US$ Mil),6814.63420600001
+Hungary,2021,World,Hides and Skins,Export,Export(US$ Mil),382.264236
+Hungary,2021,World,Miscellaneous,Export,Export(US$ Mil),8038.438638
+Hungary,2021,World,Intermediate goods,Import,Import(US$ Mil),30777.000505
+Hungary,2021,World,Capital goods,Import,Import(US$ Mil),53898.595177
+Hungary,2021,World,Consumer goods,Import,Import(US$ Mil),39104.057868
+Hungary,2021,World,Raw materials,Import,Import(US$ Mil),6776.766143
+Hungary,2021,World,All Products,Export,Exports (in US$ Mil),141157.091681
+Hungary,2021,World,All Products,Import,Imports (in US$ Mil),139132.012128
+Hungary,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),26948988.77
+Hungary,2021,...,...,Tariff,No. Of Tariff Agreement,
+Hungary,2021,...,...,Import,No. Of Import partners,186
+Hungary,2021,...,...,Import,No. Of Import products,4383
+Hungary,2021,...,...,Export,No. Of Export partners,205
+Hungary,2021,...,...,Export,No. Of Export products,3999
+Hungary,2019,...,...,Others,Ease of Doing Business Rank,52
+Hungary,2019,...,...,Others,Trading Across Borders Rank,1
+Hungary,2018,...,...,Others,Population,9768785
+Hungary,2016,...,...,Others,LPI Rank,31
+Hungary,,...,...,Others,Services Trade Restrictions Index - Over All,17.5
+Hungary,2016,...,...,Others,LPI Score,3.428968
+Hungary,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,26.6391
+Hungary,2021,Italy,All Products,Export,Partner share(%)-Top 5 Export Partner,5.8396
+Hungary,2021,Romania,All Products,Export,Partner share(%)-Top 5 Export Partner,5.2809
+Hungary,2021,Slovak Republic,All Products,Export,Partner share(%)-Top 5 Export Partner,5.1805
+Hungary,2021,Austria,All Products,Export,Partner share(%)-Top 5 Export Partner,4.5368
+Hungary,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,23.732
+Hungary,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,7.0619
+Hungary,2021,Austria,All Products,Import,Partner share(%)-Top 5 Import Partner,6.0991
+Hungary,2021,Slovak Republic,All Products,Import,Partner share(%)-Top 5 Import Partner,5.8625
+Hungary,2021,Poland,All Products,Import,Partner share(%)-Top 5 Import Partner,5.7085
+Hungary,2021,World,Vegetable,Export,Export Product share(%),3.2421
+Hungary,2021,World,Textiles and Clothing,Export,Export Product share(%),1.5502
+Hungary,2021,World,Intermediate goods,Export,Export Product share(%),15.6278
+Hungary,2021,World,Food Products,Export,Export Product share(%),3.9217
+Hungary,2021,World,Footwear,Export,Export Product share(%),0.49
+Hungary,2021,World,Consumer goods,Export,Export Product share(%),35.1751
+Hungary,2021,World,Minerals,Export,Export Product share(%),0.0942
+Hungary,2021,World,Stone and Glass,Export,Export Product share(%),1.4989
+Hungary,2021,World,Capital goods,Export,Export Product share(%),40.7601
+Hungary,2021,World,Fuels,Export,Export Product share(%),3.1975
+Hungary,2021,World,Metals,Export,Export Product share(%),5.0573
+Hungary,2021,World,Chemicals,Export,Export Product share(%),9.0643
+Hungary,2021,World,Mach and Elec,Export,Export Product share(%),39.0095
+Hungary,2021,World,Plastic or Rubber,Export,Export Product share(%),7.0119
+Hungary,2021,World,Transportation,Export,Export Product share(%),15.9965
+Hungary,2021,World,Hides and Skins,Export,Export Product share(%),0.2708
+Hungary,2021,World,Miscellaneous,Export,Export Product share(%),5.6947
+Hungary,2021,World,Animal,Export,Export Product share(%),1.7961
+Hungary,2021,World,Wood,Export,Export Product share(%),2.1043
+Hungary,2021,World,Raw materials,Export,Export Product share(%),4.8277
+Hungary,2021,World,Intermediate goods,Import,Import Product share(%),22.1207
+Hungary,2021,World,Consumer goods,Import,Import Product share(%),28.1057
+Hungary,2021,World,Capital goods,Import,Import Product share(%),38.7392
+Hungary,2021,World,Raw materials,Import,Import Product share(%),4.8707
+Hungary,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.46439416992839
+Hungary,2021,World,Consumer goods,Tariff,Weighted Average (%),1.60033477522523
+Hungary,2021,World,Capital goods,Tariff,Weighted Average (%),0.558095122286972
+Hungary,2021,World,Raw materials,Tariff,Weighted Average (%),0.224919171531554
+Hungary,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Hungary,2021,World,All Products,Trade Indicator,Country Growth (%),8.24569063944616
+Hungary,2021,World,All Products,Tariff,Simple Average (%),2.11421869495015
+Hungary,2021,World,All Products,Tariff,Weighted Average (%),0.947073994271262
+Hungary,2021,World,All Products,Tariff,Maximum Rate (%),193.426300048828
+Hungary,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),61.466803943207
+Hungary,2021,...,...,Trade Indicator,Index of export market penetration,13.4565865965413
+Hungary,2021,...,...,Trade Indicator,HH Market concentration index,0.0836707245410546

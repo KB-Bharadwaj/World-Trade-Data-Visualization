@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Turkey,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,19311.022742
+Turkey,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,14721.81741
+Turkey,2021,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,13703.694821
+Turkey,2021,Italy,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,11473.020914
+Turkey,2021,Iraq,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,11125.649808
+Turkey,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,32238.051683
+Turkey,2021,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,28959.361179
+Turkey,2021,Special Categories,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,24386.39525
+Turkey,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,21726.304884
+Turkey,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,13147.626993
+Turkey,2021,World,Animal,Export,Export(US$ Mil),3219.228169
+Turkey,2021,World,Wood,Export,Export(US$ Mil),4583.133703
+Turkey,2021,World,Raw materials,Export,Export(US$ Mil),15774.278849
+Turkey,2021,World,Minerals,Export,Export(US$ Mil),5587.562455
+Turkey,2021,World,Stone and Glass,Export,Export(US$ Mil),15796.197075
+Turkey,2021,World,Capital goods,Export,Export(US$ Mil),43757.694324
+Turkey,2021,World,Chemicals,Export,Export(US$ Mil),9439.693651
+Turkey,2021,World,Mach and Elec,Export,Export(US$ Mil),32782.111521
+Turkey,2021,World,Plastic or Rubber,Export,Export(US$ Mil),13472.436706
+Turkey,2021,World,Transportation,Export,Export(US$ Mil),28728.786218
+Turkey,2021,World,Fuels,Export,Export(US$ Mil),8506.56199
+Turkey,2021,World,Metals,Export,Export(US$ Mil),35605.963841
+Turkey,2021,World,Vegetable,Export,Export(US$ Mil),12180.06432
+Turkey,2021,World,Textiles and Clothing,Export,Export(US$ Mil),34455.306838
+Turkey,2021,World,Intermediate goods,Export,Export(US$ Mil),63046.822392
+Turkey,2021,World,Hides and Skins,Export,Export(US$ Mil),819.355987
+Turkey,2021,World,Miscellaneous,Export,Export(US$ Mil),9210.826422
+Turkey,2021,World,Food Products,Export,Export(US$ Mil),9659.713684
+Turkey,2021,World,Footwear,Export,Export(US$ Mil),1167.515458
+Turkey,2021,World,Consumer goods,Export,Export(US$ Mil),99754.1335970001
+Turkey,2021,World,Consumer goods,Import,Import(US$ Mil),47409.153953
+Turkey,2021,World,Capital goods,Import,Import(US$ Mil),63714.677848
+Turkey,2021,World,Intermediate goods,Import,Import(US$ Mil),93305.5586850001
+Turkey,2021,World,Raw materials,Import,Import(US$ Mil),32937.711224
+Turkey,2021,World,All Products,Export,Exports (in US$ Mil),225214.458038
+Turkey,2021,World,All Products,Import,Imports (in US$ Mil),271425.552445
+Turkey,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),145663560.139
+Turkey,2021,...,...,Tariff,No. Of Tariff Agreement,29
+Turkey,2021,...,...,Import,No. Of Import partners,219
+Turkey,2021,...,...,Import,No. Of Import products,4434
+Turkey,2021,...,...,Export,No. Of Export partners,224
+Turkey,2021,...,...,Export,No. Of Export products,4397
+Turkey,,...,...,Others,Services Trade Restrictions Index - Over All,25
+Turkey,2016,...,...,Others,LPI Score,3.423693
+Turkey,2019,...,...,Others,Ease of Doing Business Rank,33
+Turkey,2013,...,...,Others,No Of NTM Affected Products (HS 6 Digit),203
+Turkey,2013,...,...,Others,No Of NTM Measures,2
+Turkey,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0964647
+Turkey,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,2.01877737
+Turkey,2018,...,...,Others,Population,82319724
+Turkey,2016,...,...,Others,LPI Rank,34
+Turkey,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,4.068190575
+Turkey,2019,...,...,Others,Trading Across Borders Rank,44
+Turkey,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0731937
+Turkey,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,8.5745
+Turkey,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,6.5368
+Turkey,2021,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,6.0847
+Turkey,2021,Italy,All Products,Export,Partner share(%)-Top 5 Export Partner,5.0943
+Turkey,2021,Iraq,All Products,Export,Partner share(%)-Top 5 Export Partner,4.94
+Turkey,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,11.8773
+Turkey,2021,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,10.6694
+Turkey,2021,Special Categories,All Products,Import,Partner share(%)-Top 5 Import Partner,8.9846
+Turkey,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,8.0045
+Turkey,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,4.8439
+Turkey,2021,World,Food Products,Export,Export Product share(%),4.2891
+Turkey,2021,World,Footwear,Export,Export Product share(%),0.5184
+Turkey,2021,World,Consumer goods,Export,Export Product share(%),44.293
+Turkey,2021,World,Fuels,Export,Export Product share(%),3.7771
+Turkey,2021,World,Metals,Export,Export Product share(%),15.8098
+Turkey,2021,World,Minerals,Export,Export Product share(%),2.481
+Turkey,2021,World,Stone and Glass,Export,Export Product share(%),7.0138
+Turkey,2021,World,Capital goods,Export,Export Product share(%),19.4293
+Turkey,2021,World,Animal,Export,Export Product share(%),1.4294
+Turkey,2021,World,Wood,Export,Export Product share(%),2.035
+Turkey,2021,World,Raw materials,Export,Export Product share(%),7.0041
+Turkey,2021,World,Chemicals,Export,Export Product share(%),4.1914
+Turkey,2021,World,Mach and Elec,Export,Export Product share(%),14.556
+Turkey,2021,World,Hides and Skins,Export,Export Product share(%),0.3638
+Turkey,2021,World,Miscellaneous,Export,Export Product share(%),4.0898
+Turkey,2021,World,Plastic or Rubber,Export,Export Product share(%),5.982
+Turkey,2021,World,Transportation,Export,Export Product share(%),12.7562
+Turkey,2021,World,Vegetable,Export,Export Product share(%),5.4082
+Turkey,2021,World,Textiles and Clothing,Export,Export Product share(%),15.2989
+Turkey,2021,World,Intermediate goods,Export,Export Product share(%),27.9941
+Turkey,2021,World,Intermediate goods,Import,Import Product share(%),34.3761
+Turkey,2021,World,Capital goods,Import,Import Product share(%),23.4741
+Turkey,2021,World,Consumer goods,Import,Import Product share(%),17.4667
+Turkey,2021,World,Raw materials,Import,Import Product share(%),12.1351
+Turkey,2021,World,Intermediate goods,Tariff,Weighted Average (%),3.12223093686323
+Turkey,2021,World,Capital goods,Tariff,Weighted Average (%),0.868983600779318
+Turkey,2021,World,Consumer goods,Tariff,Weighted Average (%),3.54180866929134
+Turkey,2021,World,Raw materials,Tariff,Weighted Average (%),2.60583168032229
+Turkey,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Turkey,2021,World,All Products,Trade Indicator,Country Growth (%),16.8192763367352
+Turkey,2021,World,All Products,Tariff,Simple Average (%),4.44200817675553
+Turkey,2021,World,All Products,Tariff,Weighted Average (%),3.22401007184737
+Turkey,2021,World,All Products,Tariff,Maximum Rate (%),225
+Turkey,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),63.1443088552397
+Turkey,2021,...,...,Trade Indicator,Index of export market penetration,27.656604315934
+Turkey,2021,...,...,Trade Indicator,HH Market concentration index,0.0322051426159893

@@ -1,0 +1,100 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Ghana,2019,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2808.59666816098
+Ghana,2019,Switzerland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2465.91724950496
+Ghana,2019,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2380.13098943602
+Ghana,2019,South Africa,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1971.00351852449
+Ghana,2019,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,966.313526577126
+Ghana,2019,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1895.91101849036
+Ghana,2019,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,976.222409643952
+Ghana,2019,United Kingdom,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,685.550938115717
+Ghana,2019,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,582.202201652142
+Ghana,2019,Belgium,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,532.88526233427
+Ghana,2019,World,Chemicals,Export,Export(US$ Mil),209.98162234837
+Ghana,2019,World,Mach and Elec,Export,Export(US$ Mil),37.0578283795109
+Ghana,2019,World,Minerals,Export,Export(US$ Mil),424.787321207721
+Ghana,2019,World,Stone and Glass,Export,Export(US$ Mil),6220.29968433451
+Ghana,2019,World,Capital goods,Export,Export(US$ Mil),47.3522931770961
+Ghana,2019,World,Hides and Skins,Export,Export(US$ Mil),1.72958928383486
+Ghana,2019,World,Miscellaneous,Export,Export(US$ Mil),10.72524182222
+Ghana,2019,World,Food Products,Export,Export(US$ Mil),2973.45612118009
+Ghana,2019,World,Footwear,Export,Export(US$ Mil),106.871348365052
+Ghana,2019,World,Consumer goods,Export,Export(US$ Mil),1056.56117789937
+Ghana,2019,World,Plastic or Rubber,Export,Export(US$ Mil),291.496142227065
+Ghana,2019,World,Transportation,Export,Export(US$ Mil),5.32359712497667
+Ghana,2019,World,Fuels,Export,Export(US$ Mil),5315.92252170173
+Ghana,2019,World,Metals,Export,Export(US$ Mil),197.091420754898
+Ghana,2019,World,Vegetable,Export,Export(US$ Mil),660.31188461529
+Ghana,2019,World,Textiles and Clothing,Export,Export(US$ Mil),53.5939227807999
+Ghana,2019,World,Intermediate goods,Export,Export(US$ Mil),7589.46929325224
+Ghana,2019,World,Animal,Export,Export(US$ Mil),63.1271875601471
+Ghana,2019,World,Wood,Export,Export(US$ Mil),196.499756235432
+Ghana,2019,World,Raw materials,Export,Export(US$ Mil),8074.8816153798
+Ghana,2019,World,Intermediate goods,Import,Import(US$ Mil),2831.51520683046
+Ghana,2019,World,Consumer goods,Import,Import(US$ Mil),3890.3625067642
+Ghana,2019,World,Capital goods,Import,Import(US$ Mil),3081.32802717532
+Ghana,2019,World,Raw materials,Import,Import(US$ Mil),636.380233269781
+Ghana,2019,World,All Products,Export,Exports (in US$ Mil),16768.2751899216
+Ghana,2019,World,All Products,Import,Imports (in US$ Mil),10439.7954532908
+Ghana,2019,World,All Products,Tariff,Duty Free Imports (US$ Thousand),930406.694262739
+Ghana,2019,...,...,Tariff,No. Of Tariff Agreement,2
+Ghana,2019,...,...,Import,No. Of Import partners,178
+Ghana,2019,...,...,Import,No. Of Import products,4093
+Ghana,2019,...,...,Export,No. Of Export partners,150
+Ghana,2019,...,...,Export,No. Of Export products,2147
+Ghana,2018,...,...,Others,Population,29767108
+Ghana,2018,...,...,Others,CPIA Trade Ratings,4
+Ghana,2016,...,...,Others,LPI Score,2.660931
+Ghana,2019,...,...,Others,Ease of Doing Business Rank,118
+Ghana,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),5052
+Ghana,2014,...,...,Others,No Of NTM Measures,36
+Ghana,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1171562
+Ghana,2019,...,...,Others,Trading Across Borders Rank,158
+Ghana,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.1167794
+Ghana,2016,...,...,Others,LPI Rank,88
+Ghana,,...,...,Others,Services Trade Restrictions Index - Over All,18.4
+Ghana,2019,China,All Products,Export,Partner share(%)-Top 5 Export Partner,16.7495
+Ghana,2019,Switzerland,All Products,Export,Partner share(%)-Top 5 Export Partner,14.7058
+Ghana,2019,India,All Products,Export,Partner share(%)-Top 5 Export Partner,14.1943
+Ghana,2019,South Africa,All Products,Export,Partner share(%)-Top 5 Export Partner,11.7544
+Ghana,2019,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,5.7627
+Ghana,2019,China,All Products,Import,Partner share(%)-Top 5 Import Partner,18.1604
+Ghana,2019,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,9.351
+Ghana,2019,United Kingdom,All Products,Import,Partner share(%)-Top 5 Import Partner,6.5667
+Ghana,2019,India,All Products,Import,Partner share(%)-Top 5 Import Partner,5.5768
+Ghana,2019,Belgium,All Products,Import,Partner share(%)-Top 5 Import Partner,5.1044
+Ghana,2019,World,Vegetable,Export,Export Product share(%),3.9379
+Ghana,2019,World,Textiles and Clothing,Export,Export Product share(%),0.3196
+Ghana,2019,World,Intermediate goods,Export,Export Product share(%),45.2609
+Ghana,2019,World,Food Products,Export,Export Product share(%),17.7326
+Ghana,2019,World,Footwear,Export,Export Product share(%),0.6373
+Ghana,2019,World,Consumer goods,Export,Export Product share(%),6.301
+Ghana,2019,World,Hides and Skins,Export,Export Product share(%),0.0103
+Ghana,2019,World,Miscellaneous,Export,Export Product share(%),0.064
+Ghana,2019,World,Minerals,Export,Export Product share(%),2.5333
+Ghana,2019,World,Stone and Glass,Export,Export Product share(%),37.0956
+Ghana,2019,World,Capital goods,Export,Export Product share(%),0.2824
+Ghana,2019,World,Fuels,Export,Export Product share(%),31.7023
+Ghana,2019,World,Metals,Export,Export Product share(%),1.1754
+Ghana,2019,World,Chemicals,Export,Export Product share(%),1.2523
+Ghana,2019,World,Mach and Elec,Export,Export Product share(%),0.221
+Ghana,2019,World,Animal,Export,Export Product share(%),0.3765
+Ghana,2019,World,Wood,Export,Export Product share(%),1.1719
+Ghana,2019,World,Raw materials,Export,Export Product share(%),48.1557
+Ghana,2019,World,Plastic or Rubber,Export,Export Product share(%),1.7384
+Ghana,2019,World,Transportation,Export,Export Product share(%),0.0317
+Ghana,2019,World,Consumer goods,Import,Import Product share(%),37.2647
+Ghana,2019,World,Raw materials,Import,Import Product share(%),6.0957
+Ghana,2019,World,Capital goods,Import,Import Product share(%),29.5152
+Ghana,2019,World,Intermediate goods,Import,Import Product share(%),27.1223
+Ghana,2019,World,Consumer goods,Tariff,Weighted Average (%),13.800940094544
+Ghana,2019,World,Intermediate goods,Tariff,Weighted Average (%),8.7432551206273
+Ghana,2019,World,Capital goods,Tariff,Weighted Average (%),6.32511534719544
+Ghana,2019,World,Raw materials,Tariff,Weighted Average (%),15.1784122521538
+Ghana,2019,World,All Products,Trade Indicator,World Growth (%),-1.73027240114794
+Ghana,2019,World,All Products,Trade Indicator,Country Growth (%),-1.9041895558064
+Ghana,2019,World,All Products,Tariff,Simple Average (%),12.4395574560905
+Ghana,2019,World,All Products,Tariff,Weighted Average (%),10.0211659119228
+Ghana,2019,World,All Products,Tariff,Maximum Rate (%),35
+Ghana,2019,World,All Products,Tariff,Duty Free Tariff Lines Share (%),11.3135408729727
+Ghana,2019,...,...,Trade Indicator,Index of export market penetration,2.85447554218708
+Ghana,2019,...,...,Trade Indicator,HH Market concentration index,0.0890784116385527

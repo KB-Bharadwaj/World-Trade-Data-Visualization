@@ -1,0 +1,79 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Guadeloupe,1995,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,106.560624
+Guadeloupe,1995,Martinique,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,17.04892
+Guadeloupe,1995,Italy,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,7.405253
+Guadeloupe,1995,"Bahamas, The",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,7.050505
+Guadeloupe,1995,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,5.518351
+Guadeloupe,1995,France,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1213.889792
+Guadeloupe,1995,Trinidad and Tobago,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,70.340856
+Guadeloupe,1995,Italy,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,64.986736
+Guadeloupe,1995,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,62.417764
+Guadeloupe,1995,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,60.765256
+Guadeloupe,1995,World,Food Products,Export,Export(US$ Mil),30.239207
+Guadeloupe,1995,World,Footwear,Export,Export(US$ Mil),0.393932
+Guadeloupe,1995,World,Consumer goods,Export,Export(US$ Mil),52.273159
+Guadeloupe,1995,World,Chemicals,Export,Export(US$ Mil),1.525098
+Guadeloupe,1995,World,Mach and Elec,Export,Export(US$ Mil),7.16515
+Guadeloupe,1995,World,Fuels,Export,Export(US$ Mil),0.041978
+Guadeloupe,1995,World,Metals,Export,Export(US$ Mil),6.771371
+Guadeloupe,1995,World,Animal,Export,Export(US$ Mil),0.715572
+Guadeloupe,1995,World,Wood,Export,Export(US$ Mil),3.414519
+Guadeloupe,1995,World,Raw materials,Export,Export(US$ Mil),47.243108
+Guadeloupe,1995,World,Vegetable,Export,Export(US$ Mil),53.764688
+Guadeloupe,1995,World,Textiles and Clothing,Export,Export(US$ Mil),1.135724
+Guadeloupe,1995,World,Intermediate goods,Export,Export(US$ Mil),32.886632
+Guadeloupe,1995,World,Minerals,Export,Export(US$ Mil),0.126619
+Guadeloupe,1995,World,Stone and Glass,Export,Export(US$ Mil),1.140187
+Guadeloupe,1995,World,Capital goods,Export,Export(US$ Mil),29.539153
+Guadeloupe,1995,World,Hides and Skins,Export,Export(US$ Mil),0.027088
+Guadeloupe,1995,World,Miscellaneous,Export,Export(US$ Mil),2.220476
+Guadeloupe,1995,World,Plastic or Rubber,Export,Export(US$ Mil),1.463248
+Guadeloupe,1995,World,Transportation,Export,Export(US$ Mil),51.828918
+Guadeloupe,1995,World,Consumer goods,Import,Import(US$ Mil),1062.71066
+Guadeloupe,1995,World,Capital goods,Import,Import(US$ Mil),374.068281
+Guadeloupe,1995,World,Intermediate goods,Import,Import(US$ Mil),237.793907
+Guadeloupe,1995,World,Raw materials,Import,Import(US$ Mil),143.129942
+Guadeloupe,1995,World,All Products,Export,Exports (in US$ Mil),161.973776
+Guadeloupe,1995,World,All Products,Import,Imports (in US$ Mil),1901.305728
+Guadeloupe,1995,...,...,Import,No. Of Import partners,134
+Guadeloupe,1995,...,...,Import,No. Of Import products,3237
+Guadeloupe,1995,...,...,Export,No. Of Export partners,53
+Guadeloupe,1995,...,...,Export,No. Of Export products,762
+Guadeloupe,1995,France,All Products,Export,Partner share(%)-Top 5 Export Partner,65.7888
+Guadeloupe,1995,Martinique,All Products,Export,Partner share(%)-Top 5 Export Partner,10.5257
+Guadeloupe,1995,Italy,All Products,Export,Partner share(%)-Top 5 Export Partner,4.5719
+Guadeloupe,1995,"Bahamas, The",All Products,Export,Partner share(%)-Top 5 Export Partner,4.3529
+Guadeloupe,1995,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,3.4069
+Guadeloupe,1995,France,All Products,Import,Partner share(%)-Top 5 Import Partner,63.8451
+Guadeloupe,1995,Trinidad and Tobago,All Products,Import,Partner share(%)-Top 5 Import Partner,3.6996
+Guadeloupe,1995,Italy,All Products,Import,Partner share(%)-Top 5 Import Partner,3.418
+Guadeloupe,1995,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,3.2829
+Guadeloupe,1995,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,3.196
+Guadeloupe,1995,World,Food Products,Export,Export Product share(%),18.6692
+Guadeloupe,1995,World,Footwear,Export,Export Product share(%),0.2432
+Guadeloupe,1995,World,Consumer goods,Export,Export Product share(%),32.2726
+Guadeloupe,1995,World,Animal,Export,Export Product share(%),0.4418
+Guadeloupe,1995,World,Wood,Export,Export Product share(%),2.1081
+Guadeloupe,1995,World,Raw materials,Export,Export Product share(%),29.1671
+Guadeloupe,1995,World,Vegetable,Export,Export Product share(%),33.1935
+Guadeloupe,1995,World,Textiles and Clothing,Export,Export Product share(%),0.7012
+Guadeloupe,1995,World,Intermediate goods,Export,Export Product share(%),20.3037
+Guadeloupe,1995,World,Chemicals,Export,Export Product share(%),0.9416
+Guadeloupe,1995,World,Mach and Elec,Export,Export Product share(%),4.4236
+Guadeloupe,1995,World,Fuels,Export,Export Product share(%),0.0259
+Guadeloupe,1995,World,Metals,Export,Export Product share(%),4.1805
+Guadeloupe,1995,World,Hides and Skins,Export,Export Product share(%),0.0167
+Guadeloupe,1995,World,Miscellaneous,Export,Export Product share(%),1.3709
+Guadeloupe,1995,World,Minerals,Export,Export Product share(%),0.0782
+Guadeloupe,1995,World,Stone and Glass,Export,Export Product share(%),0.7039
+Guadeloupe,1995,World,Capital goods,Export,Export Product share(%),18.237
+Guadeloupe,1995,World,Plastic or Rubber,Export,Export Product share(%),0.9034
+Guadeloupe,1995,World,Transportation,Export,Export Product share(%),31.9983
+Guadeloupe,1995,World,Consumer goods,Import,Import Product share(%),55.8937
+Guadeloupe,1995,World,Intermediate goods,Import,Import Product share(%),12.5069
+Guadeloupe,1995,World,Capital goods,Import,Import Product share(%),19.6743
+Guadeloupe,1995,World,Raw materials,Import,Import Product share(%),7.528
+Guadeloupe,1995,World,All Products,Trade Indicator,World Growth (%),11.5145551966227
+Guadeloupe,1995,World,All Products,Trade Indicator,Country Growth (%),-11.4015725721528
+Guadeloupe,1995,...,...,Trade Indicator,Index of export market penetration,1.38534844503706
+Guadeloupe,1995,...,...,Trade Indicator,HH Market concentration index,0.68604180553557

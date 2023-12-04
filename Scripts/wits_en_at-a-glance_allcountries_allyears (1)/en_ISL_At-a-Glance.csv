@@ -1,0 +1,96 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Iceland,2021,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1625.41231169427
+Iceland,2021,Spain,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,705.779980258059
+Iceland,2021,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,572.252461606838
+Iceland,2021,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,479.994571872383
+Iceland,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,463.886507896168
+Iceland,2021,Norway,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,760.939377421513
+Iceland,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,694.912863845968
+Iceland,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,669.454388885706
+Iceland,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,645.261304327134
+Iceland,2021,Denmark,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,596.226032414158
+Iceland,2021,World,Minerals,Export,Export(US$ Mil),27.1987403651613
+Iceland,2021,World,Stone and Glass,Export,Export(US$ Mil),3.7442711992881
+Iceland,2021,World,Capital goods,Export,Export(US$ Mil),314.520899884968
+Iceland,2021,World,Plastic or Rubber,Export,Export(US$ Mil),20.0498680246554
+Iceland,2021,World,Transportation,Export,Export(US$ Mil),75.6565585269639
+Iceland,2021,World,Fuels,Export,Export(US$ Mil),68.6472336191628
+Iceland,2021,World,Metals,Export,Export(US$ Mil),2550.84721533806
+Iceland,2021,World,Animal,Export,Export(US$ Mil),2347.1988474153
+Iceland,2021,World,Wood,Export,Export(US$ Mil),3.9347884782105
+Iceland,2021,World,Raw materials,Export,Export(US$ Mil),2095.00101183167
+Iceland,2021,World,Chemicals,Export,Export(US$ Mil),95.8594835834031
+Iceland,2021,World,Mach and Elec,Export,Export(US$ Mil),154.743072587227
+Iceland,2021,World,Hides and Skins,Export,Export(US$ Mil),7.4577826234218
+Iceland,2021,World,Miscellaneous,Export,Export(US$ Mil),174.828545957687
+Iceland,2021,World,Food Products,Export,Export(US$ Mil),312.754263582338
+Iceland,2021,World,Footwear,Export,Export(US$ Mil),0.5375130759063
+Iceland,2021,World,Consumer goods,Export,Export(US$ Mil),511.351177634888
+Iceland,2021,World,Vegetable,Export,Export(US$ Mil),112.831194438656
+Iceland,2021,World,Textiles and Clothing,Export,Export(US$ Mil),17.4532716441312
+Iceland,2021,World,Intermediate goods,Export,Export(US$ Mil),3010.56917457899
+Iceland,2021,World,Capital goods,Import,Import(US$ Mil),2399.41310043175
+Iceland,2021,World,Raw materials,Import,Import(US$ Mil),357.203941986745
+Iceland,2021,World,Intermediate goods,Import,Import(US$ Mil),1448.81090879893
+Iceland,2021,World,Consumer goods,Import,Import(US$ Mil),3632.07004944596
+Iceland,2021,World,All Products,Export,Exports (in US$ Mil),5973.74265045958
+Iceland,2021,World,All Products,Import,Imports (in US$ Mil),7838.07241661517
+Iceland,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),6426703.98033949
+Iceland,2021,...,...,Tariff,No. Of Tariff Agreement,36
+Iceland,2021,...,...,Import,No. Of Import partners,182
+Iceland,2021,...,...,Import,No. Of Import products,4125
+Iceland,2021,...,...,Export,No. Of Export partners,138
+Iceland,2021,...,...,Export,No. Of Export products,1772
+Iceland,2018,...,...,Others,Population,353574
+Iceland,2019,...,...,Others,Trading Across Borders Rank,53
+Iceland,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0435967
+Iceland,2016,...,...,Others,LPI Score,3.345605
+Iceland,2016,...,...,Others,LPI Rank,39
+Iceland,2019,...,...,Others,Ease of Doing Business Rank,26
+Iceland,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.058861
+Iceland,2021,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,27.2093
+Iceland,2021,Spain,All Products,Export,Partner share(%)-Top 5 Export Partner,11.8147
+Iceland,2021,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,9.5795
+Iceland,2021,France,All Products,Export,Partner share(%)-Top 5 Export Partner,8.0351
+Iceland,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,7.7654
+Iceland,2021,Norway,All Products,Import,Partner share(%)-Top 5 Import Partner,9.7082
+Iceland,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,8.8659
+Iceland,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,8.5411
+Iceland,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,8.2324
+Iceland,2021,Denmark,All Products,Import,Partner share(%)-Top 5 Import Partner,7.6068
+Iceland,2021,World,Chemicals,Export,Export Product share(%),1.6047
+Iceland,2021,World,Mach and Elec,Export,Export Product share(%),2.5904
+Iceland,2021,World,Plastic or Rubber,Export,Export Product share(%),0.3356
+Iceland,2021,World,Transportation,Export,Export Product share(%),1.2665
+Iceland,2021,World,Minerals,Export,Export Product share(%),0.4553
+Iceland,2021,World,Stone and Glass,Export,Export Product share(%),0.0627
+Iceland,2021,World,Capital goods,Export,Export Product share(%),5.2651
+Iceland,2021,World,Fuels,Export,Export Product share(%),1.1491
+Iceland,2021,World,Metals,Export,Export Product share(%),42.701
+Iceland,2021,World,Animal,Export,Export Product share(%),39.2919
+Iceland,2021,World,Wood,Export,Export Product share(%),0.0659
+Iceland,2021,World,Raw materials,Export,Export Product share(%),35.0702
+Iceland,2021,World,Food Products,Export,Export Product share(%),5.2355
+Iceland,2021,World,Footwear,Export,Export Product share(%),0.009
+Iceland,2021,World,Consumer goods,Export,Export Product share(%),8.56
+Iceland,2021,World,Hides and Skins,Export,Export Product share(%),0.1248
+Iceland,2021,World,Miscellaneous,Export,Export Product share(%),2.9266
+Iceland,2021,World,Vegetable,Export,Export Product share(%),1.8888
+Iceland,2021,World,Textiles and Clothing,Export,Export Product share(%),0.2922
+Iceland,2021,World,Intermediate goods,Export,Export Product share(%),50.3967
+Iceland,2021,World,Consumer goods,Import,Import Product share(%),46.3388
+Iceland,2021,World,Capital goods,Import,Import Product share(%),30.6123
+Iceland,2021,World,Raw materials,Import,Import Product share(%),4.5573
+Iceland,2021,World,Intermediate goods,Import,Import Product share(%),18.4843
+Iceland,2021,World,Consumer goods,Tariff,Weighted Average (%),2.20220110526981
+Iceland,2021,World,Capital goods,Tariff,Weighted Average (%),0
+Iceland,2021,World,Raw materials,Tariff,Weighted Average (%),15.2744389452122
+Iceland,2021,World,Intermediate goods,Tariff,Weighted Average (%),0.219884108422588
+Iceland,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Iceland,2021,World,All Products,Trade Indicator,Country Growth (%),18.5967827139514
+Iceland,2021,World,All Products,Tariff,Simple Average (%),1.53422974876744
+Iceland,2021,World,All Products,Tariff,Weighted Average (%),1.50564095921512
+Iceland,2021,World,All Products,Tariff,Maximum Rate (%),2203.00390625
+Iceland,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),95.0658718629465
+Iceland,2021,...,...,Trade Indicator,Index of export market penetration,3.42469553303729
+Iceland,2021,...,...,Trade Indicator,HH Market concentration index,0.127690028936988

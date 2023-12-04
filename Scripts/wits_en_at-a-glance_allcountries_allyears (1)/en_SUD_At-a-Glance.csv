@@ -1,0 +1,91 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Sudan,2018,United Arab Emirates,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,993.830962
+Sudan,2018,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,735.691779
+Sudan,2018,Saudi Arabia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,588.486879
+Sudan,2018,"Egypt, Arab Rep.",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,580.354204
+Sudan,2018,India,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,97.294031
+Sudan,2018,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1822.619801
+Sudan,2018,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1582.164434
+Sudan,2018,Saudi Arabia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1071.240078
+Sudan,2018,India,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,873.660242
+Sudan,2018,United Arab Emirates,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,787.203082
+Sudan,2018,World,Animal,Export,Export(US$ Mil),839.801028
+Sudan,2018,World,Wood,Export,Export(US$ Mil),3.874971
+Sudan,2018,World,Raw materials,Export,Export(US$ Mil),2415.893348
+Sudan,2018,World,Vegetable,Export,Export(US$ Mil),1037.602525
+Sudan,2018,World,Textiles and Clothing,Export,Export(US$ Mil),158.794764
+Sudan,2018,World,Intermediate goods,Export,Export(US$ Mil),1044.873668
+Sudan,2018,World,Food Products,Export,Export(US$ Mil),40.693359
+Sudan,2018,World,Footwear,Export,Export(US$ Mil),0.0662
+Sudan,2018,World,Consumer goods,Export,Export(US$ Mil),107.957907
+Sudan,2018,World,Minerals,Export,Export(US$ Mil),1.73258
+Sudan,2018,World,Stone and Glass,Export,Export(US$ Mil),911.466931
+Sudan,2018,World,Capital goods,Export,Export(US$ Mil),50.5131259999998
+Sudan,2018,World,Fuels,Export,Export(US$ Mil),509.491826
+Sudan,2018,World,Metals,Export,Export(US$ Mil),22.685766
+Sudan,2018,World,Hides and Skins,Export,Export(US$ Mil),16.288711
+Sudan,2018,World,Miscellaneous,Export,Export(US$ Mil),4.818207
+Sudan,2018,World,Chemicals,Export,Export(US$ Mil),11.704435
+Sudan,2018,World,Mach and Elec,Export,Export(US$ Mil),7.900595
+Sudan,2018,World,Plastic or Rubber,Export,Export(US$ Mil),3.776635
+Sudan,2018,World,Transportation,Export,Export(US$ Mil),48.552971
+Sudan,2018,World,Intermediate goods,Import,Import(US$ Mil),1724.604874
+Sudan,2018,World,Consumer goods,Import,Import(US$ Mil),4311.55926699999
+Sudan,2018,World,Capital goods,Import,Import(US$ Mil),2433.285137
+Sudan,2018,World,Raw materials,Import,Import(US$ Mil),2009.60013
+Sudan,2018,World,All Products,Export,Exports (in US$ Mil),3619.251504
+Sudan,2018,World,All Products,Import,Imports (in US$ Mil),10483.740855
+Sudan,2017,World,All Products,Tariff,Duty Free Imports (US$ Thousand),2761383.594
+Sudan,2017,...,...,Tariff,No. Of Tariff Agreement,5
+Sudan,2018,...,...,Import,No. Of Import partners,184
+Sudan,2018,...,...,Import,No. Of Import products,3344
+Sudan,2018,...,...,Export,No. Of Export partners,134
+Sudan,2018,...,...,Export,No. Of Export products,558
+Sudan,2019,...,...,Others,Ease of Doing Business Rank,171
+Sudan,2019,...,...,Others,Trading Across Borders Rank,185
+Sudan,2018,United Arab Emirates,All Products,Export,Partner share(%)-Top 5 Export Partner,27.4596
+Sudan,2018,China,All Products,Export,Partner share(%)-Top 5 Export Partner,20.3272
+Sudan,2018,Saudi Arabia,All Products,Export,Partner share(%)-Top 5 Export Partner,16.2599
+Sudan,2018,"Egypt, Arab Rep.",All Products,Export,Partner share(%)-Top 5 Export Partner,16.0352
+Sudan,2018,India,All Products,Export,Partner share(%)-Top 5 Export Partner,2.6882
+Sudan,2018,China,All Products,Import,Partner share(%)-Top 5 Import Partner,17.3852
+Sudan,2018,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,15.0916
+Sudan,2018,Saudi Arabia,All Products,Import,Partner share(%)-Top 5 Import Partner,10.2181
+Sudan,2018,India,All Products,Import,Partner share(%)-Top 5 Import Partner,8.3335
+Sudan,2018,United Arab Emirates,All Products,Import,Partner share(%)-Top 5 Import Partner,7.5088
+Sudan,2018,World,Vegetable,Export,Export Product share(%),28.669
+Sudan,2018,World,Textiles and Clothing,Export,Export Product share(%),4.3875
+Sudan,2018,World,Intermediate goods,Export,Export Product share(%),28.8699
+Sudan,2018,World,Food Products,Export,Export Product share(%),1.1244
+Sudan,2018,World,Footwear,Export,Export Product share(%),0.0018
+Sudan,2018,World,Consumer goods,Export,Export Product share(%),2.9829
+Sudan,2018,World,Fuels,Export,Export Product share(%),14.0773
+Sudan,2018,World,Metals,Export,Export Product share(%),0.6268
+Sudan,2018,World,Plastic or Rubber,Export,Export Product share(%),0.1043
+Sudan,2018,World,Transportation,Export,Export Product share(%),1.3415
+Sudan,2018,World,Chemicals,Export,Export Product share(%),0.3234
+Sudan,2018,World,Mach and Elec,Export,Export Product share(%),0.2183
+Sudan,2018,World,Animal,Export,Export Product share(%),23.2037
+Sudan,2018,World,Wood,Export,Export Product share(%),0.1071
+Sudan,2018,World,Raw materials,Export,Export Product share(%),66.7512
+Sudan,2018,World,Minerals,Export,Export Product share(%),0.0479
+Sudan,2018,World,Stone and Glass,Export,Export Product share(%),25.1839
+Sudan,2018,World,Capital goods,Export,Export Product share(%),1.3957
+Sudan,2018,World,Hides and Skins,Export,Export Product share(%),0.4501
+Sudan,2018,World,Miscellaneous,Export,Export Product share(%),0.1331
+Sudan,2018,World,Intermediate goods,Import,Import Product share(%),16.4503
+Sudan,2018,World,Consumer goods,Import,Import Product share(%),41.1262
+Sudan,2018,World,Capital goods,Import,Import Product share(%),23.2101
+Sudan,2018,World,Raw materials,Import,Import Product share(%),19.1687
+Sudan,2017,World,Intermediate goods,Tariff,Weighted Average (%),16.4025118072012
+Sudan,2017,World,Consumer goods,Tariff,Weighted Average (%),16.5777136592278
+Sudan,2017,World,Capital goods,Tariff,Weighted Average (%),11.9875783413125
+Sudan,2017,World,Raw materials,Tariff,Weighted Average (%),7.73274121137771
+Sudan,2018,World,All Products,Trade Indicator,World Growth (%),4.83141798213382
+Sudan,2018,World,All Products,Trade Indicator,Country Growth (%),-6.86293955760299
+Sudan,2017,World,All Products,Tariff,Simple Average (%),14.2822743022731
+Sudan,2017,World,All Products,Tariff,Weighted Average (%),14.0124110491879
+Sudan,2017,World,All Products,Tariff,Maximum Rate (%),40
+Sudan,2017,World,All Products,Tariff,Duty Free Tariff Lines Share (%),33.8244107071514
+Sudan,2018,...,...,Trade Indicator,Index of export market penetration,1.62889556473933
+Sudan,2018,...,...,Trade Indicator,HH Market concentration index,0.14380566249211

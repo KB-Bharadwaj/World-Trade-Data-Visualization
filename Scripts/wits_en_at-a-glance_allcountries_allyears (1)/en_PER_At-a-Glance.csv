@@ -1,0 +1,101 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Peru,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,17994.760657291
+Peru,2021,United States,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,7192.891164356
+Peru,2021,"Korea, Rep.",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2799.183947801
+Peru,2021,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2780.238938242
+Peru,2021,Canada,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,2740.34107687
+Peru,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,14611.64091914
+Peru,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,9562.25867855
+Peru,2021,Brazil,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,3430.91082003
+Peru,2021,Argentina,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2313.80189786
+Peru,2021,Mexico,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1891.29971184
+Peru,2021,World,Vegetable,Export,Export(US$ Mil),7528.279551302
+Peru,2021,World,Textiles and Clothing,Export,Export(US$ Mil),1633.670012656
+Peru,2021,World,Intermediate goods,Export,Export(US$ Mil),17976.028294954
+Peru,2021,World,Chemicals,Export,Export(US$ Mil),954.490666712
+Peru,2021,World,Mach and Elec,Export,Export(US$ Mil),370.11626376
+Peru,2021,World,Fuels,Export,Export(US$ Mil),3932.80062353
+Peru,2021,World,Metals,Export,Export(US$ Mil),5239.456610536
+Peru,2021,World,Minerals,Export,Export(US$ Mil),21902.4775979
+Peru,2021,World,Stone and Glass,Export,Export(US$ Mil),8294.252145481
+Peru,2021,World,Capital goods,Export,Export(US$ Mil),455.142467966
+Peru,2021,World,Food Products,Export,Export(US$ Mil),3955.025336204
+Peru,2021,World,Footwear,Export,Export(US$ Mil),29.166864871
+Peru,2021,World,Consumer goods,Export,Export(US$ Mil),8222.015199165
+Peru,2021,World,Plastic or Rubber,Export,Export(US$ Mil),804.40487721
+Peru,2021,World,Transportation,Export,Export(US$ Mil),63.88292556
+Peru,2021,World,Hides and Skins,Export,Export(US$ Mil),16.252708394
+Peru,2021,World,Miscellaneous,Export,Export(US$ Mil),138.953200886
+Peru,2021,World,Animal,Export,Export(US$ Mil),1120.28067662
+Peru,2021,World,Wood,Export,Export(US$ Mil),276.605141134
+Peru,2021,World,Raw materials,Export,Export(US$ Mil),29606.778175671
+Peru,2021,World,Intermediate goods,Import,Import(US$ Mil),14369.65618483
+Peru,2021,World,Consumer goods,Import,Import(US$ Mil),17436.97140094
+Peru,2021,World,Capital goods,Import,Import(US$ Mil),13998.26575015
+Peru,2021,World,Raw materials,Import,Import(US$ Mil),5372.53371101
+Peru,2021,World,All Products,Export,Exports (in US$ Mil),56260.115202756
+Peru,2021,World,All Products,Import,Imports (in US$ Mil),51177.70772121
+Peru,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),28864923.98777
+Peru,2021,...,...,Tariff,No. Of Tariff Agreement,56
+Peru,2021,...,...,Import,No. Of Import partners,219
+Peru,2021,...,...,Import,No. Of Import products,4103
+Peru,2021,...,...,Export,No. Of Export partners,164
+Peru,2021,...,...,Export,No. Of Export products,3346
+Peru,2019,...,...,Others,Ease of Doing Business Rank,76
+Peru,2014,...,...,Others,No Of NTM Affected Products (HS 6 Digit),1972
+Peru,2014,...,...,Others,No Of NTM Measures,53
+Peru,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.1004942
+Peru,2016,...,...,Others,LPI Score,2.893389
+Peru,2019,...,...,Others,Trading Across Borders Rank,102
+Peru,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0931461
+Peru,2013,...,...,Others,Temporary Trade Barriers in Effect - Weighted Average,1.467296243
+Peru,2018,...,...,Others,Population,31989256
+Peru,,...,...,Others,Services Trade Restrictions Index - Over All,16.4
+Peru,2016,...,...,Others,LPI Rank,69
+Peru,2013,...,...,Others,Temporary Trade Barriers in Effect - Simple Average,5.656722069
+Peru,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,31.9849
+Peru,2021,United States,All Products,Export,Partner share(%)-Top 5 Export Partner,12.7851
+Peru,2021,"Korea, Rep.",All Products,Export,Partner share(%)-Top 5 Export Partner,4.9754
+Peru,2021,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,4.9418
+Peru,2021,Canada,All Products,Export,Partner share(%)-Top 5 Export Partner,4.8708
+Peru,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,28.5508
+Peru,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,18.6844
+Peru,2021,Brazil,All Products,Import,Partner share(%)-Top 5 Import Partner,6.7039
+Peru,2021,Argentina,All Products,Import,Partner share(%)-Top 5 Import Partner,4.5211
+Peru,2021,Mexico,All Products,Import,Partner share(%)-Top 5 Import Partner,3.6956
+Peru,2021,World,Minerals,Export,Export Product share(%),38.9307
+Peru,2021,World,Stone and Glass,Export,Export Product share(%),14.7427
+Peru,2021,World,Capital goods,Export,Export Product share(%),0.809
+Peru,2021,World,Food Products,Export,Export Product share(%),7.0299
+Peru,2021,World,Footwear,Export,Export Product share(%),0.0518
+Peru,2021,World,Consumer goods,Export,Export Product share(%),14.6143
+Peru,2021,World,Vegetable,Export,Export Product share(%),13.3812
+Peru,2021,World,Textiles and Clothing,Export,Export Product share(%),2.9038
+Peru,2021,World,Intermediate goods,Export,Export Product share(%),31.9516
+Peru,2021,World,Fuels,Export,Export Product share(%),6.9904
+Peru,2021,World,Metals,Export,Export Product share(%),9.3129
+Peru,2021,World,Animal,Export,Export Product share(%),1.9913
+Peru,2021,World,Wood,Export,Export Product share(%),0.4917
+Peru,2021,World,Raw materials,Export,Export Product share(%),52.6248
+Peru,2021,World,Chemicals,Export,Export Product share(%),1.6966
+Peru,2021,World,Mach and Elec,Export,Export Product share(%),0.6579
+Peru,2021,World,Hides and Skins,Export,Export Product share(%),0.0289
+Peru,2021,World,Miscellaneous,Export,Export Product share(%),0.247
+Peru,2021,World,Plastic or Rubber,Export,Export Product share(%),1.4298
+Peru,2021,World,Transportation,Export,Export Product share(%),0.1135
+Peru,2021,World,Intermediate goods,Import,Import Product share(%),28.078
+Peru,2021,World,Consumer goods,Import,Import Product share(%),34.0714
+Peru,2021,World,Capital goods,Import,Import Product share(%),27.3523
+Peru,2021,World,Raw materials,Import,Import Product share(%),10.4978
+Peru,2021,World,Consumer goods,Tariff,Weighted Average (%),1.56014535710187
+Peru,2021,World,Intermediate goods,Tariff,Weighted Average (%),0.478338733232616
+Peru,2021,World,Capital goods,Tariff,Weighted Average (%),0.0719192001748311
+Peru,2021,World,Raw materials,Tariff,Weighted Average (%),0.0606800924511155
+Peru,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Peru,2021,World,All Products,Trade Indicator,Country Growth (%),18.6952447598242
+Peru,2021,World,All Products,Tariff,Simple Average (%),1.08319873075887
+Peru,2021,World,All Products,Tariff,Weighted Average (%),0.653519853341941
+Peru,2021,World,All Products,Tariff,Maximum Rate (%),11
+Peru,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),84.497466939277
+Peru,2021,...,...,Trade Indicator,Index of export market penetration,5.4296191819464
+Peru,2021,...,...,Trade Indicator,HH Market concentration index,0.158818166319904

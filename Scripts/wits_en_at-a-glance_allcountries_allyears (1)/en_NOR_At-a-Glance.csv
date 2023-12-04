@@ -1,0 +1,96 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Norway,2021,United Kingdom,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,37878.590060773
+Norway,2021,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,35548.038152729
+Norway,2021,France,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,13160.327565066
+Norway,2021,Netherlands,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,12844.240905894
+Norway,2021,Sweden,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,12600.419013807
+Norway,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,13121.705137401
+Norway,2021,Sweden,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,11114.9684749
+Norway,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,10975.634675414
+Norway,2021,United States,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,6275.899019438
+Norway,2021,United Kingdom,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,4596.126697793
+Norway,2021,World,Fuels,Export,Export(US$ Mil),120515.497397897
+Norway,2021,World,Metals,Export,Export(US$ Mil),10567.398416319
+Norway,2021,World,Animal,Export,Export(US$ Mil),13429.94430555
+Norway,2021,World,Wood,Export,Export(US$ Mil),1667.337757609
+Norway,2021,World,Raw materials,Export,Export(US$ Mil),56441.892943786
+Norway,2021,World,Minerals,Export,Export(US$ Mil),886.84173973
+Norway,2021,World,Stone and Glass,Export,Export(US$ Mil),1183.183556394
+Norway,2021,World,Capital goods,Export,Export(US$ Mil),11667.189095422
+Norway,2021,World,Vegetable,Export,Export(US$ Mil),352.620079365
+Norway,2021,World,Textiles and Clothing,Export,Export(US$ Mil),438.651372125
+Norway,2021,World,Intermediate goods,Export,Export(US$ Mil),18726.187274176
+Norway,2021,World,Hides and Skins,Export,Export(US$ Mil),88.7672605
+Norway,2021,World,Miscellaneous,Export,Export(US$ Mil),7898.332455493
+Norway,2021,World,Plastic or Rubber,Export,Export(US$ Mil),682.055206139
+Norway,2021,World,Transportation,Export,Export(US$ Mil),3709.926555821
+Norway,2021,World,Chemicals,Export,Export(US$ Mil),4236.536633418
+Norway,2021,World,Mach and Elec,Export,Export(US$ Mil),7487.291054968
+Norway,2021,World,Food Products,Export,Export(US$ Mil),1299.475007239
+Norway,2021,World,Footwear,Export,Export(US$ Mil),70.115311072
+Norway,2021,World,Consumer goods,Export,Export(US$ Mil),82578.2937873291
+Norway,2021,World,Intermediate goods,Import,Import(US$ Mil),21325.304380265
+Norway,2021,World,Consumer goods,Import,Import(US$ Mil),41469.730260264
+Norway,2021,World,Capital goods,Import,Import(US$ Mil),29593.704135281
+Norway,2021,World,Raw materials,Import,Import(US$ Mil),5919.86173627399
+Norway,2021,World,All Products,Export,Exports (in US$ Mil),174513.974109642
+Norway,2021,World,All Products,Import,Imports (in US$ Mil),99252.589235105
+Norway,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),77438954.5152747
+Norway,2021,...,...,Tariff,No. Of Tariff Agreement,39
+Norway,2021,...,...,Import,No. Of Import partners,199
+Norway,2021,...,...,Import,No. Of Import products,4370
+Norway,2021,...,...,Export,No. Of Export partners,206
+Norway,2021,...,...,Export,No. Of Export products,3628
+Norway,2018,...,...,Others,Population,5314336
+Norway,2016,...,...,Others,LPI Score,3.732163
+Norway,2019,...,...,Others,Ease of Doing Business Rank,9
+Norway,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0941554
+Norway,2016,...,...,Others,LPI Rank,22
+Norway,2019,...,...,Others,Trading Across Borders Rank,22
+Norway,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0889198
+Norway,2021,United Kingdom,All Products,Export,Partner share(%)-Top 5 Export Partner,21.7052
+Norway,2021,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,20.3697
+Norway,2021,France,All Products,Export,Partner share(%)-Top 5 Export Partner,7.5411
+Norway,2021,Netherlands,All Products,Export,Partner share(%)-Top 5 Export Partner,7.36
+Norway,2021,Sweden,All Products,Export,Partner share(%)-Top 5 Export Partner,7.2203
+Norway,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,13.2205
+Norway,2021,Sweden,All Products,Import,Partner share(%)-Top 5 Import Partner,11.1987
+Norway,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,11.0583
+Norway,2021,United States,All Products,Import,Partner share(%)-Top 5 Import Partner,6.3232
+Norway,2021,United Kingdom,All Products,Import,Partner share(%)-Top 5 Import Partner,4.6307
+Norway,2021,World,Vegetable,Export,Export Product share(%),0.2021
+Norway,2021,World,Textiles and Clothing,Export,Export Product share(%),0.2514
+Norway,2021,World,Intermediate goods,Export,Export Product share(%),10.7305
+Norway,2021,World,Minerals,Export,Export Product share(%),0.5082
+Norway,2021,World,Stone and Glass,Export,Export Product share(%),0.678
+Norway,2021,World,Capital goods,Export,Export Product share(%),6.6855
+Norway,2021,World,Fuels,Export,Export Product share(%),69.0578
+Norway,2021,World,Metals,Export,Export Product share(%),6.0553
+Norway,2021,World,Hides and Skins,Export,Export Product share(%),0.0509
+Norway,2021,World,Miscellaneous,Export,Export Product share(%),4.5259
+Norway,2021,World,Chemicals,Export,Export Product share(%),2.4276
+Norway,2021,World,Mach and Elec,Export,Export Product share(%),4.2904
+Norway,2021,World,Plastic or Rubber,Export,Export Product share(%),0.3908
+Norway,2021,World,Transportation,Export,Export Product share(%),2.1259
+Norway,2021,World,Animal,Export,Export Product share(%),7.6956
+Norway,2021,World,Wood,Export,Export Product share(%),0.9554
+Norway,2021,World,Raw materials,Export,Export Product share(%),32.3423
+Norway,2021,World,Food Products,Export,Export Product share(%),0.7446
+Norway,2021,World,Footwear,Export,Export Product share(%),0.0402
+Norway,2021,World,Consumer goods,Export,Export Product share(%),47.319
+Norway,2021,World,Intermediate goods,Import,Import Product share(%),21.4859
+Norway,2021,World,Capital goods,Import,Import Product share(%),29.8166
+Norway,2021,World,Consumer goods,Import,Import Product share(%),41.782
+Norway,2021,World,Raw materials,Import,Import Product share(%),5.9644
+Norway,2021,World,Intermediate goods,Tariff,Weighted Average (%),1.54102569499755
+Norway,2021,World,Capital goods,Tariff,Weighted Average (%),0
+Norway,2021,World,Consumer goods,Tariff,Weighted Average (%),3.73913588866074
+Norway,2021,World,Raw materials,Tariff,Weighted Average (%),13.9706538716618
+Norway,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Norway,2021,World,All Products,Trade Indicator,Country Growth (%),32.0582242029017
+Norway,2021,World,All Products,Tariff,Simple Average (%),3.4875217656558
+Norway,2021,World,All Products,Tariff,Weighted Average (%),3.00485610603728
+Norway,2021,World,All Products,Tariff,Maximum Rate (%),1821.05895996094
+Norway,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),89.8333195123974
+Norway,2021,...,...,Trade Indicator,Index of export market penetration,9.13749793986099
+Norway,2021,...,...,Trade Indicator,HH Market concentration index,0.104574486549145

@@ -1,0 +1,98 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Mongolia,2021,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,7633.17330647
+Mongolia,2021,Switzerland,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,869.73846305
+Mongolia,2021,Singapore,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,254.09127275
+Mongolia,2021,"Korea, Rep.",All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,223.30323761
+Mongolia,2021,Russian Federation,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,112.78388513
+Mongolia,2021,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2490.4223696
+Mongolia,2021,Russian Federation,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1955.11186144
+Mongolia,2021,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,453.16121325
+Mongolia,2021,"Korea, Rep.",All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,308.74426155
+Mongolia,2021,Germany,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,222.74208454
+Mongolia,2021,World,Fuels,Export,Export(US$ Mil),3056.5654445
+Mongolia,2021,World,Metals,Export,Export(US$ Mil),97.06852194
+Mongolia,2021,World,Minerals,Export,Export(US$ Mil),4453.96117424
+Mongolia,2021,World,Stone and Glass,Export,Export(US$ Mil),1025.31420723
+Mongolia,2021,World,Capital goods,Export,Export(US$ Mil),45.72915259
+Mongolia,2021,World,Food Products,Export,Export(US$ Mil),47.07609075
+Mongolia,2021,World,Footwear,Export,Export(US$ Mil),2.25712877
+Mongolia,2021,World,Consumer goods,Export,Export(US$ Mil),103.95813471
+Mongolia,2021,World,Chemicals,Export,Export(US$ Mil),0.59543142
+Mongolia,2021,World,Mach and Elec,Export,Export(US$ Mil),17.63888229
+Mongolia,2021,World,Hides and Skins,Export,Export(US$ Mil),6.47843739
+Mongolia,2021,World,Miscellaneous,Export,Export(US$ Mil),3.67105848
+Mongolia,2021,World,Vegetable,Export,Export(US$ Mil),90.28811399
+Mongolia,2021,World,Textiles and Clothing,Export,Export(US$ Mil),370.65785035
+Mongolia,2021,World,Intermediate goods,Export,Export(US$ Mil),1174.24593405
+Mongolia,2021,World,Plastic or Rubber,Export,Export(US$ Mil),1.18000392
+Mongolia,2021,World,Transportation,Export,Export(US$ Mil),25.9546076
+Mongolia,2021,World,Animal,Export,Export(US$ Mil),42.26645373
+Mongolia,2021,World,Wood,Export,Export(US$ Mil),0.14974334
+Mongolia,2021,World,Raw materials,Export,Export(US$ Mil),7917.18992859
+Mongolia,2021,World,Intermediate goods,Import,Import(US$ Mil),1123.02497186
+Mongolia,2021,World,Raw materials,Import,Import(US$ Mil),249.73892292
+Mongolia,2021,World,Capital goods,Import,Import(US$ Mil),2066.69486661
+Mongolia,2021,World,Consumer goods,Import,Import(US$ Mil),3405.00977048
+Mongolia,2021,World,All Products,Export,Exports (in US$ Mil),9241.12314994
+Mongolia,2021,World,All Products,Import,Imports (in US$ Mil),6844.46853187
+Mongolia,2021,World,All Products,Tariff,Duty Free Imports (US$ Thousand),192619.55875
+Mongolia,2021,...,...,Tariff,No. Of Tariff Agreement,3
+Mongolia,2021,...,...,Import,No. Of Import partners,152
+Mongolia,2021,...,...,Import,No. Of Import products,3434
+Mongolia,2021,...,...,Export,No. Of Export partners,64
+Mongolia,2021,...,...,Export,No. Of Export products,899
+Mongolia,2018,...,...,Others,Population,3170208
+Mongolia,2018,...,...,Others,CPIA Trade Ratings,4
+Mongolia,2019,...,...,Others,Ease of Doing Business Rank,81
+Mongolia,2009,...,...,Others,Overall Trade Restrictiveness Index - MFN Tariff,0.0494368
+Mongolia,2019,...,...,Others,Trading Across Borders Rank,143
+Mongolia,2009,...,...,Others,Overall Trade Restrictiveness Index -  Applied Tariff,0.0494368
+Mongolia,2016,...,...,Others,LPI Score,2.506056
+Mongolia,2016,...,...,Others,LPI Rank,108
+Mongolia,,...,...,Others,Services Trade Restrictions Index - Over All,13.7
+Mongolia,2021,China,All Products,Export,Partner share(%)-Top 5 Export Partner,82.6001
+Mongolia,2021,Switzerland,All Products,Export,Partner share(%)-Top 5 Export Partner,9.4116
+Mongolia,2021,Singapore,All Products,Export,Partner share(%)-Top 5 Export Partner,2.7496
+Mongolia,2021,"Korea, Rep.",All Products,Export,Partner share(%)-Top 5 Export Partner,2.4164
+Mongolia,2021,Russian Federation,All Products,Export,Partner share(%)-Top 5 Export Partner,1.2205
+Mongolia,2021,China,All Products,Import,Partner share(%)-Top 5 Import Partner,36.3859
+Mongolia,2021,Russian Federation,All Products,Import,Partner share(%)-Top 5 Import Partner,28.5648
+Mongolia,2021,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,6.6208
+Mongolia,2021,"Korea, Rep.",All Products,Import,Partner share(%)-Top 5 Import Partner,4.5109
+Mongolia,2021,Germany,All Products,Import,Partner share(%)-Top 5 Import Partner,3.2543
+Mongolia,2021,World,Minerals,Export,Export Product share(%),48.1972
+Mongolia,2021,World,Stone and Glass,Export,Export Product share(%),11.0951
+Mongolia,2021,World,Capital goods,Export,Export Product share(%),0.4948
+Mongolia,2021,World,Food Products,Export,Export Product share(%),0.5094
+Mongolia,2021,World,Footwear,Export,Export Product share(%),0.0244
+Mongolia,2021,World,Consumer goods,Export,Export Product share(%),1.125
+Mongolia,2021,World,Fuels,Export,Export Product share(%),33.0757
+Mongolia,2021,World,Metals,Export,Export Product share(%),1.0504
+Mongolia,2021,World,Animal,Export,Export Product share(%),0.4574
+Mongolia,2021,World,Wood,Export,Export Product share(%),0.0016
+Mongolia,2021,World,Raw materials,Export,Export Product share(%),85.6735
+Mongolia,2021,World,Vegetable,Export,Export Product share(%),0.977
+Mongolia,2021,World,Textiles and Clothing,Export,Export Product share(%),4.011
+Mongolia,2021,World,Intermediate goods,Export,Export Product share(%),12.7067
+Mongolia,2021,World,Plastic or Rubber,Export,Export Product share(%),0.0128
+Mongolia,2021,World,Transportation,Export,Export Product share(%),0.2809
+Mongolia,2021,World,Chemicals,Export,Export Product share(%),0.0064
+Mongolia,2021,World,Mach and Elec,Export,Export Product share(%),0.1909
+Mongolia,2021,World,Hides and Skins,Export,Export Product share(%),0.0701
+Mongolia,2021,World,Miscellaneous,Export,Export Product share(%),0.0397
+Mongolia,2021,World,Consumer goods,Import,Import Product share(%),49.7483
+Mongolia,2021,World,Capital goods,Import,Import Product share(%),30.1951
+Mongolia,2021,World,Intermediate goods,Import,Import Product share(%),16.4078
+Mongolia,2021,World,Raw materials,Import,Import Product share(%),3.6488
+Mongolia,2021,World,Intermediate goods,Tariff,Weighted Average (%),4.92397473654444
+Mongolia,2021,World,Capital goods,Tariff,Weighted Average (%),4.33531946788822
+Mongolia,2021,World,Consumer goods,Tariff,Weighted Average (%),6.33471108244303
+Mongolia,2021,World,Raw materials,Tariff,Weighted Average (%),5.41137833928141
+Mongolia,2021,World,All Products,Trade Indicator,World Growth (%),12.5883765814344
+Mongolia,2021,World,All Products,Trade Indicator,Country Growth (%),15.2685431993425
+Mongolia,2021,World,All Products,Tariff,Simple Average (%),5.04178037589221
+Mongolia,2021,World,All Products,Tariff,Weighted Average (%),5.27629118131329
+Mongolia,2021,World,All Products,Tariff,Maximum Rate (%),40
+Mongolia,2021,World,All Products,Tariff,Duty Free Tariff Lines Share (%),4.21858412024362
+Mongolia,2021,...,...,Trade Indicator,Index of export market penetration,2.14556504865988
+Mongolia,2021,...,...,Trade Indicator,HH Market concentration index,0.706996610554044

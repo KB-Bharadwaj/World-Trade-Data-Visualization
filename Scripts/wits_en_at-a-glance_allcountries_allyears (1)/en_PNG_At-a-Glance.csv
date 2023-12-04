@@ -1,0 +1,95 @@
+Reporter,Year,Partner,Product categories,Indicator Type,Indicator,Indicator Value
+Papua New Guinea,2012,Australia,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,1621.045419
+Papua New Guinea,2012,Japan,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,528.202645
+Papua New Guinea,2012,Germany,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,318.136984
+Papua New Guinea,2012,China,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,302.113039
+Papua New Guinea,2012,Singapore,All Products,Export,Trade (US$ Mil)-Top 5 Export Partner,253.899412
+Papua New Guinea,2012,Australia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,2865.41271
+Papua New Guinea,2012,Singapore,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,1192.375423
+Papua New Guinea,2012,China,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,574.783704
+Papua New Guinea,2012,Japan,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,532.633861
+Papua New Guinea,2012,Malaysia,All Products,Import,Trade (US$ Mil)-Top 5 Import Partner,527.927824
+Papua New Guinea,2012,World,Vegetable,Export,Export(US$ Mil),882.041206
+Papua New Guinea,2012,World,Textiles and Clothing,Export,Export(US$ Mil),1.135277
+Papua New Guinea,2012,World,Intermediate goods,Export,Export(US$ Mil),2406.808792
+Papua New Guinea,2012,World,Food Products,Export,Export(US$ Mil),204.187276
+Papua New Guinea,2012,World,Footwear,Export,Export(US$ Mil),0.183779
+Papua New Guinea,2012,World,Consumer goods,Export,Export(US$ Mil),237.50855
+Papua New Guinea,2012,World,Minerals,Export,Export(US$ Mil),863.221652
+Papua New Guinea,2012,World,Stone and Glass,Export,Export(US$ Mil),1505.49179
+Papua New Guinea,2012,World,Capital goods,Export,Export(US$ Mil),138.828106
+Papua New Guinea,2012,World,Fuels,Export,Export(US$ Mil),132.114591
+Papua New Guinea,2012,World,Metals,Export,Export(US$ Mil),120.172552
+Papua New Guinea,2012,World,Plastic or Rubber,Export,Export(US$ Mil),64.327613
+Papua New Guinea,2012,World,Transportation,Export,Export(US$ Mil),59.129359
+Papua New Guinea,2012,World,Animal,Export,Export(US$ Mil),138.479527
+Papua New Guinea,2012,World,Wood,Export,Export(US$ Mil),272.810882
+Papua New Guinea,2012,World,Raw materials,Export,Export(US$ Mil),1722.744097
+Papua New Guinea,2012,World,Chemicals,Export,Export(US$ Mil),176.790637
+Papua New Guinea,2012,World,Mach and Elec,Export,Export(US$ Mil),76.514944
+Papua New Guinea,2012,World,Hides and Skins,Export,Export(US$ Mil),0.869785
+Papua New Guinea,2012,World,Miscellaneous,Export,Export(US$ Mil),20.215404
+Papua New Guinea,2012,World,Consumer goods,Import,Import(US$ Mil),2499.357867
+Papua New Guinea,2012,World,Intermediate goods,Import,Import(US$ Mil),1082.668223
+Papua New Guinea,2012,World,Raw materials,Import,Import(US$ Mil),1142.528514
+Papua New Guinea,2012,World,Capital goods,Import,Import(US$ Mil),3500.051698
+Papua New Guinea,2012,World,All Products,Export,Exports (in US$ Mil),4517.686274
+Papua New Guinea,2012,World,All Products,Import,Imports (in US$ Mil),8340.687556
+Papua New Guinea,2012,World,All Products,Tariff,Duty Free Imports (US$ Thousand),7134493.572
+Papua New Guinea,2012,...,...,Tariff,No. Of Tariff Agreement,1
+Papua New Guinea,2012,...,...,Import,No. Of Import partners,167
+Papua New Guinea,2012,...,...,Import,No. Of Import products,3883
+Papua New Guinea,2012,...,...,Export,No. Of Export partners,85
+Papua New Guinea,2012,...,...,Export,No. Of Export products,959
+Papua New Guinea,2019,...,...,Others,Ease of Doing Business Rank,120
+Papua New Guinea,2019,...,...,Others,Trading Across Borders Rank,125
+Papua New Guinea,2018,...,...,Others,Population,8606316
+Papua New Guinea,2018,...,...,Others,CPIA Trade Ratings,4
+Papua New Guinea,2016,...,...,Others,LPI Score,2.510624
+Papua New Guinea,2016,...,...,Others,LPI Rank,105
+Papua New Guinea,2012,Australia,All Products,Export,Partner share(%)-Top 5 Export Partner,35.8822
+Papua New Guinea,2012,Japan,All Products,Export,Partner share(%)-Top 5 Export Partner,11.6919
+Papua New Guinea,2012,Germany,All Products,Export,Partner share(%)-Top 5 Export Partner,7.042
+Papua New Guinea,2012,China,All Products,Export,Partner share(%)-Top 5 Export Partner,6.6873
+Papua New Guinea,2012,Singapore,All Products,Export,Partner share(%)-Top 5 Export Partner,5.6201
+Papua New Guinea,2012,Australia,All Products,Import,Partner share(%)-Top 5 Import Partner,34.3546
+Papua New Guinea,2012,Singapore,All Products,Import,Partner share(%)-Top 5 Import Partner,14.2959
+Papua New Guinea,2012,China,All Products,Import,Partner share(%)-Top 5 Import Partner,6.8913
+Papua New Guinea,2012,Japan,All Products,Import,Partner share(%)-Top 5 Import Partner,6.386
+Papua New Guinea,2012,Malaysia,All Products,Import,Partner share(%)-Top 5 Import Partner,6.3295
+Papua New Guinea,2012,World,Vegetable,Export,Export Product share(%),19.5242
+Papua New Guinea,2012,World,Textiles and Clothing,Export,Export Product share(%),0.0251
+Papua New Guinea,2012,World,Intermediate goods,Export,Export Product share(%),53.2753
+Papua New Guinea,2012,World,Chemicals,Export,Export Product share(%),3.9133
+Papua New Guinea,2012,World,Mach and Elec,Export,Export Product share(%),1.6937
+Papua New Guinea,2012,World,Minerals,Export,Export Product share(%),19.1076
+Papua New Guinea,2012,World,Stone and Glass,Export,Export Product share(%),33.3244
+Papua New Guinea,2012,World,Capital goods,Export,Export Product share(%),3.073
+Papua New Guinea,2012,World,Food Products,Export,Export Product share(%),4.5197
+Papua New Guinea,2012,World,Footwear,Export,Export Product share(%),0.0041
+Papua New Guinea,2012,World,Consumer goods,Export,Export Product share(%),5.2573
+Papua New Guinea,2012,World,Plastic or Rubber,Export,Export Product share(%),1.4239
+Papua New Guinea,2012,World,Transportation,Export,Export Product share(%),1.3088
+Papua New Guinea,2012,World,Fuels,Export,Export Product share(%),2.9244
+Papua New Guinea,2012,World,Metals,Export,Export Product share(%),2.66
+Papua New Guinea,2012,World,Animal,Export,Export Product share(%),3.0653
+Papua New Guinea,2012,World,Wood,Export,Export Product share(%),6.0387
+Papua New Guinea,2012,World,Raw materials,Export,Export Product share(%),38.1333
+Papua New Guinea,2012,World,Hides and Skins,Export,Export Product share(%),0.0193
+Papua New Guinea,2012,World,Miscellaneous,Export,Export Product share(%),0.4475
+Papua New Guinea,2012,World,Intermediate goods,Import,Import Product share(%),12.9806
+Papua New Guinea,2012,World,Raw materials,Import,Import Product share(%),13.6983
+Papua New Guinea,2012,World,Consumer goods,Import,Import Product share(%),29.9658
+Papua New Guinea,2012,World,Capital goods,Import,Import Product share(%),41.9636
+Papua New Guinea,2012,World,Consumer goods,Tariff,Weighted Average (%),4.8429745540882
+Papua New Guinea,2012,World,Intermediate goods,Tariff,Weighted Average (%),4.45393902039351
+Papua New Guinea,2012,World,Raw materials,Tariff,Weighted Average (%),1.29786352914724
+Papua New Guinea,2012,World,Capital goods,Tariff,Weighted Average (%),0.660484587123548
+Papua New Guinea,2012,World,All Products,Trade Indicator,World Growth (%),-0.0214717700142586
+Papua New Guinea,2012,World,All Products,Trade Indicator,Country Growth (%),-3.01755613220971
+Papua New Guinea,2012,World,All Products,Tariff,Simple Average (%),4.70859191877942
+Papua New Guinea,2012,World,All Products,Tariff,Weighted Average (%),2.56661537286905
+Papua New Guinea,2012,World,All Products,Tariff,Maximum Rate (%),876.070617675781
+Papua New Guinea,2012,World,All Products,Tariff,Duty Free Tariff Lines Share (%),73.5398452557191
+Papua New Guinea,2012,...,...,Trade Indicator,Index of export market penetration,1.63469086870776
+Papua New Guinea,2012,...,...,Trade Indicator,HH Market concentration index,0.240612514448189

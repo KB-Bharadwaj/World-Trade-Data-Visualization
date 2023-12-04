@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Sankey graph</title>
+        <link rel="stylesheet" href="static/styles/indexCSS.css">
+        <!--<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="http://requirejs.org/docs/release/2.1.5/comments/require.js"></script>
+        <script type="module" src="static/script_1.js"></script>-->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    </head>
+    <body>
+    <h1 class="heading1">Sankey graph</h1>
+    <a href="{{url_for('homePage')}}" class="redirectionLink">Back to home</a>
+    <p> Select a product category, Time Frame,<br>and Import/Export below<br> to view the Sankey graph.</p>
+    <form id="country_analysis" action="/display_geographic_map" method="POST" style="position: sticky;">
+        <table>
+            <tr>
+                <td>
+                <select name="country2" onchange="drawchart()">
+                    {% for x in country_names%}
+                    {%if x.cname==countryVal%}
+                    <option value="{{ x.cname }}" selected>{{ x.cname }}</option>
+                    {%else%}
+                    <option value="{{ x.cname }}">{{ x.cname }}</option>
+                    {%endif%}
+                    {%endfor%}
+                </select>
+                </td>
+                </tr>
+        <tr>
+        <td>
+        <select name="timeFrame2" onchange="drawchart()">
+            {% for x in years%}
+            {%if x.year==timeVal%}
+            <option value="{{ x.year }}" selected>{{ x.year }}</option>
+            {%else%}
+            <option value="{{ x.year }}">{{ x.year }}</option>
+            {%endif%}
+            {%endfor%}
+        </select>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <select name="ImportOrExport">
+                    {%for x in importExportType%}
+                    {%if x.imporexp==impVal%}
+                    <option value="{{x.imporexp}}" selected>{{x.imporexp}}</option>
+                    {%else%}
+                    <option value="{{x.imporexp}}">{{x.imporexp}}</option>
+                    {%endif%}
+                    {%endfor%}
+                </select>
+            </td>
+        </tr>
+    <tr>
+        <td>
+        <input type="submit" value="View Plot"/>
+    </td>
+    </tr>
+    </table>
+    </form>
+    <div class="imageBlockSankey">
+    {% if show_plot == True %}
+        <image src="static/mapViz.png"/>
+
+    {%endif%}
+    {% if show_plot==False%}
+    <p>Select the filters and click on the view plot</p>
+    {%endif%}
+    </div>
+</body>
+</html>
