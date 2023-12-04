@@ -6,10 +6,10 @@ Directory structure<br>
 | --- site-packages<br>
 | --- Scripts<br>
      &emsp;| -- static<br>
-	        |-- styles
-	            |-- index.css
-	        |-- png files
-     | -- templates
+	        &emsp;&emsp;|-- styles<br>
+	            &emsp;&emsp;&emsp;|-- index.css<br>
+	        &emsp;&emsp;|-- png files<br>
+     &emsp;| -- templates<br>
           |--LineChart.html
           |--bar_chart.html
           |--country_analysis.html
