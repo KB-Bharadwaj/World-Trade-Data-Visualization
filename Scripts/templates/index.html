@@ -239,37 +239,20 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <table>
         <tr>
           <td>Action,target pair</td>
-          <td>Summarize the  aggregated indicator value of each country towards a specific product for a specific indicator in a specific timeframe, View the distribution of a product’s net indicator value over all countries</td>
+          <td>Summarize the  net indicator value of a specific country towards the top-5 product categories in years (2017-2021) of that country. Top-5 products are those that have highest net indicator values in the entire dataset from years (1988-2021)</td>
         </tr>
         <tr>
           <td>Requirements from UI perspective</td>
-          <td>Provided a drop down to select product category, year and indicator type (import/export)</td>
+          <td>Provided a drop down to select Country</td>
         </tr>
         <tr>
           <td>Data transformation</td>
           <td>
             <ol>
-              <ul>
-                <li>Created a json file programatically by running a one time script (by reading all the summary files pertaining to all countries)that contains keys as product categories. Values will be the list of transactions pertaining to that product category.Each trasaction is represented by a list of size 6. 
-                  <ul>
-                    <li> First element in the list represents reporter country</li>
-                    <li> Second element in the list represents partner country</li>
-                    <li>Third element in the list represents the year in which trade occurred between reporter and partner country</li>
-                    <li>Fourth element in the list represents the type of transaction (import/export) between reporter and partner</li>
-                    <li>Fifth element in the list represents the indicator value type i.e, Export in millions of USD/Import in millions of USD</li>
-                    <li>Sixth element in the list represents actual indicator value in millions of USD</li>
-                  </ul>
-                  </li>
-                  <li>
-                    Feteched the list of transactions pertaining to the product category selected from drop down from the above json file to a list
-                  </li>
-                  <li>
-                    By scanning throgh above list of transactions computed a dictionary that contains country names as keys and net import/export value in millions of USD for that country in the year selected in drop down
-                  </li>
-                  <li>
-                    Encoded the data from above dictionary in bar charts where the spatial position along X-axis encodes country and spatial position along Y-axis encodes net indicator value (encoded either in a single bar chart or in multiple bar charts depending on number of countries imported or exported the selected product category in selected year)
-                  </li>
-              </ul>
+              <li> For the selected country, preprocessed the summary file and filtered on summary file to contain data thats relevant to imports and exports</li>
+              <li> With the data obtained from above step, generated aggregated data having each product category and its net indicator value (total export value in all years - total import value in all years for that product)</li>
+              <li> Filtered the data from step-1 to contain the data relevant to only top 5 products found from above step and only years from 2017-2021</li>
+              <li>With the data from above data, aggregated it to contain each product category and net indicator value in each of years from 2017-2021</li>
             </ol>
           </td>
         </tr>
