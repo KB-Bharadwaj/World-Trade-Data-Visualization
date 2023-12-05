@@ -211,7 +211,7 @@ indicator value) did all the countries import/export?
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Implementation</h1>
       <h3 class="w3-text-teal">Task 1</h3>
-      <table>
+      <table border="1px solid black">
         <tr style="margin-bottom:6px">
           <td>Action, target pair</td>
           <td><b>Summarize</b> the indicator values of all the product categories for a specific country in a specific timeframe. View the Indicator values of each product in millions of USD category exported/imported by a specific country in a specific timeframe</td>
@@ -231,7 +231,7 @@ indicator value) did all the countries import/export?
         </tr>
       </table>
       <h3 class="w3-text-teal">Task 2</h3>
-      <table>
+      <table border="1px solid black">
         <tr style="margin-bottom:6px">
           <td>Action, target pair</td>
           <td>Derive the net indicator value for a specific country over specific time frame and View the trend of net indicator value of a specific country in a specific time frame</td>
@@ -252,7 +252,7 @@ indicator value) did all the countries import/export?
         </tr>
       </table>
       <h3 class="w3-text-teal">Task 3</h3>
-      <table>
+      <table border="1px solid black">
         <tr style="margin-bottom:6px">
           <td>Action, target pair</td>
           <td>Summarize the trade interactions of a specific country in specific time frame, View how much in terms of aggregated indicator value did a target country trade with partner countries in a specific time frame</td>
@@ -268,13 +268,12 @@ indicator value) did all the countries import/export?
             <li style="margin-bottom:6px">Fetched the summary file of the selected country in the drop down to the dataframe</li>
             <li style="margin-bottom:6px">From the data frame from above step, computed a dictionary that contains keys as the country names with which selected country from dropdown imported(or exported based on import/export value from drop down) with and values as net indicator value of trade in millions of USD (net export/net import depending on whats selected in the dropdown) between the selected country from drop down and the country represented by current key</li>
             <li style="margin-bottom:6px">Encoded the data from above dictionary in a network graph. The nodes in the network graph represent the country of interest (country selected in the drop down) and all the countries represented keys of above dictionary. There is an edge between the country of interest and all the nodes that represent the keys of above dictionary to indicate that import/export has occurred between them. The size of nodes representing the countries from above dictionary encodes the aggregated indicator value (total import/export in millions of USD) of trade between the country of interest and country represented by the node</li>
-
           </ol>
         </td>
         </tr>
       </table>
       <h3 class="w3-text-teal">Task 4</h3>
-      <table>
+      <table border="1px solid black">
         <tr style="margin-bottom:6px">
           <td>Action, target pair</td>
           <td>Summarize the net indicator value of a specific country towards the top-5 product categories in years (2017-2021) of that country. Top-5 products are those that have highest net indicator values in the entire dataset from years (1988-2021)</td>
@@ -287,27 +286,10 @@ indicator value) did all the countries import/export?
           <td>Data transformation</td>
           <td>
             <ol>
-              <ul>
-                <li style="margin-bottom:6px">Created a json file programatically by running a one time script (by reading all the summary files pertaining to all countries)that contains keys as product categories. Values will be the list of transactions pertaining to that product category.Each trasaction is represented by a list of size 6.
-                  <ul>
-                    <li style="margin-bottom:6px"> First element in the list represents reporter country</li>
-                    <li style="margin-bottom:6px"> Second element in the list represents partner country</li>
-                    <li style="margin-bottom:6px">Third element in the list represents the year in which trade occurred between reporter and partner country</li>
-                    <li style="margin-bottom:6px">Fourth element in the list represents the type of transaction (import/export) between reporter and partner</li>
-                    <li style="margin-bottom:6px">Fifth element in the list represents the indicator value type i.e, Export in millions of USD/Import in millions of USD</li>
-                    <li style="margin-bottom:6px">Sixth element in the list represents actual indicator value in millions of USD</li>
-                  </ul>
-                  </li>
-                  <li style="margin-bottom:6px">
-                    Feteched the list of transactions pertaining to the product category selected from drop down from the above json file to a list
-                  </li>
-                  <li style="margin-bottom:6px">
-                    By scanning throgh above list of transactions computed a dictionary that contains country names as keys and net import/export value in millions of USD for that country in the year selected in drop down
-                  </li>
-                  <li style="margin-bottom:6px">
-                    Encoded the data from above dictionary in bar charts where the spatial position along X-axis encodes country and spatial position along Y-axis encodes net indicator value (encoded either in a single bar chart or in multiple bar charts depending on number of countries imported or exported the selected product category in selected year)
-                  </li>
-              </ul>
+              <li> For the selected country, preprocessed the summary file and filtered on summary file to contain data thats relevant to imports and exports</li>
+              <li> With the data obtained from above step, generated aggregated data having each product category and its net indicator value (total export value in all years - total import value in all years for that product)</li>
+              <li> Filtered the data from step-1 to contain the data relevant to only top 5 products found from above step and only years from 2017-2021</li>
+              <li>With the data from above data, aggregated it to contain each product category and net indicator value in each of years from 2017-2021</li>
             </ol>
           </td>
         </tr>
