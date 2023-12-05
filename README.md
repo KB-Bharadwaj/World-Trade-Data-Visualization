@@ -47,8 +47,7 @@ Directory structure<br>
  These are the various transformations of summary files in wits_en_trade_summary_allcountries_allyears when user clicks on view plot in different templates<br>
  Transformations for bar chart :<br>
  (I have just kept transformations for couple countries, not all 205. But below is the general process that happens in code when I run on local host)<br>
- (When I execute dv_project_index.py in my local host and click on view plots from few templates, I see all transformed data, that i wrote in code works and csvs are getting saved in local host. But doing 
- that from website generates in my local host. I think its getting saved in website directory)<br>
+ (When I execute dv_project_index.py in my local host and click on view plots from few templates, I see all transformed data, that I wrote in code works and csvs are getting saved in local host. The website generates the transformed data and saves it within the website directory so it can be properly accessed.)<br>
   Step 1 : en_(country_code)_AllYears_WITS_Trade_Summary.csv --> original file<br>
   Step 2 : en_(country_code)_AllYears_WITS_Trade_Summary_filtered_bar_chart_task.csv --> Filtered and preprocessed form of the above file to contain only data relevant to imports and exports<br>
   Step 3:  en_(country_code)__AllYears_WITS_Trade_Summary_transformed_bar_chart_task.csv --> Transformed/Aggregated from data from above step to only each product category and total net indicator value, sorted
