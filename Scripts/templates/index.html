@@ -32,8 +32,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <a href="{{url_for('bar_chart')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Bar</a>
     <a href="{{url_for('network_graph')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Net</a>
     <a href="{{url_for('display_line_chart')}}" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Task Line</a>
-    <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>-->
   </div>
 </div>
 
@@ -55,8 +53,35 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Abstract</h1>
-      <p>Our project aims to visualize world trade data. The context for our research is to analyze the trade offs among several idioms to achieve specific set of tasks such as summarizing various products imported/exported by a specific country in a specific time frame, viewing the net trend for net trade values for a specific country in specific time frame, analyze the trade interactions between a country and other countries over a timeframe, summarize the indicator value of various countries that imported a specific product category over a chosen time frame. 
-      </p>
+      <p style="margin-bottom:6px">Trade between the countries has become increasingly complex with rapid development of the
+economy of the countries. This in turn makes it difficult to understand the data due to its bulk
+and complex nature. So an effective visualization of the trade data would help the target users
+to understand better. Our main objective is to visualize the world trade data in simple terms such
+that they do not need any special expertise in the field of economics to understand the nature of
+the trade data. Context of this study is to analyze the trade offs among several visualizations
+and idioms to achieve specific set of tasks such as summarizing various products
+imported/exported by a specific country in a specific time frame, viewing the net trend for net
+trade values for a specific country in specific time frame, analyze the trade interactions between
+a country and other countries over a timeframe, summarize the indicator value of various
+countries that imported a specific product category over a chosen time frame. Several works
+have been done in this subject in order to visualize this complex trade data like the WITS
+website<ref>,<ref>,if any. We have plotted a bar chart, line chart, tree map and a network
+graph in order to achieve our task’s goals. As ba result of our visualizations, we were able to
+address problem statements like:</p>
+      <ul style="list-style-type:disc">
+          <li style="margin-bottom:6px">What are the various product categories and what is the net indicator value of each
+category for a specific country in a specific time frame?
+</li>
+          <li style="margin-bottom:6px">In a given time frame, what is the trend of net trade for a specific country?
+</li>
+          <li style="margin-bottom:6px">In a given time frame, how much trade (import or export) is done by a country with all the
+other countries?
+</li>
+          <li style="margin-bottom:6px">For a specific product category, in a specific year, how much (in terms of a specific
+indicator value) did all the countries import/export?
+</li>
+      </ul>
+      <p>The full system can be accessed at: http://unomewrite.pythonanywhere.com/</p>
     </div>
   </div>
 
@@ -64,86 +89,99 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Introduction</h1>
       <h3 class="w3-text-teal">Domain and Project Motivation</h2>
-        <p>With a vast amount of trade data available, this project aims at developing a set of visualizations which could help users draw valuable descriptive inferences which in turn, would help the users to understand our visualizations without any sense or feeling of information overload about the imports and exports of different countries from trade data, since this is a bulk dataset. The WITS portal[1] does have certain visualizations that are good in terms of understanding and interpretability. However, there are certain things which we can do through this projects:</p>
-        <ul style="list-style-type:disc">
-          <li style="margin-bottom:6px">Due to the size of this dataset, there exist certain visualizations that a set of users may feel stressed to understand. (like high-school students, non-FINTECH background people, etc).</li>
-          <li>Few existing visualizations can be plotted in such a way that their understandability can be improved.</li>
-        </ul>
-        <p>The domain of this project is economics/finance. Potential users are typically the general population. We aim to develop the visualizations that help users compare imports and exports among countries in-detail with better understanding without any prior-knowledge or expertise. In the source website, it consists of some sophisticated visualizations. But through our project The visualizations would help the users answer the following questions:</p>
-        <ul style="list-style-type:disc">
-          <li style="margin-bottom:6px">What are the various product categories and what are the indicator values for each category thats imported/exported by a specific country in a specific time frame? (Task-1)
-            <br>{action, target} : {<strong>Summarize</strong> the indicator values of all products for a specific country in a specific time frame, View the proportions of indicator values of various product categories in a given year and timeframe}</li>
-          <li style="margin-bottom:6px">In a given time frame, what is the trend of net trade for a specific country ? (Task-2)
-            <br>{action, target} : {<strong>Derive</strong> the net indicator value for a specific country over specific time frame, View the <strong>trend</strong> of net indicator value of a specific country in a specific time frame}</li>
-          <li style="margin-bottom:6px">In a given time frame, how much trade is done among all the countries for a specific or all product categories? (Task-3)
-            <br>{action, target} : {<strong>Summarize</strong> the trade interactions of a specific country in specific time frame, View how much in terms of aggregated indicator value did a target country trade with partner countries in a specific time frame}</li>
-          <li style="margin-bottom:6px">For a specific country, what are the top-5 products having the highest net indicator value and what is their net indicator value in years 2017-2021? (Task-4)
-            <br>{action, target} : {<strong>Summarize</strong> the top 5 product categories,  <strong>Summarize</strong> the net indicatr value of top-5 products over years 2017-2021</li>
-        </ul>
-        <h3 class="w3-text-teal">Data</h3>
-        <p>Data set: We will use the trade data available from WITS (World Integrated  Trade Solution website). It contains the trade data related to about 217 countries from the years 1988-2021. Its aggregated by World Integrated Trade Solutions
-          <br>We will be using the archived version of it from here[4](Trade Stats - Country Summary zip file).</p>
-        <h4 class="w3-text-teal">Data Semantics</h4>
-        <p>Data Items: Each row represents trade data (export/import)- for a specific country over the years.</p>
-        <table border="1px solid black">
-            <tr>
-                <th>Attribute</th>
-                <th>Description</th>
-                <th>Attribute Type</th>
-                <th>Domain</th>
-            </tr>
-            <tr>
-                <td>Indicator Type</td>
-                <td>This represents the nature of the trade, i.e., whether the nature of trade is import, export, developmental fund, or tariff funds.</td>
-                <td>Categorical (Among Import, Export, Development, Tariff)</td>
-                <td>String</td>
-            </tr>
-            <tr>
-                <td>Reporter</td>
-                <td>This represents the country of interest, i.e., the specific country which records the trade with the partner country.</td>
-                <td>Categorical (Name of the Country)</td>
-                <td>String</td>
-            </tr>
-            <tr>
-                <td>Partner</td>
-                <td>This represents the country with which the reporter has recorded the trade.</td>
-                <td>Categorical</td>
-                <td>String</td>
-            </tr>
-            <tr>
-                <td>Product Category</td>
-                <td>This represents the category of goods or commodities which have been traded between the reporter country and the partner country. Comprehensive list of product categories can be found here[2].</td>
-                <td>Categorical</td>
-                <td>String</td>
-            </tr>
-            <tr>
-                <td>Indicator</td>
-                <td>This categorizes the indicator type one level further down. For example, if the indicator type is export, then this attribute also tells if the observation recorded is export in USD $ or just the number of exports etc. Comprehensive list of indicators could be found here[1].</td>
-                <td>Categorical</td>
-                <td>String</td>
-            </tr>
-            <tr>
-                <td>1988-2021 (34 Columns)</td>
-                <td>These attributes record the monetary value of the transactions (in $ USD) or the number of imports/exports (depending on the value of Indicator described in the previous row) that happened between the reporter and partner country. Each year (which is taken as an individual attribute) represents the year in which the transactions have occurred.</td>
-                <td>Nominal</td>
-                <td>Float</td>
-            </tr>
-        </table>
-        <h4 class="w3-text-teal">Limitations of the Dataset</h4>
-        <ul>
-          <li>Assuming there exists confidentiality between the two countries regarding their trade relations, there are cases where there exists unknown product categories. This poses a drawback if we want to visualize what/which product was traded between the countries.</li>
-          <li>Missing trade values in some years.</li>
-        </ul>
-        <h3 class="w3-text-teal">Project Contributions</h3>
-        <p>The questions which we would try to address through the visualizations are:</p>
-        <h4 class="w3-text-teal">Task 1: What are the various product categories and in what is the net indicator value of each category for a specific country in a specific time frame?</h4>
-        <p>Achieved using a treemap using Flask and Plotly. See "Task 1" in the Implementation section.</p>
-        <h4 class="w3-text-teal">Task 2: In a given time frame, what is the trend of net trade for a specific country?</h4>
-        <p>Achieved using a line graphs using Flask and Plotly. See "Task 2" in the Implementation section.</p>
-        <h4 class="w3-text-teal">Task 3: In a given time frame, how much trade (import or export) is done by a country with all the other countries?</h4>
-        <p>Achieved using a network graph using Flask, Matplotlib, networkx and Plotly. See "Task 3" in the Implementation section.</p>
-        <h4 class="w3-text-teal">Task 4: For a specific country what are the top five product categories over the entire time frame (1988-2021) and what is their net indicator value in years 2017-2021</p>
-        <p>Achieved using a grouped bar chart using Flask and Plotly. See "Task 4" in the Implementation section.</p>
+      <p>With a vast amount of trade data available, this project aims at developing a set of visualizations which could help users draw valuable descriptive inferences which in turn, would help the users to understand our visualizations without any sense or feeling of information overload about the imports and exports of different countries from trade data, since this is a bulk dataset. The WITS portal[1] does have certain visualizations that are good in terms of understanding and interpretability. However, there are certain things which we can do through this projects:</p>
+      <ul style="list-style-type:disc">
+        <li style="margin-bottom:6px">Due to the size of this dataset, there exist certain visualizations that a set of users may feel stressed to understand. (like high-school students, non-FINTECH background people, etc).</li>
+        <li>Few existing visualizations can be plotted in such a way that their understandability can be improved.</li>
+      </ul>
+      <p>The domain of this project is economics/finance. Potential users are typically the general population. We aim to develop the visualizations that help users compare imports and exports among countries in-detail with better understanding without any prior-knowledge or expertise. In the source website, it consists of some sophisticated visualizations. But through our project The visualizations would help the users answer the following questions:</p>
+      <ul style="list-style-type:disc">
+        <li style="margin-bottom:6px">What are the various product categories and what are the indicator values for each category thats imported/exported by a specific country in a specific time frame? (Task-1)
+          <br>{action, target} : {<strong>Summarize</strong> the indicator values of all products for a specific country in a specific time frame, View the proportions of indicator values of various product categories in a given year and timeframe}</li>
+        <li style="margin-bottom:6px">In a given time frame, what is the trend of net trade for a specific country ? (Task-2)
+          <br>{action, target} : {<strong>Derive</strong> the net indicator value for a specific country over specific time frame, View the <strong>trend</strong> of net indicator value of a specific country in a specific time frame}</li>
+        <li style="margin-bottom:6px">In a given time frame, how much trade is done among all the countries for a specific or all product categories? (Task-3)
+          <br>{action, target} : {<strong>Summarize</strong> the trade interactions of a specific country in specific time frame, View how much in terms of aggregated indicator value did a target country trade with partner countries in a specific time frame}</li>
+        <li style="margin-bottom:6px">For a specific product category, in a specific year,how much (in terms of a specific indicator value) did all the countries import/export? (Task-4)
+          <br>{action, target} : {<strong>Summarize</strong> the proportions of each country’s aggregated indicator value towards a specific product for a specific indicator in a specific timeframe, View the <strong>distribution</strong> of a product’s net indicator value over all countries}</li>
+      </ul>
+      <h3 class="w3-text-teal">Data</h3>
+      <p>Data set: We will use the trade data available from WITS (World Integrated  Trade Solution website). It contains the trade data related to about 217 countries from the years 1988-2021. Its aggregated by World Integrated Trade Solutions
+        <br>We will be using the archived version of it from here[4](Trade Stats - Country Summary zip file).</p>
+      <h4 class="w3-text-teal">Data Semantics</h4>
+      <p>Data Items: Each row represents trade data (export/import)- for a specific country over the years.</p>
+      <table border="1px solid black">
+          <tr>
+              <th>Attribute</th>
+              <th>Description</th>
+              <th>Attribute Type</th>
+              <th>Domain</th>
+          </tr>
+          <tr>
+              <td>Indicator Type</td>
+              <td>This represents the nature of the trade, i.e., whether the nature of trade is import, export, developmental fund, or tariff funds.</td>
+              <td>Categorical (Among Import, Export, Development, Tariff)</td>
+              <td>String</td>
+          </tr>
+          <tr>
+              <td>Reporter</td>
+              <td>This represents the country of interest, i.e., the specific country which records the trade with the partner country.</td>
+              <td>Categorical (Name of the Country)</td>
+              <td>String</td>
+          </tr>
+          <tr>
+              <td>Partner</td>
+              <td>This represents the country with which the reporter has recorded the trade.</td>
+              <td>Categorical</td>
+              <td>String</td>
+          </tr>
+          <tr>
+              <td>Product Category</td>
+              <td>This represents the category of goods or commodities which have been traded between the reporter country and the partner country. Comprehensive list of product categories can be found here[2].</td>
+              <td>Categorical</td>
+              <td>String</td>
+          </tr>
+          <tr>
+              <td>Indicator</td>
+              <td>This categorizes the indicator type one level further down. For example, if the indicator type is export, then this attribute also tells if the observation recorded is export in USD $ or just the number of exports etc. Comprehensive list of indicators could be found here[1].</td>
+              <td>Categorical</td>
+              <td>String</td>
+          </tr>
+          <tr>
+              <td>1988-2021 (34 Columns)</td>
+              <td>These attributes record the monetary value of the transactions (in $ USD) or the number of imports/exports (depending on the value of Indicator described in the previous row) that happened between the reporter and partner country. Each year (which is taken as an individual attribute) represents the year in which the transactions have occurred.</td>
+              <td>Nominal</td>
+              <td>Float</td>
+          </tr>
+      </table>
+      <h4 class="w3-text-teal">Limitations of the Dataset</h4>
+      <ul>
+        <li>Assuming there exists confidentiality between the two countries regarding their trade relations, there are cases where there exists unknown product categories. This poses a drawback if we want to visualize what/which product was traded between the countries.</li>
+        <li>Missing trade values in some years.</li>
+      </ul>
+      <h3 class="w3-text-teal">Project Contributions</h3>
+      <table border="1px solid black">
+          <tr>
+              <th>Task</th>
+              <th>Action</th>
+          </tr>
+          <tr>
+              <td>What are the various product categories and what is the net indicator value of each category for a specific country in a specific time frame?</td>
+              <td>Achieved using a Treemap using Flask and Plotly. See the “Task 1” section in the implementation section.</td>
+          </tr>
+          <tr>
+              <td>In a given time frame, what is the trend of net trade for a specific country?</td>
+              <td>Acheived using a line graph using Flask and Plotly. See the “Task 2” section in the implementation section.</td>
+          </tr>
+          <tr>
+              <td>In a given time frame , how much trade (import or export) is done by an individual country with all other countries?</td>
+              <td>Achieved using a Network graph using Flask, Matplotlib, networkx, and Plotly. See “Task-3” in the implementation section.</td>
+          </tr>
+          <tr>
+              <td>For a specific product category in a specific year, how much value (in terms of a specific indicator value) did all the countries import/export)?</td>
+              <td>Achieved using a grouped bar chart using Flask and Plotly. See “Task-4” in the implementation section.</td>
+          </tr>
+      </table>
     </div>
   </div>
 
@@ -166,104 +204,121 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
       <p>Description for “Countries and Their Research and Development Spending” [23]:
         <br>The reference visualization is a Treemap which shows countries and the total USD they spent for Research and Development. The marks are the areas that enclose the country name and spending amount. The size of the areas is a magnitude channel and the larger the size, the greater the amount spent for R&D. The color is an identity channel where countries that are within the same continent are identified by the same color. This vis closely relates to our task 1 and the vis currently chosen for it. In both instances, the color of the treemap indicates what overarching category an area corresponds to. In the reference, it corresponds to the continent that the country falls within where as in our vis it corresponds to the type of good (capital, consumer, intermediate, or raw material) that the entry is apart of. Also, the use of size is the same between both vis’s, meaning a larger size encodes a larger value. For our purposes, I believe that modifying the color of the different areas so the overarching category has more pop (with more vibrant colors) is important but the relation between areas can still be discerned.</p>
-     </div>
+    </div>
   </div>
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Implementation</h1>
-      <h2>Task-1</h2>
+      <h3 class="w3-text-teal">Task 1</h3>
       <table>
-        <tr>
-          <td>Action,target pair</td>
+        <tr style="margin-bottom:6px">
+          <td>Action, target pair</td>
           <td><b>Summarize</b> the indicator values of all the product categories for a specific country in a specific timeframe. View the Indicator values of each product in millions of USD category exported/imported by a specific country in a specific timeframe</td>
         </tr>
-        <tr>
+        <tr style="margin-bottom:6px">
           <td>Requirements from UI perspective</td>
           <td>Provided a drop down to select country, import/export type and the year for which indicator values need to seen for</td>
         </tr>
-        <tr>
+        <tr style="margin-bottom:6px">
           <td>Data Transformation</td>
           <td><ol>
-            <li>Based on the country selected from the drop down fetched the summary file for that country in to a dataframe</li>
-            <li>Preprocessed the data to replace NA values with zeros</li>
-            <li>For the selected year from the drop down, computed a dictionary that contains keys as product categories and values as aggregated net import/export (based on whats chosen) value in millions of USD for each product category</li>
-            <li>Encoded the summarized data from previous step in treemap where each product is encoded by an area mark and size of area mark in treemap encodes the net indicator value for that product category</li>
+            <li style="margin-bottom:6px">Based on the country selected from the drop down fetched the summary file for that country in to a dataframe</li>
+            <li style="margin-bottom:6px">Preprocessed the data to replace NA values with zeros</li>
+            <li style="margin-bottom:6px">For the selected year from the drop down, computed a dictionary that contains keys as product categories and values as aggregated net import/export (based on whats chosen) value in millions of USD for each product category</li>
+            <li style="margin-bottom:6px">Encoded the summarized data from previous step in treemap where each product is encoded by an area mark and size of area mark in treemap encodes the net indicator value for that product category</li>
           </ol></td>
         </tr>
       </table>
-      <h2>Task-2</h2>
+      <h3 class="w3-text-teal">Task 2</h3>
       <table>
-        <tr>
-          <td>Action,target pair</td>
+        <tr style="margin-bottom:6px">
+          <td>Action, target pair</td>
           <td>Derive the net indicator value for a specific country over specific time frame and View the trend of net indicator value of a specific country in a specific time frame</td>
         </tr>
-        <tr>
+        <tr style="margin-bottom:6px">
           <td>Requirements from UI perspective</td>
           <td>Provided a drop down to select the country and two drop downs (from and to) to select start and end of the time period in which the trend for indicator values need to be viewed. Imposed a validation rule to make sure that end of the time period is strictly greater than start of the time frame</td>
         </tr>
-        <tr>
+        <tr style="margin-bottom:6px">
           <td>Data Transformation</td>
           <td>
             <ol>
-              <li>Based on the country values selected in the drop down fetched the summary file of that specific country to a dataframe</li>
-              <li>Computed a dictionary that contains keys as year values (year>=form drop down's year value and year<=to drop down's year value)and value as net indicator value (total export value in millions of USD for all product categories)-(total import value in millions of USD for all product categories) from the dataframe from above step</li>
-              <li>Encoded the data computed above using a line chart where spatial position along X -axis encodes the year and spatial position along Y-axis encodes the net indicator value in millions of USD</li>
+              <li style="margin-bottom:6px">Based on the country values selected in the drop down fetched the summary file of that specific country to a dataframe</li>
+              <li style="margin-bottom:6px">Computed a dictionary that contains keys as year values (year>=form drop down's year value and year<=to drop down's year value)and value as net indicator value (total export value in millions of USD for all product categories)-(total import value in millions of USD for all product categories) from the dataframe from above step</li>
+              <li style="margin-bottom:6px">Encoded the data computed above using a line chart where spatial position along X -axis encodes the year and spatial position along Y-axis encodes the net indicator value in millions of USD</li>
             </ol>
           </td>
         </tr>
       </table>
-      <h2>Task-3</h2>
+      <h3 class="w3-text-teal">Task 3</h3>
       <table>
-        <tr>
-          <td>Action,target pair</td>
+        <tr style="margin-bottom:6px">
+          <td>Action, target pair</td>
           <td>Summarize the trade interactions of a specific country in specific time frame, View how much in terms of aggregated indicator value did a target country trade with partner countries in a specific time frame</td>
         </tr>
-        <tr>
+        <tr style="margin-bottom:6px">
           <td>Requirements from UI perspective</td>
           <td>Provided a drop down to select country and year value and import/export</td>
         </tr>
-        <tr>
+        <tr style="margin-bottom:6px">
           <td>Data transformation</td>
           <td>
           <ol>
-            <li>Fetched the summary file of the selected country in the drop down to the dataframe</li>
-            <li>From the data frame from above step, computed a dictionary that contains keys as the country names with which selected country from dropdown imported(or exported based on import/export value from drop down) with and values as net indicator value of trade in millions of USD (net export/net import depending on whats selected in the dropdown) between the selected country from drop down and the country represented by current key</li>
-            <li>Encoded the data from above dictionary in a network graph. The nodes in the network graph represent the country of interest (country selected in the drop down) and all the countries represented keys of above dictionary. There is an edge between the country of interest and all the nodes that represent the keys of above dictionary to indicate that import/export has occurred between them. The size of nodes representing the countries from above dictionary encodes the aggregated indicator value (total import/export in millions of USD) of trade between the country of interest and country represented by the node</li>
+            <li style="margin-bottom:6px">Fetched the summary file of the selected country in the drop down to the dataframe</li>
+            <li style="margin-bottom:6px">From the data frame from above step, computed a dictionary that contains keys as the country names with which selected country from dropdown imported(or exported based on import/export value from drop down) with and values as net indicator value of trade in millions of USD (net export/net import depending on whats selected in the dropdown) between the selected country from drop down and the country represented by current key</li>
+            <li style="margin-bottom:6px">Encoded the data from above dictionary in a network graph. The nodes in the network graph represent the country of interest (country selected in the drop down) and all the countries represented keys of above dictionary. There is an edge between the country of interest and all the nodes that represent the keys of above dictionary to indicate that import/export has occurred between them. The size of nodes representing the countries from above dictionary encodes the aggregated indicator value (total import/export in millions of USD) of trade between the country of interest and country represented by the node</li>
 
           </ol>
         </td>
         </tr>
       </table>
-      <h2>Task-4</h2>
+      <h3 class="w3-text-teal">Task 4</h3>
       <table>
-        <tr>
-          <td>Action,target pair</td>
-          <td>Summarize the  net indicator value of a specific country towards the top-5 product categories in years (2017-2021) of that country. Top-5 products are those that have highest net indicator values in the entire dataset from years (1988-2021)</td>
+        <tr style="margin-bottom:6px">
+          <td>Action, target pair</td>
+          <td>Summarize the net indicator value of a specific country towards the top-5 product categories in years (2017-2021) of that country. Top-5 products are those that have highest net indicator values in the entire dataset from years (1988-2021)</td>
         </tr>
-        <tr>
+        <tr style="margin-bottom:6px">
           <td>Requirements from UI perspective</td>
           <td>Provided a drop down to select Country</td>
         </tr>
-        <tr>
+        <tr style="margin-bottom:6px">
           <td>Data transformation</td>
           <td>
             <ol>
-              <li> For the selected country, preprocessed the summary file and filtered on summary file to contain data thats relevant to imports and exports</li>
-              <li> With the data obtained from above step, generated aggregated data having each product category and its net indicator value (total export value in all years - total import value in all years for that product)</li>
-              <li> Filtered the data from step-1 to contain the data relevant to only top 5 products found from above step and only years from 2017-2021</li>
-              <li>With the data from above data, aggregated it to contain each product category and net indicator value in each of years from 2017-2021</li>
+              <ul>
+                <li style="margin-bottom:6px">Created a json file programatically by running a one time script (by reading all the summary files pertaining to all countries)that contains keys as product categories. Values will be the list of transactions pertaining to that product category.Each trasaction is represented by a list of size 6.
+                  <ul>
+                    <li style="margin-bottom:6px"> First element in the list represents reporter country</li>
+                    <li style="margin-bottom:6px"> Second element in the list represents partner country</li>
+                    <li style="margin-bottom:6px">Third element in the list represents the year in which trade occurred between reporter and partner country</li>
+                    <li style="margin-bottom:6px">Fourth element in the list represents the type of transaction (import/export) between reporter and partner</li>
+                    <li style="margin-bottom:6px">Fifth element in the list represents the indicator value type i.e, Export in millions of USD/Import in millions of USD</li>
+                    <li style="margin-bottom:6px">Sixth element in the list represents actual indicator value in millions of USD</li>
+                  </ul>
+                  </li>
+                  <li style="margin-bottom:6px">
+                    Feteched the list of transactions pertaining to the product category selected from drop down from the above json file to a list
+                  </li>
+                  <li style="margin-bottom:6px">
+                    By scanning throgh above list of transactions computed a dictionary that contains country names as keys and net import/export value in millions of USD for that country in the year selected in drop down
+                  </li>
+                  <li style="margin-bottom:6px">
+                    Encoded the data from above dictionary in bar charts where the spatial position along X-axis encodes country and spatial position along Y-axis encodes net indicator value (encoded either in a single bar chart or in multiple bar charts depending on number of countries imported or exported the selected product category in selected year)
+                  </li>
+              </ul>
             </ol>
           </td>
         </tr>
       </table>
-      <h2>Tech Stack</h2>
+      <h3 class="w3-text-teal">Tech Stack</h3>
       <p>
         <ul>
-          <li>Front end :</li>
-          <li>Backend : Python</li>
-          <li> Framework : Flask</li>
-          <li>Libraries for visualization : Plotly, matplotlib, squarify</li>
+          <li style="margin-bottom:6px">Front end: HTML, CSS, Javascript</li>
+          <li style="margin-bottom:6px">Backend: Python</li>
+          <li style="margin-bottom:6px">Framework: Flask</li>
+          <li style="margin-bottom:6px">Libraries for visualization: Plotly, matplotlib, Squarify, Networkx</li>
         </ul>
       </p>
     </div>
@@ -289,12 +344,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Future Directions</h1>
+      <h1 class="w3-text-teal">Future Work</h1>
       <p style="margin-bottom:6px">Some future work that we would like to explore, given enough time outside the scope of this project, would be as follows:</p>
       <ul style="list-style-type:disc">
-          <li style="margin-bottom:6px">Obtaining data for 2022 and 2023 to add to our visualizations</li>
-          <li style="margin-bottom:6px">Visualizations would have pop for specific sections when hovered over with a mouse cursor</li>
-          <li style="margin-bottom:6px">Implementation of colorblind options for users that need them</li>
+          <li style="margin-bottom:6px">Searching for an alternative library or tool for integrating with the website which won’t compromise the interactivity for the visualization.</li>
+          <li style="margin-bottom:6px">Create new tasks and idioms to address those.</li>
+          <li style="margin-bottom:6px">Grain out the options which do not have data for that particular area.</li>
+          <li style="margin-bottom:6px">Incorporation of the AI to smooth out the processing of the data like pre-processing, etc.</li>
+          <li style="margin-bottom:6px">Adding APIs for web scraping the latest reliable data. In our case, obtaining data for 2022 and 2023.</li>
       </ul>
     </div>
   </div>
@@ -302,29 +359,65 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">References</h1>
-      <p style="margin-bottom:6px">[1]Merchandise trade indicator metadata WITS. Available at: https://wits.worldbank.org/CountryProfile/Metadata/en/Indicator/All#apl_E</p>
-      <p style="margin-bottom:6px">[2]Merchandise Trade Products Metadata WITS. Available at: https://wits.worldbank.org/Product-Metadata.aspx?lang=en</p>
-      <p style="margin-bottom:6px">[3]Wits rest api WITS API. Available at: https://wits.worldbank.org/witsapiintro.aspx?lang=en</p>
-      <p style="margin-bottom:6px">[4]Data download (no date) WITS. Available at:https://wits.worldbank.org/datadownload.aspx?lang=en</p>
-      <p style="margin-bottom:6px">[5]International Trade Indicators (no date) WITS. Available at: https://wits.worldbank.org/country-indicator.aspx?lang=en</p>
-      <p style="margin-bottom:6px">[6]Flask Tutorial (no date) Online Tutorials, Courses, and eBooks Library. Available at: https://www.tutorialspoint.com/flask/flask_templates.html</p>
-      <p style="margin-bottom:6px">[7]Data download (no date) WITS. Available at: https://www.geeksforgeeks.org/flask-rendering-templates/</p>
-      <p style="margin-bottom:6px">[8]Sadia, M.A. (2021) Creating a select tag on a web application using Flask Python, Medium. Available at: https://memudualimatou.medium.com/creating-a-select-tag-on-a-web-application-using-flask-python-fffe6ea0c939</p>
-      <p style="margin-bottom:6px">[9]Python examples (no date) Python Examples. Available at: https://pythonexamples.org/python-flask-if-statement-in-html-template/</p>
-      <p style="margin-bottom:6px">[10] Python Graph Based on User Input (Flask + Matplotlib) Part II. Youtube. Available at:https://www.youtube.com/watch?v=Vf2K6zYQmu8</p>
-      <p style="margin-bottom:6px">[11]Treemaps in matplotlib with squarify (2022) PYTHON CHARTS | The definitive Python data visualization site. Available at: https://python-charts.com/part-whole/treemap-matplotlib/</p>
-      <p style="margin-bottom:6px">[12]Flask form submission without page reload (2021) GeeksforGeeks. Available at: https://www.geeksforgeeks.org/flask-form-submission-without-page-reload/</p>
-      <p style="margin-bottom:6px">[13] Jncharon (2017) Python network graph, Kaggle. Available at: https://www.kaggle.com/code/jncharon/python-network-graph</p>
-      <p style="margin-bottom:6px">[14] TropilioTropilio, Paul BrodersenPaul Brodersen and yatuyatu (1966) Separate edge arrows in python/networkx directed graph, Stack Overflow. Available at: https://stackoverflow.com/questions/61412323/separate-edge-arrows-in-python-networkx-directed-graph.</p>
-      <p style="margin-bottom:6px">[15]  Retrieving HTML form data using flask (2022) GeeksforGeeks. Available at: https://www.geeksforgeeks.org/retrieving-html-from-data-using-flask/</p>
-      <p style="margin-bottom:6px">[16] Masood et al. (1959) Networkx in python - draw node attributes as labels outside the node, Stack Overflow. Available at: https://stackoverflow.com/questions/14547388/networkx-in-python-draw-node-attributes-as-labels-outside-the-node.</p>
-      <p style="margin-bottom:6px">[17] pcecconpceccon and BonlenfumBonlenfum. Create input arrows in networkx, Stack Overflow. Available at: https://stackoverflow.com/questions/49139968/create-input-arrows-in-networkx.</p>
-      <p style="margin-bottom:6px">[18] sysimmiesysimmie and vurmuxvurmux.  Problems with the visualisation of large networks in Networkx, Stack Overflow. Available at: https://stackoverflow.com/questions/56473313/problems-with-the-visualisation-of-large-networks-in-networkx</p>
-      <p style="margin-bottom:6px">[19] Wei Chen & Nyuying Wang (2022) Visualizing the changing geographies of international trade, 2000–19, Regional Studies, Regional Science, 9:1, 132-134,DOI: 10.1080/21681376.2022.2043770</p>
-      <p style="margin-bottom:6px">[20] https://i.redd.it/b0g7ou737h041.png (no date) Reddit. Available at: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fb0g7ou737h041.png (Accessed: 14 November 2023).</p>
-      <p style="margin-bottom:6px">[21] Sweileh, W.M. and Moh’d Mansour, A. (2020) ‘Bibliometric analysis of global research output on antimicrobial resistance in the environment (2000–2019)’, Global Health Research and Policy, 5(1). doi:10.1186/s41256-020-00165-0.</p>
-      <p style="margin-bottom:6px">[22] https://www.exportplanning.com/en/magazine/article/2019/06/21/us-trade-deficit-after-trade-war-tariff/</p>
-      <p style="margin-bottom:6px">[23] A study on the effectiveness of tree-maps as tree visualization techniques, https://www.researchgate.net/publication/322075128_A_Study_on_the_Effectiveness_of_Tree-Maps_as_Tree_Visualization_Techniques (accessed Nov. 16, 2023).</p>
+      <p style="margin-bottom:6px">[1]“Merchandise trade indicator metadata,” WITS, https://wits.worldbank.org/CountryProfile/Metadata/en/Indicator/All#apl_E (accessed sep. 18, 2023).</p>
+      <p style="margin-bottom:6px">[2]“Merchandise Trade Products Metadata,” WITS, https://wits.worldbank.org/Product-Metadata.aspx?lang=en (accessed Sep. 18, 2023).</p>
+      <p style="margin-bottom:6px">[3]“Wits rest api,” WITS API, https://wits.worldbank.org/witsapiintro.aspx?lang=en (accessed Sep. 18, 2023).</p>
+      <p style="margin-bottom:6px">[4]“Data download,” WITS, https://wits.worldbank.org/datadownload.aspx?lang=en (accessed Sep. 18, 2023).</p>
+      <p style="margin-bottom:6px">[5]“International Trade Indicators,” WITS, https://wits.worldbank.org/country-indicator.aspx?lang=en (accessed Sep. 18, 2023).</p>
+      <p style="margin-bottom:6px">[6]“Flask – templates,” Online Tutorials, Courses, and eBooks Library, https://www.tutorialspoint.com/flask/flask_templates.htm (accessed Sep. 25, 2023).</p>
+      <p style="margin-bottom:6px">[7]“Flask rendering templates,” GeeksforGeeks, https://www.geeksforgeeks.org/flask-rendering-templates/ (accessed Sep. 25, 2023).</p>
+      <p style="margin-bottom:6px">[8]M. A. Sadia, “Creating a select tag on a web application using Flask Python,” Medium, https://memudualimatou.medium.com/creating-a-select-tag-on-a-web-application-using-flask-python-fffe6ea0c939 (accessed  Sep. 25, 2023).</p>
+      <p style="margin-bottom:6px">[9]“Python examples,” Python Examples, https://pythonexamples.org/python-flask-if-statement-in-html-template/ (accessed Oct. 10, 2023).</p>
+      <p style="margin-bottom:6px">[10]“Python graph based on user input (FLASK + MATPLOTLIB) part II,” YouTube, https://www.youtube.com/watch?v=Vf2K6zYQmu8 (accessedOct. 10, 2023).</p>
+      <p style="margin-bottom:6px">[11]“Treemaps in matplotlib with squarify,” PYTHON CHARTS | The definitive Python data visualization site, https://python-charts.com/part-whole/treemap-matplotlib/ (accessed Oct. 10, 2023).</p>
+      <p style="margin-bottom:6px">[12]“Flask form submission without page reload,” GeeksforGeeks, https://www.geeksforgeeks.org/flask-form-submission-without-page-reload/ (accessed Oct. 10, 2023).</p>
+      <p style="margin-bottom:6px">[13]Jncharon, “Python network graph,” Kaggle, https://www.kaggle.com/code/jncharon/python-network-graph (accessed Oct. 10,, 2023).</p>
+      <p style="margin-bottom:6px">[14]Tropilio, P. Brodersen, and yatu, “Separate edge arrows in python/networkx directed graph,” Stack Overflow, https://stackoverflow.com/questions/61412323/separate-edge-arrows-in-python-networkx-directed-graph. (accessed Oct. 10, 2023).</p>
+      <p style="margin-bottom:6px">[15]“Retrieving HTML form data using flask,” GeeksforGeeks, https://www.geeksforgeeks.org/retrieving-html-from-data-using-flask/ (accessed Oct. 10, 2023).</p>
+      <p style="margin-bottom:6px">[16] Masood, Aric, and scign, “Networkx in python - draw node attributes as labels outside the node,” Stack Overflow, https://stackoverflow.com/questions/14547388/networkx-in-python-draw-node-attributes-as-labels-outside-the-node. (accessed Oct. 10, 2023).</p>
+      <p style="margin-bottom:6px">[17] P. pceccon and F. Bonlen, “Create input arrows in networkx,” Stack Overflow, https://stackoverflow.com/questions/49139968/create-input-arrows-in-networkx. (accessed Oct. 10, 2023).</p>
+      <p style="margin-bottom:6px">[18] X. Vurmu, “Problems with the visualisation of large networks in Networkx,” Stack Overflow, https://stackoverflow.com/questions/56473313/problems-with-the-visualisation-of-large-networks-in-networkx (accessed Oct. 13, 2023).</p>
+      <p style="margin-bottom:6px">[19] W. Chen and N. Wang, “Visualizing the changing geographies of International Trade, 2000–19,” Regional Studies, Regional Science, vol. 9, no. 1, pp. 132–134, 2022. doi:10.1080/21681376.2022.2043770</p>
+      <p style="margin-bottom:6px">[20] “trade flows between the 10 largest EU countries,” Reddit, https://www.reddit.com/r/dataisbeautiful/comments/e0li05/oc_trade_flows_between_the_10_largest_eu_countries/ (accessed Oct. 13, 2023).</p>
+      <p style="margin-bottom:6px">[21] W. M. Sweileh and A. Moh’d Mansour, “Bibliometric analysis of global research output on antimicrobial resistance in the environment (2000–2019),” Global Health Research and Policy, vol. 5, no. 1, 2020. doi:10.1186/s41256-020-00165-0</p>
+      <p style="margin-bottom:6px">[22] M. Moccia, “US trade deficit after Trade War Tariffs,” ExportPlanning, https://www.exportplanning.com/en/magazine/article/2019/06/21/us-trade-deficit-after-trade-war-tariff/ (accessed Nov. 10, 2023).</p>
+      <p style="margin-bottom:6px">[23] A study on the effectiveness of tree-maps as tree visualization techniques, https://www.researchgate.net/publication/322075128_A_Study_on_the_Effectiveness_of_Tree-Maps_as_Tree_Visualization_Techniques (accessed Nov. 10, 2023).</p>
+      <p style="margin-bottom:6px">[24] R. Weng, “Tutorial: Network visualization basics with Networkx and Plotly in python,” Medium, https://towardsdatascience.com/tutorial-network-visualization-basics-with-networkx-and-plotly-and-a-little-nlp-57c9bbb55bb9 (accessed Nov. 10, 2023).</p>
+      <p style="margin-bottom:6px">[25] “Network,” Network graphs in Python, https://plotly.com/python/network-graphs/ (accessed Nov. 10, 2023).</p>
+      <p style="margin-bottom:6px">[26] “Single-page,” Plotly, https://plotly.com/javascript/reference/?_ga=2.92384345.590198113.1700253269-1705604617.1695006583#scatter-hoverinfo (accessed Nov. 10, 2023).</p>
+      <p style="margin-bottom:6px">[27] “Creating,” Creating and updating figures in Python, https://plotly.com/python/creating-and-updating-figures/ (accessed Nov. 10, 2023).</p>
+      <p style="margin-bottom:6px">[28] G. Flavia , “How can I add text labels to a plotly scatter plot in python?,” Stack Overflow, https://stackoverflow.com/questions/61342459/how-can-i-add-text-labels-to-a-plotly-scatter-plot-in-python (accessed Nov. 10, 2023).</p>
+      <p style="margin-bottom:6px">[29] “Responsive,” Responsive / fluid layouts in JavaScript, https://plotly.com/javascript/responsive-fluid-layout/?_ga=2.20652540.590198113.1700253269-1705604617.1695006583 (accessed Nov 10, 2023)</p>
+      <p style="margin-bottom:6px">[30] “PySankey,” PyPI, https://pypi.org/project/pySankey/ (accessed Nov. 18, 2023). </p>
+      <p style="margin-bottom:6px">[31] “Visualization with python,” Matplotlib, https://matplotlib.org/ (accessed Nov. 18, 2023).</p>
+      <p style="margin-bottom:6px">[32] NumPy, https://numpy.org/ (accessed Nov. 18, 2023).</p>
+      <p style="margin-bottom:6px">[33] “Pandas,” pandas, https://pandas.pydata.org/ (accessedNov. 18, 2023).</p>
+      <p style="margin-bottom:6px">[34] “Low-code data app development,” Plotly, https://plotly.com/ (accessed Nov. 18, 2023).</p>
+      <p style="margin-bottom:6px">[35] “NetworkX documentation,” NetworkX, https://networkx.org/ (accessed Nov. 18, 2023).</p>
+      <p style="margin-bottom:6px">[36] “W3.CSS downloads,” W3 Schools, https://www.w3schools.com/w3css/w3css_downloads.asp (accessed Nov. 18, 2023).</p>
+      <p style="margin-bottom:6px">[37] “W3.CSS color themes,” W3 Schools, https://www.w3schools.com/w3css/w3css_color_themes.asp (accessed Nov. 18, 2023).</p>
+      <p style="margin-bottom:6px">[38] “Roboto,” Google Fonts, https://fonts.google.com/specimen/Roboto (accessed Nov. 18, 2023).</p>
+      <p style="margin-bottom:6px">[39] “Font-awesome - libraries - cdnjs - the #1 free and open source CDN built to make life easier for developers”,  https://cdnjs.com/libraries/font-awesome/4.7.0 (accessed Nov. 18, 2023).</p>
+      <p style="margin-bottom:6px">[40] Y. Holtz, “Add annotation on a plotly chart,” The Python Graph Gallery, https://python-graph-gallery.com/523-plotly-add-annotation/ (accessed Dec. 1, 2023). </p>
+      <p style="margin-bottom:6px">[41] “Formatting,” Formatting ticks in Python, https://plotly.com/python/tick-formatting/ (accessed Dec. 1, 2023).</p>
+      <p style="margin-bottom:6px">[42] “Setting,” Setting graph size in Python, https://plotly.com/python/setting-graph-size/ (accessed Dec. 1, 2023).</p>
+      <p style="margin-bottom:6px">[43] “Create a bar chart from a dataframe with plotly and flask,” GeeksforGeeks, https://www.geeksforgeeks.org/create-a-bar-chart-from-a-dataframe-with-plotly-and-flask/ (accessed Dec. 1, 2023).</p>
+      <p style="margin-bottom:6px">[44] W. R, “Clearing a subplot in Matplotlib,” Stack Overflow, https://stackoverflow.com/questions/47282918/clearing-a-subplot-in-matplotlib (accessed Dec. 1, 2023).</p>
+      <p style="margin-bottom:6px">[45] J. V, “Changing the tick frequency on the X or y axis,” Stack Overflow, https://kiwix.ounapuu.ee/content/stackoverflow.com_en_all_2022-11/questions/12608788/changing-the-tick-frequency-on-the-x-or-y-axis (accessed Dec. 1, 2023). </p>
+      <p style="margin-bottom:6px">[46] N. de Ligt, “Fixing matplotlib savefig that cuts off labels: A detailed guide,” Kanaries, https://docs.kanaries.net/topics/Matplotlib/matplotlib-savefig-cuts-off-labels (accessed Dec. 1, 2023).</p>
+      <p style="margin-bottom:6px">[47] A. Seth , “Matplotlib showing X-tick labels overlapping,” Stack Overflow, https://stackoverflow.com/questions/26700598/matplotlib-showing-x-tick-labels-overlapping (accessed Dec. 1, 2023). </p>
+      <p style="margin-bottom:6px">[48] Ronaldo Jaramilio, “Flask error inability to subscript method ‘’Object” due to type error”, Copy programming,
+https://copyprogramming.com/howto/error-typeerror-method-object-is-not-subscriptable-in-flask (accessed Dec.2,2023)</p>
+      <p style="margin-bottom:6px">[49]B. Jason, Sean Vieira, nu everest, and JASON G PETERSON, “How to see if a flask app is being run on localhost?,” Stack Overflow, https://stackoverflow.com/questions/17077863/how-to-see-if-a-flask-app-is-being-run-on-localhos (accessed Dec. 3, 2023).</p>
+      <p style="margin-bottom:6px">[50] VisioN, Luke, and codeape, “Is it possible to make post request in flask?,” Stack Overflow, https://stackoverflow.com/questions/10313001/is-it-possible-to-make-post-request-in-flask (accessed Dec. 3, 2023).</p>
+      <p style="margin-bottom:6px">[51] “Setting,” Setting the font, title, legend entries, and axis titles in Python, https://plotly.com/python/figure-labels/ (accessed Dec. 3, 2023).</p>
+      <p style="margin-bottom:6px">[52] “Setting,” Setting graph size in Python, https://plotly.com/python/setting-graph-size/ (accessed Dec. 3, 2023).</p>
+      <p style="margin-bottom:6px">[53] “Plotly.subplots.make_subplots,” plotly.subplots.make_subplots - 5.18.0 documentation, https://plotly.com/python-api-reference/generated/plotly.subplots.make_subplots.html (accessed Dec. 3, 2023).</p>
+      <p style="margin-bottom:6px">[54] “Treemap,” Treemap charts in Python, https://plotly.com/python/treemaps/ (accessed Dec. 3, 2023).</p>
+      <p style="margin-bottom:6px">[55] “Layout,” Plotly, https://plotly.com/python/reference/layout/ (accessed Dec. 3, 2023).</p>
+      <p style="margin-bottom:6px">[56] HansPeter123, “Bar Chart + subplot,” Plotly Community Forum, https://community.plotly.com/t/bar-chart-subplot/55723 (accessed Dec. 3, 2023).</p>
+      <p style="margin-bottom:6px">[57] “Pandas.dataframe.sort_values,” pandas.DataFrame.sort_values - pandas 2.1.3 documentation, https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html (accessed Dec. 3, 2023). </p>
+      <p style="margin-bottom:6px">[58] “Plotly,” Plotly Python Graphing Library, https://plotly.com/python/ (accessed Dec. 3, 2023).</p>
     </div>
   </div>
 
