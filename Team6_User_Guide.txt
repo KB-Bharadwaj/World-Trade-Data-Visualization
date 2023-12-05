@@ -1,0 +1,44 @@
+﻿User guide:
+
+
+using on web : visit https://unomewrite.pythonanywhere.com/
+
+
+From local host
+- Download our git repository from https://github.com/KB-Bharadwaj/World-Trade-Data-Visualization.git
+
+
+- If you do not have pip installed, execute the following commands:
+curl https://bootstrap.pypa.io/get-pip/py -o get-pip.py
+python3 get-pip.py
+If you already have pip installed, you can skip the previous 2 commands and move on to the steps below
+
+
+-Download virtual environment with pip using the following command
+pip install virtualenv
+
+
+- Create virtual environment using command
+python3 -m venv <virtual_env_name>
+
+
+- Folders named scripts, lib and static generated
+Within them copy files from our repository with same directory structure
+
+
+-Install all libraries and dependencies using the following command:
+pip install -r requirements.txt
+
+
+Now from the command prompt change the current working directory to scripts folder of virtual environment created above
+
+
+run: python dv_project_index.py
+It will be running on 127.0.0.1:5000. If you type this into a web browser, you will be brought to our landing page.
+
+
+
+
+Instructions to use the website on web/local host:
+Use the navigation bar from the top of the to website switch between pages to achieve various tasks.
+In all the pages choose appropriate filters and click on view plot to view the plot with selected filters.
